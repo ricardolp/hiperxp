@@ -35,6 +35,25 @@ export function normalizeSearch(value: string): string {
     .trim();
 }
 
+/** Lower = better for display: Latin/pt first, then Cyrillic, then CJK/other. */
+export function localeDisplayRank(name: string): number {
+  const text = name.trim();
+  if (!text) return 4;
+  if (/^n\/?a\b/i.test(text)) return 4;
+  if (/[\u4e00-\u9fff\u3400-\u4dbf\u3040-\u30ff\uac00-\ud7af]/.test(text)) {
+    return 3;
+  }
+  if (/[\u0400-\u04ff]/.test(text)) return 2;
+  if (/[A-Za-zÀ-ÿ]/.test(text)) return 0;
+  return 3;
+}
+
+export function compareLocaleNames(a: string, b: string): number {
+  const rank = localeDisplayRank(a) - localeDisplayRank(b);
+  if (rank) return rank;
+  return a.localeCompare(b, "pt", { sensitivity: "base" });
+}
+
 export function searchTokens(query: string): string[] {
   return normalizeSearch(query).split(" ").filter(Boolean);
 }
@@ -90,6 +109,9 @@ const MAP_BLURBS: Record<string, string> = {
   "cidade-da-paz": "Baús, relíquias, desafios e recursos diários.",
   tianyu: "Exploração com filtros e progresso local.",
   jingxuan: "Pontos, coordenadas e checklist no mapa.",
+  "continente-ocidental": "Diárias de Vigor, Espíritos Sagrados e escolta.",
+  "mundo-primitivo": "Diárias de Limite de Céu e farm de Vitae.",
+  "mundo-normal": "Continente Perfect World — pontos em breve.",
 };
 
 export function searchSite(query: string, limit = 40): SearchHit[] {

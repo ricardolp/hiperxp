@@ -2,17 +2,28 @@ import { useDeferredValue, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import {
   featuredQuestPosts,
-  mapOrder,
   maps,
   questExcerpt,
   questKindLabel,
 } from "../lib/data";
+import {
+  HOME_VIDEOS,
+  PWBR_COMMUNITY_SEARCH_URL,
+  popularQuestPosts,
+  questListThumb,
+  youtubeWatchUrl,
+} from "../lib/homeContent";
 import { searchSite } from "../lib/search";
+
+const ORIENTAL_MAPS = ["cidade-da-paz", "tianyu", "jingxuan"] as const;
 
 const MAP_BLURBS: Record<string, string> = {
   "cidade-da-paz": "Baús, relíquias, desafios e recursos diários.",
   tianyu: "Exploração com filtros e progresso local.",
   jingxuan: "Pontos, coordenadas e checklist no mapa.",
+  "continente-ocidental": "Diárias de Vigor, Espíritos Sagrados e escolta.",
+  "mundo-primitivo": "Diárias de Limite de Céu e farm de Vitae.",
+  "mundo-normal": "Continente Perfect World — pontos em breve.",
 };
 
 const SECTION_MENUS = [
@@ -31,6 +42,13 @@ const SECTION_MENUS = [
     icon: "quest",
   },
   {
+    id: "database",
+    label: "Database",
+    hint: "Itens e missões do cliente",
+    to: "/database",
+    icon: "database",
+  },
+  {
     id: "simulador",
     label: "Simulador",
     hint: "Chances de baú",
@@ -38,33 +56,6 @@ const SECTION_MENUS = [
     icon: "chest",
   },
 ] as const;
-
-const FAQ_ITEMS = [
-  {
-    id: "como-usar-mapa",
-    question: "Como usar o mapa?",
-    answer:
-      "Abra um mapa do Oriente, filtre os tipos à esquerda e clique nos ícones para copiar coordenadas ou marcar como concluído.",
-  },
-  {
-    id: "missoes",
-    question: "Os guias de missão vêm do jogo?",
-    answer:
-      "Os textos e etapas são guias da comunidade. No cliente BR já temos itens de recompensa no elements.data; a árvore de quests (tasks.data) ainda não foi extraída.",
-  },
-  {
-    id: "progresso",
-    question: "O progresso fica salvo?",
-    answer:
-      "Sim. O progresso do mapa fica neste navegador. Use Limpar no mapa se quiser zerar as marcações daquele mapa.",
-  },
-  {
-    id: "simulador",
-    question: "O simulador altera algo no jogo?",
-    answer:
-      "Não. A simulação de baús é só consulta e não conecta à sua conta.",
-  },
-];
 
 function formatDate(iso: string | null | undefined): string | null {
   if (!iso) return null;
@@ -94,6 +85,16 @@ function MenuIcon({ name }: { name: (typeof SECTION_MENUS)[number]["icon"] }) {
       </svg>
     );
   }
+  if (name === "database") {
+    return (
+      <svg viewBox="0 0 24 24" aria-hidden="true" className="home-menu-svg">
+        <path
+          fill="currentColor"
+          d="M12 3c-4.4 0-8 1.6-8 3.5v11C4 19.4 7.6 21 12 21s8-1.6 8-3.5v-11C20 4.6 16.4 3 12 3Zm0 1.5c3.5 0 6.3 1.1 6.3 2S15.5 8.5 12 8.5 5.7 7.4 5.7 6.5 8.5 4.5 12 4.5ZM5.7 9.3c1.5.8 3.7 1.3 6.3 1.3s4.8-.5 6.3-1.3v2.2c0 .9-2.8 2-6.3 2s-6.3-1.1-6.3-2V9.3Zm0 5c1.5.8 3.7 1.3 6.3 1.3s4.8-.5 6.3-1.3v2.2c0 .9-2.8 2-6.3 2s-6.3-1.1-6.3-2v-2.2Z"
+        />
+      </svg>
+    );
+  }
   return (
     <svg viewBox="0 0 24 24" aria-hidden="true" className="home-menu-svg">
       <path
@@ -104,14 +105,22 @@ function MenuIcon({ name }: { name: (typeof SECTION_MENUS)[number]["icon"] }) {
   );
 }
 
+function PlayIcon() {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true" className="home-video-play">
+      <path fill="currentColor" d="M8.5 6.8v10.4L18 12 8.5 6.8Z" />
+    </svg>
+  );
+}
+
 export function HomePage() {
-  const [openFaq, setOpenFaq] = useState<string | null>(FAQ_ITEMS[0]?.id ?? null);
   const [query, setQuery] = useState("");
   const deferredQuery = useDeferredValue(query);
   const hits = useMemo(() => searchSite(deferredQuery), [deferredQuery]);
   const searching = deferredQuery.trim().length > 0;
-  const posts = featuredQuestPosts(6);
-  const featuredMaps = mapOrder.map((slug) => maps[slug]!).filter(Boolean);
+  const latestPosts = featuredQuestPosts(6);
+  const popularPosts = popularQuestPosts(5);
+  const featuredMaps = ORIENTAL_MAPS.map((slug) => maps[slug]!).filter(Boolean);
   const leadMap = featuredMaps[0];
   const sideMaps = featuredMaps.slice(1);
 
@@ -176,11 +185,7 @@ export function HomePage() {
             ) : (
               <div className="home-guide-grid">
                 {hits.map((hit) => (
-                  <Link
-                    key={hit.id}
-                    className="home-guide-card"
-                    to={hit.to}
-                  >
+                  <Link key={hit.id} className="home-guide-card" to={hit.to}>
                     <div className="home-guide-kicker">
                       <span className="qg-post-cat qg-post-cat--sm">
                         {hit.kind === "quest"
@@ -202,152 +207,214 @@ export function HomePage() {
         ) : null}
 
         {!searching ? (
-        <>
-        <section className="home-featured" aria-label="Mapas em destaque">
-          <div className="home-section-head">
-            <h2>
-              <span className="home-section-accent" aria-hidden />
-              Em destaque
-            </h2>
-            <p className="muted">Regiões do Oriente com pontos e progresso local.</p>
-          </div>
-          <div className="home-mag">
-            {leadMap ? (
-              <Link
-                className="home-mag-lead"
-                to={`/mapas/${leadMap.slug}`}
-                style={{
-                  backgroundImage: `url(/maps/${leadMap.slug}.webp)`,
-                }}
-              >
-                <span className="home-mag-badge">Mapa</span>
-                <div className="home-mag-copy">
-                  <h3>{leadMap.name_pt_br}</h3>
-                  <p>{MAP_BLURBS[leadMap.slug] ?? "Mapa interativo com filtros."}</p>
-                  <span className="home-mag-meta">
-                    {leadMap.points.length} pontos · Abrir mapa
-                  </span>
+          <>
+            <section className="home-featured" aria-label="Mapas do Reino Oriental">
+              <div className="home-section-head">
+                <h2>
+                  <span className="home-section-accent" aria-hidden />
+                  Destaque · Reino Oriental
+                </h2>
+                <p className="muted">Mapas interativos com pontos e progresso local.</p>
+              </div>
+              <div className="home-mag">
+                {leadMap ? (
+                  <Link
+                    className="home-mag-lead"
+                    to={`/mapas/${leadMap.slug}`}
+                    style={{
+                      backgroundImage: `url(/maps/${leadMap.slug}.webp)`,
+                    }}
+                  >
+                    <span className="home-mag-badge">Mapa</span>
+                    <div className="home-mag-copy">
+                      <h3>{leadMap.name_pt_br}</h3>
+                      <p>{MAP_BLURBS[leadMap.slug] ?? "Mapa interativo com filtros."}</p>
+                      <span className="home-mag-meta">
+                        {leadMap.points.length} pontos · Abrir mapa
+                      </span>
+                    </div>
+                  </Link>
+                ) : null}
+                <div className="home-mag-side">
+                  {sideMaps.map((map) => (
+                    <Link
+                      key={map.slug}
+                      className="home-mag-card"
+                      to={`/mapas/${map.slug}`}
+                      style={{
+                        backgroundImage: `url(/maps/${map.slug}.webp)`,
+                      }}
+                    >
+                      <span className="home-mag-badge">Mapa</span>
+                      <div className="home-mag-copy">
+                        <h3>{map.name_pt_br}</h3>
+                        <p>{MAP_BLURBS[map.slug] ?? "Mapa interativo."}</p>
+                        <span className="home-mag-meta">{map.points.length} pts</span>
+                      </div>
+                    </Link>
+                  ))}
+                  <Link className="home-mag-card home-mag-card--sim" to="/simulador">
+                    <span className="home-mag-badge">Simulador</span>
+                    <div className="home-mag-copy">
+                      <h3>Baús e drops</h3>
+                      <p>Simule aberturas e veja as chances de cada item.</p>
+                      <span className="home-mag-meta">Abrir simulador</span>
+                    </div>
+                  </Link>
                 </div>
-              </Link>
-            ) : null}
-            <div className="home-mag-side">
-              {sideMaps.map((map) => (
-                <Link
-                  key={map.slug}
-                  className="home-mag-card"
-                  to={`/mapas/${map.slug}`}
-                  style={{
-                    backgroundImage: `url(/maps/${map.slug}.webp)`,
-                  }}
-                >
-                  <span className="home-mag-badge">Mapa</span>
-                  <div className="home-mag-copy">
-                    <h3>{map.name_pt_br}</h3>
-                    <p>{MAP_BLURBS[map.slug] ?? "Mapa interativo."}</p>
-                    <span className="home-mag-meta">{map.points.length} pts</span>
-                  </div>
+              </div>
+            </section>
+
+            <nav className="home-menus" aria-label="Seções principais">
+              {SECTION_MENUS.map((item) => (
+                <Link key={item.id} className="home-menu-item" to={item.to}>
+                  <span className="home-menu-icon">
+                    <MenuIcon name={item.icon} />
+                  </span>
+                  <span className="home-menu-text">
+                    <strong>{item.label}</strong>
+                    <span>{item.hint}</span>
+                  </span>
                 </Link>
               ))}
-              <Link className="home-mag-card home-mag-card--sim" to="/simulador">
-                <span className="home-mag-badge">Simulador</span>
-                <div className="home-mag-copy">
-                  <h3>Baús e drops</h3>
-                  <p>Simule aberturas e veja as chances de cada item.</p>
-                  <span className="home-mag-meta">Abrir simulador</span>
+            </nav>
+
+            <section className="home-blog" aria-label="Publicações e populares">
+              <div className="home-blog-main">
+                <div className="home-section-head">
+                  <h2>
+                    <span className="home-section-accent" aria-hidden />
+                    Últimas publicações
+                  </h2>
+                  <Link className="home-section-link" to="/missoes">
+                    Ver todos →
+                  </Link>
                 </div>
-              </Link>
-            </div>
-          </div>
-        </section>
+                <div className="home-post-list">
+                  {latestPosts.map((quest) => {
+                    const mapName = maps[quest.map_slug]?.name_pt_br ?? quest.map_slug;
+                    const date = formatDate(quest.published_at);
+                    return (
+                      <Link
+                        key={quest.id}
+                        className="home-post-row"
+                        to={`/missoes/${quest.map_slug}/${quest.slug}`}
+                      >
+                        <div
+                          className="home-post-thumb"
+                          style={{
+                            backgroundImage: `url(${questListThumb(quest)})`,
+                          }}
+                          aria-hidden
+                        />
+                        <div className="home-post-body">
+                          <div className="home-guide-kicker">
+                            <span className="qg-post-cat qg-post-cat--sm">
+                              {questKindLabel(quest.kind)}
+                            </span>
+                            <span>{mapName}</span>
+                            {date ? (
+                              <time dateTime={quest.published_at ?? undefined}>
+                                {date}
+                              </time>
+                            ) : null}
+                          </div>
+                          <h3>{quest.name_pt_br}</h3>
+                          <p>{questExcerpt(quest)}</p>
+                        </div>
+                      </Link>
+                    );
+                  })}
+                </div>
+              </div>
 
-        <nav className="home-menus" aria-label="Seções principais">
-          {SECTION_MENUS.map((item) => (
-            <Link key={item.id} className="home-menu-item" to={item.to}>
-              <span className="home-menu-icon">
-                <MenuIcon name={item.icon} />
-              </span>
-              <span className="home-menu-text">
-                <strong>{item.label}</strong>
-                <span>{item.hint}</span>
-              </span>
-            </Link>
-          ))}
-        </nav>
-
-        <section className="home-guides" aria-label="Guias de missão" id="missoes">
-          <div className="home-section-head">
-            <h2>
-              <span className="home-section-accent" aria-hidden />
-              Missões &amp; guias
-            </h2>
-            <Link className="home-section-link" to="/missoes">
-              Ver todos →
-            </Link>
-          </div>
-          <div className="home-guide-grid">
-            {posts.map((quest) => {
-              const mapName = maps[quest.map_slug]?.name_pt_br ?? quest.map_slug;
-              const date = formatDate(quest.published_at);
-              return (
-                <Link
-                  key={quest.id}
-                  className="home-guide-card"
-                  to={`/missoes/${quest.map_slug}/${quest.slug}`}
-                >
-                  <div className="home-guide-kicker">
-                    <span className="qg-post-cat qg-post-cat--sm">
-                      {questKindLabel(quest.kind)}
-                    </span>
-                    <span>{mapName}</span>
-                    {date ? (
-                      <time dateTime={quest.published_at ?? undefined}>
-                        {date}
-                      </time>
-                    ) : null}
+              <aside className="home-blog-side" aria-label="Mais vistos">
+                <div className="home-side-panel">
+                  <div className="home-section-head">
+                    <h2>
+                      <span className="home-section-accent" aria-hidden />
+                      Popular Posts
+                    </h2>
                   </div>
-                  <h3>{quest.name_pt_br}</h3>
-                  <p>{questExcerpt(quest)}</p>
-                  <span className="home-guide-cta">Ler guia →</span>
-                </Link>
-              );
-            })}
-          </div>
-        </section>
-
-        <section className="home-faq" aria-label="Perguntas frequentes">
-          <div className="home-faq-bar">
-            <h2>
-              <span className="home-section-accent" aria-hidden />
-              Dúvidas rápidas
-            </h2>
-            <p className="muted">Mapas, missões e simulador.</p>
-          </div>
-          <div className="home-faq-list">
-            {FAQ_ITEMS.map((item) => {
-              const open = openFaq === item.id;
-              return (
-                <div
-                  key={item.id}
-                  className={`home-faq-item${open ? " is-open" : ""}`}
-                >
-                  <button
-                    type="button"
-                    className="home-faq-trigger"
-                    aria-expanded={open}
-                    onClick={() => setOpenFaq(open ? null : item.id)}
-                  >
-                    <span>{item.question}</span>
-                    <span className="home-faq-caret" aria-hidden>
-                      {open ? "−" : "+"}
-                    </span>
-                  </button>
-                  {open ? <p className="home-faq-answer">{item.answer}</p> : null}
+                  <ol className="home-popular-list">
+                    {popularPosts.map((quest, index) => {
+                      const mapName =
+                        maps[quest.map_slug]?.name_pt_br ?? quest.map_slug;
+                      return (
+                        <li key={quest.id}>
+                          <Link
+                            className="home-popular-item"
+                            to={`/missoes/${quest.map_slug}/${quest.slug}`}
+                          >
+                            <span className="home-popular-rank" aria-hidden>
+                              {String(index + 1).padStart(2, "0")}
+                            </span>
+                            <div
+                              className="home-popular-thumb"
+                              style={{
+                                backgroundImage: `url(${questListThumb(quest)})`,
+                              }}
+                              aria-hidden
+                            />
+                            <div className="home-popular-copy">
+                              <strong>{quest.name_pt_br}</strong>
+                              <span>
+                                {questKindLabel(quest.kind)} · {mapName}
+                              </span>
+                            </div>
+                          </Link>
+                        </li>
+                      );
+                    })}
+                  </ol>
                 </div>
-              );
-            })}
-          </div>
-        </section>
-        </>
+              </aside>
+            </section>
+
+            <section className="home-videos" aria-label="Vídeos da comunidade PWBR">
+              <div className="home-section-head">
+                <h2>
+                  <span className="home-section-accent" aria-hidden />
+                  Comunidade · #PWBR
+                </h2>
+                <a
+                  className="home-section-link"
+                  href={PWBR_COMMUNITY_SEARCH_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Mais da comunidade →
+                </a>
+              </div>
+              <div className="home-video-grid">
+                {HOME_VIDEOS.map((video) => (
+                  <a
+                    key={video.id}
+                    className="home-video-card"
+                    href={youtubeWatchUrl(video.youtubeId)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span
+                      className="home-video-thumb"
+                      style={{
+                        backgroundImage: `url(${video.thumb})`,
+                      }}
+                    >
+                      <span className="home-video-badge">#PWBR</span>
+                      <span className="home-video-play-wrap" aria-hidden>
+                        <PlayIcon />
+                      </span>
+                    </span>
+                    <span className="home-video-copy">
+                      <strong>{video.title}</strong>
+                      <span>{video.channel}</span>
+                    </span>
+                  </a>
+                ))}
+              </div>
+            </section>
+          </>
         ) : null}
       </div>
     </main>

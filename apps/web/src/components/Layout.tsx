@@ -2,6 +2,7 @@ import { useState } from "react";
 import { NavLink, Outlet, useLocation } from "react-router-dom";
 import { brand } from "../lib/brand";
 import { GITHUB_URL } from "../lib/site";
+import { SiteFooter } from "./SiteFooter";
 
 type NavItem = {
   to: string;
@@ -10,20 +11,22 @@ type NavItem = {
   match?: (pathname: string) => boolean;
 };
 
-const NAV_LEFT: NavItem[] = [
+const NAV_ITEMS: NavItem[] = [
   { to: "/", label: "Início", end: true },
   {
     to: "/mapas/cidade-da-paz",
     label: "Mapas",
     match: (pathname) => pathname.startsWith("/mapas"),
   },
-];
-
-const NAV_RIGHT: NavItem[] = [
   {
     to: "/missoes",
     label: "Missões",
     match: (pathname) => pathname.startsWith("/missoes"),
+  },
+  {
+    to: "/database",
+    label: "Database",
+    match: (pathname) => pathname.startsWith("/database"),
   },
   {
     to: "/simulador",
@@ -87,10 +90,6 @@ export function Layout() {
     <div className="app-shell">
       <header className="site-header">
         <div className="site-header-inner">
-          <nav className="nav nav--left" aria-label="Principal esquerda">
-            <NavItems items={NAV_LEFT} pathname={pathname} />
-          </nav>
-
           <NavLink
             to="/"
             className="brand"
@@ -98,17 +97,20 @@ export function Layout() {
             end
           >
             <img
-              className="brand-logo"
-              src={brand.logoDark}
-              alt={brand.name}
-              width={240}
-              height={73}
+              className="brand-mark"
+              src={brand.iconSmall}
+              alt=""
+              width={28}
+              height={28}
               decoding="async"
             />
+            <span className="brand-name">
+              Hiper<span>XP</span>
+            </span>
           </NavLink>
 
-          <nav className="nav nav--right" aria-label="Principal direita">
-            <NavItems items={NAV_RIGHT} pathname={pathname} />
+          <nav className="nav" aria-label="Principal">
+            <NavItems items={NAV_ITEMS} pathname={pathname} />
             <a
               className="nav-github"
               href={GITHUB_URL}
@@ -140,7 +142,7 @@ export function Layout() {
           aria-label="Principal"
         >
           <NavItems
-            items={[...NAV_LEFT, ...NAV_RIGHT]}
+            items={NAV_ITEMS}
             pathname={pathname}
             onNavigate={() => setMenuOpen(false)}
           />
@@ -156,7 +158,10 @@ export function Layout() {
           </a>
         </nav>
       </header>
-      <Outlet />
+      <div className="app-main">
+        <Outlet />
+      </div>
+      <SiteFooter />
     </div>
   );
 }

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "quest-catalog-cidade-da-paz",
   "map_slug": "cidade-da-paz",
-  "name_pt_br": "Cidade da Paz Eterna — Missões Globais",
+  "name_pt_br": "Cidade da Paz Eterna — Missões Globais e Diárias",
   "generated_at": "2026-11-24",
   "synthetic": false,
   "origin": "community_observed",
@@ -11,15 +11,705 @@
   "sources": [
     "https://triviapw.com.br/",
     "https://vk.com/@-149459137-mirovye-kvesty-vostochnyh-zemel",
-    "data/fixtures/sources/quest-guides/"
+    "data/fixtures/sources/quest-guides/",
+    "https://triviapw.com.br/2025/10/31/nova-missao-diaria-alma-da-paz-eterna-1-5/",
+    "cliente BR Alma da Paz 51174–51189",
+    "https://triviapw.com.br/2025/10/15/terras-orientais-novo-mapa-da-expansao-do-ceifador-guia-completo/"
   ],
   "quests": [
+    {
+      "id": "quest-cidade-da-paz-alma-da-paz-eterna",
+      "slug": "alma-da-paz-eterna",
+      "map_slug": "cidade-da-paz",
+      "kind": "daily",
+      "order": 0,
+      "name_pt_br": "Alma da Paz Eterna (Diária I–V)",
+      "aliases": [
+        "Alma da Paz Eterna I",
+        "Alma da Paz Eterna II",
+        "Alma da Paz Eterna III",
+        "Alma da Paz Eterna IV",
+        "Alma da Paz Eterna V",
+        "Eternal Peace Soul",
+        "Diária Alma da Paz",
+        "Coração de Pan Gu diária"
+      ],
+      "excerpt_pt_br": "Diária de relíquias do Reino Oriental: 4 etapas com pools aleatórios de coords, fotos, NPCs e farm.",
+      "summary_pt_br": "Aceite no Oficial Sagrado (183,403) conforme o nível da Alma da Paz. Complete Alma de Pan Gu → Poder Celestial → Memórias de Pan Gu → Os Cinco Refinos para receber uma Relíquia do nível correspondente.",
+      "prerequisite_pt_br": "Nv 100+, Reborn II, meridiano completo, Alma da Paz nível 1+. Não fazer Alma de Tianyu no mesmo dia.",
+      "rewards_pt_br": "1 Relíquia Alma da Paz Eterna (nível da missão / especialização); progresso de Bênção da diária.",
+      "published_at": "2025-10-31",
+      "coverage_status": "partial",
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "source_url": "https://triviapw.com.br/2025/10/31/nova-missao-diaria-alma-da-paz-eterna-1-5/",
+      "notice": "Guia estruturado a partir de Trivia PW + cliente BR (tasks 51174–51189). foreign_reference — pools aleatórios; validar coords/recompensas no cliente BR.",
+      "steps": [
+        {
+          "id": "step-01-aceitar",
+          "order": 1,
+          "title_pt_br": "Aceitar a diária",
+          "instruction_pt_br": "Com Alma da Paz nível 1+ e meridiano completo, fale com o Oficial Sagrado no Palácio Real e aceite Alma da Paz Eterna no nível da sua alma (I–V). A missão falha à meia-noite do dia seguinte.",
+          "npc": "Oficial Sagrado",
+          "coords": [
+            {
+              "x": 183,
+              "y": 403,
+              "altitude": 69
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Mutuamente exclusiva com Alma de Tianyu: só uma das duas por dia. IDs cliente: 51174–51177, 51189.",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-02-parte-i-intro",
+          "order": 2,
+          "title_pt_br": "Parte I — Alma de Pan Gu (variante aleatória)",
+          "instruction_pt_br": "A primeira etapa sorteia uma de três variantes: visitar uma paisagem, tirar foto de um local pitoresco, ou conversar com um morador. Use as listas abaixo conforme o objetivo que aparecer na janela de missão.",
+          "npc": null,
+          "coords": [],
+          "dialog_hint": null,
+          "notes": "Etapas 3–5 detalham cada pool de coordenadas.",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-03-paisagens",
+          "order": 3,
+          "title_pt_br": "Parte I · Variante — Paisagens",
+          "instruction_pt_br": "Vá até o ponto indicado da vista sagrada:\n• Palácio Imperial — 183,396(66)\n• Altar do Dragão Flamejante — 266,418(85)\n• Terra dos Sonhos do Sul — 232,474(114)\n• Ruínas Yunlu — 330,417(97)",
+          "npc": null,
+          "coords": [
+            {
+              "x": 183,
+              "y": 396,
+              "altitude": 66
+            },
+            {
+              "x": 266,
+              "y": 418,
+              "altitude": 85
+            },
+            {
+              "x": 232,
+              "y": 474,
+              "altitude": 114
+            },
+            {
+              "x": 330,
+              "y": 417,
+              "altitude": 97
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-04-fotos",
+          "order": 4,
+          "title_pt_br": "Parte I · Variante — Locais pitorescos (foto)",
+          "instruction_pt_br": "Alcance o ângulo e tire a foto pedida pela missão:\n• Montanha do Imperador — 346,340(97)\n• Marinha Imperial da Imperatriz Verde — 93,374(62)\n• Túmulo do Rei Chengsong — 309,387(54)\n• Terra onde as Estrelas Caem no Mar — 158,473(87)",
+          "npc": null,
+          "coords": [
+            {
+              "x": 346,
+              "y": 340,
+              "altitude": 97
+            },
+            {
+              "x": 93,
+              "y": 374,
+              "altitude": 62
+            },
+            {
+              "x": 309,
+              "y": 387,
+              "altitude": 54
+            },
+            {
+              "x": 158,
+              "y": 473,
+              "altitude": 87
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Compare com a imagem de referência na janela da missão.",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-05-npcs",
+          "order": 5,
+          "title_pt_br": "Parte I · Variante — Busca por NPCs",
+          "instruction_pt_br": "Converse com o morador indicado (alguns são andarilhos — busque próximo à coordenada):\n• Mestre do Vento — 258,463(100)\n• Coletor de Ervas — 322,421(90)\n• Coletor de Ginseng — 272,325(78)\n• Monge — 268,399(64)\n• Estudioso em Busca de Ideias — 289,476(84)\n• Pequeno monge em meditação — 288,495(93)\n• Ming Zhaomin — 317,418(106)\n• Zhao Yuxiang — 300,493(105)\n• Viajante do Tempo — 301,364(52)\n• Observador de Xadrez — 283,349(82)\n• Fada da Erva Guardiã — 313,333(84)\n• Jiang Shang — 285,360(75)\n• Caçador — 277,371(76)\n• Pequeno Imortal orgulhoso — 310,416(83)\n• Velho no Burro de Costas — 253,348(59)\n• Ermitão — 193,348(73)\n• Yu Min — 240,371(56)\n• Aldeão Ding Cai — 336,487(98)\n• Servo — 227,316(53)\n• Xu Jie (Loja de Tecidos) — 160,342(55)\n• Zheng — 170,357(55)\n• Bai Lingxiao — 132,429(54)",
+          "npc": null,
+          "coords": [
+            {
+              "x": 258,
+              "y": 463,
+              "altitude": 100
+            },
+            {
+              "x": 322,
+              "y": 421,
+              "altitude": 90
+            },
+            {
+              "x": 272,
+              "y": 325,
+              "altitude": 78
+            },
+            {
+              "x": 268,
+              "y": 399,
+              "altitude": 64
+            },
+            {
+              "x": 289,
+              "y": 476,
+              "altitude": 84
+            },
+            {
+              "x": 288,
+              "y": 495,
+              "altitude": 93
+            },
+            {
+              "x": 317,
+              "y": 418,
+              "altitude": 106
+            },
+            {
+              "x": 300,
+              "y": 493,
+              "altitude": 105
+            },
+            {
+              "x": 301,
+              "y": 364,
+              "altitude": 52
+            },
+            {
+              "x": 283,
+              "y": 349,
+              "altitude": 82
+            },
+            {
+              "x": 313,
+              "y": 333,
+              "altitude": 84
+            },
+            {
+              "x": 285,
+              "y": 360,
+              "altitude": 75
+            },
+            {
+              "x": 277,
+              "y": 371,
+              "altitude": 76
+            },
+            {
+              "x": 310,
+              "y": 416,
+              "altitude": 83
+            },
+            {
+              "x": 253,
+              "y": 348,
+              "altitude": 59
+            },
+            {
+              "x": 193,
+              "y": 348,
+              "altitude": 73
+            },
+            {
+              "x": 240,
+              "y": 371,
+              "altitude": 56
+            },
+            {
+              "x": 336,
+              "y": 487,
+              "altitude": 98
+            },
+            {
+              "x": 227,
+              "y": 316,
+              "altitude": 53
+            },
+            {
+              "x": 160,
+              "y": 342,
+              "altitude": 55
+            },
+            {
+              "x": 170,
+              "y": 357,
+              "altitude": 55
+            },
+            {
+              "x": 132,
+              "y": 429,
+              "altitude": 54
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-06-parte-ii-intro",
+          "order": 6,
+          "title_pt_br": "Parte II — Poder Celestial (variante aleatória)",
+          "instruction_pt_br": "Pode cair a corrida de Yunuo Xiaoxiao (“Em Busca do Vento”) ou uma tarefa de auxílio a moradores. Sem voo em várias dessas variantes; morrer/teleportar pode falhar a etapa.",
+          "npc": null,
+          "coords": [],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-07-yunuo",
+          "order": 7,
+          "title_pt_br": "Parte II · Variante — Em Busca do Vento",
+          "instruction_pt_br": "Encontre Yunuo Xiaoxiao e complete a corrida pelas esferas numeradas no tempo limite (sem voar; use impulsos azuis):\n• 215,342(56) — 3 min · 16 pts\n• 153,358(55) — 2 min · 11 pts\n• 155,304(54) — 3 min · 12 pts\n• 174,317(54) — 2:50 · 15 pts\n• 187,338(56) — 3 min · 14 pts\n• 158,393(56) — 2:20 · 14 pts\n• 322,470(98) — 2:30 · 10 pts\n• 309,332(84) — 3 min · 12 pts\n• 264,440(94) — 3:20 · 12 pts\n• 117,297(53) — 3:20 · 14 pts\n• 125,428(54) — 2:20 · 14 pts",
+          "npc": "Yunuo Xiaoxiao",
+          "coords": [
+            {
+              "x": 215,
+              "y": 342,
+              "altitude": 56
+            },
+            {
+              "x": 153,
+              "y": 358,
+              "altitude": 55
+            },
+            {
+              "x": 155,
+              "y": 304,
+              "altitude": 54
+            },
+            {
+              "x": 174,
+              "y": 317,
+              "altitude": 54
+            },
+            {
+              "x": 187,
+              "y": 338,
+              "altitude": 56
+            },
+            {
+              "x": 158,
+              "y": 393,
+              "altitude": 56
+            },
+            {
+              "x": 322,
+              "y": 470,
+              "altitude": 98
+            },
+            {
+              "x": 309,
+              "y": 332,
+              "altitude": 84
+            },
+            {
+              "x": 264,
+              "y": 440,
+              "altitude": 94
+            },
+            {
+              "x": 117,
+              "y": 297,
+              "altitude": 53
+            },
+            {
+              "x": 125,
+              "y": 428,
+              "altitude": 54
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Título “Amante de Feijões” ao completar 50 vezes.",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-08-filhote",
+          "order": 8,
+          "title_pt_br": "Parte II · Auxílio — O Filhote Ferido",
+          "instruction_pt_br": "Fale com Xia Yan e leve o filhote ao ninho (sem voar/teleporte) perto da Grande Pagoda no Vale do Dragão.",
+          "npc": "Xia Yan",
+          "coords": [
+            {
+              "x": 252,
+              "y": 351,
+              "altitude": 59
+            },
+            {
+              "x": 264,
+              "y": 378,
+              "altitude": 96
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Título “Protetor das Aves” com 5 conclusões.",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-09-rio",
+          "order": 9,
+          "title_pt_br": "Parte II · Auxílio — Dominando o Rio",
+          "instruction_pt_br": "Receba o peixe com Ancião Fan → prepare com Wang (especiarias) → entregue ao General Cheng Huang.",
+          "npc": "Ancião Fan → Wang → General Cheng Huang",
+          "coords": [
+            {
+              "x": 75,
+              "y": 342,
+              "altitude": 54
+            },
+            {
+              "x": 153,
+              "y": 382,
+              "altitude": 56
+            },
+            {
+              "x": 126,
+              "y": 402,
+              "altitude": 54
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Título “Degustador de Pimenta Ardente” com 5 conclusões.",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-10-filho",
+          "order": 10,
+          "title_pt_br": "Parte II · Auxílio — O Filho Errante",
+          "instruction_pt_br": "Em Chujiang pegue roupas/comida → peça pistas ao Lenhador → encontre Chu Liangchen perto das Ruínas Yunlu.",
+          "npc": "Chujiang → Lenhador → Chu Liangchen",
+          "coords": [
+            {
+              "x": 332,
+              "y": 483,
+              "altitude": null
+            },
+            {
+              "x": 295,
+              "y": 434,
+              "altitude": null
+            },
+            {
+              "x": 345,
+              "y": 403,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-11-sistema",
+          "order": 11,
+          "title_pt_br": "Parte II · Auxílio — Sobre o Sistema",
+          "instruction_pt_br": "Com o Sacerdote Sagrado, entregue avisos a três comerciantes na Avenida Celestial da Coroação: Wu Sheng, Garçom e Chefe Xiong.",
+          "npc": "Sacerdote Sagrado",
+          "coords": [
+            {
+              "x": 171,
+              "y": 395,
+              "altitude": null
+            },
+            {
+              "x": 155,
+              "y": 370,
+              "altitude": null
+            },
+            {
+              "x": 180,
+              "y": 343,
+              "altitude": null
+            },
+            {
+              "x": 173,
+              "y": 302,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-12-tio",
+          "order": 12,
+          "title_pt_br": "Parte II · Auxílio — Tio e Sobrinho",
+          "instruction_pt_br": "Guan Zhizhou → pegue macarrão com Cao Erniang → entregue a Guan Shucheng na Academia das Orquídeas → devolva o livro ao tio.",
+          "npc": "Guan Zhizhou → Cao Erniang → Guan Shucheng",
+          "coords": [
+            {
+              "x": 148,
+              "y": 358,
+              "altitude": null
+            },
+            {
+              "x": 150,
+              "y": 338,
+              "altitude": null
+            },
+            {
+              "x": 240,
+              "y": 312,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Título “Macarrão e Álbum” com 5 conclusões.",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-13-caminho",
+          "order": 13,
+          "title_pt_br": "Parte II · Auxílio — O Próprio Caminho",
+          "instruction_pt_br": "Pegue as ferramentas com o Jardineiro e leve até o Chefe da Guarda Imperial na praça; depois retorne ao Jardineiro.",
+          "npc": "Jardineiro → Chefe da Guarda Imperial",
+          "coords": [
+            {
+              "x": 157,
+              "y": 339,
+              "altitude": null
+            },
+            {
+              "x": 174,
+              "y": 384,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Título “O Autointitulado Mestre” com 5 conclusões.",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-14-tesouro",
+          "order": 14,
+          "title_pt_br": "Parte II · Auxílio — O Tesouro da Senhora",
+          "instruction_pt_br": "Com Jiang Hai, escolte o cão Tesourinho pelas paradas (sem se afastar demais / sem voar): 216,339 → 229,344 → 233,358 → 224,373.",
+          "npc": "Jiang Hai",
+          "coords": [
+            {
+              "x": 177,
+              "y": 365,
+              "altitude": null
+            },
+            {
+              "x": 216,
+              "y": 339,
+              "altitude": null
+            },
+            {
+              "x": 229,
+              "y": 344,
+              "altitude": null
+            },
+            {
+              "x": 233,
+              "y": 358,
+              "altitude": null
+            },
+            {
+              "x": 224,
+              "y": 373,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Título “Au Au!” com 5 conclusões.",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-15-parte-iii",
+          "order": 15,
+          "title_pt_br": "Parte III — Memórias de Pan Gu (coleta ou combate)",
+          "instruction_pt_br": "Ajude um NPC a coletar recursos ou farmar itens de monstros. Na Mochila Oriental, use “Rastrear” no item para marcar os mobs no mapa. Locais de entrega de coleta:",
+          "npc": null,
+          "coords": [
+            {
+              "x": 123,
+              "y": 456,
+              "altitude": 53
+            },
+            {
+              "x": 313,
+              "y": 469,
+              "altitude": 77
+            },
+            {
+              "x": 109,
+              "y": 309,
+              "altitude": 53
+            },
+            {
+              "x": 242,
+              "y": 493,
+              "altitude": 128
+            },
+            {
+              "x": 288,
+              "y": 357,
+              "altitude": 75
+            },
+            {
+              "x": 76,
+              "y": 433,
+              "altitude": null
+            },
+            {
+              "x": 207,
+              "y": 488,
+              "altitude": null
+            },
+            {
+              "x": 300,
+              "y": 417,
+              "altitude": 95
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Coleta: Menina dos Cogumelos 123,456(53); Criança do Lótus 313,469(77); Menina das Conchas 109,309(53); Pomba 242,493(128); Pedreiro 288,357(75). Combate: Guardião do Mar-Sem-Fim 76,433; Três Pássaros Azuis 207,488; Jovem Andarilho 300,417(95).",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-16-parte-iv",
+          "order": 16,
+          "title_pt_br": "Parte IV — Os Cinco Refinos (entrega)",
+          "instruction_pt_br": "Volte ao Oficial Sagrado. Nível 1 pede um conjunto de recursos/drops (lótus, chifre, máscara, etc.). Níveis 2–5 pedem uma Relíquia da Alma da Paz um nível abaixo da missão (ex.: missão V → Relíquia IV).",
+          "npc": "Oficial Sagrado",
+          "coords": [
+            {
+              "x": 183,
+              "y": 403,
+              "altitude": 69
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Recompensa: 1 Relíquia Alma da Paz Eterna do nível da missão, conforme especialização.",
+          "image_url": null,
+          "image_alt": null
+        }
+      ]
+    },
+    {
+      "id": "quest-cidade-da-paz-mie-wuyan",
+      "slug": "mie-wuyan",
+      "map_slug": "cidade-da-paz",
+      "kind": "daily",
+      "order": 1,
+      "name_pt_br": "Derrotar Mie Wuyan",
+      "aliases": [
+        "Mie Wuyan",
+        "Mie Wuyou",
+        "Boss diário Reino Oriental",
+        "Expedição Punitiva"
+      ],
+      "excerpt_pt_br": "Boss diário do Reino Oriental — token, plataforma e farm de Ramos Secos.",
+      "summary_pt_br": "Missão diária de derrotar Mie Wuyan (Cidade da Paz) ou Mie Wuyou (Tianyu). Token no Oficial da Expedição / Recompensas; até 7 recompensas no ciclo, 1 por dia.",
+      "prerequisite_pt_br": "Acesso ao Reino Oriental (Nv 100+, Reborn II).",
+      "rewards_pt_br": "Baú/recompensa diária; Ramos Secos (progresso Alma da Paz); ingressos via Oficial de Recompensas.",
+      "published_at": "2025-10-15",
+      "coverage_status": "partial",
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "source_url": "https://triviapw.com.br/2025/10/15/terras-orientais-novo-mapa-da-expansao-do-ceifador-guia-completo/",
+      "notice": "Coords do Trivia/guia Terras Orientais + cliente BR. foreign_reference.",
+      "steps": [
+        {
+          "id": "step-01-token",
+          "order": 1,
+          "title_pt_br": "Pegar o token",
+          "instruction_pt_br": "Fale com o Oficial da Expedição Punitiva / Oficial de Recompensas e pegue o Token Mie Wuyan (1×/dia).",
+          "npc": "Oficial da Expedição Punitiva",
+          "coords": [
+            {
+              "x": 59,
+              "y": 377,
+              "altitude": 94
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Cliente: Derrotar Mie Wuyan / Nº de Derrotas (até 7).",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-02-auto",
+          "order": 2,
+          "title_pt_br": "Missão automática no local",
+          "instruction_pt_br": "Aproxime-se de 298,411(101) para receber a diária automática de derrota. Sair da área cancela; volte para pegar de novo. Recomenda-se grupo.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 298,
+              "y": 411,
+              "altitude": 101
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-03-plataforma",
+          "order": 3,
+          "title_pt_br": "Ativar a pedra e enfrentar o boss",
+          "instruction_pt_br": "Ative a pedra no centro da plataforma (consome o token) e lute. Solo Mie Wuyan: ~5 min, Labirinto Solar 2× (~75% e ~15% HP, 60s / 30s). Ao vencer, abra o baú dourado rápido.",
+          "npc": null,
+          "coords": [],
+          "dialog_hint": null,
+          "notes": "Drop útil: Ramos Secos para Alma da Paz.",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-04-mie-wuyou",
+          "order": 4,
+          "title_pt_br": "Variante Tianyu — Mie Wuyou",
+          "instruction_pt_br": "Na Cidade de Tianyu o ciclo equivalente é Derrotar Mie Wuyou (Oficial de Recompensas de Mie Wuyou). Mesma regra: 1 ingresso/dia, até 7 recompensas no total.",
+          "npc": "Oficial de Recompensas de Mie Wuyou",
+          "coords": [],
+          "dialog_hint": null,
+          "notes": "IDs cliente ~52886–52895.",
+          "image_url": null,
+          "image_alt": null
+        }
+      ]
+    },
     {
       "id": "quest-cidade-da-paz-correntes-ocultas",
       "slug": "correntes-ocultas",
       "map_slug": "cidade-da-paz",
       "kind": "world_quest",
-      "order": 1,
+      "order": 10,
       "name_pt_br": "Correntes Ocultas",
       "aliases": [
         "Скрытые течения",
@@ -155,7 +845,7 @@
       "slug": "ceu-atraves-das-folhas-caidas",
       "map_slug": "cidade-da-paz",
       "kind": "world_quest",
-      "order": 2,
+      "order": 11,
       "name_pt_br": "Céu através das Folhas Caídas",
       "aliases": [
         "Небо сквозь опавшие листья",
@@ -335,7 +1025,7 @@
       "slug": "poco-antigo-do-norte",
       "map_slug": "cidade-da-paz",
       "kind": "world_quest",
-      "order": 3,
+      "order": 12,
       "name_pt_br": "Poço Antigo do Norte",
       "aliases": [
         "Древний колодец Хуайбэй",
@@ -515,7 +1205,7 @@
       "slug": "tempestade",
       "map_slug": "cidade-da-paz",
       "kind": "world_quest",
-      "order": 4,
+      "order": 13,
       "name_pt_br": "Tempestade",
       "aliases": [
         "Ураган",
@@ -669,7 +1359,7 @@
       "slug": "pedra-espiritual-dos-4-simbolos",
       "map_slug": "cidade-da-paz",
       "kind": "world_quest",
-      "order": 5,
+      "order": 14,
       "name_pt_br": "Pedra Espiritual dos 4 Símbolos",
       "aliases": [
         "Четыре камня стихий",
@@ -823,7 +1513,7 @@
       "slug": "segredo-da-montanha-longquan",
       "map_slug": "cidade-da-paz",
       "kind": "world_quest",
-      "order": 6,
+      "order": 15,
       "name_pt_br": "Segredo da Montanha Longquan",
       "aliases": [
         "Тайна горы Драконова источника",
@@ -982,7 +1672,7 @@
       "slug": "altar-do-dragao-flamejante",
       "map_slug": "cidade-da-paz",
       "kind": "world_quest",
-      "order": 7,
+      "order": 16,
       "name_pt_br": "Altar do Dragão Flamejante",
       "aliases": [
         "Алтарь Пылающего Дракона"
@@ -1124,7 +1814,7 @@
       "slug": "misterio-da-origem",
       "map_slug": "cidade-da-paz",
       "kind": "world_quest",
-      "order": 8,
+      "order": 17,
       "name_pt_br": "O Mistério da Origem",
       "aliases": [
         "Тайна происхождения"
@@ -1236,7 +1926,7 @@
       "slug": "desejo-da-alma-do-livro",
       "map_slug": "cidade-da-paz",
       "kind": "world_quest",
-      "order": 9,
+      "order": 18,
       "name_pt_br": "Desejo da Alma do Livro",
       "aliases": [
         "Желание души книги"
@@ -1337,7 +2027,7 @@
       "slug": "loja-de-tecidos",
       "map_slug": "cidade-da-paz",
       "kind": "world_quest",
-      "order": 10,
+      "order": 19,
       "name_pt_br": "Loja de Tecidos",
       "aliases": [
         "Ткацкая мастерская",
@@ -1465,7 +2155,7 @@
       "slug": "morte-inesperada",
       "map_slug": "cidade-da-paz",
       "kind": "world_quest",
-      "order": 11,
+      "order": 20,
       "name_pt_br": "Morte Inesperada",
       "aliases": [
         "Смерть Борена",
@@ -1588,7 +2278,7 @@
       "slug": "memorias-do-passado",
       "map_slug": "cidade-da-paz",
       "kind": "world_quest",
-      "order": 12,
+      "order": 21,
       "name_pt_br": "Memórias do Passado",
       "aliases": [
         "Вспоминая прошлое",
@@ -1700,7 +2390,7 @@
       "slug": "medicos-sombrios",
       "map_slug": "cidade-da-paz",
       "kind": "world_quest",
-      "order": 13,
+      "order": 22,
       "name_pt_br": "Médicos Sombrios",
       "aliases": [
         "Семья злых докторов",
@@ -1838,7 +2528,7 @@
       "slug": "em-busca-do-filho",
       "map_slug": "cidade-da-paz",
       "kind": "world_quest",
-      "order": 14,
+      "order": 23,
       "name_pt_br": "Em Busca do Filho",
       "aliases": [
         "Пропавший сын"
@@ -1949,7 +2639,7 @@
       "slug": "homicidio",
       "map_slug": "cidade-da-paz",
       "kind": "world_quest",
-      "order": 15,
+      "order": 24,
       "name_pt_br": "Homicídio",
       "aliases": [
         "Убийство в скромном доме"
@@ -2040,7 +2730,7 @@
       "slug": "destino-inesperado",
       "map_slug": "cidade-da-paz",
       "kind": "world_quest",
-      "order": 16,
+      "order": 25,
       "name_pt_br": "Destino Inesperado",
       "aliases": [
         "Прятки с судьбой"
@@ -2136,7 +2826,7 @@
       "slug": "passado-de-bujuan",
       "map_slug": "cidade-da-paz",
       "kind": "world_quest",
-      "order": 17,
+      "order": 26,
       "name_pt_br": "Passado de Bujuan",
       "aliases": [
         "Прошлое Бужуана",

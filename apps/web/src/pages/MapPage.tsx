@@ -8,7 +8,7 @@ import {
   CATEGORY_DESCRIPTIONS,
   CATEGORY_LABELS,
 } from "../lib/categories";
-import { getMap, mapOrder, maps } from "../lib/data";
+import { getMap, maps } from "../lib/data";
 import { ICON_LABELS, iconUrl } from "../lib/icons";
 import {
   ensureDefaultCharacter,
@@ -17,6 +17,9 @@ import {
   resetProgress,
   setPointCompleted,
 } from "../lib/progress";
+
+/** Abas do seletor — só Reino Oriental por enquanto; demais mapas ficam nas rotas. */
+const MAP_TABS = ["cidade-da-paz", "tianyu", "jingxuan"] as const;
 
 const CATEGORY_ICON_KEYS: Record<PointCategory, string> = {
   chest: "chest",
@@ -165,11 +168,11 @@ export function MapPage() {
   return (
     <main className="page-wide map-page">
       <h1 className="visually-hidden">
-        Mapa {map.name_pt_br} — Reino Oriental Perfect World
+        Mapa {map.name_pt_br} — Perfect World
       </h1>
       <div className="map-toolbar">
         <div className="map-tabs" role="tablist" aria-label="Mapas">
-          {mapOrder.map((mapSlug) => (
+          {MAP_TABS.map((mapSlug) => (
             <Link
               key={mapSlug}
               role="tab"
@@ -290,14 +293,22 @@ export function MapPage() {
             }
           />
 
-          <div className="map-legend" aria-label="Legenda">
-            {Object.entries(ICON_LABELS).map(([key, label]) => (
-              <span key={key} className="map-legend-item">
-                <img src={iconUrl(key)} alt="" width={22} height={22} />
-                <span>{label}</span>
-              </span>
-            ))}
-          </div>
+          {map.synthetic && map.notice ? (
+            <p className="map-stage-notice" role="status">
+              {map.notice}
+            </p>
+          ) : null}
+
+          {map.points.length > 0 ? (
+            <div className="map-legend" aria-label="Legenda">
+              {Object.entries(ICON_LABELS).map(([key, label]) => (
+                <span key={key} className="map-legend-item">
+                  <img src={iconUrl(key)} alt="" width={22} height={22} />
+                  <span>{label}</span>
+                </span>
+              ))}
+            </div>
+          ) : null}
         </div>
 
         {filtersOpen ? (

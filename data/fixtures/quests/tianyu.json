@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "quest-catalog-tianyu",
   "map_slug": "tianyu",
-  "name_pt_br": "Cidade de Tianyu — Jornadas",
+  "name_pt_br": "Cidade de Tianyu — Jornadas e Diárias",
   "generated_at": "2026-11-24",
   "synthetic": false,
   "origin": "community_observed",
@@ -11,15 +11,99 @@
   "sources": [
     "https://triviapw.com.br/",
     "https://vk.com/@-149459137-mirovye-kvesty-vostochnyh-zemel",
-    "data/fixtures/sources/quest-guides/"
+    "data/fixtures/sources/quest-guides/",
+    "https://triviapw.com.br/2026/06/03/nova-missao-diaria-coracao-de-tianyu-reino-oriental-segredos-de-tianyu/"
   ],
   "quests": [
+    {
+      "id": "quest-tianyu-alma-de-tianyu",
+      "slug": "alma-de-tianyu",
+      "map_slug": "tianyu",
+      "kind": "daily",
+      "order": 0,
+      "name_pt_br": "Alma de Tianyu (Diária I–V)",
+      "aliases": [
+        "Coração de Tianyu",
+        "Alma de Tianyu I",
+        "Alma de Tianyu II",
+        "Alma de Tianyu III",
+        "Alma de Tianyu IV",
+        "Alma de Tianyu V",
+        "Diária Tianyu"
+      ],
+      "excerpt_pt_br": "Diária de relíquias do Coração de Tianyu — mutuamente exclusiva com Alma da Paz no mesmo dia.",
+      "summary_pt_br": "Com Alma de Tianyu nível 1+, aceite no Sacerdote Divino de Tianyu. Mesmas quatro etapas da Alma da Paz (Alma de Pan Gu → Poder Celestial → Memória de Pan Gu → Artefato dos Cinco Refinos). Recompensa Relíquia de Tianyu do nível da missão.",
+      "prerequisite_pt_br": "Nv 100+, Reborn II, meridiano completo, Alma de Tianyu Nv.1+. Não fazer Alma da Paz Eterna no mesmo dia.",
+      "rewards_pt_br": "Relíquia / Consciência Alma de Tianyu; Selo do Palácio Celestial (valores conforme patch).",
+      "published_at": "2026-06-03",
+      "coverage_status": "partial",
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "source_url": "https://triviapw.com.br/2026/06/03/nova-missao-diaria-coracao-de-tianyu-reino-oriental-segredos-de-tianyu/",
+      "notice": "Estrutura das 4 etapas igual à Alma da Paz; pools de coords ainda compartilhados/parciais. foreign_reference — Trivia spoiler + patch notes LUG.",
+      "steps": [
+        {
+          "id": "step-01-desbloquear",
+          "order": 1,
+          "title_pt_br": "Desbloquear Alma de Tianyu",
+          "instruction_pt_br": "Desperte a aba Coração de Tianyu (itens de troca Pan Gu + exp de anedota/desafios/globais de Tianyu). A passiva Trindade Pura (+25% HP) exige Fonte de Energia: Cauda Nv.10 no Salão Principal.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 198,
+              "y": 761,
+              "altitude": 135
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Fonte Cauda — 198,761(135). Relíquias Cauda ×100 pelo mapa.",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-02-aceitar",
+          "order": 2,
+          "title_pt_br": "Aceitar a diária",
+          "instruction_pt_br": "Fale com o Sacerdote Divino de Tianyu (Sacerdote de Tianyu) e aceite Alma de Tianyu no nível da sua alma (I–V). Falha às 0h.",
+          "npc": "Sacerdote Divino de Tianyu",
+          "coords": [],
+          "dialog_hint": null,
+          "notes": "IDs cliente 52979–52983. Coordenada exata do NPC ainda não confirmada no Trivia — use o ícone da missão no mapa.",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-03-etapas",
+          "order": 3,
+          "title_pt_br": "Quatro etapas (mesmo modelo da Alma da Paz)",
+          "instruction_pt_br": "【I】 Alma de Pan Gu · 【II】 Poder Celestial · 【III】 Memória de Pan Gu · 【IV】 Artefato dos Cinco Refinos. Enquanto o Trivia não publicar pools próprios de Tianyu, use as coordenadas do guia Alma da Paz Eterna para variantes de paisagem/foto/NPC/corrida/auxílio/farm.",
+          "npc": null,
+          "coords": [],
+          "dialog_hint": null,
+          "notes": "Ver /missoes/cidade-da-paz/alma-da-paz-eterna",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-04-reportar",
+          "order": 4,
+          "title_pt_br": "Reportar ao Sacerdote",
+          "instruction_pt_br": "Ao fechar as etapas, retorne ao Sacerdote de Tianyu para reportar e receber a relíquia do nível correspondente.",
+          "npc": "Sacerdote de Tianyu",
+          "coords": [],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        }
+      ]
+    },
     {
       "id": "quest-tianyu-historias-noturnas",
       "slug": "historias-noturnas",
       "map_slug": "tianyu",
       "kind": "journey",
-      "order": 1,
+      "order": 10,
       "name_pt_br": "Histórias Noturnas",
       "aliases": [
         "枫桥幻戏夜话",
@@ -1466,7 +1550,7 @@
       "slug": "origem-comum-do-preto-e-branco",
       "map_slug": "tianyu",
       "kind": "journey",
-      "order": 2,
+      "order": 11,
       "name_pt_br": "Origem Comum do Preto e Branco",
       "aliases": [
         "同源黑白"
@@ -2715,7 +2799,7 @@
       "slug": "canglan-sob-neve-serena",
       "map_slug": "tianyu",
       "kind": "journey",
-      "order": 3,
+      "order": 12,
       "name_pt_br": "Canglan sob Neve Serena",
       "aliases": [
         "沧澜晴雪"
@@ -2791,7 +2875,7 @@
       "slug": "montanha-espiritual",
       "map_slug": "tianyu",
       "kind": "journey",
-      "order": 4,
+      "order": 13,
       "name_pt_br": "Montanha Espiritual",
       "aliases": [
         "灵山神秀",
@@ -2893,7 +2977,7 @@
       "slug": "desembainhar-a-espada",
       "map_slug": "tianyu",
       "kind": "journey",
-      "order": 5,
+      "order": 14,
       "name_pt_br": "Desembainhar a Espada",
       "aliases": [
         "拔剑茫然"

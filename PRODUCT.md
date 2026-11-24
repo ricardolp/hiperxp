@@ -46,7 +46,7 @@ Não existe integração de login com a conta do jogo, leitura de memória, auto
 
 ## Navegação e linguagem visual
 
-Início: duas entradas grandes para os mapas e uma para o simulador, seguidas por novidades dos dados. Cabeçalho com Mapas, Drops, Contribuir e Sobre. Tema escuro inicial e claro opcional; interface limpa, tipografia legível, categorias com ícone e texto, sem exigir imagens do jogo para funcionar. Identidade visual própria; não replicar a marca de terceiros.
+Início: duas entradas grandes para os mapas e uma para o simulador, seguidas por novidades dos dados. Cabeçalho com Mapas, Missões (guias), Database (enciclopédia do cliente), Simulador. Tema escuro inicial e claro opcional; interface limpa, tipografia legível, categorias com ícone e texto, sem exigir imagens do jogo para funcionar. Identidade visual própria; não replicar a marca de terceiros.
 
 Mostrar mensagens claras: “Dados ainda não disponíveis”, “Coordenada em revisão”, “Taxas não confirmadas para esta versão”, “Progresso salvo neste navegador” e “Falha ao sincronizar; alterações mantidas localmente”. Nunca simular sucesso de persistência.
 

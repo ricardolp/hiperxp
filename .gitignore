@@ -45,3 +45,4 @@ Desktop.ini
 # scratch local (capturas e comparações)
 tmp/
 *.local
+data/fixtures/sources/client-br-levelup/items/descriptions.cotacao.json

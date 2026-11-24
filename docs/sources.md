@@ -13,7 +13,8 @@ Consulta em 23/11/2026. Acessar uma página não confirma disponibilidade de tod
 | https://triviapw.com.br/2025/10/31/missoes-da-cidade-da-paz-eterna-guia-completo/ | Índice das 17 missões globais (BR) | Nomes e links individuais; corpo HTML às vezes omitido no fetch automatizado |
 | https://vk.com/@-149459137-mirovye-kvesty-vostochnyh-zemel | Guia completo RU das 17 histórias | Texto integral com coords/diálogos; base de `data/fixtures/quests/cidade-da-paz.json` |
 | https://triviapw.com.br/2026/05/21/cidade-de-tianyu-jornadas/ | Índice das jornadas de Tianyu | 5 jornadas + desafios auxiliares; fixtures em `data/fixtures/quests/tianyu.json` |
-| `client-br-levelup` / `elements.data` | Itens do cliente BR | Extraídos ~43k itens; há recompensas (Selo do Palácio Celestial, Emblema da Fênix Azul, Pergaminho de Tianyu, Relíquia Raiz). **Não** contém nomes das 17 missões/jornadas — isso fica em `tasks.data`, ainda não parseado |
+| `client-br-levelup` / `elements.data` | Itens + receitas do cliente BR | ~43k itens (+ ícones); ~12k receitas (lista 68 RECIPE_ESSENCE) via `extract-client-recipes.py`; catálogo em `/database` |
+| `client-br-levelup` / `tasks.data` | Missões do cliente BR | ~26k missões (v237) com textos/recompensas/premissas/séries via `extract-client-tasks.py`. NPCs ainda pendentes |
 | https://github.com/ipasetto/MyAceEditor | Referência de formatos do cliente | README documenta formatos e GPL-3.0; compatibilidade com build do usuário não testada |
 | https://github.com/nbshelton/pw-resource | Referência de importação | README documenta loader de elements.data; revisar licença e compatibilidade antes de reutilizar |
 | https://github.com/Kn1fe/DataTranslator | Referência de tradução | Projeto documenta elements.data/tasks.data e Apache-2.0; não testado localmente |

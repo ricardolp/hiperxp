@@ -2,6 +2,12 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { Analytics } from "./components/Analytics";
 import { DocumentMeta } from "./components/DocumentMeta";
 import { Layout } from "./components/Layout";
+import {
+  DatabaseIndexPage,
+  DatabaseItemPage,
+  DatabaseNpcPage,
+  DatabaseQuestPage,
+} from "./pages/DatabasePage";
 import { DropDetailPage, DropsIndexPage } from "./pages/DropsPage";
 import { HomePage } from "./pages/HomePage";
 import { MapPage } from "./pages/MapPage";
@@ -24,6 +30,10 @@ export default function App() {
           <Route path="missoes/:mapSlug/:questSlug" element={<QuestPostPage />} />
           <Route path="missoes/:mapSlug" element={<QuestsPage />} />
           <Route path="missoes" element={<QuestsIndexPage />} />
+          <Route path="database/itens/:itemId" element={<DatabaseItemPage />} />
+          <Route path="database/npcs/:npcId" element={<DatabaseNpcPage />} />
+          <Route path="database/missoes/:questId" element={<DatabaseQuestPage />} />
+          <Route path="database" element={<DatabaseIndexPage />} />
           <Route path="simulador" element={<DropsIndexPage />} />
           <Route path="simulador/:slug" element={<DropDetailPage />} />
           <Route path="drops" element={<Navigate to="/simulador" replace />} />

@@ -1,0 +1,56 @@
+{
+  "source": "interfaces.pck / interfaces/produce1.xml (Win_Produce1)",
+  "title_source": "interfaces.pck / interfaces/produce_icon.xml Lbl_Title = Fabricar",
+  "textures_source": "surfaces.pck version02/*",
+  "dialog": {
+    "name": "Win_Produce1",
+    "width": 332,
+    "height": 415
+  },
+  "colors": {
+    "label_gold": "255,203,74,255",
+    "title_upper": "252,234,204",
+    "title_lower": "244,194,114",
+    "button_text": "252,234,204,255",
+    "button_outline": "10,35,50,255"
+  },
+  "strings_pt_br": {
+    "title": "Fabricar",
+    "qty": "Qtd:",
+    "max": "Máximo",
+    "requires": "Requer:",
+    "item": "Item:",
+    "start": "Iniciar",
+    "cancel": "Cancelar",
+    "skill": "Habilidade",
+    "level": "Nível"
+  },
+  "grid": {
+    "cols": 8,
+    "rows": 4,
+    "slot_w": 38,
+    "slot_h": 38,
+    "icon_w": 32,
+    "icon_h": 32,
+    "origin_x": 18,
+    "origin_y": 66,
+    "icon_origin_x": 21,
+    "icon_origin_y": 69,
+    "step_x": 37,
+    "step_y": 37,
+    "count": 32
+  },
+  "controls": {
+    "Img_Title": { "x": 4, "y": 6, "w": 322, "h": 30 },
+    "Btn_Close": { "x": 298, "y": 11, "w": 20, "h": 20 },
+    "Btn_Set1": { "x": 14, "y": 36, "w": 38, "h": 24 },
+    "tab_step": 38,
+    "tab_count": 8,
+    "Btn_Gold": { "x": 106, "y": 228, "w": 19, "h": 19 },
+    "Txt_Gold": { "x": 130, "y": 227, "w": 100, "h": 23 },
+    "Txt_Bind": { "x": 29, "y": 264, "w": 273, "h": 90 },
+    "Btn_Produce": { "x": 102, "y": 367, "w": 65, "h": 24 },
+    "Btn_Cancel": { "x": 172, "y": 367, "w": 65, "h": 24 }
+  },
+  "note": "Labels Habilidade/Nível/Qtd/Máximo/Requer/Item e slots Item_* ficam em x=-10000 no XML e são posicionados em runtime pelo cliente; a web replica usa a faixa Txt_Bind + linha do ouro para esses controles."
+}

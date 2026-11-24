@@ -16,6 +16,11 @@ import pergaminhoAbissalJson from "@fixtures/drop-tables/pergaminho-abissal.json
 import pergaminhoTianyuJson from "@fixtures/drop-tables/pergaminho-de-tianyu.json";
 import questsCidadeDaPazJson from "@fixtures/quests/cidade-da-paz.json";
 import questsTianyuJson from "@fixtures/quests/tianyu.json";
+import questsContinenteOcidentalJson from "@fixtures/quests/continente-ocidental.json";
+import continenteOcidentalJson from "@fixtures/maps/continente-ocidental.json";
+import questsMundoPrimitivoJson from "@fixtures/quests/mundo-primitivo.json";
+import mundoPrimitivoJson from "@fixtures/maps/mundo-primitivo.json";
+import mundoNormalJson from "@fixtures/maps/mundo-normal.json";
 import itemIconManifest from "./itemIconManifest.json";
 
 export const release = releaseJson as ReleaseFixture;
@@ -23,13 +28,26 @@ export const maps: Record<string, MapFixture> = {
   "cidade-da-paz": cidadeDaPazJson as MapFixture,
   tianyu: tianyuJson as MapFixture,
   jingxuan: jingxuanJson as MapFixture,
+  "continente-ocidental": continenteOcidentalJson as MapFixture,
+  "mundo-primitivo": mundoPrimitivoJson as MapFixture,
+  "mundo-normal": mundoNormalJson as MapFixture,
 };
-export const mapOrder = ["cidade-da-paz", "tianyu", "jingxuan"] as const;
+/** Todos os mapas com página /mapas/:slug (Oriental + Quedanunca + Primitivo + Normal). */
+export const mapOrder = [
+  "cidade-da-paz",
+  "tianyu",
+  "jingxuan",
+  "continente-ocidental",
+  "mundo-primitivo",
+  "mundo-normal",
+] as const;
 export const items = itemsJson as ItemFixture[];
 
 export const questCatalogs: Record<string, QuestCatalogFixture> = {
   "cidade-da-paz": questsCidadeDaPazJson as QuestCatalogFixture,
   tianyu: questsTianyuJson as QuestCatalogFixture,
+  "continente-ocidental": questsContinenteOcidentalJson as QuestCatalogFixture,
+  "mundo-primitivo": questsMundoPrimitivoJson as QuestCatalogFixture,
 };
 
 const itemsById = new Map(items.map((item) => [item.id, item]));
@@ -61,7 +79,12 @@ export function listQuests(mapSlug: string): QuestGuideFixture[] {
   return [...catalog.quests].sort((a, b) => a.order - b.order || a.slug.localeCompare(b.slug));
 }
 
-export const questMapOrder = ["cidade-da-paz", "tianyu"] as const;
+export const questMapOrder = [
+  "cidade-da-paz",
+  "tianyu",
+  "continente-ocidental",
+  "mundo-primitivo",
+] as const;
 
 export function listAllQuests(): QuestGuideFixture[] {
   return questMapOrder.flatMap((slug) => listQuests(slug));

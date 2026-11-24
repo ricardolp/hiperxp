@@ -6,6 +6,6 @@ export const brand = {
   logoFull: "/brand/logos/hiperxp-colorida-240w.png",
   logoLight: "/brand/logos/hiperxp-claro-800.webp",
   icon: "/brand/icones/hiperxp-gema-256.png",
-  iconSmall: "/brand/icones/hiperxp-gema-64.png",
+  iconSmall: "/brand/icones/hiperxp-gema-48.png",
   primary: "#FF0036",
 } as const;

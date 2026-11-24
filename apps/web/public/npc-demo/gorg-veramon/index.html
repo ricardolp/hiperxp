@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Demo · Ferreiro Gorg Veramon</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg0: #14110e;
+        --bg1: #2a2218;
+        --ink: #f3e7d4;
+        --muted: #b5a48c;
+        --accent: #d08a3a;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+        background:
+          radial-gradient(1200px 700px at 70% 10%, #3a2c1c 0%, transparent 55%),
+          linear-gradient(160deg, var(--bg1), var(--bg0));
+        color: var(--ink);
+        font-family: "Segoe UI", Tahoma, sans-serif;
+      }
+      #app {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+      canvas {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+      .hud {
+        position: absolute;
+        inset: 0 auto auto 0;
+        margin: 1.25rem;
+        max-width: min(26rem, calc(100vw - 2rem));
+        padding: 1rem 1.1rem;
+        background: rgba(12, 10, 8, 0.55);
+        border: 1px solid rgba(208, 138, 58, 0.28);
+        backdrop-filter: blur(8px);
+        pointer-events: none;
+      }
+      .hud h1 {
+        margin: 0 0 0.35rem;
+        font-size: 1.15rem;
+        font-weight: 650;
+        letter-spacing: 0.01em;
+      }
+      .hud p {
+        margin: 0.25rem 0;
+        color: var(--muted);
+        font-size: 0.88rem;
+        line-height: 1.4;
+      }
+      .hud code {
+        color: var(--accent);
+        font-size: 0.8rem;
+      }
+      .status {
+        position: absolute;
+        right: 1.25rem;
+        bottom: 1.25rem;
+        color: var(--muted);
+        font-size: 0.8rem;
+        background: rgba(12, 10, 8, 0.45);
+        padding: 0.45rem 0.7rem;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+      .status.error {
+        color: #ffb4a8;
+        border-color: rgba(255, 120, 100, 0.35);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div class="hud">
+        <h1>Ferreiro Gorg Veramon</h1>
+        <p>NPC <code>4434</code> · modelo <code>2014npc铁匠.ski</code></p>
+        <p>Montagem do client BR: malha + texturas DDS convertidas.</p>
+        <p>Arraste para girar · scroll para zoom.</p>
+      </div>
+      <div id="status" class="status">carregando modelo…</div>
+    </div>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+        }
+      }
+    </script>
+    <script type="module">
+      import * as THREE from "three";
+      import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+
+      const statusEl = document.getElementById("status");
+      const setStatus = (text, isError = false) => {
+        statusEl.textContent = text;
+        statusEl.classList.toggle("error", isError);
+      };
+
+      const scene = new THREE.Scene();
+      scene.fog = new THREE.FogExp2(0x1a1510, 0.045);
+
+      const camera = new THREE.PerspectiveCamera(
+        40,
+        window.innerWidth / window.innerHeight,
+        0.05,
+        100,
+      );
+      camera.position.set(0.35, 1.25, 3.2);
+
+      const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      renderer.outputColorSpace = THREE.SRGBColorSpace;
+      document.getElementById("app").appendChild(renderer.domElement);
+
+      const controls = new OrbitControls(camera, renderer.domElement);
+      controls.target.set(0, 0.95, 0);
+      controls.enableDamping = true;
+      controls.minDistance = 0.8;
+      controls.maxDistance = 8;
+      controls.maxPolarAngle = Math.PI * 0.49;
+
+      scene.add(new THREE.AmbientLight(0xfff0dd, 0.7));
+      const key = new THREE.DirectionalLight(0xffe2b8, 1.55);
+      key.position.set(2.5, 4, 2);
+      scene.add(key);
+      const fill = new THREE.DirectionalLight(0x88a0ff, 0.35);
+      fill.position.set(-3, 1.5, -2);
+      scene.add(fill);
+      const rim = new THREE.DirectionalLight(0xff9a4a, 0.45);
+      rim.position.set(0, 2, -3);
+      scene.add(rim);
+
+      const ground = new THREE.Mesh(
+        new THREE.CircleGeometry(2.4, 48),
+        new THREE.MeshStandardMaterial({
+          color: 0x2b241c,
+          roughness: 0.95,
+          metalness: 0.05,
+        }),
+      );
+      ground.rotation.x = -Math.PI / 2;
+      ground.position.y = 0;
+      scene.add(ground);
+
+      const ring = new THREE.Mesh(
+        new THREE.RingGeometry(0.28, 0.34, 48),
+        new THREE.MeshBasicMaterial({
+          color: 0xd08a3a,
+          transparent: true,
+          opacity: 0.75,
+          side: THREE.DoubleSide,
+        }),
+      );
+      ring.rotation.x = -Math.PI / 2;
+      ring.position.y = 0.01;
+      scene.add(ring);
+
+      const root = new THREE.Group();
+      scene.add(root);
+
+      function buildMesh(mesh, textures) {
+        const positions = Float32Array.from(mesh.positions);
+        const normals = Float32Array.from(mesh.normals);
+        const uvs = Float32Array.from(mesh.uvs);
+        const indices = Uint32Array.from(mesh.indices);
+
+        // Angelica bind-pose → Three.js Y-up: (-x, y, -z)
+        for (let i = 0; i < positions.length; i += 3) {
+          const x = positions[i];
+          const y = positions[i + 1];
+          const z = positions[i + 2];
+          positions[i] = -x;
+          positions[i + 1] = y;
+          positions[i + 2] = -z;
+        }
+        for (let i = 0; i < normals.length; i += 3) {
+          const x = normals[i];
+          const y = normals[i + 1];
+          const z = normals[i + 2];
+          normals[i] = -x;
+          normals[i + 1] = y;
+          normals[i + 2] = -z;
+        }
+
+        const geo = new THREE.BufferGeometry();
+        geo.setAttribute("position", new THREE.BufferAttribute(positions, 3));
+        geo.setAttribute("normal", new THREE.BufferAttribute(normals, 3));
+        geo.setAttribute("uv", new THREE.BufferAttribute(uvs, 2));
+        geo.setIndex(new THREE.BufferAttribute(indices, 1));
+
+        const texInfo = textures[mesh.texture_index];
+        const map = texInfo?.map ?? null;
+        const mat = new THREE.MeshStandardMaterial({
+          map,
+          color: map ? 0xffffff : 0xb08a60,
+          roughness: 0.78,
+          metalness: 0.08,
+          side: THREE.DoubleSide,
+        });
+        return new THREE.Mesh(geo, mat);
+      }
+
+      async function loadDemo() {
+        const res = await fetch("./model.json");
+        if (!res.ok) throw new Error(`model.json ${res.status}`);
+        const model = await res.json();
+
+        const loader = new THREE.TextureLoader();
+        const textures = await Promise.all(
+          (model.textures || []).map(async (t) => {
+            const map = await loader.loadAsync(`./${t.file}`);
+            map.colorSpace = THREE.SRGBColorSpace;
+            map.flipY = true;
+            map.wrapS = THREE.ClampToEdgeWrapping;
+            map.wrapT = THREE.ClampToEdgeWrapping;
+            return { ...t, map };
+          }),
+        );
+
+        for (const mesh of model.meshes) {
+          root.add(buildMesh(mesh, textures));
+        }
+
+        const box = new THREE.Box3().setFromObject(root);
+        const size = box.getSize(new THREE.Vector3());
+        const center = box.getCenter(new THREE.Vector3());
+        root.position.x -= center.x;
+        root.position.z -= center.z;
+        root.position.y -= box.min.y;
+
+        const height = Math.max(size.y, 1.2);
+        controls.target.set(0, height * 0.55, 0);
+        camera.position.set(0.2, height * 0.7, height * 2.1);
+        controls.update();
+
+        const verts = model.meshes.reduce((n, m) => n + m.positions.length / 3, 0);
+        const tris = model.meshes.reduce((n, m) => n + m.indices.length / 3, 0);
+        setStatus(`${verts} verts · ${tris} tris · ${model.meshes.length} meshes`);
+      }
+
+      loadDemo().catch((err) => {
+        console.error(err);
+        setStatus(String(err.message || err), true);
+      });
+
+      window.addEventListener("resize", () => {
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+      });
+
+      function tick() {
+        controls.update();
+        ring.rotation.z += 0.004;
+        renderer.render(scene, camera);
+        requestAnimationFrame(tick);
+      }
+      tick();
+    </script>
+  </body>
+</html>

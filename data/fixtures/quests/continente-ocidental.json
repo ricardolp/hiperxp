@@ -1,0 +1,1208 @@
+{
+  "schema_version": 1,
+  "id": "quest-catalog-continente-ocidental",
+  "map_slug": "continente-ocidental",
+  "name_pt_br": "Quedanunca — Diárias e Vigor",
+  "generated_at": "2026-11-24",
+  "synthetic": false,
+  "origin": "community_observed",
+  "review_status": "foreign_reference",
+  "notice": "Guia estruturado a partir de PWpedia (Grim War Efforts) + cliente BR. foreign_reference — validar coords/recompensas no cliente BR antes de republicar.",
+  "sources": [
+    "https://pwi.fandom.com/wiki/Grim_War_Efforts",
+    "https://www.pwdatabase.com/pwi/quest/44132",
+    "cliente BR tasks.data (IDs 44132–44184, 43976)",
+    "https://pwi.fandom.com/wiki/Sacred_Spirits",
+    "https://pwi.fandom.com/wiki/Flame_of_Vengeance",
+    "https://pwi.fandom.com/wiki/List_of_Vitae_Dailies",
+    "https://triviapw.com.br/2022/01/06/guia-da-missao-dragao-topo-das-nuvens-quest-diaria-em-quedanunca/"
+  ],
+  "quests": [
+    {
+      "id": "quest-continente-ocidental-esforco-da-guerra",
+      "slug": "esforco-da-guerra",
+      "map_slug": "continente-ocidental",
+      "kind": "daily",
+      "order": 1,
+      "name_pt_br": "Esforço da Guerra Cruéis e Memórias do Passado",
+      "aliases": [
+        "Grim War Efforts",
+        "WC: Grim War Efforts",
+        "Diária: Esforço da Guerra",
+        "Diária: Memórias do Passado",
+        "Жестокие военные усилия"
+      ],
+      "excerpt_pt_br": "Diária de escolta de suprimentos até Althea + 20 fotos de memória no Continente Ocidental.",
+      "summary_pt_br": "Escolte suprimentos da Tribo dos Alquimistas até Althea nos Salões da Luz Aurora e, em seguida, encontre o local da foto em Memórias do Passado.",
+      "prerequisite_pt_br": "Nv 100+, Reborn II, Céu Ápice I (Skyseal I). Missão principal do Continente Ocidental concluída.",
+      "rewards_pt_br": "Exp; Vital; Moeda Brilhante de Prata; Sangue Bárbaro; Cristal de Sangue Bárbaro; Pedra Gêmea Yin Yang; Baú de Astrolábios (valores variam por patch — conferir no cliente).",
+      "rewards": [
+        {
+          "label_pt_br": "Exp",
+          "item_id": null,
+          "quantity": null,
+          "note_pt_br": null
+        },
+        {
+          "label_pt_br": "Vital",
+          "item_id": null,
+          "quantity": null,
+          "note_pt_br": null
+        },
+        {
+          "label_pt_br": "Moeda Brilhante de Prata",
+          "item_id": 41374,
+          "quantity": null,
+          "note_pt_br": null
+        },
+        {
+          "label_pt_br": "Sangue Bárbaro",
+          "item_id": 47391,
+          "quantity": null,
+          "note_pt_br": null
+        },
+        {
+          "label_pt_br": "Cristal de Sangue Bárbaro",
+          "item_id": 62055,
+          "quantity": null,
+          "note_pt_br": null
+        },
+        {
+          "label_pt_br": "Pedra Gêmea de Yin e Yang",
+          "item_id": 55052,
+          "quantity": null,
+          "note_pt_br": null
+        },
+        {
+          "label_pt_br": "Baú de Astrolábios",
+          "item_id": 47379,
+          "quantity": null,
+          "note_pt_br": "Quantidades variam por patch"
+        }
+      ],
+      "cover_image": "/quests/esforco-da-guerra/cover.png",
+      "published_at": "2022-05-10",
+      "coverage_status": "partial",
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "source_url": "https://pwi.fandom.com/wiki/Grim_War_Efforts",
+      "notice": "Guia estruturado a partir de PWpedia (Grim War Efforts) + cliente BR. foreign_reference — validar coords/recompensas no cliente BR antes de republicar.",
+      "steps": [
+        {
+          "id": "step-01-aceitar-escolta",
+          "order": 1,
+          "title_pt_br": "Parte 1 — Aceitar a escolta",
+          "instruction_pt_br": "Na Tribo dos Alquimistas, fale com o Espírito Sagrado (Mohawk Sonhador) e aceite Diária: Esforço da Guerra I. Você passa a carregar os suprimentos até Althea.",
+          "npc": "Espírito Sagrado (Mohawk Sonhador)",
+          "coords": [
+            {
+              "x": 586,
+              "y": 505,
+              "altitude": 12
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Durante a escolta: sem buff de velocidade, sem voar e sem furtividade. Morrer, mudar de mapa ou deslogar falha a missão — retome no último NPC.",
+          "image_url": "/quests/esforco-da-guerra/route-map.png",
+          "image_alt": "Rota geral da entrega de suprimentos no Continente Ocidental"
+        },
+        {
+          "id": "step-02-portal-da-vida",
+          "order": 2,
+          "title_pt_br": "Esforço da Guerra I → Portal da Vida",
+          "instruction_pt_br": "Entregue os suprimentos ao Oficial Responsável do Portal da Vida, a oeste da Tribo dos Alquimistas.",
+          "npc": "Oficial Resp. Portal da Vida",
+          "coords": [
+            {
+              "x": 504,
+              "y": 499,
+              "altitude": 12
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Em seguida pegue a etapa II com o mesmo oficial.",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-03-cerne-quebrado",
+          "order": 3,
+          "title_pt_br": "Esforço da Guerra II → Cerne Quebrado",
+          "instruction_pt_br": "Escolte até o Oficial Responsável do Cerne Quebrado, a noroeste do Portal da Vida.",
+          "npc": "Oficial Resp. Cerne Quebrado",
+          "coords": [
+            {
+              "x": 448,
+              "y": 520,
+              "altitude": 10
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-04-garganta-uivante",
+          "order": 4,
+          "title_pt_br": "Esforço da Guerra III → Garganta Uivante",
+          "instruction_pt_br": "Leve os suprimentos ao Oficial Responsável da Garganta Uivante, ao norte do Cerne Quebrado.",
+          "npc": "Oficial Resp. Garganta Uivante",
+          "coords": [
+            {
+              "x": 446,
+              "y": 559,
+              "altitude": 11
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-05-althea-aurora",
+          "order": 5,
+          "title_pt_br": "Esforço da Guerra IV → Althea",
+          "instruction_pt_br": "Entregue para Althea, Imperatriz da Luz, na entrada dos Salões da Luz Aurora. Evite atravessar o fundo da Garganta — contorne pelos penhascos (lado direito) e rode a ponte.",
+          "npc": "Althea, Imperatriz da Luz",
+          "coords": [
+            {
+              "x": 442,
+              "y": 627,
+              "altitude": 3
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Após a entrega você é teleportado de volta à Tribo dos Alquimistas para a Parte 2.",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-06-memorias-inicio",
+          "order": 6,
+          "title_pt_br": "Parte 2 — Memórias do Passado",
+          "instruction_pt_br": "Fale de novo com o Espírito Sagrado e aceite Diária: Memórias do Passado. Você recebe um Fragmento/Foto — clique com o direito para ver a imagem, ou use o autofalante da missão fixada para soltar a coordenada no chat.",
+          "npc": "Espírito Sagrado (Mohawk Sonhador)",
+          "coords": [
+            {
+              "x": 586,
+              "y": 505,
+              "altitude": 12
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Há 20 locais possíveis (aleatório). Complete Memórias para fechar o ciclo diário e liberar a recompensa.",
+          "image_url": "/quests/esforco-da-guerra/cover.png",
+          "image_alt": "Referência visual da diária Esforço da Guerra / Memórias do Passado"
+        },
+        {
+          "id": "step-07-praca-do-paladino",
+          "order": 7,
+          "title_pt_br": "Foto — Praça do Paladino",
+          "instruction_pt_br": "Vá até Praça do Paladino e complete a memória quando a imagem bater com este local.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 359,
+              "y": 601,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": "/quests/esforco-da-guerra/photo-01.png",
+          "image_alt": "Praça do Paladino (Paladin's Square)"
+        },
+        {
+          "id": "step-08-bar-da-evelyn",
+          "order": 8,
+          "title_pt_br": "Foto — Bar da Evelyn",
+          "instruction_pt_br": "Vá até Bar da Evelyn e complete a memória quando a imagem bater com este local.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 315,
+              "y": 594,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Pode voar acima do prédio.",
+          "image_url": "/quests/esforco-da-guerra/photo-02.png",
+          "image_alt": "Bar da Evelyn (Evelyn's Bar)"
+        },
+        {
+          "id": "step-09-igreja",
+          "order": 9,
+          "title_pt_br": "Foto — Igreja",
+          "instruction_pt_br": "Vá até Igreja e complete a memória quando a imagem bater com este local.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 384,
+              "y": 586,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Pode voar acima do prédio.",
+          "image_url": "/quests/esforco-da-guerra/photo-03.png",
+          "image_alt": "Igreja (Church)"
+        },
+        {
+          "id": "step-10-descanso-glorioso",
+          "order": 10,
+          "title_pt_br": "Foto — Descanso Glorioso",
+          "instruction_pt_br": "Vá até Descanso Glorioso e complete a memória quando a imagem bater com este local.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 415,
+              "y": 530,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": "/quests/esforco-da-guerra/photo-04.png",
+          "image_alt": "Descanso Glorioso (Glory's Rest)"
+        },
+        {
+          "id": "step-11-bosque-disspa",
+          "order": 11,
+          "title_pt_br": "Foto — Bosque Disspa",
+          "instruction_pt_br": "Vá até Bosque Disspa e complete a memória quando a imagem bater com este local.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 475,
+              "y": 633,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": "/quests/esforco-da-guerra/photo-05.png",
+          "image_alt": "Bosque Disspa (Disspa Woods)"
+        },
+        {
+          "id": "step-12-floresta-de-hibeth",
+          "order": 12,
+          "title_pt_br": "Foto — Floresta de Hibeth",
+          "instruction_pt_br": "Vá até Floresta de Hibeth e complete a memória quando a imagem bater com este local.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 381,
+              "y": 519,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": "/quests/esforco-da-guerra/photo-06.png",
+          "image_alt": "Floresta de Hibeth (Hibeth Forest)"
+        },
+        {
+          "id": "step-13-lago-da-tormenta",
+          "order": 13,
+          "title_pt_br": "Foto — Lago da Tormenta",
+          "instruction_pt_br": "Vá até Lago da Tormenta e complete a memória quando a imagem bater com este local.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 585,
+              "y": 737,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": "/quests/esforco-da-guerra/photo-07.png",
+          "image_alt": "Lago da Tormenta (Storm Lake)"
+        },
+        {
+          "id": "step-14-portal-do-infinito",
+          "order": 14,
+          "title_pt_br": "Foto — Portal do Infinito",
+          "instruction_pt_br": "Vá até Portal do Infinito e complete a memória quando a imagem bater com este local.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 489,
+              "y": 679,
+              "altitude": 27
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Título Círculo em Repetição ao concluir neste local.",
+          "image_url": "/quests/esforco-da-guerra/photo-08.png",
+          "image_alt": "Portal do Infinito (Gate of Cycles)"
+        },
+        {
+          "id": "step-15-fonte-abandonada",
+          "order": 15,
+          "title_pt_br": "Foto — Fonte Abandonada",
+          "instruction_pt_br": "Vá até Fonte Abandonada e complete a memória quando a imagem bater com este local.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 595,
+              "y": 704,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": "/quests/esforco-da-guerra/photo-09.png",
+          "image_alt": "Fonte Abandonada (Derelict Mint)"
+        },
+        {
+          "id": "step-16-tribo-senhor-feras",
+          "order": 16,
+          "title_pt_br": "Foto — Tribo do Senhor das Feras",
+          "instruction_pt_br": "Vá até Tribo do Senhor das Feras e complete a memória quando a imagem bater com este local.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 550,
+              "y": 503,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": "/quests/esforco-da-guerra/photo-10.png",
+          "image_alt": "Tribo do Senhor das Feras (Beast Lord Tribe)"
+        },
+        {
+          "id": "step-17-vale-orbital",
+          "order": 17,
+          "title_pt_br": "Foto — Vale Orbital",
+          "instruction_pt_br": "Vá até Vale Orbital e complete a memória quando a imagem bater com este local.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 418,
+              "y": 690,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": "/quests/esforco-da-guerra/photo-11.png",
+          "image_alt": "Vale Orbital (Fountain of Omen)"
+        },
+        {
+          "id": "step-18-campo-girassol",
+          "order": 18,
+          "title_pt_br": "Foto — Campo Girassol",
+          "instruction_pt_br": "Vá até Campo Girassol e complete a memória quando a imagem bater com este local.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 377,
+              "y": 692,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Fique abaixo da altura 20.",
+          "image_url": "/quests/esforco-da-guerra/photo-12.png",
+          "image_alt": "Campo Girassol (Sunflower Shrub)"
+        },
+        {
+          "id": "step-19-cemiterio-de-titas",
+          "order": 19,
+          "title_pt_br": "Foto — Cemitério de Titãs",
+          "instruction_pt_br": "Vá até Cemitério de Titãs e complete a memória quando a imagem bater com este local.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 317,
+              "y": 702,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": "/quests/esforco-da-guerra/photo-13.png",
+          "image_alt": "Cemitério de Titãs (Titan Ruins)"
+        },
+        {
+          "id": "step-20-fonte-da-vida",
+          "order": 20,
+          "title_pt_br": "Foto — Fonte da Vida",
+          "instruction_pt_br": "Vá até Fonte da Vida e complete a memória quando a imagem bater com este local.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 451,
+              "y": 492,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": "/quests/esforco-da-guerra/photo-14.png",
+          "image_alt": "Fonte da Vida (Well of Life)"
+        },
+        {
+          "id": "step-21-docas-de-datun",
+          "order": 21,
+          "title_pt_br": "Foto — Docas de Datun",
+          "instruction_pt_br": "Vá até Docas de Datun e complete a memória quando a imagem bater com este local.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 368,
+              "y": 467,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": "/quests/esforco-da-guerra/photo-15.png",
+          "image_alt": "Docas de Datun (Datun Docks)"
+        },
+        {
+          "id": "step-22-queda-mata-dragao",
+          "order": 22,
+          "title_pt_br": "Foto — Queda do Mata-dragão",
+          "instruction_pt_br": "Vá até Queda do Mata-dragão e complete a memória quando a imagem bater com este local.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 440,
+              "y": 602,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": "/quests/esforco-da-guerra/photo-16.png",
+          "image_alt": "Queda do Mata-dragão (Dragonslayer's Fall)"
+        },
+        {
+          "id": "step-23-baixio-do-monolito",
+          "order": 23,
+          "title_pt_br": "Foto — Baixio do Monólito",
+          "instruction_pt_br": "Vá até Baixio do Monólito e complete a memória quando a imagem bater com este local.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 425,
+              "y": 728,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": "/quests/esforco-da-guerra/photo-17.png",
+          "image_alt": "Baixio do Monólito (Monolith Shoal)"
+        },
+        {
+          "id": "step-24-templo-de-nimis",
+          "order": 24,
+          "title_pt_br": "Foto — Templo de Nimis",
+          "instruction_pt_br": "Vá até Templo de Nimis e complete a memória quando a imagem bater com este local.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 320,
+              "y": 633,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Pode voar acima do prédio.",
+          "image_url": "/quests/esforco-da-guerra/photo-18.png",
+          "image_alt": "Templo de Nimis (Temple of Nimis)"
+        },
+        {
+          "id": "step-25-cerne-quebrado-foto",
+          "order": 25,
+          "title_pt_br": "Foto — Cerne Quebrado",
+          "instruction_pt_br": "Vá até Cerne Quebrado e complete a memória quando a imagem bater com este local.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 448,
+              "y": 521,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": "/quests/esforco-da-guerra/photo-19.png",
+          "image_alt": "Cerne Quebrado (Shattered Hub)"
+        },
+        {
+          "id": "step-26-fontequente",
+          "order": 26,
+          "title_pt_br": "Foto — Fontequente",
+          "instruction_pt_br": "Vá até Fontequente e complete a memória quando a imagem bater com este local.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 590,
+              "y": 566,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": "/quests/esforco-da-guerra/photo-20.png",
+          "image_alt": "Fontequente (Warmspring)"
+        }
+      ]
+    },
+    {
+      "id": "quest-continente-ocidental-espiritos-sagrados",
+      "slug": "espiritos-sagrados",
+      "map_slug": "continente-ocidental",
+      "kind": "daily",
+      "order": 2,
+      "name_pt_br": "Espíritos Sagrados (Farm de Vigor)",
+      "aliases": [
+        "Sacred Spirits",
+        "Vitae Mobs",
+        "Sacred Realm Phantoms",
+        "Mobs de Vitalidade",
+        "Farm de Vigor"
+      ],
+      "excerpt_pt_br": "Pontos de farm diário de Vitae/Vigor por Limite de Céu no Continente Ocidental.",
+      "summary_pt_br": "Mate Espíritos Sagrados do seu Céu (ou próximos) até o teto diário de Vitae. Lista de packs no Quedanunca / Continente Ocidental.",
+      "prerequisite_pt_br": "Reborn + Limite de Céu correspondente; acesso a Quedanunca.",
+      "rewards_pt_br": "Pontos de Vigor (Vitae) até o cap diário do Céu.",
+      "published_at": "2018-09-19",
+      "coverage_status": "partial",
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "source_url": "https://pwi.fandom.com/wiki/Sacred_Spirits",
+      "notice": "Coords e tiers de PWpedia Sacred Spirits. foreign_reference — validar caps/HP no BR. Mapa do Continente Ocidental ainda sem calibração completa.",
+      "steps": [
+        {
+          "id": "step-01-regras",
+          "order": 1,
+          "title_pt_br": "Como funciona",
+          "instruction_pt_br": "Espíritos Sagrados (Sacred Spirits / mobs de Vitae) dão Pontos de Vigor ao matar, com teto diário por Limite de Céu (reset 0h; subir de Céu zera o contador do dia). Vitae cheia no Céu correspondente; cada Céu acima do mob divide pela metade. Barra de limite: tecla C.",
+          "npc": null,
+          "coords": [],
+          "dialog_hint": null,
+          "notes": "Fonte: https://pwi.fandom.com/wiki/Sacred_Spirits",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-02-espiritos",
+          "order": 2,
+          "title_pt_br": "Miragem (Silent Plains)",
+          "instruction_pt_br": "Espírito Sagrado: Céu Miragem — planícies silenciosas\nGrupos nas coordenadas listadas.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 360,
+              "y": 481,
+              "altitude": null
+            },
+            {
+              "x": 356,
+              "y": 492,
+              "altitude": null
+            },
+            {
+              "x": 359,
+              "y": 504,
+              "altitude": null
+            },
+            {
+              "x": 335,
+              "y": 500,
+              "altitude": null
+            },
+            {
+              "x": 345,
+              "y": 508,
+              "altitude": null
+            },
+            {
+              "x": 322,
+              "y": 510,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Até ~80 Vitae/kill (cap diário do seu Céu).",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-03-espiritos",
+          "order": 3,
+          "title_pt_br": "Crepúsculo (Ishire)",
+          "instruction_pt_br": "Espírito Sagrado: Céu Crepúsculo — Ishire a oeste de Magnier\nGrupos nas coordenadas listadas.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 447,
+              "y": 599,
+              "altitude": null
+            },
+            {
+              "x": 448,
+              "y": 585,
+              "altitude": null
+            },
+            {
+              "x": 460,
+              "y": 580,
+              "altitude": null
+            },
+            {
+              "x": 459,
+              "y": 594,
+              "altitude": null
+            },
+            {
+              "x": 467,
+              "y": 602,
+              "altitude": null
+            },
+            {
+              "x": 467,
+              "y": 589,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "AoE + slow/bleed. ~200 Vitae máx.",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-04-espiritos",
+          "order": 4,
+          "title_pt_br": "Real (Gemini / Polydeux)",
+          "instruction_pt_br": "Espírito Sagrado: Céu Real — oeste de Polydeux\nGrupos nas coordenadas listadas.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 519,
+              "y": 717,
+              "altitude": null
+            },
+            {
+              "x": 513,
+              "y": 708,
+              "altitude": null
+            },
+            {
+              "x": 515,
+              "y": 700,
+              "altitude": null
+            },
+            {
+              "x": 508,
+              "y": 691,
+              "altitude": null
+            },
+            {
+              "x": 508,
+              "y": 701,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-05-espiritos",
+          "order": 5,
+          "title_pt_br": "Devoto (sudeste)",
+          "instruction_pt_br": "Espírito Sagrado: Céu Devoto — sul Hannibal / oeste Alquimistas\nGrupos nas coordenadas listadas.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 546,
+              "y": 490,
+              "altitude": null
+            },
+            {
+              "x": 574,
+              "y": 498,
+              "altitude": null
+            },
+            {
+              "x": 516,
+              "y": 521,
+              "altitude": null
+            },
+            {
+              "x": 524,
+              "y": 525,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Beast Lord 546,490 · Dragon's Graveyard 574,498 · Vampire Bat 516,521 · Lifeless Woods 524,525 (espalhado).",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-06-espiritos",
+          "order": 6,
+          "title_pt_br": "Ápice (noroeste)",
+          "instruction_pt_br": "Espírito Sagrado: Céu Ápice — Western Plains / Vidal Forest\nGrupos nas coordenadas listadas.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 251,
+              "y": 740,
+              "altitude": null
+            },
+            {
+              "x": 263,
+              "y": 724,
+              "altitude": null
+            },
+            {
+              "x": 290,
+              "y": 726,
+              "altitude": null
+            },
+            {
+              "x": 241,
+              "y": 712,
+              "altitude": null
+            },
+            {
+              "x": 242,
+              "y": 688,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-07-espiritos",
+          "order": 7,
+          "title_pt_br": "Majestoso (Rising)",
+          "instruction_pt_br": "Espírito Sagrado: Céu Majestoso — Sea of Spooky Flowers / Witch Titan\nGrupos nas coordenadas listadas.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 241,
+              "y": 573,
+              "altitude": null
+            },
+            {
+              "x": 250,
+              "y": 572,
+              "altitude": null
+            },
+            {
+              "x": 249,
+              "y": 563,
+              "altitude": null
+            },
+            {
+              "x": 241,
+              "y": 564,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-08-espiritos",
+          "order": 8,
+          "title_pt_br": "Soberano (Seal / Ragnarök)",
+          "instruction_pt_br": "Espírito Sagrado: Céu Soberano — Flame Giant / Ragnarök\nGrupos nas coordenadas listadas.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 259,
+              "y": 487,
+              "altitude": null
+            },
+            {
+              "x": 262,
+              "y": 480,
+              "altitude": null
+            },
+            {
+              "x": 271,
+              "y": 487,
+              "altitude": null
+            },
+            {
+              "x": 278,
+              "y": 483,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Mesma região dos mobs de Pontos Arcanos do Céu Soberano.",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-mundoprim",
+          "order": 9,
+          "title_pt_br": "Também no Mundo Primitivo",
+          "instruction_pt_br": "Céus Arcano / Miragem / Astral / Oscilante também têm packs no Mundo Primitivo (Mirrorflower, Snow Ape, Glacial Prison, Waverun). Guia de mapa MP ainda não está no HiperXP — use PWpedia Sacred Spirits para esses pontos.",
+          "npc": null,
+          "coords": [],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        }
+      ]
+    },
+    {
+      "id": "quest-continente-ocidental-chama-da-vinganca",
+      "slug": "chama-da-vinganca",
+      "map_slug": "continente-ocidental",
+      "kind": "daily",
+      "order": 3,
+      "name_pt_br": "Chama da Vingança",
+      "aliases": [
+        "Flame of Vengeance",
+        "Diária: Chama da Vingança",
+        "Céu Devoto"
+      ],
+      "excerpt_pt_br": "Diária de Vigor do Céu Devoto — progresso ao norte de Quedanunca.",
+      "summary_pt_br": "Mate Guerreiros da Vingança ao norte de Quedanunca até 100% de progresso (ou cave torres de Demolição). Recompensa inclui Espírito Sagrado: Céu Devoto.",
+      "prerequisite_pt_br": "Nv 100+, Reborn II, Céu Devoto I–X.",
+      "rewards_pt_br": "50.000 Vitae; Espírito Sagrado Devoto; Sangue Bárbaro; Cristal; Insígnia; Pedra Yin Yang; Moeda Brilhante; Baú Astrolábios.",
+      "published_at": "2024-11-24",
+      "coverage_status": "partial",
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "source_url": "https://pwi.fandom.com/wiki/Flame_of_Vengeance",
+      "notice": "PWpedia Flame of Vengeance + Trivia Limite de Céu. foreign_reference.",
+      "steps": [
+        {
+          "id": "step-01-aceitar",
+          "order": 1,
+          "title_pt_br": "Aceitar a diária",
+          "instruction_pt_br": "Com Céu Devoto, aceite Diária: Chama da Vingança (cliente ID 40039).",
+          "npc": null,
+          "coords": [],
+          "dialog_hint": null,
+          "notes": "1 diária de Vigor por Limite de Céu por dia.",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-02-farm",
+          "order": 2,
+          "title_pt_br": "Progresso ao norte de Quedanunca",
+          "instruction_pt_br": "Mate os tipos indicados (Scout/Warrior ~5%, Sweepwing 7%, Slaughterer 8%, Flamethrower 10%, Catapult 20%, Chanter 25%). Esquadrão compartilha progresso sem redução.",
+          "npc": null,
+          "coords": [],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-03-torres",
+          "order": 3,
+          "title_pt_br": "Opcional — Demolition Sites",
+          "instruction_pt_br": "Cave torres de madeira para +20% cada. Spawns frequentes perto de 357,665 e 341,664.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 357,
+              "y": 665,
+              "altitude": null
+            },
+            {
+              "x": 341,
+              "y": 664,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-04-fim",
+          "order": 4,
+          "title_pt_br": "Concluir em 100%",
+          "instruction_pt_br": "Ao chegar a 100% a missão completa e entrega as recompensas do dia.",
+          "npc": null,
+          "coords": [],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        }
+      ]
+    },
+    {
+      "id": "quest-continente-ocidental-dias-de-aposentadoria",
+      "slug": "dias-de-aposentadoria",
+      "map_slug": "continente-ocidental",
+      "kind": "daily",
+      "order": 4,
+      "name_pt_br": "Dias de Aposentadoria",
+      "aliases": [
+        "Retired Days",
+        "Swords to Plowshares",
+        "Céu Crepúsculo",
+        "Diária: Dias de Aposentadoria"
+      ],
+      "excerpt_pt_br": "Diária de Vigor do Céu Crepúsculo em Quedanunca.",
+      "summary_pt_br": "Diária única do Céu Crepúsculo (cliente 37207). Recompensa inclui Espírito Sagrado Crepúsculo. Detalhe de rota ainda parcial no Trivia BR.",
+      "prerequisite_pt_br": "Nv 100+, Reborn II, Céu Crepúsculo I–X.",
+      "rewards_pt_br": "4.000.000 exp; 20.000 Vitae; Insígnia Escudeiro ×2; Pedra Yin Yang; Sangue Primordial/Bárbaro; Baú Astrolábios; Espírito Sagrado Crepúsculo.",
+      "published_at": "2024-11-24",
+      "coverage_status": "partial",
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "source_url": "https://pwi.fandom.com/wiki/List_of_Vitae_Dailies",
+      "notice": "PWpedia / Trivia / cliente BR. foreign_reference — validar no BR.",
+      "steps": [
+        {
+          "id": "step-01",
+          "order": 1,
+          "title_pt_br": "Aceitar a diária",
+          "instruction_pt_br": "Com Céu Crepúsculo, aceite Diária: Dias de Aposentadoria (rótulo EN: Retired Days).",
+          "npc": null,
+          "coords": [],
+          "dialog_hint": null,
+          "notes": "Passos finos de mapa: completar com screenshots BR / PWpedia Swords to Plowshares se aplicável.",
+          "image_url": null,
+          "image_alt": null
+        }
+      ]
+    },
+    {
+      "id": "quest-continente-ocidental-cidade-das-bestas",
+      "slug": "cidade-das-bestas",
+      "map_slug": "continente-ocidental",
+      "kind": "daily",
+      "order": 5,
+      "name_pt_br": "A Cidade das Bestas",
+      "aliases": [
+        "The Town of Beasts",
+        "WC: The Town of Beasts",
+        "Céu Real"
+      ],
+      "excerpt_pt_br": "Diária de Vigor do Céu Real — Veterano Roberts em Magnier.",
+      "summary_pt_br": "Aceite com o Veterano Roberts (478,593). Cadeia contra lobisomens/criaturas noturnas (Lurking Werewolves, Town in Crisis, etc.).",
+      "prerequisite_pt_br": "Nv 100+, Reborn II, Céu Real I–X.",
+      "rewards_pt_br": "4.000.000 exp; 30.000 Vitae; Cristal Sangue Bárbaro ×15; Insígnia ×4; Pedra Yin Yang; Moeda Brilhante; Espírito Sagrado Real.",
+      "published_at": "2024-11-24",
+      "coverage_status": "partial",
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "source_url": "https://www.pwdatabase.com/pwi/quest/37710",
+      "notice": "PWpedia / Trivia / cliente BR. foreign_reference — validar no BR.",
+      "steps": [
+        {
+          "id": "step-01",
+          "order": 1,
+          "title_pt_br": "Veterano Roberts",
+          "instruction_pt_br": "Em Magnier, fale com o Veterano Roberts e aceite A Cidade das Bestas.",
+          "npc": "Veterano Roberts",
+          "coords": [
+            {
+              "x": 478,
+              "y": 593,
+              "altitude": 10
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-02",
+          "order": 2,
+          "title_pt_br": "Submissões",
+          "instruction_pt_br": "Complete a cadeia do dia (ex.: Lobisomens à Espreita, Cidade em Crise, Corra ou Morra, Mestres do Disfarce) conforme o objetivo sorteado.",
+          "npc": null,
+          "coords": [],
+          "dialog_hint": null,
+          "notes": "Descrições das submissões ainda parciais — expandir com guia BR.",
+          "image_url": null,
+          "image_alt": null
+        }
+      ]
+    },
+    {
+      "id": "quest-continente-ocidental-dragao-topo-nuvens",
+      "slug": "dragao-topo-das-nuvens",
+      "map_slug": "continente-ocidental",
+      "kind": "daily",
+      "order": 6,
+      "name_pt_br": "Dragão Topo das Nuvens",
+      "aliases": [
+        "Cloud Top Dragon",
+        "WC: Cloud Top Dragon",
+        "Céu Ápice"
+      ],
+      "excerpt_pt_br": "Corrida nas muralhas de Nicada — Vigor conforme o tempo.",
+      "summary_pt_br": "Kolorte em Nicada: passe 7 Contas de Jade em ordem em até 20 min. Quanto mais rápido, mais Vitae.",
+      "prerequisite_pt_br": "Nv 102+, Reborn II, Céu Ápice I–X (histórico: após Operação Fada).",
+      "rewards_pt_br": "Vitae por faixa de tempo (Trivia antigo 2–8k; List of Vitae Dailies atual: 35–90k); Moeda Brilhante; Sangues; Insígnia; Pedra Yin Yang; Espírito Sagrado Ápice.",
+      "published_at": "2022-01-06",
+      "coverage_status": "partial",
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "source_url": "https://triviapw.com.br/2022/01/06/guia-da-missao-dragao-topo-das-nuvens-quest-diaria-em-quedanunca/",
+      "notice": "PWpedia / Trivia / cliente BR. foreign_reference — validar no BR.",
+      "steps": [
+        {
+          "id": "step-01",
+          "order": 1,
+          "title_pt_br": "Aceitar em Nicada",
+          "instruction_pt_br": "Fale com Kolorte e aceite Dragão Topo das Nuvens. Cair da pista / teleport / deslogar falha; Kolorte pode teleportar ao último checkpoint.",
+          "npc": "Kolorte",
+          "coords": [
+            {
+              "x": 544,
+              "y": 584,
+              "altitude": 10
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-02",
+          "order": 2,
+          "title_pt_br": "Checkpoints (7 Contas)",
+          "instruction_pt_br": "Passe nas Contas de Jade na ordem:\n1) 546,585(11) · 2) 547,579(12) · 3) 540,579(11) · 4) 539,590(12) · 5) 537,592(12) · 6) 536,574(11) · 7) 546,574(11) · Final 550,581(11)",
+          "npc": null,
+          "coords": [
+            {
+              "x": 546,
+              "y": 585,
+              "altitude": 11
+            },
+            {
+              "x": 547,
+              "y": 579,
+              "altitude": 12
+            },
+            {
+              "x": 540,
+              "y": 579,
+              "altitude": 11
+            },
+            {
+              "x": 539,
+              "y": 590,
+              "altitude": 12
+            },
+            {
+              "x": 537,
+              "y": 592,
+              "altitude": 12
+            },
+            {
+              "x": 536,
+              "y": 574,
+              "altitude": 11
+            },
+            {
+              "x": 546,
+              "y": 574,
+              "altitude": 11
+            },
+            {
+              "x": 550,
+              "y": 581,
+              "altitude": 11
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Armadilhas: Batida (empurra), Gancho (puxa), Atordoante (inverte movimento).",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-03",
+          "order": 3,
+          "title_pt_br": "Tempo e recompensa",
+          "instruction_pt_br": "Limite 20 min. Faixas de Vigor sobem com a velocidade (lista atual PWpedia: 35k/50k/75k/90k).",
+          "npc": null,
+          "coords": [],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        }
+      ]
+    },
+    {
+      "id": "quest-continente-ocidental-agua-de-ymir",
+      "slug": "agua-de-ymir",
+      "map_slug": "continente-ocidental",
+      "kind": "daily",
+      "order": 7,
+      "name_pt_br": "A Água de Ymir",
+      "aliases": [
+        "The Water of Imar",
+        "Água de Imar",
+        "Céu Majestoso"
+      ],
+      "excerpt_pt_br": "Diária de Vigor do Céu Majestoso — Landar na Floresta Vidal / Reino Congelado.",
+      "summary_pt_br": "Ajude Landar contra Viora: mate Demônios/Thralls Gélidos quando os símbolos vermelhos aparecerem para obter Alma Congelada.",
+      "prerequisite_pt_br": "Nv 100+, Reborn II, Céu Majestoso (Rising Sky) I–X.",
+      "rewards_pt_br": "4.000.000 exp; 110.000 Vitae (lista atual); Moeda Brilhante; Sangues; Insígnia; Pedra Yin Yang; Espírito Sagrado Majestoso; item Água de Ymir.",
+      "published_at": "2022-08-10",
+      "coverage_status": "partial",
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "source_url": "https://pwi.fandom.com/wiki/List_of_Vitae_Dailies",
+      "notice": "PWpedia / Trivia / cliente BR. foreign_reference — validar no BR.",
+      "steps": [
+        {
+          "id": "step-01",
+          "order": 1,
+          "title_pt_br": "Aceitar com Landar",
+          "instruction_pt_br": "Na Floresta Vidal, fale com Landar e aceite A Água de Ymir.",
+          "npc": "Landar",
+          "coords": [],
+          "dialog_hint": null,
+          "notes": "Coord exata do NPC ainda parcial — use o ícone da missão.",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-02",
+          "order": 2,
+          "title_pt_br": "Reino Congelado",
+          "instruction_pt_br": "Viora é invencível. Quando símbolos vermelhos cercam os thralls/demônios, mate-os antes dos símbolos sumirem para pegar Alma Congelada. Se sumirem, espere o próximo ciclo.",
+          "npc": null,
+          "coords": [],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        }
+      ]
+    }
+  ]
+}

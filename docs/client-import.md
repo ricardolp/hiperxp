@@ -11,9 +11,14 @@ O proprietário tem o cliente no computador. Não foi acessado nem identificado 
 3. Trabalhar sobre cópias em pasta de saída separada. Nunca modificar ou iniciar o cliente e nunca ler memória de processo.
 4. Detectar assinatura/versão do formato antes de escolher adaptador. Versão não suportada resulta em erro claro, sem heurística silenciosa para offsets binários.
 5. Extrair primeiro IDs, nomes, descrições e relações demonstráveis. Localizar texturas/tiles dos mapas e verificar permissão de uso. Converter formato de imagem apenas com ferramenta segura e dentro dos limites.
-6. Investigar arquivos que de fato contenham posições de NPCs, spawns ou objetivos. Coordenadas podem depender de outros arquivos; não afirmar que tudo está em elements.data/tasks.data.
-7. Extrair tabelas candidatas de recompensas com semântica bruta e proveniência. Se o cliente só mostrar recompensas possíveis, não inventar probabilidades. Configuração efetiva de servidor pode ser diferente ou ausente.
-8. Produzir pacote JSON + assets autorizados + manifesto + relatório de avisos. Inspecionar conteúdo permitido antes do upload.
+6. Itens: `tools/extract-client-items.py` → `items.all.json`. Missões: `tools/extract-client-tasks.py` → `quests.all.json`. Receitas: `tools/extract-client-recipes.py` → `recipes.all.json` (lista 68 / RECIPE_ESSENCE no BR v0x25a). NPCs: `tools/extract-client-npcs.py` → `npcs.all.json` (lista 57 / hello + serviços). Lojas: `tools/extract-client-npc-shops.py` → `shops.all.json` (lista 40 / sell — itens que o jogador compra). Catálogo público: `tools/build-database-catalog.py` → `apps/web/public/database/`.
+7. Coordenadas de mundo **não** estão no NPC_ESSENCE; o cliente BR local não tem `npcgen*`. Spawns exigem outra fonte (servidor/mapa autorizado).
+8. Extrair tabelas candidatas de recompensas com semântica bruta e proveniência. Se o cliente só mostrar recompensas possíveis, não inventar probabilidades. Configuração efetiva de servidor pode ser diferente ou ausente.
+9. Produzir pacote JSON + assets autorizados + manifesto + relatório de avisos. Inspecionar conteúdo permitido antes do upload.
+
+Database (estado atual): itens + missões + craft + NPCs (hello/serviços) + lojas (lista 40). Ainda aberto: coordenadas de NPC (npcgen) e descrições longas de item (parciais).
+
+Pipeline local (sem AI): `python tools/run-database-pipeline.py --list` · `--all-ready --skip-descriptions` · `--only descriptions -- --resume`. Crawl longo de textos: `python tools/fetch-cotacao-descriptions.py --resume`.
 
 Comando conceitual de ferramenta a implementar: `pw-extract inspect --client-dir <pasta> --out <pasta-separada>` e `pw-extract export --manifest <manifesto> --out <pacote>`. Não são comandos disponíveis neste pacote.
 

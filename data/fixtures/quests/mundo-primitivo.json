@@ -1,0 +1,567 @@
+{
+  "schema_version": 1,
+  "id": "quest-catalog-mundo-primitivo",
+  "map_slug": "mundo-primitivo",
+  "name_pt_br": "Mundo Primitivo — Diárias de Vigor",
+  "generated_at": "2026-11-24",
+  "synthetic": false,
+  "origin": "community_observed",
+  "review_status": "foreign_reference",
+  "notice": "PWpedia / Trivia / cliente BR. foreign_reference — validar no BR.",
+  "sources": [
+    "https://pwi.fandom.com/wiki/List_of_Vitae_Dailies",
+    "https://pwi.fandom.com/wiki/Sacred_Spirits",
+    "https://forum.lmspw.com/viewtopic.php?f=2&t=15323",
+    "cliente BR tasks.data"
+  ],
+  "quests": [
+    {
+      "id": "quest-mundo-primitivo-ataque-a-fortaleza",
+      "slug": "ataque-a-fortaleza",
+      "map_slug": "mundo-primitivo",
+      "kind": "daily",
+      "order": 1,
+      "name_pt_br": "Ataque a Fortaleza",
+      "aliases": [
+        "Stronghold Assault",
+        "Assault on Sky Owl",
+        "Céu Arcano"
+      ],
+      "excerpt_pt_br": "Diária de Vigor do Céu Arcano — Story Mode no Forte Coruja do Céu.",
+      "summary_pt_br": "Pegue fora do Story Mode no Espião da Força de Resistência, entre no Story Mode, cave Madeiras Obsoletas e mate 4 Defensores.",
+      "prerequisite_pt_br": "Nv 90+ (BR tipicamente 100+), Reborn, Céu Arcano I–X.",
+      "rewards_pt_br": "1.600.000 exp; 4.000 Vitae; Moeda Brilhante ×8; Sangue Primordial ×4.",
+      "published_at": "2014-04-24",
+      "coverage_status": "partial",
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "source_url": "https://pwi.fandom.com/wiki/Stronghold_Assault",
+      "notice": "PWpedia / Trivia / cliente BR. foreign_reference — validar no BR.",
+      "steps": [
+        {
+          "id": "step-01-pegar",
+          "order": 1,
+          "title_pt_br": "Pegar fora do Story Mode",
+          "instruction_pt_br": "Fale com o Espião da Força de Resistência perto do Forte Coruja do Céu. A diária não aparece dentro do Story Mode.",
+          "npc": "Espião Força de Resistência",
+          "coords": [
+            {
+              "x": 349,
+              "y": 469,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-02-story",
+          "order": 2,
+          "title_pt_br": "Entrar no Story Mode e cavar",
+          "instruction_pt_br": "Pelo mesmo NPC entre no Story Mode. Cave Madeira Obsoleta até obter 4 Brasas (Cinders).",
+          "npc": null,
+          "coords": [],
+          "dialog_hint": null,
+          "notes": "Story Mode: mesmo mapa sem mobs/NPCs normais.",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-03-centro",
+          "order": 3,
+          "title_pt_br": "Centro do forte",
+          "instruction_pt_br": "Vá ao centro do forte e fique parado até a próxima etapa. Recomenda-se voar e descer com imunidade física — os Defensores têm ranged forte.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 336,
+              "y": 476,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-04-kill",
+          "order": 4,
+          "title_pt_br": "Matar 4 Defensores Coruja do Céu",
+          "instruction_pt_br": "Mate 4 Sky Owl Defenders (idealmente no ar / um a um). O Saco de Grãos abre sozinho com a recompensa.",
+          "npc": null,
+          "coords": [],
+          "dialog_hint": null,
+          "notes": "10% de chance de spawnar a diária oculta Escort Provision Convoy.",
+          "image_url": null,
+          "image_alt": null
+        }
+      ]
+    },
+    {
+      "id": "quest-mundo-primitivo-heroi-epico",
+      "slug": "heroi-epico",
+      "map_slug": "mundo-primitivo",
+      "kind": "daily",
+      "order": 2,
+      "name_pt_br": "Herói Épico",
+      "aliases": [
+        "Heroic Warsong",
+        "Epic Hero",
+        "Céu Miragem"
+      ],
+      "excerpt_pt_br": "Diária de Vigor do Céu Miragem — reviva soldados com Pílulas de Madeira Esmeralda.",
+      "summary_pt_br": "No Story Mode (Dragon Pond / Soldado Melancólico), use 10 pílulas para obter 8 Insígnias de Elite cavando soldados mortos ou revivendo soldados Imperiais da Luz.",
+      "prerequisite_pt_br": "Nv 100+, Reborn II, Céu Miragem I–X.",
+      "rewards_pt_br": "2.500.000 exp; 8.000 Vitae; Moeda Brilhante ×8; Sangue Primordial ×4.",
+      "published_at": "2014-04-24",
+      "coverage_status": "partial",
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "source_url": "https://pwi.fandom.com/wiki/Heroic_Warsong",
+      "notice": "PWpedia / Trivia / cliente BR. foreign_reference — validar no BR.",
+      "steps": [
+        {
+          "id": "step-01-story",
+          "order": 1,
+          "title_pt_br": "Entrar no Story Mode",
+          "instruction_pt_br": "Fale com o Lago do Dragão (Dragon Pond) a noroeste da Vila Outono para ir ao Story Mode, ou direto com o Soldado Melancólico.",
+          "npc": "Lago do Dragão / Soldado Melancólico",
+          "coords": [
+            {
+              "x": 383,
+              "y": 626,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-02-pegar",
+          "order": 2,
+          "title_pt_br": "Aceitar Herói Épico",
+          "instruction_pt_br": "Aceite no Soldado Melancólico e receba 10 Pílulas de Madeira Esmeralda. Vá à Fortaleza do Lorde Tirano (leste).",
+          "npc": "Soldado Melancólico",
+          "coords": [],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-03-insignias",
+          "order": 3,
+          "title_pt_br": "Obter 8 Insígnias de Elite",
+          "instruction_pt_br": "• Cave Soldados Mortos; ou\n• Use a pílula em Soldados Imperiais da Luz com <50% HP (debuff visível) → mate o Fantasma da Valentia.\nEm dobro de drop, 2 insígnias por fantasma.",
+          "npc": null,
+          "coords": [],
+          "dialog_hint": null,
+          "notes": "Sem pílulas: missões Get Emerald Wood Pills no mesmo NPC (espere 30s).",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-04-entregar",
+          "order": 4,
+          "title_pt_br": "Entregar",
+          "instruction_pt_br": "Volte ao Soldado Melancólico e entregue as 8 Insígnias.",
+          "npc": "Soldado Melancólico",
+          "coords": [
+            {
+              "x": 383,
+              "y": 626,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        }
+      ]
+    },
+    {
+      "id": "quest-mundo-primitivo-alguma-coisa-na-neve",
+      "slug": "alguma-coisa-na-neve",
+      "map_slug": "mundo-primitivo",
+      "kind": "daily",
+      "order": 3,
+      "name_pt_br": "Alguma coisa na Neve",
+      "aliases": [
+        "Something in the Snow",
+        "Strangeness in the Snow",
+        "Céu Astral"
+      ],
+      "excerpt_pt_br": "Diária de Vigor do Céu Astral — corda de neve e Ice Thralls na Prisão Glacial.",
+      "summary_pt_br": "Cave Fontes de Gelo e Neve, receba Corda Jadesnow no Cavaleiro do Gelo e puxe Ice Thralls até os Armadilheiros.",
+      "prerequisite_pt_br": "Nv 100+, Reborn II, Céu Astral I–X.",
+      "rewards_pt_br": "2.850.000 exp; 12.000 Vitae; Moeda Brilhante ×8; Sangue Primordial ×4.",
+      "published_at": "2014-04-24",
+      "coverage_status": "partial",
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "source_url": "https://pwi.fandom.com/wiki/Something_in_the_Snow",
+      "notice": "PWpedia / Trivia / cliente BR. foreign_reference — validar no BR.",
+      "steps": [
+        {
+          "id": "step-01-executor",
+          "order": 1,
+          "title_pt_br": "Aceitar no Executor",
+          "instruction_pt_br": "No Campo dos Goblins de Gelo, fale com o Executor (entrada Story Mode se necessário).",
+          "npc": "Executor",
+          "coords": [
+            {
+              "x": 443,
+              "y": 559,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-02-cavar",
+          "order": 2,
+          "title_pt_br": "Cavar Fontes",
+          "instruction_pt_br": "Cave 5 Fontes de Gelo e Neve a noroeste do acampamento.",
+          "npc": null,
+          "coords": [],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-03-corda",
+          "order": 3,
+          "title_pt_br": "Corda Jadesnow",
+          "instruction_pt_br": "Entregue ao Cavaleiro do Gelo (Frost Knight) na Prisão Glacial e receba a Corda Jadesnow.",
+          "npc": "Cavaleiro do Gelo",
+          "coords": [],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-04-thrall",
+          "order": 4,
+          "title_pt_br": "Puxar Ice Thrall",
+          "instruction_pt_br": "Thralls são imunes a dano. Alvo → use a Corda (inventário ou prompt) a curta distância e puxe até um Armadilheiro (Trapper) leste/oeste do lago. Repita até o Armadilheiro matar. Depois entregue no Executor.",
+          "npc": null,
+          "coords": [],
+          "dialog_hint": null,
+          "notes": "Se demorar demais no puxão, o Thrall pode soltar.",
+          "image_url": null,
+          "image_alt": null
+        }
+      ]
+    },
+    {
+      "id": "quest-mundo-primitivo-tempestade-de-neve",
+      "slug": "tempestade-de-neve",
+      "map_slug": "mundo-primitivo",
+      "kind": "daily",
+      "order": 4,
+      "name_pt_br": "Tempestade de Neve",
+      "aliases": [
+        "This War O' Mine",
+        "Essa Minha Guerra",
+        "Céu Oscilante"
+      ],
+      "excerpt_pt_br": "Diária de Vigor do Céu Oscilante — escolta de pacotes em Story Mode (5 NPCs).",
+      "summary_pt_br": "No Posto de Might, carregue pacotes sem buff de velocidade/voo por Inkstone → Miststone → Luneska → Campo Goblin de Gelo.",
+      "prerequisite_pt_br": "Nv 100+, Reborn II, Céu Oscilante I–X (cliente: após Trono do Templo / Oscilante II).",
+      "rewards_pt_br": "3.400.000 exp; 16.000 Vitae; Moeda Brilhante ×8; Sangue Primordial ×4; Sangue Bárbaro ×4; Baú Astrolábios; Espírito Sagrado Oscilante.",
+      "published_at": "2014-04-24",
+      "coverage_status": "partial",
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "source_url": "https://pwi.fandom.com/wiki/This_War_o%27_Mine",
+      "notice": "PWpedia / Trivia / cliente BR. foreign_reference — validar no BR.",
+      "steps": [
+        {
+          "id": "step-01-feng",
+          "order": 1,
+          "title_pt_br": "Comandante Feng",
+          "instruction_pt_br": "Aceite no Comandante Feng no Posto Avançado de Might. Fora do Story Mode ele teleporta para dentro.",
+          "npc": "Comandante Feng",
+          "coords": [
+            {
+              "x": 405,
+              "y": 586,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Pacote nas costas: sem speed buff, sem voar, sem furtividade. Teleport/salto ok. 15 min por perna.",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-02-inkstone",
+          "order": 2,
+          "title_pt_br": "Entrega 1 → Ancião Inkstone",
+          "instruction_pt_br": "Entregue o pacote ao Ancião Inkstone (Inkstone Village) e pegue o próximo.",
+          "npc": "Ancião Inkstone",
+          "coords": [
+            {
+              "x": 410,
+              "y": 621,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-03-luneskan",
+          "order": 3,
+          "title_pt_br": "Entrega 2 → Guardiã Luneskan",
+          "instruction_pt_br": "Entregue à Guardiã da Alma Luneskan nas Ruínas Miststone.",
+          "npc": "Guardiã da Alma Luneskan",
+          "coords": [],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-04-diving",
+          "order": 4,
+          "title_pt_br": "Entrega 3 → Soldado Mergulhador",
+          "instruction_pt_br": "Entregue ao Soldado Mergulhador em Luneska.",
+          "npc": "Soldado Mergulhador",
+          "coords": [],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-05-becket",
+          "order": 5,
+          "title_pt_br": "Entrega 4 → Tenente Becket",
+          "instruction_pt_br": "Entregue ao Tenente Becket no Campo dos Goblins de Gelo. O Pacote de Suprimentos traz a recompensa.",
+          "npc": "Tenente Becket",
+          "coords": [
+            {
+              "x": 444,
+              "y": 562,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "5% de chance de spawnar o Pirate King. Morrer/PK/sair do Story Mode falha a perna.",
+          "image_url": null,
+          "image_alt": null
+        }
+      ]
+    },
+    {
+      "id": "quest-mundo-primitivo-espiritos-sagrados",
+      "slug": "espiritos-sagrados-mp",
+      "map_slug": "mundo-primitivo",
+      "kind": "daily",
+      "order": 5,
+      "name_pt_br": "Espíritos Sagrados (Mundo Primitivo)",
+      "aliases": [
+        "Sacred Spirits Primal",
+        "Vitae Mobs MP"
+      ],
+      "excerpt_pt_br": "Packs de farm de Vitae no Mundo Primitivo (Arcano→Oscilante).",
+      "summary_pt_br": "Grupos de Espíritos Sagrados por Céu ao redor de Mirrorflower, Snow Ape, Prisão Glacial e Waverun.",
+      "prerequisite_pt_br": "Reborn + Céu correspondente.",
+      "rewards_pt_br": "Vitae até o cap diário do Céu.",
+      "published_at": "2018-09-19",
+      "coverage_status": "partial",
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "source_url": "https://pwi.fandom.com/wiki/Sacred_Spirits",
+      "notice": "PWpedia / Trivia / cliente BR. foreign_reference — validar no BR.",
+      "steps": [
+        {
+          "id": "step-01-arcano",
+          "order": 1,
+          "title_pt_br": "Céu Arcano — Mirrorflower",
+          "instruction_pt_br": "Grupos: 318,557 · 332,551 · 351,551 · 348,566 · 354,574 · 326,579",
+          "npc": null,
+          "coords": [
+            {
+              "x": 318,
+              "y": 557,
+              "altitude": null
+            },
+            {
+              "x": 332,
+              "y": 551,
+              "altitude": null
+            },
+            {
+              "x": 351,
+              "y": 551,
+              "altitude": null
+            },
+            {
+              "x": 348,
+              "y": 566,
+              "altitude": null
+            },
+            {
+              "x": 354,
+              "y": 574,
+              "altitude": null
+            },
+            {
+              "x": 326,
+              "y": 579,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-02-miragem",
+          "order": 2,
+          "title_pt_br": "Céu Miragem — Snow Ape / Tirano / Outono",
+          "instruction_pt_br": "Grupos: 373,580 · 368,590 · 378,595 · 373,607 · 363,601 · 365,615",
+          "npc": null,
+          "coords": [
+            {
+              "x": 373,
+              "y": 580,
+              "altitude": null
+            },
+            {
+              "x": 368,
+              "y": 590,
+              "altitude": null
+            },
+            {
+              "x": 378,
+              "y": 595,
+              "altitude": null
+            },
+            {
+              "x": 373,
+              "y": 607,
+              "altitude": null
+            },
+            {
+              "x": 363,
+              "y": 601,
+              "altitude": null
+            },
+            {
+              "x": 365,
+              "y": 615,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-03-astral",
+          "order": 3,
+          "title_pt_br": "Céu Astral — Prisão Glacial",
+          "instruction_pt_br": "Grupos: 448,597 · 437,587 · 441,605 · 427,596 · 421,588 · 428,576",
+          "npc": null,
+          "coords": [
+            {
+              "x": 448,
+              "y": 597,
+              "altitude": null
+            },
+            {
+              "x": 437,
+              "y": 587,
+              "altitude": null
+            },
+            {
+              "x": 441,
+              "y": 605,
+              "altitude": null
+            },
+            {
+              "x": 427,
+              "y": 596,
+              "altitude": null
+            },
+            {
+              "x": 421,
+              "y": 588,
+              "altitude": null
+            },
+            {
+              "x": 428,
+              "y": 576,
+              "altitude": null
+            }
+          ],
+          "dialog_hint": null,
+          "notes": null,
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-04-oscilante",
+          "order": 4,
+          "title_pt_br": "Céu Oscilante — Ruínas Waverun",
+          "instruction_pt_br": "Grupos: 459,521(21) · 456,536(19) · 451,526(20) · 447,521(19) · 436,524(22) · 443,538(21)",
+          "npc": null,
+          "coords": [
+            {
+              "x": 459,
+              "y": 521,
+              "altitude": 21
+            },
+            {
+              "x": 456,
+              "y": 536,
+              "altitude": 19
+            },
+            {
+              "x": 451,
+              "y": 526,
+              "altitude": 20
+            },
+            {
+              "x": 447,
+              "y": 521,
+              "altitude": 19
+            },
+            {
+              "x": 436,
+              "y": 524,
+              "altitude": 22
+            },
+            {
+              "x": 443,
+              "y": 538,
+              "altitude": 21
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Packs de Crepúsculo+ ficam no Continente Ocidental (/missoes/continente-ocidental/espiritos-sagrados).",
+          "image_url": null,
+          "image_alt": null
+        }
+      ]
+    }
+  ]
+}

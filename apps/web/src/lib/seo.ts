@@ -124,18 +124,25 @@ function homeSeo(): SeoPayload {
   };
 }
 
+const ORIENTAL_MAPS = new Set(["cidade-da-paz", "tianyu", "jingxuan"]);
+
+function regionLabel(mapSlug: string): string {
+  return ORIENTAL_MAPS.has(mapSlug) ? "Reino Oriental" : "Perfect World";
+}
+
 function mapSeo(slug: string): SeoPayload | null {
   const map = getMap(slug);
   if (!map) return null;
+  const region = regionLabel(slug);
   const aliases = map.aliases?.slice(0, 3).join(", ");
   const description = clampDescription(
-    `Mapa interativo de ${map.name_pt_br} no Reino Oriental (Perfect World): baús, desafios, relíquias, NPCs e coordenadas${
+    `Mapa interativo de ${map.name_pt_br} (${region}): baús, desafios, relíquias, NPCs e coordenadas${
       aliases ? `. Também conhecido como ${aliases}` : ""
     }. ${map.points.length} pontos mapeados.`,
   );
 
   return {
-    title: withBrand(`Mapa ${map.name_pt_br} — Reino Oriental Perfect World`),
+    title: withBrand(`Mapa ${map.name_pt_br} — ${region} Perfect World`),
     description,
     path: `/mapas/${map.slug}`,
     image: map.asset ?? `/maps/${map.slug}.webp`,
@@ -155,7 +162,7 @@ function mapSeo(slug: string): SeoPayload | null {
         inLanguage: "pt-BR",
         about: {
           "@type": "Place",
-          name: `${map.name_pt_br} — Reino Oriental`,
+          name: `${map.name_pt_br} — ${region}`,
         },
       },
     ],
@@ -167,12 +174,13 @@ function questListSeo(mapSlug: string): SeoPayload | null {
   if (!catalog) return null;
   const mapName = maps[mapSlug]?.name_pt_br ?? catalog.name_pt_br ?? mapSlug;
   const count = listQuests(mapSlug).length;
+  const region = regionLabel(mapSlug);
   const description = clampDescription(
-    `Guias de missões do Reino Oriental em ${mapName}: jornadas, anedotas e missões globais com etapas e coordenadas. ${count} guias no HiperXP.`,
+    `Guias de missões em ${mapName} (${region}): jornadas, diárias e missões com etapas e coordenadas. ${count} guias no HiperXP.`,
   );
 
   return {
-    title: withBrand(`Missões de ${mapName} — Reino Oriental Perfect World`),
+    title: withBrand(`Missões de ${mapName} — ${region} Perfect World`),
     description,
     path: `/missoes/${mapSlug}`,
     type: "website",
@@ -201,19 +209,20 @@ function questPostSeo(mapSlug: string, questSlug: string): SeoPayload | null {
   const mapName = maps[quest.map_slug]?.name_pt_br ?? quest.map_slug;
   const kind = questKindLabel(quest.kind);
   const excerpt = questExcerpt(quest);
+  const region = regionLabel(quest.map_slug);
   const description = clampDescription(
     excerpt
-      ? `${excerpt} Guia ${kind.toLowerCase()} em ${mapName}, Reino Oriental — Perfect World.`
-      : `Guia completo da missão ${quest.name_pt_br} (${kind}) em ${mapName}, Reino Oriental — Perfect World. Etapas e coordenadas.`,
+      ? `${excerpt} Guia ${kind.toLowerCase()} em ${mapName}, ${region} — Perfect World.`
+      : `Guia completo da missão ${quest.name_pt_br} (${kind}) em ${mapName}, ${region} — Perfect World. Etapas e coordenadas.`,
   );
 
   return {
     title: withBrand(
-      `${quest.name_pt_br} — missão ${mapName} (Reino Oriental)`,
+      `${quest.name_pt_br} — missão ${mapName} (${region})`,
     ),
     description,
     path: `/missoes/${quest.map_slug}/${quest.slug}`,
-    image: maps[quest.map_slug]?.asset,
+    image: quest.cover_image || maps[quest.map_slug]?.asset,
     type: "article",
     jsonLd: [
       breadcrumbJsonLd([
@@ -246,6 +255,23 @@ function questPostSeo(mapSlug: string, questSlug: string): SeoPayload | null {
           },
         },
       },
+    ],
+  };
+}
+
+function databaseIndexSeo(): SeoPayload {
+  return {
+    title: withBrand("Database Perfect World — itens e missões"),
+    description: clampDescription(
+      "Enciclopédia do cliente BR (Level Up): busque itens e missões do Perfect World, veja descrições e prepare o terreno para receitas e dependências — sucessor comunitário do PWDatabase.",
+    ),
+    path: "/database",
+    type: "website",
+    jsonLd: [
+      breadcrumbJsonLd([
+        { name: "Início", path: "/" },
+        { name: "Database", path: "/database" },
+      ]),
     ],
   };
 }
@@ -335,6 +361,32 @@ export function resolveSeo(pathname: string): SeoPayload {
 
   if (path === "/simulador") return simulatorIndexSeo();
 
+  const dbItemMatch = path.match(/^\/database\/itens\/([^/]+)$/);
+  if (dbItemMatch) {
+    return {
+      title: withBrand(`Item ${dbItemMatch[1]} — Database Perfect World`),
+      description: clampDescription(
+        `Ficha do item ${dbItemMatch[1]} no Database HiperXP, extraído do cliente BR do Perfect World.`,
+      ),
+      path,
+      type: "website",
+    };
+  }
+
+  const dbQuestMatch = path.match(/^\/database\/missoes\/([^/]+)$/);
+  if (dbQuestMatch) {
+    return {
+      title: withBrand(`Missão ${dbQuestMatch[1]} — Database Perfect World`),
+      description: clampDescription(
+        `Ficha da missão ${dbQuestMatch[1]} no Database HiperXP (tasks.data do cliente BR).`,
+      ),
+      path,
+      type: "website",
+    };
+  }
+
+  if (path === "/database") return databaseIndexSeo();
+
   return {
     title: SITE_DEFAULT_TITLE,
     description: SITE_DEFAULT_DESCRIPTION,
@@ -373,6 +425,12 @@ export function buildSitemapEntries(now = new Date()): {
       lastmod,
       changefreq: "weekly",
       priority: "0.8",
+    },
+    {
+      loc: absoluteUrl("/database"),
+      lastmod,
+      changefreq: "weekly",
+      priority: "0.9",
     },
   ];
 

@@ -16,8 +16,11 @@ Contratos versionados em JSON Schema, compartilhados com API e importador. IDs i
 | items | id, native_refs, traduções, aliases, icon_asset_id nullable |
 | drop_tables | id estável, slug, source_item_id nullable |
 | drop_table_revisions | id, table_id, build_id, release_id, groups, probability_status, evidence, model_version, supported |
-| quest_catalogs | id, map_slug, quests[]; fixtures em `data/fixtures/quests/*.json` |
+| quest_catalogs | id, map_slug, quests[]; fixtures em `data/fixtures/quests/*.json` (guias da aba Missões) |
 | quest_guides | id, slug, map_slug, kind (`world_quest`/`journey`/…), order, name_pt_br, aliases, prerequisite, rewards, steps[], source_url, origin, review_status |
+| database_items | catálogo slim do cliente: id, list, name_pt_br; público em `apps/web/public/database/items.json` |
+| database_quests | índice tasks.data: id, name_pt_br; público em `apps/web/public/database/quests.json` |
+| database_item_descriptions | mapa id→texto (parcial; cotação/comunidade); `descriptions.json` |
 | quest_steps | id, order, title_pt_br, instruction_pt_br, npc nullable, coords[{x,y,altitude}], dialog_hint, notes |
 | characters | id, owner_id nullable no local, display_name, game_server nullable; nome não identifica conta do jogo |
 | progress | character_id, point_id, period_id, completed, revision, updated_at; chave única character/point/period |

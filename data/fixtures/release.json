@@ -8,7 +8,10 @@
   "maps": [
     "cidade-da-paz",
     "tianyu",
-    "jingxuan"
+    "jingxuan",
+    "continente-ocidental",
+    "mundo-primitivo",
+    "mundo-normal"
   ],
   "drop_tables": [
     "bau-da-aurora",
@@ -17,6 +20,8 @@
   ],
   "quest_catalogs": [
     "cidade-da-paz",
-    "tianyu"
+    "tianyu",
+    "continente-ocidental",
+    "mundo-primitivo"
   ]
 }

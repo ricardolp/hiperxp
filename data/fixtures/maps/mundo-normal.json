@@ -1,0 +1,30 @@
+{
+  "id": "map-mundo-normal",
+  "slug": "mundo-normal",
+  "name_pt_br": "Mundo Normal",
+  "aliases": [
+    "Perfect World",
+    "Midlands",
+    "Continente Perfect World",
+    "Pan Gu",
+    "Mundo Principal",
+    "Cidade do Dragão"
+  ],
+  "coverage_status": "unknown",
+  "width": 875,
+  "height": 850,
+  "asset": "/maps/mundo-normal.svg",
+  "transform": {
+    "a": 1,
+    "b": 0,
+    "c": 0,
+    "d": 0,
+    "e": -1,
+    "f": 850
+  },
+  "notice": "Mapa base limpo — pontos do Mundo Normal ainda não importados.",
+  "synthetic": true,
+  "origin": "community_observed",
+  "source_url": "https://pwi.fandom.com/wiki/PWpedia",
+  "points": []
+}
