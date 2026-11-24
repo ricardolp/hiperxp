@@ -164,9 +164,10 @@ button {
 
 .btn-contribute {
   display: inline-flex;
+  flex-shrink: 0;
   align-items: center;
   gap: 0.4rem;
-  margin-left: 0.55rem;
+  margin-left: auto;
   padding: 0.45rem 0.85rem;
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: var(--hx-radius-sm, 8px);
@@ -199,13 +200,11 @@ button {
   width: 100%;
 }
 
-.nav a.btn-contribute,
 .nav-mobile a.btn-contribute {
   padding: 0.45rem 0.85rem;
   letter-spacing: 0.08em;
 }
 
-.nav a.btn-contribute:hover,
 .nav-mobile a.btn-contribute:hover {
   background: var(--hx-ruby, #ff0036);
   color: #fff;
@@ -246,6 +245,10 @@ button {
   .brand {
     position: static;
     transform: none;
+  }
+
+  .site-header-inner > .btn-contribute {
+    display: none;
   }
 
   .nav-toggle {
