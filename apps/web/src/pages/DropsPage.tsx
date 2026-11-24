@@ -16,8 +16,15 @@ import { runSimulationInWorker } from "../lib/simulateClient";
 const MAX_OPENINGS = 10_000;
 const countFormat = new Intl.NumberFormat("pt-BR");
 const chanceFormat = new Intl.NumberFormat("pt-BR", {
-  maximumSignificantDigits: 15,
+  maximumFractionDigits: 6,
 });
+
+/** Evita dízimas de float (ex.: 99,99999999999999) na UI. */
+function formatChancePercent(value: number): string {
+  const cleaned = Math.round(value * 1e10) / 1e10;
+  const display = Math.abs(cleaned - 100) < 1e-6 ? 100 : cleaned;
+  return chanceFormat.format(display);
+}
 
 function chestIconSrc(index: number): string {
   return index === 2 ? "/sim/chest-tianyu.png" : "/sim/chest-default.png";
@@ -100,7 +107,7 @@ function ChestSimulator({ initialSlug }: { initialSlug?: string }) {
   );
   const [selected, setSelected] = useState(initialIndex);
   const table = simulatorChests[selected]!;
-  const [count, setCount] = useState(1);
+  const [countText, setCountText] = useState("1");
   const [result, setResult] = useState<SimulateResult | null>(null);
   const [resultsByChest, setResultsByChest] = useState<
     (SimulateResult | null)[]
@@ -129,7 +136,7 @@ function ChestSimulator({ initialSlug }: { initialSlug?: string }) {
   async function run(event: FormEvent) {
     event.preventDefault();
     if (running || !drawEnabled) return;
-    const openings = count;
+    const openings = Number(countText);
     if (!Number.isInteger(openings) || openings < 1 || openings > MAX_OPENINGS) {
       return;
     }
@@ -219,7 +226,7 @@ function ChestSimulator({ initialSlug }: { initialSlug?: string }) {
         <section className="chest-panel" aria-labelledby="itemsTitle">
           <h2 id="itemsTitle">Itens e chances</h2>
           <div className="chest-sum">
-            Total: {chanceFormat.format(totalChance)}%
+            Total: {formatChancePercent(totalChance)}%
           </div>
           {rows.length === 0 ? (
             <p>Este baú está sem itens.</p>
@@ -258,7 +265,7 @@ function ChestSimulator({ initialSlug }: { initialSlug?: string }) {
                       <td className="chest-qty">
                         {countFormat.format(row.quantity)}
                       </td>
-                      <td>{chanceFormat.format(row.chancePercent)}%</td>
+                      <td>{formatChancePercent(row.chancePercent)}%</td>
                     </tr>
                   ))}
                 </tbody>
@@ -280,9 +287,14 @@ function ChestSimulator({ initialSlug }: { initialSlug?: string }) {
                 min={1}
                 max={MAX_OPENINGS}
                 step={1}
-                value={count}
+                value={countText}
                 disabled={running}
-                onChange={(e) => setCount(Number(e.target.value))}
+                onChange={(e) => {
+                  const raw = e.target.value;
+                  if (raw === "" || /^\d+$/.test(raw)) {
+                    setCountText(raw);
+                  }
+                }}
                 required
                 aria-describedby="range"
               />
