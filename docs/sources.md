@@ -10,6 +10,10 @@ Consulta em 23/11/2026. Acessar uma página não confirma disponibilidade de tod
 | https://pwonline.ru/forums/showthread.php?t=217872 | Guia citado como origem pelo PW Map | Link encontrado; leitura retornou 403; conteúdo não verificado |
 | https://pwi.fandom.com/wiki/Eastern_Continent/City_of_Peace_Exploration | Exploração em inglês | Índice de busca menciona mapa interativo; página completa não acessível na consulta |
 | https://triviapw.com.br/2025/11/19/localizacoes-do-mapa-reino-oriental/ | Referência de UX e termos BR | Consulta retornou estrutura de filtros/progresso e comentários; não valida funcionamento integral atual |
+| https://triviapw.com.br/2025/10/31/missoes-da-cidade-da-paz-eterna-guia-completo/ | Índice das 17 missões globais (BR) | Nomes e links individuais; corpo HTML às vezes omitido no fetch automatizado |
+| https://vk.com/@-149459137-mirovye-kvesty-vostochnyh-zemel | Guia completo RU das 17 histórias | Texto integral com coords/diálogos; base de `data/fixtures/quests/cidade-da-paz.json` |
+| https://triviapw.com.br/2026/05/21/cidade-de-tianyu-jornadas/ | Índice das jornadas de Tianyu | 5 jornadas + desafios auxiliares; fixtures em `data/fixtures/quests/tianyu.json` |
+| `client-br-levelup` / `elements.data` | Itens do cliente BR | Extraídos ~43k itens; há recompensas (Selo do Palácio Celestial, Emblema da Fênix Azul, Pergaminho de Tianyu, Relíquia Raiz). **Não** contém nomes das 17 missões/jornadas — isso fica em `tasks.data`, ainda não parseado |
 | https://github.com/ipasetto/MyAceEditor | Referência de formatos do cliente | README documenta formatos e GPL-3.0; compatibilidade com build do usuário não testada |
 | https://github.com/nbshelton/pw-resource | Referência de importação | README documenta loader de elements.data; revisar licença e compatibilidade antes de reutilizar |
 | https://github.com/Kn1fe/DataTranslator | Referência de tradução | Projeto documenta elements.data/tasks.data e Apache-2.0; não testado localmente |
@@ -22,6 +26,8 @@ Consulta em 23/11/2026. Acessar uma página não confirma disponibilidade de tod
 Imagens e coordenadas de `pw-map.ru` estão em `apps/web/public/maps/*.webp` e `data/fixtures/maps/*.json` com `origin: third_party` e `review_status: foreign_reference`. Uso atual é para desenvolvimento/referência; republicação pública permanente depende de autorização ou substituição por assets do cliente BR.
 
 Reimportar: `node tools/import-pw-map.mjs` (após atualizar dumps em `data/fixtures/sources/`).
+
+Guias de missão: `python tools/build-quest-guides.py` → `data/fixtures/quests/{cidade-da-paz,tianyu}.json`. Fontes brutas em `data/fixtures/sources/quest-guides/`.
 
 ## O que ainda precisa ser comprovado
 

@@ -2,11 +2,13 @@ import { useEffect, useMemo, useRef, useState, type FormEvent } from "react";
 import { Link, Navigate, useParams } from "react-router-dom";
 import type { DropTableFixture } from "@hiperxp/contracts";
 import type { SimulateResult } from "@hiperxp/drop-engine";
+import { ItemTooltip } from "../components/ItemTooltip";
 import {
   exclusiveChanceTotal,
   flattenExclusiveEntries,
   gameItemId,
   getDropTable,
+  itemDescription,
   itemIconSrc,
   itemName,
   simulatorChests,
@@ -275,13 +277,19 @@ function ChestSimulator({ initialSlug }: { initialSlug?: string }) {
                     <tr key={`${row.entryId}-${row.itemId}-${row.quantity}`}>
                       <td>{gameItemId(row.itemId) ?? row.itemId}</td>
                       <td>
-                        <span className="chest-item-label">
-                          <ItemIcon
-                            itemId={row.itemId}
-                            className="chest-table-icon"
-                          />
-                          <span>{row.name}</span>
-                        </span>
+                        <ItemTooltip
+                          itemId={row.itemId}
+                          quantity={row.quantity}
+                          placement="below"
+                        >
+                          <span className="chest-item-label">
+                            <ItemIcon
+                              itemId={row.itemId}
+                              className="chest-table-icon"
+                            />
+                            <span>{row.name}</span>
+                          </span>
+                        </ItemTooltip>
                       </td>
                       <td className="chest-qty">
                         {countFormat.format(row.quantity)}
@@ -340,29 +348,36 @@ function ChestSimulator({ initialSlug }: { initialSlug?: string }) {
               <ul className="chest-rewards" aria-label="Itens sorteados">
                 {rewards.map((reward) => {
                   const tip = `ID ${gameItemId(reward.itemId) ?? reward.itemId} - ${reward.name} (${countFormat.format(reward.quantity)})`;
+                  const desc = itemDescription(reward.itemId);
                   const icon = itemIconSrc(reward.itemId);
                   return (
                     <li
                       key={`${reward.itemId}:${reward.quantity}:${reward.count}`}
                       className="chest-reward"
-                      title={tip}
                     >
-                      <span className="visually-hidden">
-                        {tip}. Total obtido:{" "}
-                      </span>
-                      <span className="chest-reward-icon">
-                        <span aria-hidden="true">◇</span>
-                        {icon ? (
-                          <img
-                            src={icon}
-                            alt=""
-                            onError={(e) => e.currentTarget.remove()}
-                          />
-                        ) : null}
-                        <span className="chest-reward-count">
+                      <ItemTooltip
+                        itemId={reward.itemId}
+                        quantity={reward.quantity}
+                      >
+                        <span className="visually-hidden">
+                          {tip}
+                          {desc ? `. ${desc}` : ""}. Total obtido:{" "}
                           {countFormat.format(reward.count)}
                         </span>
-                      </span>
+                        <span className="chest-reward-icon">
+                          <span aria-hidden="true">◇</span>
+                          {icon ? (
+                            <img
+                              src={icon}
+                              alt=""
+                              onError={(e) => e.currentTarget.remove()}
+                            />
+                          ) : null}
+                          <span className="chest-reward-count">
+                            {countFormat.format(reward.count)}
+                          </span>
+                        </span>
+                      </ItemTooltip>
                     </li>
                   );
                 })}

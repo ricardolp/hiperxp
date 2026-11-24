@@ -4,538 +4,615 @@
     "name_pt_br": "Diamante do Tigre",
     "aliases": [
       "21377"
-    ]
+    ],
+    "description_pt_br": "Pedra que contém uma energia incrível.\nPode ser adicionada a equipamentos de nível 12 ou superior.\nDeve ser usada junto ao NPC Ferreiro.\nEfeito em Armas: Nível de Ataque +1\nEfeito em Armaduras: Nível de Ataque +1"
   },
   {
     "id": "pw-21378",
     "name_pt_br": "Diamante do Dragão",
     "aliases": [
       "21378"
-    ]
+    ],
+    "description_pt_br": "Pedra que contém uma energia incrível.\nPode ser adicionada a equipamentos de nível 12 ou superior.\nDeve ser usada junto ao NPC Ferreiro.\nEfeito em Armas: Nível de Defesa +1\nEfeito em Armaduras: Nível de Defesa +1"
   },
   {
     "id": "pw-23972",
     "name_pt_br": "Carimbo da Diretoria do Cubo",
     "aliases": [
       "23972"
-    ]
+    ],
+    "description_pt_br": "Uma marca que representa o Conselho de Diretores do Cubo do Destino.\nTroque por meio da Troca de Presentes com a Administradora de Trocas."
   },
   {
     "id": "pw-24722",
     "name_pt_br": "Muita Sorte - Perfect World",
     "aliases": [
       "24722"
-    ]
+    ],
+    "description_pt_br": "Parabéns! Parabéns! A sorte está do seu lado!\nUse a opção Troca de Itens com a Administradora de Trocas para trocar por itens."
   },
   {
     "id": "pw-24725",
     "name_pt_br": "Pergaminho dos Deuses",
     "aliases": [
       "24725"
-    ]
+    ],
+    "description_pt_br": "Este item é usado para trocar por Livros Divinos.\nPode ser utilizado nas Fornalhas da Cidade Universal para produzir um Livro Divino de Nível 7."
   },
   {
     "id": "pw-25151",
     "name_pt_br": "Insígnia Líder Brado de Batalha",
     "aliases": [
       "25151"
-    ]
+    ],
+    "description_pt_br": "Este item pode ser usado para trocar por Ornamento da Cidade do Brado de Batalha.\nTroque pelo Ornamento do Brado de Batalha desejado na Forja Celestial."
   },
   {
     "id": "pw-26388",
     "name_pt_br": "★★Céu Tempestuoso",
     "aliases": [
       "26388"
-    ]
+    ],
+    "description_pt_br": "Sem descrição."
   },
   {
     "id": "pw-26389",
     "name_pt_br": "★★Tempestade Nebulosa",
     "aliases": [
       "26389"
-    ]
+    ],
+    "description_pt_br": "Sem descrição."
   },
   {
     "id": "pw-27502",
     "name_pt_br": "Manuscrito do Destino",
     "aliases": [
       "27502"
-    ]
+    ],
+    "description_pt_br": "Um livro divino do destino.\nPode ser usado para produzir Tomos de Nv. 5 nas Ferrarias da Natureza da Cidade das Tormentas.\nArraste o livro para o slot certo para produzir."
   },
   {
     "id": "pw-28300",
     "name_pt_br": "Pedra da Selva",
     "aliases": [
       "28300"
-    ]
+    ],
+    "description_pt_br": "Uma pedra mágica com o vigor da selva.\nEsse item é usado para forjar o Olho da Selva.\nDestruir o Olho da Selva lhe dará alguns itens."
   },
   {
     "id": "pw-28350",
     "name_pt_br": "Medalha da Glória",
     "aliases": [
       "28350"
-    ]
+    ],
+    "description_pt_br": "Recompensa especial da guerra territorial.\nUsada para fabricar equipamentos de Rank 9.\nNão a perca."
   },
   {
     "id": "pw-28641",
     "name_pt_br": "Símbolo do General Lotor",
     "aliases": [
       "28641"
-    ]
+    ],
+    "description_pt_br": "Um símbolo assinado com o sangue do General Lotor. Você pode usá-lo para comandar os soldados da Cidade do Dragão.\nDado pelo General Lotor.\nSe você tiver Medalhas da Glória suficiente, você pode usá-lo para trocar por equipamentos de Rank 9 no Oficial Graduado."
   },
   {
     "id": "pw-32082",
     "name_pt_br": "★★Capa Universal",
     "aliases": [
       "32082"
-    ]
+    ],
+    "description_pt_br": "Uma capa indestrutivel, feita com fios de seda dourados.\nVocê pode atualizar a Capa Universal para Capa da Ascensão,\natravés do Emissário Jade de Neve no Lado Sul da Cidade do Dragão.\nImpossível de ser destruída."
   },
   {
     "id": "pw-36676",
     "name_pt_br": "Imperador",
     "aliases": [
       "36676"
-    ]
+    ],
+    "description_pt_br": "Força +45\nDestreza +45\nInteligência +45\nCrítico +3%\nCanalização -5%\nIntervalo de Ataque -0.05s\nVelocidade +0.2 M/s\nHP +400"
   },
   {
     "id": "pw-38256",
     "name_pt_br": "★★★Coroa da Insanidade",
     "aliases": [
       "38256"
-    ]
+    ],
+    "description_pt_br": "Forjada com Sangue e Energia!\n—Parte do Espírito de Kestra\nUma coroa enviada por aqueles que cavalgam sob o nome de Kestra."
   },
   {
     "id": "pw-38257",
     "name_pt_br": "★★★Capa da Ascensão",
     "aliases": [
       "38257"
-    ]
+    ],
+    "description_pt_br": "O milênio passado está encarando você.\nA Túnica do Elevado\nApenas aqueles com dignidade divina podem vestir esse manto ilustre."
   },
   {
     "id": "pw-39872",
     "name_pt_br": "Moeda de Bronze",
     "aliases": [
       "39872"
-    ]
+    ],
+    "description_pt_br": "Parabéns, você ganhou uma Moeda de Bronze!\n\\Você pode usá-las com Wang Cai para trocar por Sorte - Perfect World e diversos outros itens, ou para colocar gravuras em seus equipamentos.\nAtenção! A gravura será perdida caso o equipamento seja reforjado sem utilizar Pedras do Céu e da Terra."
   },
   {
     "id": "pw-39873",
     "name_pt_br": "Moeda de Ouro",
     "aliases": [
       "39873"
-    ]
+    ],
+    "description_pt_br": "Parabéns, você ganhou uma Moeda de Ouro! \\Você pode usá-las com a Administradora de Trocas por Gravuras em equipamentos.\nAtenção! A gravura será perdida caso o equipamento seja reforjado."
   },
   {
     "id": "pw-43955",
     "name_pt_br": "Orbe de Poder - Despertar VI",
     "aliases": [
       "43955"
-    ]
+    ],
+    "description_pt_br": "Este item pode ser usado com o Emissário Jade de Neve para\nmelhorar os anéis Céu Tempestuoso ou Tempestade Nebulosa para\nManifestação Mortal ou Manifestação Solar, respectivamente."
   },
   {
     "id": "pw-47254",
     "name_pt_br": "Pedra de Liberação",
     "aliases": [
       "47254"
-    ]
+    ],
+    "description_pt_br": "Item para acrescentar slots a colares e ornamentos.\nPode ser usada com qualquer Administradora de Trocas."
   },
   {
     "id": "pw-47269",
     "name_pt_br": "Pedra do Céu Vermelho",
     "aliases": [
       "47269"
-    ]
+    ],
+    "description_pt_br": "Uma Gema da Alma com poderes místicos, somente para acessórios.\nPode ser combinada com acessórios de nível 12 ou superior.\n(Não é compatível com anéis)\nEfeito: Constituição +16"
   },
   {
     "id": "pw-47270",
     "name_pt_br": "Pedra da Clareza",
     "aliases": [
       "47270"
-    ]
+    ],
+    "description_pt_br": "Uma Gema da Alma com uma misteriosa energia que pode ser utilizada em Acessórios.\nPode ser fundida em Acessórios de Nível 9+.\n(Não é compatível com anéis)\nEfeito: Espiríto +12\nPode ser combinada no Agente da Loja de GOLD para se obter uma Gema da Alma de nível maior."
   },
   {
     "id": "pw-47274",
     "name_pt_br": "Pedra da Ravina",
     "aliases": [
       "47274"
-    ]
+    ],
+    "description_pt_br": "Uma Gema da Alma com uma misteriosa energia que pode ser utilizada em Acessórios.\nPode ser fundida em Acessórios de Nível 13+.\n(Não é compatível com anéis)\nEfeito: Espiríto +32"
   },
   {
     "id": "pw-47275",
     "name_pt_br": "Pedra do Combate",
     "aliases": [
       "47275"
-    ]
+    ],
+    "description_pt_br": "Uma Gema da Alma com poderes místicos, somente para acessórios.\nPode ser combinada com acessórios de nível 12 ou superior.\n(Não é compatível com anéis)\nEfeito: Nível de Ataque +1"
   },
   {
     "id": "pw-47277",
     "name_pt_br": "Pedra da Proteção",
     "aliases": [
       "47277"
-    ]
+    ],
+    "description_pt_br": "Uma Gema da Alma com poderes místicos, somente para acessórios.\nPode ser combinada com acessórios de nível 12 ou superior.\n(Não é compatível com anéis)\nEfeito: Nível de Defesa +1"
   },
   {
     "id": "pw-47308",
     "name_pt_br": "Caixa do Amuleto de Platina",
     "aliases": [
       "47308"
-    ]
+    ],
+    "description_pt_br": "Contém um Amuleto de Platina.\nClique com o botão direito para abrir."
   },
   {
     "id": "pw-47309",
     "name_pt_br": "Caixa do Hierograma de Platina",
     "aliases": [
       "47309"
-    ]
+    ],
+    "description_pt_br": "Contém um Hierograma de Platina.\nClique com o botão direito para abrir."
   },
   {
     "id": "pw-48668",
     "name_pt_br": "Cristal de Jade",
     "aliases": [
       "48668"
-    ]
+    ],
+    "description_pt_br": "Os anos seguem serenos como águas calmas; à luz do chifre de rinoceronte, todas as transformações se revelam.\nVocê pode trocar com o Colecionador de Jade Tansen por um Anel Ressonância Celestial ou Cinto Caótico.\nTambém pode ser usado no Emissário Jade de Neve apara aprimorar os colares\nRes. Celestial Anorm. Sólida, Res. Celestial Anorm. Arcana, Colar Ress. Sólido Evoluído, Colar Ress. Arcano Evoluído\nou os ornamentos Cinto do Caos Anormal Sólido, Cinto do Caos Anormal Arcano, Cin. do Caos Exótico Sólido, Cin. do Caos Exótico Arcano\nProtetor do Mundo."
   },
   {
     "id": "pw-48669",
     "name_pt_br": "Relíquia Reforjada",
     "aliases": [
       "48669"
-    ]
+    ],
+    "description_pt_br": "Usada para melhorar armas e armaduras Rank 8 (R8 Up2) na Forja Espiritual: Renascimento."
   },
   {
     "id": "pw-50261",
     "name_pt_br": "Madeira Profanada Bruta",
     "aliases": [
       "50261"
-    ]
+    ],
+    "description_pt_br": "Um pedaço de madeira comum que pode ser refinado em material de Sopro do Dragão.\nEsse pedaço de madeira fina e dura remete à criação das Aparições.\nEstá repleto de energia das trevas."
   },
   {
     "id": "pw-50263",
     "name_pt_br": "Caveira Zênite Bruta",
     "aliases": [
       "50263"
-    ]
+    ],
+    "description_pt_br": "Item indispensável para concluir a conquista “Os Dezesseis Reis da Moradia”.\nFormado pelo céu e realizado pela terra, assume forma humana,\nde aparência mutável conforme as quatro estações.\nA Caveira Zênite Bruta não tem vida, nome, constância nem existência definida, e ninguém conhece sua origem.\nNão é ser vivo, tampouco metal ou jade.\nAbsorve a essência do feng shui do céu e da terra;\nao observá-lo, assemelha-se a uma criança de menos de três meses."
   },
   {
     "id": "pw-50265",
     "name_pt_br": "Essência Dracônica Bruta",
     "aliases": [
       "50265"
-    ]
+    ],
+    "description_pt_br": "Uma esfera de energia comum que pode ser refinada em material de Sopro do Dragão.\nA essência dos Oito Dragões.\nApenas com isso é possível restaurar o poder da Pedra do Sopro do Dragão."
   },
   {
     "id": "pw-51167",
     "name_pt_br": "Ídolo de Jade",
     "aliases": [
       "51167"
-    ]
+    ],
+    "description_pt_br": "Usado com o Emissário Jade de Neve ou Colecionador de Jade Tansen\npara criar um elmo de classe 8 (R8)."
   },
   {
     "id": "pw-58015",
     "name_pt_br": "Pacote de Runas Nível 4",
     "aliases": [
       "58015"
-    ]
+    ],
+    "description_pt_br": "Utilize clicando com o botão direito.\nPoderá Obter uma Runa de nível 4 de cor aleatória."
   },
   {
     "id": "pw-58016",
     "name_pt_br": "Pacote de Runas Nível 7",
     "aliases": [
       "58016"
-    ]
+    ],
+    "description_pt_br": "Utilize clicando com o botão direito.\nPoderá Obter uma Runa de nível 7 de cor aleatória."
   },
   {
     "id": "pw-58682",
     "name_pt_br": "Pedra dos Princípios",
     "aliases": [
       "58682"
-    ]
+    ],
+    "description_pt_br": "Gema da Alma repleta de energia misteriosa.\nCombinada com Equipamento Nível 13+.\nEfeito da Arma: Canalização -4%\nEfeito da Armadura: Constituição +12"
   },
   {
     "id": "pw-58684",
     "name_pt_br": "Pedra do Primogênito",
     "aliases": [
       "58684"
-    ]
+    ],
+    "description_pt_br": "Gema da Alma repleta de energia misteriosa.\nCombinada com Equipamento Nível 13+.\nEfeito da Arma: Chance de Acerto Crítico +2%\nEfeito da Armadura: Constituição +12"
   },
   {
     "id": "pw-59659",
     "name_pt_br": "Estio",
     "aliases": [
       "59659"
-    ]
+    ],
+    "description_pt_br": "Para comemorar a carreira excelente do extraordinário identificador de tesouros, Li Tze,\no Quartel-general preparou dois artefatos para exibição. Este é um delas.\nO item foi o último artefato identificado por Li Tze, o que deu início a uma nova era na pesquisa de Daimons.\nA mais importante das Daimons. Garantido ser capaz de se desenvolver em um atributo completo.\nSe a habilidade exclusiva dessa daimon for esquecida, ela não tem como ser reaprendida.\nCom toda a energia da era antiga, torna-se a essência total de uma Daimon."
   },
   {
     "id": "pw-59660",
     "name_pt_br": "Espírito da Gravura",
     "aliases": [
       "59660"
-    ]
+    ],
+    "description_pt_br": "Para comemorar a carreira excelente\ndo extraordinário identificador de tesouros, Li Tze,\no Quartel-general preparou dois artefatos para\nexibição. Este é um delas. Este item\njá foi mantido em total segredo e ocultado do público por décadas.\nAgora que foi revelado ao mundo, todas os clãs estão lutando por ele.\nEle pode ser usado para gravar vários equipamentos, e\npode dar ao usuário a opção de ganhar novos atributos,\nou manter os antigos."
   },
   {
     "id": "pw-59974",
     "name_pt_br": "Espírito Sagrado Adormecido",
     "aliases": [
       "59974"
-    ]
+    ],
+    "description_pt_br": "Pode ser fundida ao Elmo\nPode ser decomposta em: Fragmento da Alma x30\nMaior Nível da Fase Lunar: 5\nDe todas as três almas e sete espíritos, uma alma e três espíritos se perderam,\nrestando apenas as almas da Terra e da Vida e os espíritos da Alegria, da Raiva, do Amor e do Mal.\nDeve ser desperta por um poder misterioso.\nSegundo a lenda, o antigo Cang Li conhecia uma técnica secreta, capaz de preservar o espírito de guerreiros falecidos, mantendo seus poderes.\nEsses espíritos podem ser usados diretamente em combate ou fundidos em armas para aumentar sua letalidade."
   },
   {
     "id": "pw-60098",
     "name_pt_br": "Pedra Lunar da Punição",
     "aliases": [
       "60098"
-    ]
+    ],
+    "description_pt_br": "Fuxi conscientiza os teimosos; sob luar, a justiça ressoa por terras distantes.\nEste item pode ser usado no Caldeirão do Crepúsculo-Transformação para trocar por um dos\nelmos abaixo:\n★★★Elmo do Coração de Leão\n★★★Elmo do Asura da Coragem\n★★★Elmo Arcano da Justiça\nO item também pode ser usado no Caldeirão do Crepúsculo-Herança para transformar\nCoroa da Insanidade, Coroa de Espinhos ou Capacete do Exército\nem um dos elmos listados acima. Ainda é possível levar este item para Mengying, a Mentora Onírica e aprimorar\num dos elmos abaixo:\n★★★Elmo do Coração de Leão,\n★★★Elmo do Asura da Coragem,\n★★★Elmo Arcano da Justiça"
   },
   {
     "id": "pw-60239",
     "name_pt_br": "Capítulo do Oceano Cerúleo",
     "aliases": [
       "60239"
-    ]
+    ],
+    "description_pt_br": "Possui um efeito incrível se adicionado ao Refinamento de Tomo.\n100% de sucesso em Refinamento de Tomo de Níveis 1 a 10.\nPode ser transformado em uma versão de nível superior em Administradora de Trocas.\nOs ancestrais nos mostram a história, a verdade e o jeito certo de viver."
   },
   {
     "id": "pw-61765",
     "name_pt_br": "Pacote Cristal do Luar",
     "aliases": [
       "61765"
-    ]
+    ],
+    "description_pt_br": "Clique com o botão direito para obter:\nCristal do Luar G1"
   },
   {
     "id": "pw-61766",
     "name_pt_br": "Pacote Adormecido (Corpo)",
     "aliases": [
       "61766"
-    ]
+    ],
+    "description_pt_br": "Clique com o botão direito para obter:\nPacote Adormecido (Corpo) x1"
   },
   {
     "id": "pw-61767",
     "name_pt_br": "Pacote Adormecido (Calça)",
     "aliases": [
       "61767"
-    ]
+    ],
+    "description_pt_br": "Clique com o botão direito para obter:\nPacote Adormecido (Calça) x1"
   },
   {
     "id": "pw-61768",
     "name_pt_br": "Pacote Adormecido (Botas)",
     "aliases": [
       "61768"
-    ]
+    ],
+    "description_pt_br": "Clique com o botão direito para obter:\nPacote Adormecido (Botas) x1"
   },
   {
     "id": "pw-61769",
     "name_pt_br": "Pacote Adormecido (Braçadeiras)",
     "aliases": [
       "61769"
-    ]
+    ],
+    "description_pt_br": "Clique com o botão direito para obter:\nPacote Adormecido (Braçadeiras) x1"
   },
   {
     "id": "pw-62270",
     "name_pt_br": "Pérola Suprema de Astrolábio",
     "aliases": [
       "62270"
-    ]
+    ],
+    "description_pt_br": "Imbuída de fortes almas astrais.\nPode ser infundida no Astrolábio com a Infusão Astral.\nPode ser infundida em um Astrolábio abaixo e acima do Nv. 50.\nEXP concedido na infusão: 10"
   },
   {
     "id": "pw-62332",
     "name_pt_br": "Peça de Tear: Anel Estrelado",
     "aliases": [
       "62332"
-    ]
+    ],
+    "description_pt_br": "Uma recompensa honorária adquirida na Arena de Guan Yu.\nVocê pode falar com Administradora de Trocas para fabricar\nCaixa de Material de Tear Anel Estrelado.\nNessa caixa contém:\nTear Anel Estrelado: Canção x240;\nTear Anel Estrelado: Corte x58;\nTear Anel Estrelado: Morte x8;\nTear Anel Estrelado: Perdição x1."
   },
   {
     "id": "pw-62333",
     "name_pt_br": "Peça de Poeira: Arca Estelar",
     "aliases": [
       "62333"
-    ]
+    ],
+    "description_pt_br": "Uma recompensa honorária adquirida na Arena de Guan Yu.\nVocê pode falar com Administradora de Trocas para fabricar\nCaixa de Material de Poeira da Arca Estelar.\nNessa caixa contém:\nPoeira da Arca Estelar: Verdade x76;\nPoeira da Arca Estelar: Mente x10;\nPoeira da Arca Estelar: Éter x1."
   },
   {
     "id": "pw-62334",
     "name_pt_br": "Peça dos Tesouros do Elísio",
     "aliases": [
       "62334"
-    ]
+    ],
+    "description_pt_br": "Um tesouro especial da Morada.\nVocê pode falar com Administradora de Trocas para fabricar\nTesouro Misterioso do Elísio.\nContém:\nPedra Bruta Espírito de Sangue x29;\nFerro Bruto com Placa de Ouro x18;\nJade de Éter Bruta x5;\nMadeira Profanada Bruta x1."
   },
   {
     "id": "pw-64628",
     "name_pt_br": "Artefato de Catarata de Pó",
     "aliases": [
       "64628"
-    ]
+    ],
+    "description_pt_br": "Pode ser usado no Caldeirão da Ascensão, na Cidade do Dragão, para aprimorar o novo equipamento de Classe 8 para equipamento de Glória Suprema."
   },
   {
     "id": "pw-64630",
     "name_pt_br": "Cristal do Luar",
     "aliases": [
       "64630"
-    ]
+    ],
+    "description_pt_br": "Clique com o botão direito para usar. \\Contém um Cristal Lunar Nível 1 de uma cor aleatória."
   },
   {
     "id": "pw-65908",
     "name_pt_br": "Tab. de Jade Sonho Espiritual",
     "aliases": [
       "65908"
-    ]
+    ],
+    "description_pt_br": "Um item extremamente precioso.\nPode ser usado com o Emissário Jade de Neve\npara aprimorar o Anel da Glória Suprema para o Anel da Profanidade Celestial."
   },
   {
     "id": "pw-65909",
     "name_pt_br": "Fonte da Pedra Excêntrica",
     "aliases": [
       "65909"
-    ]
+    ],
+    "description_pt_br": "Dragão e fênix dançam nos céus; tartaruga e tigre brincam na terra – Tesouro Único.\nQuando você coletar 2 desses, pode falar com Administradora de Trocas\npara receber a Caixa de Pedra Excêntrica.\nCaixa de Pedra Excêntrica:\nClique no botão direito para abri-la e receber um dos itens a seguir:\nPedra de Fogo de Dragão (3,5%);\nPedra Fria (3,5%);\nPedra dos Princípios (9,3%);\nPedra do Primogênito (9,3%);\nDiamante do Tigre (37,2%);\nDiamante do Dragão (37,2%)."
   },
   {
     "id": "pw-66184",
     "name_pt_br": "Sino de Trajes",
     "aliases": [
       "66184"
-    ]
+    ],
+    "description_pt_br": "O tesouro de Mirian, a Dama dos Trajes.\nPode ser usado com Mirian, a Dama dos Trajes, no Distrito Norte (528,680),\npara criar uma Caixa de Tecido da Moda com Transmutar.\nSe não gostar do conjunto que receber,\nvocê pode usar a Caixa de Tecido da Moda\ncomo material de Transmutação e criar um novo."
   },
   {
     "id": "pw-66856",
     "name_pt_br": "Laço do Domador de Dragões",
     "aliases": [
       "66856"
-    ]
+    ],
+    "description_pt_br": "O tesouro de Shiroe, o Comandante das Montarias.\nPode ser usado com Shiroe, o Comandante das Montarias, no Distrito Norte, (528,680)\nfabricando uma Caixa de Tecido da Moda com Transmutar.\nSe não gostar da montaria que receber,\nvocê pode usar a Caixa de Tecido da Moda\ncomo material de Transmutação e criar uma nova."
   },
   {
     "id": "pw-66858",
     "name_pt_br": "Leque do Brilho Real",
     "aliases": [
       "66858"
-    ]
+    ],
+    "description_pt_br": "O tesouro de Fada das Asas Shusha.\nPode ser usado com Fada das Asas Shusha, no Distrito Norte, (528,680)\nfabricando uma Caixa de Tecido da Montaria Alada com Transmutar.\nSe não gostar da montaria Alada que receber,\nvocê pode usar a Caixa de Tecido da Moda\ncomo material de Transmutação e criar uma nova."
   },
   {
     "id": "pw-67135",
     "name_pt_br": "P. Temporal Armadura Crepúsculo",
     "aliases": [
       "67135"
-    ]
+    ],
+    "description_pt_br": "Um pacote de presente para os guerreiros do Crepúsculo, a fim de ajudar com a Captura Temporal.\nContém:\nAnel Entalhado do Crepúsculo x80\nCinzas do Reino da Ilusão x40\nMorte do Demônio Ancião x4\nRoda do Destino x1\nAsas do Soberano x32\nCoração Sincero de Chungyun x3\nEsmeralda Fumegante da Princesa x1\nClique com o botão direito para usar. Todos os itens são negociáveis."
   },
   {
     "id": "pw-67136",
     "name_pt_br": "P. Temp. Calças do Crepúsculo",
     "aliases": [
       "67136"
-    ]
+    ],
+    "description_pt_br": "Um pacote de presente para os guerreiros do Crepúsculo, a fim de ajudar com a Captura Temporal.\nContém:\nAnel Entalhado do Crepúsculo x80\nLâmina Demoníaca x40\nAbsurdo da Senhora das Ilusões x4\nRoda do Destino x1\nEspírito Guerreiro de Chungyun x32\nArco do Soberano x3\nEsmeralda Fumegante da Princesa x1\nClique com o botão direito para usar. Todos os itens são negociáveis."
   },
   {
     "id": "pw-67137",
     "name_pt_br": "P. Temporal Botas do Crepúsculo",
     "aliases": [
       "67137"
-    ]
+    ],
+    "description_pt_br": "Um pacote de presente para os guerreiros do Crepúsculo, a fim de ajudar com a Captura Temporal.\nContém:\nAnel Entalhado do Crepúsculo x80\nGlória de um Soberano x40\nMáscara de Tsu x4\nRoda do Destino x1\nBeijo da Senhora Sagrada x32\nCetro do Soberano x3\nEsmeralda Fumegante da Princesa x1\nClique com o botão direito para usar. Todos os itens são negociáveis."
   },
   {
     "id": "pw-67138",
     "name_pt_br": "P. Temp. Braçadeiras do Crep.",
     "aliases": [
       "67138"
-    ]
+    ],
+    "description_pt_br": "Um pacote de presente para os guerreiros do Crepúsculo, a fim de ajudar com a Captura Temporal.\nContém:\nAnel Entalhado do Crepúsculo x80\nMalícia do Conselheiro x40\nLamento de uma Dinastia x4\nRoda do Destino x1\nAsas do Soberano x32\nEsplendor da Ilusão de Nemen x3\nEsmeralda Fumegante da Princesa x1\nClique com o botão direito para usar. Todos os itens são negociáveis."
   },
   {
     "id": "pw-67145",
     "name_pt_br": "Arca do Avatar (S)",
     "aliases": [
       "67145"
-    ]
+    ],
+    "description_pt_br": "Este baú contém um Avatar de Guerra de classe S.\nAumenta a EXP após consumir: 5\nClique com o botão direito para usar."
   },
   {
     "id": "pw-68145",
     "name_pt_br": "Disco de Pregar Almas",
     "aliases": [
       "68145"
-    ]
+    ],
+    "description_pt_br": "Detecta a localização e o fluxo de energia mágica em um nódulo.\nQuando esse item é adicionado, a chance de a próxima ação do Nódulo de Exploração ser voltada à direção especificada é aumentada em 100%"
   },
   {
     "id": "pw-68146",
     "name_pt_br": "Loção Purificadora de Almas",
     "aliases": [
       "68146"
-    ]
+    ],
+    "description_pt_br": "Limpa a energia residual de um Nódulo de Linha de Ley.\nRetorna ao Nódulo de Linha de Ley anterior"
   },
   {
     "id": "pw-68150",
     "name_pt_br": "Pacote de Runas (nível 9)",
     "aliases": [
       "68150"
-    ]
+    ],
+    "description_pt_br": "Clique com o botão direito para usar e selecione uma runa de cor específica de Nível 9 .\nApós abrir a runa, ela não pode ser trocada."
   },
   {
     "id": "pw-69139",
     "name_pt_br": "Escama Dragão Púrpura Empírico",
     "aliases": [
       "69139"
-    ]
+    ],
+    "description_pt_br": "Colete vários desses itens e refine-os com o Taoísta Solitário Wena."
   },
   {
     "id": "pw-70565",
     "name_pt_br": "Extrato Sagrado Bebê Celestial",
     "aliases": [
       "70565"
-    ]
+    ],
+    "description_pt_br": "Clique com o botão direito para abrir.\nObtenha um Extrato de Cristal Sagrado aleatório do Infante Celestial.\nO item recebido não pode ser trocado."
   },
   {
     "id": "pw-71530",
     "name_pt_br": "Geada",
     "aliases": [
       "71530"
-    ]
+    ],
+    "description_pt_br": "Mercador Viajante Xi descobriu um Alado de Origem na Ilha sem Nome,\nonde quer que os alados vão, as nuvens se balançam para ver o céu, a água balbucia para ver os peixes,\nsua pureza é tão pura quanto a origem de todas as coisas.\nXi descobriu que a Daimon pode repelir, evitar espíritos malignos, e identificar sua origem, então ele a levou de volta aos seus Tesouros\ne colocou-a em uma caixa de jade fria, atraindo incontáveis estudiosos e pagãos que pedem uma visita por milhares de reais.\nA Daimon que foi apreciada por um longo tempo por admiradores,\ntem a habilidade inicial de dissipar todos os atributos negativos e pode definitivamente se tornar um Alado de atributo completo.\nPor sua natureza pura, só está disponível para pessoas que tem uma mente limpa.\nSe a habilidade exclusiva dessa Daimon for esquecida, ela não terá como ser reaprendida.\nNo início do caos, a imprecisão apareceu;\nde volta à raiz e a sua origem, rastreado até a sua fonte!"
   },
   {
     "id": "pw-71618",
     "name_pt_br": "Cinzel Espiritual Grande Caixa",
     "aliases": [
       "71618"
-    ]
+    ],
+    "description_pt_br": "Clique com o botão direito para usar.\nContém Espírito da Gravura x10.000"
   },
   {
     "id": "pw-72580",
     "name_pt_br": "Caldeirão de Eons",
     "aliases": [
       "72580"
-    ]
+    ],
+    "description_pt_br": "A terra na pintura,\na dinastia na história.\nO sonho de ser Imperador foi quebrado,\nA terra espetacular testemunhou tudo.\nUm item raro. Vá até o Emissário Jade de Neve\npara aprimorar o Tomo do Imperador em Cosmos."
   },
   {
     "id": "pw-75379",
     "name_pt_br": "Esfera Nebulosa: Supremo",
     "aliases": [
       "75379"
-    ]
+    ],
+    "description_pt_br": "Item necessário para Astrologia. O número,\nconteúdo e posição dos atributos do Astrolábio são redefinidos aleatoriamente durante consulta à Astrologia.\nEXP de Energia Estela por vez de Astrologia: 100"
   },
   {
     "id": "pw-75899",
     "name_pt_br": "Escudo da Deusa do Sol",
     "aliases": [
       "75899"
-    ]
+    ],
+    "description_pt_br": "Relíquia deixada pelo mais antigo deus no mundo. Ela reúne a essência do céu e da terra e canaliza as energias em dualidade.\nMoldada pela luz do primeiro raio do sol, sua forma é mutável; sua força alcança os céus e permeia as terras.\nEntregue este item para Mengying, a Mentora Onírica para aprimorar um dos elmos abaixo:\nElmo Condutor Divino,\nElmo Redentor Demoníaco,\nCapuz Celestial Mágico."
   },
   {
     "id": "pw-79289",
     "name_pt_br": "Ovo de Gansinho",
     "aliases": [
       "79289"
-    ]
+    ],
+    "description_pt_br": "O que é isso? Ganso branco grande! Senta aí!\nO que é isso? Ganso branco pequeno! Senta aí!\nO que é isso? Ganso branco miudinho! Senta aí!\nSuporta até três passageiros ao mesmo tempo!\nEm fileiras, apreciem a lua e curtam o festival!\nDisponível somente após ser adicionado ao Códice."
   },
   {
     "id": "pw-84691",
     "name_pt_br": "Lágrima de Yaoji",
     "aliases": [
       "84691"
-    ]
+    ],
+    "description_pt_br": "Diz a lenda que, antes de se transformar no Pico da Deusa, a Deusa Yaoji derramou lágrimas\nque, ao longo dos anos, condensaram-se em âmbar de jade, capazes de invocar nuvens matinais e chuvas crepusculares.\nAo tocá-lo, a mente gradualmente mergulha em um sonho turvo e etéreo.\nOrvalho sutil na Lagoa de Jade, fragrâncias imortais ocultas em folhagens luxuriantes.\nA lua branca envolve melancolia serena, fresca como água.\nMãos puras dispersam névoas e nuvens, sobre as águas de Chu o sonho se prolonga.\nEm cofre de jade guarda-se a gema secreta, vidas passadas como sombras, ainda resta sob a lua seu perfume.\nPicos verdejantes emolduram as montanhas, o pavilhão sobre a água reflete o rouge delicado.\nEm Wushan o rio se parte e flui, o pesar é sem fim.\nNem pincel sublime descreve os feitos celestes, versos límpidos não bastam, partem o coração.\nLaços terrenos ainda se estendem por cem braças.\nEntre palavras humanas, a imortal derrama lágrimas sob o brilho de jade.\n——《Guindaste aos Céus · Ode a Yaoji》\nEste item é extremamente precioso e pode ser utilizado junto ao Emissário Jade de Neve\npara aprimorar Anel da Aniquilação Celestial ou Anel da Aniquilação do Vazio."
   },
   {
     "id": "pw-86555",
     "name_pt_br": "Arca do Portal de Nuema",
     "aliases": [
       "86555"
-    ]
+    ],
+    "description_pt_br": "Baú que garante a obtenção de um Avatar S - Conjunto Portal de Nuema.\nClique com o botão direito para usar e selecione manualmente uma das seis cartas disponíveis."
   },
   {
     "id": "pw-87569",
     "name_pt_br": "Lótus Purificadora do Mundo",
     "aliases": [
       "87569"
-    ]
+    ],
+    "description_pt_br": "Após Pan Gu separar os céus e a terra, uma semente do Lótus Verde da Criação caiu sobre o Monte Buzhou.\nNutrida pela essência pura da terra espiritual, ela floresceu como o Lótus da Purificação do Mundo.\nMais tarde, foi levada pelos ventos, e ninguém sabe quando voltou a repousar no mundo mortal.\nDiz-se que o Lótus manifesta todas as formas, e que esse tesouro revela as leis do céu.\nSegundo a lenda, o Lótus da Purificação do Mundo permanece imaculado, capaz de purificar vínculos passados,\ndissipar o carma, dar origem a todas as coisas e conter o poder inesgotável da criação do céu e da terra.\nPor isso, um poema diz:\nDos doze pavilhões brotam brotos de jade,\nNos nove céus floresce a pureza imortal.\nDe repente, um Corvo Dourado pousa sobre o lótus,\nMetade do lago veste o outono, metade reluz com o orvalho.\nDe ossos de jade, ergue-se solitário entre as águas frias,\nEm qual camada das nuvens profundas permanece em meditação?\nVarre as três mil cores das aflições,\nMetade é iluminação, metade é vazio.\nMesmo que o Senhor da Primavera empunhasse seu pincel divino,\nJamais retrataria por completo sua beleza serena.\nUse este item com o Emissário Jade de Nevepara aprimorar um dos seguintes colares ou ornamentos:\nColar do Eixo Celestial\nOrnamento do Domínio do Trovão"
   }
 ]

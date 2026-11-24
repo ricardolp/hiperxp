@@ -19,7 +19,7 @@ Abre `http://localhost:5173`.
 
 | Caminho | Função |
 |---|---|
-| `apps/web` | Interface React (mapas + simulador) |
+| `apps/web` | Interface React (mapas + missões + simulador) |
 | `packages/contracts` | Tipos e utilitários compartilhados |
 | `packages/drop-engine` | Motor probabilístico + RNG |
 | `data/fixtures` | Dados sintéticos (não publicar como reais) |
@@ -32,7 +32,11 @@ Abre `http://localhost:5173`.
 
 - `/` — home
 - `/mapas/cidade-da-paz` e `/mapas/tianyu`
+- `/missoes` e `/missoes/:mapSlug` — listagem estilo blog
+- `/missoes/:mapSlug/:questSlug` — post do guia com etapas
 - `/simulador` e `/simulador/bau-da-aurora`
+
+Regenerar guias: `python tools/build-quest-guides.py`
 
 Progresso de exploração fica no IndexedDB do navegador (exportar/importar JSON na toolbar do mapa).
 

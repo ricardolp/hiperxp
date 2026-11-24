@@ -18,8 +18,8 @@ mkdirSync(mapsOut, { recursive: true });
 const REGIONS = {
   pokoi: {
     slug: "cidade-da-paz",
-    name_pt_br: "Cidade da Paz",
-    aliases: ["Город Покоя", "Pokoi", "City of Peace"],
+    name_pt_br: "Cidade da Paz Eterna",
+    aliases: ["Город Покоя", "Pokoi", "City of Peace", "Cidade da Paz"],
     asset: "/maps/cidade-da-paz.webp",
     notice:
       "Mapa/pontos de pw-map.ru traduzidos para PT-BR. Arte do mapa sem rótulos em russo. foreign_reference / permission_pending.",
@@ -54,18 +54,18 @@ const EXTRA_NAMES = {
   "Вызов: Прыжок к звездам": "Desafio: Salto às estrelas",
   "Вызов: Череда загадок": "Desafio: Sequência de enigmas",
   "Вызов: Сокровища и ловушки": "Desafio: Tesouros e armadilhas",
-  "Вызов: Прыжок в бездну": "Desafio: Salto no abismo",
+  "Вызов: Прыжок в бездну": "Desafio: Salto Abissal",
   "Вызов: Парящий небожитель": "Desafio: Celestial flutuante",
-  "Вызов: Дорога цветов": "Desafio: Estrada das flores",
-  "Вызов: Драгоценная яшма": "Desafio: Jade preciosa",
+  "Вызов: Дорога цветов": "Desafio: Estrada das Flores",
+  "Вызов: Драгоценная яшма": "Desafio: Jasper Precioso",
   "Вызов: Ловкий шаг": "Desafio: Passo ágil",
   "Вызов: Цуцзюй": "Desafio: Cuju",
   "Вызов: Всеобъемлющая забота": "Desafio: Cuidado abrangente",
-  "Вызов: Восполнение недостатка": "Desafio: Suprir a falta",
-  "Вызов: Прогноз будущего": "Desafio: Previsão do futuro",
-  "Вызов: Ложные звуки": "Desafio: Sons falsos",
-  "Вызов: Широкий обзор": "Desafio: Visão ampla",
-  "Вызов: Подходящий момент": "Desafio: Momento certo",
+  "Вызов: Восполнение недостатка": "Desafio: Preenchendo a lacuna",
+  "Вызов: Прогноз будущего": "Desafio: Prever o Futuro",
+  "Вызов: Ложные звуки": "Desafio: Sons Falsos",
+  "Вызов: Широкий обзор": "Desafio: Visão Ampla",
+  "Вызов: Подходящий момент": "Desafio: O Momento Certo",
   Пшеница: "Trigo",
   Янтарь: "Âmbar",
   Клубника: "Morango",
@@ -83,27 +83,37 @@ const EXTRA_NAMES = {
   "Пропавший сын": "Filho desaparecido",
   "Тайна происхождения": "Segredo da origem",
   "Желание книжного духа": "Desejo do espírito do livro",
-  "Память о прошлом": "Memória do passado",
-  "Скрытые течения": "Correntes ocultas",
-  "Порочные медики": "Médicos corruptos",
+  "Память о прошлом": "Memórias do Passado",
+  "Скрытые течения": "Correntes Ocultas",
+  "Порочные медики": "Médicos Sombrios",
   "Алтарь Пылающего Дракона": "Altar do Dragão Flamejante",
   "Четыре камня стихий": "Quatro pedras elementais",
-  "Опавшие листья": "Folhas caídas",
-  Ураган: "Furacão",
+  "Опавшие листья": "Folhas ao Vento",
+  Ураган: "Tempestade",
   "Горы Драконова источника": "Montanhas da Fonte do Dragão",
   "Убийца поневоле": "Assassino involuntário",
   "Колодец Хуайбэй": "Poço Huaibei",
-  "Призраки лавки тканей": "Fantasmas da loja de tecidos",
+  "Призраки лавки тканей": "Loja de Tecidos",
   "Убийство в скромном доме": "Assassinato na casa modesta",
   "Бабочка из прошлого": "Borboleta do passado",
   "Прятки с судьбой": "Esconde-esconde com o destino",
   "Ледяная колдунья Бездны": "Feiticeira gelada do Abismo",
 };
 
+/** Отблеск = Relíquia Raiz (Paz) / Relíquia Cauda (Tianyu). */
+const RELIC_LABEL_BY_REGION = {
+  pokoi: "Relíquia Raiz",
+  tianyuy: "Relíquia Cauda",
+  czinsyuan: "Relíquia",
+};
+
 const allNames = { ...i18n.types, ...EXTRA_NAMES, ...i18n.place_labels };
 
-function translateText(text) {
+function translateText(text, regionKey) {
   if (!text) return text;
+  if (text === "Отблеск" && RELIC_LABEL_BY_REGION[regionKey]) {
+    return RELIC_LABEL_BY_REGION[regionKey];
+  }
   if (allNames[text]) return allNames[text];
   let out = text;
   const parts = Object.entries(i18n.phrases).sort(
@@ -116,6 +126,9 @@ function translateText(text) {
     (a, b) => b[0].length - a[0].length,
   )) {
     out = out.split(ru).join(pt);
+  }
+  if (regionKey && RELIC_LABEL_BY_REGION[regionKey]) {
+    out = out.split("Relíquia Raiz").join(RELIC_LABEL_BY_REGION[regionKey]);
   }
   return out;
 }
@@ -231,9 +244,10 @@ function convert(key) {
       const icon_key = iconKeyForType(type);
       const icon = localIconPath(type?.icon) ?? fallbackIcon(icon_key);
       const nameRu = p.name;
-      const namePt = translateText(nameRu);
+      const namePt = translateText(nameRu, key);
       const typeRu = type?.name ?? null;
-      const typePt = typeRu ? translateText(typeRu) : null;
+      const typePt = typeRu ? translateText(typeRu, key) : null;
+      const tipPt = p.description ? translateText(p.description, key) : null;
       return {
         id: `pwm-${region.slug}-${p.id}`,
         name: namePt,
@@ -246,7 +260,7 @@ function convert(key) {
         altitude: typeof p.height === "number" ? p.height : null,
         zone: null,
         reset_policy: resetPolicy(category, icon_key),
-        tip: p.description ? translateText(p.description) : null,
+        tip: tipPt,
         access_conditions: null,
         review_status: "foreign_reference",
         origin: "third_party",

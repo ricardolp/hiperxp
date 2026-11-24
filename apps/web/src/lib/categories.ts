@@ -1,13 +1,24 @@
 import type { PointCategory } from "@hiperxp/contracts";
 
+/** Nomes alinhados ao cliente/comunidade BR (TriviaPW / PRODUCT). */
 export const CATEGORY_LABELS: Record<PointCategory, string> = {
   chest: "Baú",
-  challenge: "Desafio / Mob",
-  collectible: "Reflexo",
+  challenge: "Desafio / Esquadrão",
+  collectible: "Relíquia",
   daily_resource: "Recurso diário",
   npc: "NPC",
   teleport: "Teleporte",
-  quest_objective: "História",
+  quest_objective: "Missão Global",
+};
+
+export const CATEGORY_DESCRIPTIONS: Record<PointCategory, string> = {
+  chest: "Baús escondidos e baús guardados por monstros.",
+  challenge: "Mini desafios no mapa e esquadrões de mobs diários.",
+  collectible: "Relíquias Raiz/Cauda (brilhos) para as Fontes de Energia.",
+  daily_resource: "Coleta diária de materiais do continente oriental.",
+  npc: "Personagens não jogáveis no mapa.",
+  teleport: "Pontos de teleporte e deslocamento.",
+  quest_objective: "Histórias da cidade / missões globais (anedotas).",
 };
 
 export const CATEGORY_COLORS: Record<PointCategory, string> = {

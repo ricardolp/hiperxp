@@ -84,12 +84,12 @@
     },
     {
       "id": "pwm-tianyuy-958",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "958",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -99,11 +99,11 @@
       "altitude": 75,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Под водой в городе Сюаньцзи",
+      "tip": "Debaixo d'água em Xuanji",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 958
     },
     {
@@ -6300,12 +6300,12 @@
     },
     {
       "id": "pwm-tianyuy-947",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "947",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -6315,11 +6315,11 @@
       "altitude": 123,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Гора Циу",
+      "tip": "Monte Qiu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 947
     },
     {
@@ -7812,12 +7812,12 @@
     },
     {
       "id": "pwm-tianyuy-869",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "869",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -7827,21 +7827,21 @@
       "altitude": 134,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Пруд Медитаций (розовый пруд) в городе Тяньюй",
+      "tip": "Lago das Meditações (lago rosa) em Tianyu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 869
     },
     {
       "id": "pwm-tianyuy-870",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "870",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -7851,21 +7851,21 @@
       "altitude": 139,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Крыша в городе Тяньюй в небе",
+      "tip": "Telhado em Tianyu, no céu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 870
     },
     {
       "id": "pwm-tianyuy-871",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "871",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -7879,17 +7879,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 871
     },
     {
       "id": "pwm-tianyuy-872",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "872",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -7903,17 +7903,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 872
     },
     {
       "id": "pwm-tianyuy-873",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "873",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -7923,21 +7923,21 @@
       "altitude": 141,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Крыша в городе Тяньюй",
+      "tip": "Telhado em Tianyu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 873
     },
     {
       "id": "pwm-tianyuy-874",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "874",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -7947,21 +7947,21 @@
       "altitude": 134,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Над Прудом Сияния (зелёный пруд) в городе Тяньюй",
+      "tip": "Acima do Lago do Brilho (lago verde) em Tianyu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 874
     },
     {
       "id": "pwm-tianyuy-875",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "875",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -7971,21 +7971,21 @@
       "altitude": 139,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Крыша в городе Тяньюй в небе",
+      "tip": "Telhado em Tianyu, no céu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 875
     },
     {
       "id": "pwm-tianyuy-876",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "876",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -7995,21 +7995,21 @@
       "altitude": 134,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "В небе над Прудом Слияния с миром (жёлтый пруд) в городе Тяньюй",
+      "tip": "No céu, acima do Lago da Fusão com o Mundo (lago amarelo) em Tianyu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 876
     },
     {
       "id": "pwm-tianyuy-877",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "877",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8019,21 +8019,21 @@
       "altitude": 82,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Окрестности города Тяньюй",
+      "tip": "Arredores de Tianyu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 877
     },
     {
       "id": "pwm-tianyuy-878",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "878",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8047,17 +8047,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 878
     },
     {
       "id": "pwm-tianyuy-879",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "879",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8067,21 +8067,21 @@
       "altitude": 85,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "На земле у Пруда Слияния с миром (жёлтый пруд) в городе Тяньюй",
+      "tip": "No chão junto ao Lago da Fusão com o Mundo (lago amarelo) em Tianyu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 879
     },
     {
       "id": "pwm-tianyuy-880",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "880",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8091,21 +8091,21 @@
       "altitude": 84,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "На дереве в городе Тяньюй",
+      "tip": "Na árvore em Tianyu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 880
     },
     {
       "id": "pwm-tianyuy-881",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "881",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8115,21 +8115,21 @@
       "altitude": 84,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "На дереве в городе Тяньюй",
+      "tip": "Na árvore em Tianyu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 881
     },
     {
       "id": "pwm-tianyuy-882",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "882",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8143,17 +8143,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 882
     },
     {
       "id": "pwm-tianyuy-883",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "883",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8163,21 +8163,21 @@
       "altitude": 85,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Башня Меча Ветра за городом Тяньюй",
+      "tip": "Torre da Espada do Vento, fora de Tianyu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 883
     },
     {
       "id": "pwm-tianyuy-884",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "884",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8187,21 +8187,21 @@
       "altitude": 87,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Первый этаж башни Меча Ветра",
+      "tip": "1º andar da Torre da Espada do Vento",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 884
     },
     {
       "id": "pwm-tianyuy-885",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "885",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8211,21 +8211,21 @@
       "altitude": 84,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Деревня Фэнчжу",
+      "tip": "Aldeia Fengzhu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 885
     },
     {
       "id": "pwm-tianyuy-886",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "886",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8235,21 +8235,21 @@
       "altitude": 83,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "На поверхности воды в деревне Фэнчжу",
+      "tip": "Na superfície da água na Aldeia Fengzhu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 886
     },
     {
       "id": "pwm-tianyuy-887",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "887",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8259,21 +8259,21 @@
       "altitude": 85,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Руины Жань У",
+      "tip": "Ruínas de Ran Wu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 887
     },
     {
       "id": "pwm-tianyuy-888",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "888",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8283,21 +8283,21 @@
       "altitude": 82,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Над водой nas ruínas Жань У",
+      "tip": "Sobre a água nas ruínas de Ran Wu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 888
     },
     {
       "id": "pwm-tianyuy-889",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "889",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8307,21 +8307,21 @@
       "altitude": 95,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Гора священного меча",
+      "tip": "Monte da Espada Sagrada",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 889
     },
     {
       "id": "pwm-tianyuy-890",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "890",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8331,21 +8331,21 @@
       "altitude": 107,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Гора священного меча",
+      "tip": "Monte da Espada Sagrada",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 890
     },
     {
       "id": "pwm-tianyuy-891",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "891",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8355,21 +8355,21 @@
       "altitude": 94,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Гора священного меча",
+      "tip": "Monte da Espada Sagrada",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 891
     },
     {
       "id": "pwm-tianyuy-892",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "892",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8379,21 +8379,21 @@
       "altitude": 101,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Гора священного меча",
+      "tip": "Monte da Espada Sagrada",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 892
     },
     {
       "id": "pwm-tianyuy-893",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "893",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8403,21 +8403,21 @@
       "altitude": 91,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Гора священного меча",
+      "tip": "Monte da Espada Sagrada",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 893
     },
     {
       "id": "pwm-tianyuy-894",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "894",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8427,21 +8427,21 @@
       "altitude": 116,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Гора священного меча",
+      "tip": "Monte da Espada Sagrada",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 894
     },
     {
       "id": "pwm-tianyuy-895",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "895",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8451,21 +8451,21 @@
       "altitude": 100,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Гора священного меча",
+      "tip": "Monte da Espada Sagrada",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 895
     },
     {
       "id": "pwm-tianyuy-896",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "896",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8475,21 +8475,21 @@
       "altitude": 100,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Гора священного меча",
+      "tip": "Monte da Espada Sagrada",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 896
     },
     {
       "id": "pwm-tianyuy-897",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "897",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8499,21 +8499,21 @@
       "altitude": 95,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Мост в Скалах Семи звёзд",
+      "tip": "Ponte nas Rochas das Sete Estrelas",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 897
     },
     {
       "id": "pwm-tianyuy-898",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "898",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8523,21 +8523,21 @@
       "altitude": 84,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Скалы Семи звёзд",
+      "tip": "Rochas das Sete Estrelas",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 898
     },
     {
       "id": "pwm-tianyuy-899",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "899",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8547,21 +8547,21 @@
       "altitude": 83,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Скалы Семи звёзд",
+      "tip": "Rochas das Sete Estrelas",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 899
     },
     {
       "id": "pwm-tianyuy-900",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "900",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8571,21 +8571,21 @@
       "altitude": 84,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Скалы Семи звёзд",
+      "tip": "Rochas das Sete Estrelas",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 900
     },
     {
       "id": "pwm-tianyuy-901",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "901",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8595,21 +8595,21 @@
       "altitude": 83,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Скалы Семи звёзд",
+      "tip": "Rochas das Sete Estrelas",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 901
     },
     {
       "id": "pwm-tianyuy-902",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "902",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8619,21 +8619,21 @@
       "altitude": 98,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Усадьба Байцзянь",
+      "tip": "Mansão Baijian",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 902
     },
     {
       "id": "pwm-tianyuy-903",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "903",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8643,21 +8643,21 @@
       "altitude": 100,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Пик Меча Поисков (Сюньцзян)",
+      "tip": "Pico da Espada das Buscas (Xunjiang)",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 903
     },
     {
       "id": "pwm-tianyuy-904",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "904",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8667,21 +8667,21 @@
       "altitude": 107,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Тёмно-зелёный утёс Вэньцзянь",
+      "tip": "Penhasco verde-escuro Wenjian",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 904
     },
     {
       "id": "pwm-tianyuy-905",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "905",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8691,21 +8691,21 @@
       "altitude": 104,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Безграничный хребет Мечей",
+      "tip": "Cadeia Infinita das Espadas",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 905
     },
     {
       "id": "pwm-tianyuy-906",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "906",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8715,21 +8715,21 @@
       "altitude": 86,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Острова мечей-близнецов",
+      "tip": "Ilhas das Espadas Gêmeas",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 906
     },
     {
       "id": "pwm-tianyuy-907",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "907",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8739,21 +8739,21 @@
       "altitude": 82,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Острова мечей-близнецов",
+      "tip": "Ilhas das Espadas Gêmeas",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 907
     },
     {
       "id": "pwm-tianyuy-908",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "908",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8763,21 +8763,21 @@
       "altitude": 76,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Гавань Шумных волн (Тинтао)",
+      "tip": "Porto das Ondas Ruidosas (Tingtao)",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 908
     },
     {
       "id": "pwm-tianyuy-909",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "909",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8787,21 +8787,21 @@
       "altitude": 83,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Затонувшие руины",
+      "tip": "Ruínas submersas",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 909
     },
     {
       "id": "pwm-tianyuy-910",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "910",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8811,21 +8811,21 @@
       "altitude": 86,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Затонувшие руины",
+      "tip": "Ruínas submersas",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 910
     },
     {
       "id": "pwm-tianyuy-911",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "911",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8835,21 +8835,21 @@
       "altitude": 84,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Затонувшие руины",
+      "tip": "Ruínas submersas",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 911
     },
     {
       "id": "pwm-tianyuy-912",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "912",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8859,21 +8859,21 @@
       "altitude": 85,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Затонувшие руины",
+      "tip": "Ruínas submersas",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 912
     },
     {
       "id": "pwm-tianyuy-913",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "913",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8883,21 +8883,21 @@
       "altitude": 84,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Затонувшие руины",
+      "tip": "Ruínas submersas",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 913
     },
     {
       "id": "pwm-tianyuy-914",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "914",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8911,17 +8911,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 914
     },
     {
       "id": "pwm-tianyuy-915",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "915",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8931,21 +8931,21 @@
       "altitude": 86,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "На доме в Землях Предков",
+      "tip": "Sobre a casa nas Terras Ancestrais",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 915
     },
     {
       "id": "pwm-tianyuy-916",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "916",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8955,21 +8955,21 @@
       "altitude": 111,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "В небе в Землях Предков",
+      "tip": "No céu, Terras Ancestrais",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 916
     },
     {
       "id": "pwm-tianyuy-917",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "917",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8979,21 +8979,21 @@
       "altitude": 113,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "В небе в Землях Предков",
+      "tip": "No céu, Terras Ancestrais",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 917
     },
     {
       "id": "pwm-tianyuy-918",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "918",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9003,21 +9003,21 @@
       "altitude": 90,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Под Древом Темнокрылого Бога",
+      "tip": "Sob a Árvore do Deus Asa-Escura",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 918
     },
     {
       "id": "pwm-tianyuy-919",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "919",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9027,21 +9027,21 @@
       "altitude": 91,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Над грибами у Древа Темнокрылого Бога",
+      "tip": "Sobre os cogumelos junto à Árvore do Deus Asa-Escura",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 919
     },
     {
       "id": "pwm-tianyuy-920",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "920",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9051,21 +9051,21 @@
       "altitude": 88,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Поверхность Древа Темнокрылого Бога",
+      "tip": "Superfície da Árvore do Deus Asa-Escura",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 920
     },
     {
       "id": "pwm-tianyuy-921",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "921",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9075,21 +9075,21 @@
       "altitude": 89,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Древо Темнокрылого Бога",
+      "tip": "Árvore do Deus Asa-Escura",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 921
     },
     {
       "id": "pwm-tianyuy-922",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "922",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9099,21 +9099,21 @@
       "altitude": 88,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Под мостом Древа Яркокрылого Бога",
+      "tip": "Sob a ponte da Árvore do Deus Asa-Brilhante",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 922
     },
     {
       "id": "pwm-tianyuy-923",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "923",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9123,21 +9123,21 @@
       "altitude": 111,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "В небе над Древом Яркокрылого Бога",
+      "tip": "No céu, acima da Árvore do Deus Asa-Brilhante",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 923
     },
     {
       "id": "pwm-tianyuy-924",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "924",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9147,21 +9147,21 @@
       "altitude": 96,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Крыша Древа Яркокрылого Бога",
+      "tip": "Telhado da Árvore do Deus Asa-Brilhante",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 924
     },
     {
       "id": "pwm-tianyuy-925",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "925",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9171,21 +9171,21 @@
       "altitude": 92,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Скрытые пещеры",
+      "tip": "Cavernas ocultas",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 925
     },
     {
       "id": "pwm-tianyuy-926",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "926",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9195,21 +9195,21 @@
       "altitude": 79,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Скрытые пещеры  ответвление",
+      "tip": "Cavernas ocultas — ramal",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 926
     },
     {
       "id": "pwm-tianyuy-927",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "927",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9219,21 +9219,21 @@
       "altitude": 69,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Скрытые пещеры  ответвление",
+      "tip": "Cavernas ocultas — ramal",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 927
     },
     {
       "id": "pwm-tianyuy-928",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "928",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9243,21 +9243,21 @@
       "altitude": 73,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Скрытые пещеры  ответвление",
+      "tip": "Cavernas ocultas — ramal",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 928
     },
     {
       "id": "pwm-tianyuy-929",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "929",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9267,21 +9267,21 @@
       "altitude": 104,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Крыша в Грушевом саду (Лиюань)",
+      "tip": "Telhado no Jardim das Pereiras (Liyuan)",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 929
     },
     {
       "id": "pwm-tianyuy-930",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "930",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9291,21 +9291,21 @@
       "altitude": 108,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Грушевый сад (Лиюань)",
+      "tip": "Jardim das Pereiras (Liyuan)",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 930
     },
     {
       "id": "pwm-tianyuy-931",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "931",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9315,21 +9315,21 @@
       "altitude": 103,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Платформа в воздухе в Грушевом саду (Лиюань)",
+      "tip": "Plataforma no ar no Jardim das Pereiras (Liyuan)",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 931
     },
     {
       "id": "pwm-tianyuy-932",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "932",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9339,21 +9339,21 @@
       "altitude": 101,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "В доме на втором этаже в Грушевом саду (Лиюань)",
+      "tip": "Dentro da casa, 2º andar, Jardim das Pereiras (Liyuan)",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 932
     },
     {
       "id": "pwm-tianyuy-933",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "933",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9363,21 +9363,21 @@
       "altitude": 100,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Грушевый сад (Лиюань)",
+      "tip": "Jardim das Pereiras (Liyuan)",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 933
     },
     {
       "id": "pwm-tianyuy-934",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "934",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9387,21 +9387,21 @@
       "altitude": 108,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Карьер Линши",
+      "tip": "Pedreira Linshi",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 934
     },
     {
       "id": "pwm-tianyuy-935",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "935",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9411,21 +9411,21 @@
       "altitude": 108,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Карьер Линши",
+      "tip": "Pedreira Linshi",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 935
     },
     {
       "id": "pwm-tianyuy-936",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "936",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9435,21 +9435,21 @@
       "altitude": 102,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "У водопада рядом с карьером Линши",
+      "tip": "Junto à cachoeira perto da Pedreira Linshi",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 936
     },
     {
       "id": "pwm-tianyuy-937",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "937",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9459,21 +9459,21 @@
       "altitude": 101,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Гора Циу",
+      "tip": "Monte Qiu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 937
     },
     {
       "id": "pwm-tianyuy-938",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "938",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9483,21 +9483,21 @@
       "altitude": 102,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "На дереве na montanha Циу",
+      "tip": "Na árvore no Monte Qiu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 938
     },
     {
       "id": "pwm-tianyuy-939",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "939",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9507,21 +9507,21 @@
       "altitude": 105,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Гора Циу",
+      "tip": "Monte Qiu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 939
     },
     {
       "id": "pwm-tianyuy-940",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "940",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9531,21 +9531,21 @@
       "altitude": 103,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Гора Циу",
+      "tip": "Monte Qiu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 940
     },
     {
       "id": "pwm-tianyuy-941",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "941",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9555,21 +9555,21 @@
       "altitude": 113,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Гора Циу",
+      "tip": "Monte Qiu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 941
     },
     {
       "id": "pwm-tianyuy-942",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "942",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9579,21 +9579,21 @@
       "altitude": 112,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Гора Циу",
+      "tip": "Monte Qiu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 942
     },
     {
       "id": "pwm-tianyuy-943",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "943",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9603,21 +9603,21 @@
       "altitude": 119,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Крыша na montanha Циу",
+      "tip": "Telhado no Monte Qiu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 943
     },
     {
       "id": "pwm-tianyuy-944",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "944",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9627,21 +9627,21 @@
       "altitude": 101,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Под деревом na montanha Циу",
+      "tip": "Debaixo da árvore no Monte Qiu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 944
     },
     {
       "id": "pwm-tianyuy-945",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "945",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9651,21 +9651,21 @@
       "altitude": 120,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Крыша na montanha Циу",
+      "tip": "Telhado no Monte Qiu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 945
     },
     {
       "id": "pwm-tianyuy-946",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "946",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9675,21 +9675,21 @@
       "altitude": 118,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Гора Циу",
+      "tip": "Monte Qiu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 946
     },
     {
       "id": "pwm-tianyuy-948",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "948",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9699,21 +9699,21 @@
       "altitude": 100,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "На реке na montanha Циу",
+      "tip": "No rio no Monte Qiu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 948
     },
     {
       "id": "pwm-tianyuy-949",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "949",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9723,21 +9723,21 @@
       "altitude": 101,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Ущелье Солнечного оврага",
+      "tip": "Desfiladeiro do Ravina Solar",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 949
     },
     {
       "id": "pwm-tianyuy-950",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "950",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9747,21 +9747,21 @@
       "altitude": 92,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Ущелье Солнечного оврага",
+      "tip": "Desfiladeiro do Ravina Solar",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 950
     },
     {
       "id": "pwm-tianyuy-951",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "951",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9771,21 +9771,21 @@
       "altitude": 90,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Ущелье Солнечного оврага",
+      "tip": "Desfiladeiro do Ravina Solar",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 951
     },
     {
       "id": "pwm-tianyuy-952",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "952",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9795,21 +9795,21 @@
       "altitude": 78,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Под мостом в ущелье Солнечного оврага",
+      "tip": "Sob a ponte no desfiladeiro do Ravina Solar",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 952
     },
     {
       "id": "pwm-tianyuy-953",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "953",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9819,21 +9819,21 @@
       "altitude": 98,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Поле Чжоу Юя",
+      "tip": "Campo de Zhou Yu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 953
     },
     {
       "id": "pwm-tianyuy-954",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "954",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9843,21 +9843,21 @@
       "altitude": 99,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Поле Чжоу Юя",
+      "tip": "Campo de Zhou Yu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 954
     },
     {
       "id": "pwm-tianyuy-955",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "955",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9867,21 +9867,21 @@
       "altitude": 86,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Поле Чжоу Юя",
+      "tip": "Campo de Zhou Yu",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 955
     },
     {
       "id": "pwm-tianyuy-956",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "956",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9891,21 +9891,21 @@
       "altitude": 97,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Поле Чжоу Юя - сыграть в игру вансяо",
+      "tip": "Campo de Zhou Yu — jogue o minigame wanxiao",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 956
     },
     {
       "id": "pwm-tianyuy-957",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "957",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9915,21 +9915,21 @@
       "altitude": 92,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Поле Чжоу Юя - сыграть в игру вансяо",
+      "tip": "Campo de Zhou Yu — jogue o minigame wanxiao",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 957
     },
     {
       "id": "pwm-tianyuy-959",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "959",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9939,21 +9939,21 @@
       "altitude": 103,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Плато Чжао Юня",
+      "tip": "Planalto de Zhao Yun",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 959
     },
     {
       "id": "pwm-tianyuy-960",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "960",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9963,21 +9963,21 @@
       "altitude": 108,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "В воздухе на плато Чжао Юня",
+      "tip": "No ar, no planalto de Zhao Yun",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 960
     },
     {
       "id": "pwm-tianyuy-961",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "961",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9987,21 +9987,21 @@
       "altitude": 86,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Плато Чжао Юня",
+      "tip": "Planalto de Zhao Yun",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 961
     },
     {
       "id": "pwm-tianyuy-962",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "962",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10011,21 +10011,21 @@
       "altitude": 77,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Холм Цзешуй",
+      "tip": "Morro Jieshui",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 962
     },
     {
       "id": "pwm-tianyuy-963",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "963",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10035,21 +10035,21 @@
       "altitude": 71,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Под водой на холме Цзешуй",
+      "tip": "Debaixo d'água no Morro Jieshui",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 963
     },
     {
       "id": "pwm-tianyuy-964",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "964",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10059,21 +10059,21 @@
       "altitude": 88,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Холм Цзешуй",
+      "tip": "Morro Jieshui",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 964
     },
     {
       "id": "pwm-tianyuy-965",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "965",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10083,21 +10083,21 @@
       "altitude": 85,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Холм Цзешуй",
+      "tip": "Morro Jieshui",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 965
     },
     {
       "id": "pwm-tianyuy-966",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "966",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10107,21 +10107,21 @@
       "altitude": 87,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Холм Цзешуй",
+      "tip": "Morro Jieshui",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 966
     },
     {
       "id": "pwm-tianyuy-967",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "967",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10131,21 +10131,21 @@
       "altitude": 103,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Второе ответвление Орлиной пещеры",
+      "tip": "Segundo ramal da Caverna da Águia",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 967
     },
     {
       "id": "pwm-tianyuy-968",
-      "name": "Reflexo",
+      "name": "Relíquia Cauda",
       "aliases": [
         "Отблеск",
         "968",
         "Отблеск",
-        "Reflexo"
+        "Relíquia Cauda"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10155,11 +10155,11 @@
       "altitude": 104,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Второе ответвление Орлиной пещеры",
+      "tip": "Segundo ramal da Caverna da Águia",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia Cauda",
       "source_point_id": 968
     }
   ]

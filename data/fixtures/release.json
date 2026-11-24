@@ -14,5 +14,9 @@
     "bau-da-aurora",
     "pergaminho-abissal",
     "pergaminho-de-tianyu"
+  ],
+  "quest_catalogs": [
+    "cidade-da-paz",
+    "tianyu"
   ]
 }

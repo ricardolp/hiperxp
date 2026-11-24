@@ -12,11 +12,11 @@ export const ICON_URLS: Record<string, string> = {
 export const ICON_LABELS: Record<string, string> = {
   chest: "Baú",
   "monster-chest": "Baú com monstros",
-  glint: "Reflexo",
+  glint: "Relíquia",
   challenge: "Desafio",
-  quest: "História",
+  quest: "Missão Global",
   resource: "Recurso diário",
-  mob: "Mob diário",
+  mob: "Esquadrão",
 };
 
 export function iconUrl(

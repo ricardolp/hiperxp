@@ -81,6 +81,8 @@ export type ItemFixture = {
   id: string;
   name_pt_br: string;
   aliases: string[];
+  /** Flavor/tooltip text from game or community source (optional). */
+  description_pt_br?: string;
 };
 
 export type DropReward = {
@@ -157,6 +159,65 @@ export type ReleaseFixture = {
   notice: string;
   maps: string[];
   drop_tables: string[];
+  quest_catalogs?: string[];
+};
+
+export type QuestKind = "world_quest" | "journey" | "anecdote" | "daily";
+
+export type QuestCoord = {
+  x: number;
+  y: number;
+  altitude: number | null;
+};
+
+export type QuestStepFixture = {
+  id: string;
+  order: number;
+  title_pt_br: string;
+  instruction_pt_br: string;
+  npc: string | null;
+  coords: QuestCoord[];
+  dialog_hint: string | null;
+  notes: string | null;
+};
+
+export type QuestGuideFixture = {
+  id: string;
+  slug: string;
+  map_slug: string;
+  kind: QuestKind;
+  order: number;
+  name_pt_br: string;
+  aliases: string[];
+  /** Short blurb for listings / home cards. Falls back to summary. */
+  excerpt_pt_br?: string | null;
+  summary_pt_br: string | null;
+  prerequisite_pt_br: string | null;
+  rewards_pt_br: string | null;
+  /** ISO date for blog-style ordering when known (Trivia publish date). */
+  published_at?: string | null;
+  coverage_status: CoverageStatus;
+  review_status: ReviewStatus;
+  origin: DataOrigin;
+  source_url: string;
+  source_file?: string | null;
+  content_hash?: string;
+  notice: string;
+  steps: QuestStepFixture[];
+};
+
+export type QuestCatalogFixture = {
+  schema_version: number;
+  id: string;
+  map_slug: string;
+  name_pt_br?: string;
+  generated_at: string;
+  synthetic: boolean;
+  origin: DataOrigin;
+  review_status: ReviewStatus;
+  notice: string;
+  sources: string[];
+  quests: QuestGuideFixture[];
 };
 
 /** Apply affine transform: u = a*x + b*y + c; v = d*x + e*y + f */

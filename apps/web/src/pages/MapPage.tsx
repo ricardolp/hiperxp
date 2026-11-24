@@ -3,7 +3,11 @@ import { Link, Navigate, useParams, useSearchParams } from "react-router-dom";
 import type { PointCategory } from "@hiperxp/contracts";
 import { ConfirmDialog } from "../components/ConfirmDialog";
 import { MapView } from "../components/MapView";
-import { ALL_CATEGORIES, CATEGORY_LABELS } from "../lib/categories";
+import {
+  ALL_CATEGORIES,
+  CATEGORY_DESCRIPTIONS,
+  CATEGORY_LABELS,
+} from "../lib/categories";
 import { getMap, mapOrder, maps } from "../lib/data";
 import { ICON_LABELS, iconUrl } from "../lib/icons";
 import {
@@ -160,6 +164,9 @@ export function MapPage() {
 
   return (
     <main className="page-wide map-page">
+      <h1 className="visually-hidden">
+        Mapa {map.name_pt_br} — Reino Oriental Perfect World
+      </h1>
       <div className="map-toolbar">
         <div className="map-tabs" role="tablist" aria-label="Mapas">
           {mapOrder.map((mapSlug) => (
@@ -331,7 +338,11 @@ export function MapPage() {
               <h3 className="side-heading">Tipos</h3>
               <div className="category-filters">
                 {categoryCounts.map(({ category, total, done }) => (
-                  <label key={category} className="filter-row">
+                  <label
+                    key={category}
+                    className="filter-row"
+                    title={CATEGORY_DESCRIPTIONS[category]}
+                  >
                     <input
                       type="checkbox"
                       checked={categories.has(category)}

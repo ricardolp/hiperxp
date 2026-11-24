@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# SPA assets — indexar páginas, não chunks de build
+Disallow: /assets/
+
+Sitemap: https://hiperxp.com/sitemap.xml

@@ -42,7 +42,7 @@
         "Якшас-охотница на души",
         "1747",
         "Моб по еже",
-        "Mob diário"
+        "Esquadrão diário"
       ],
       "category": "challenge",
       "icon_key": "mob",
@@ -56,7 +56,7 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Mob diário",
+      "type_label": "Esquadrão diário",
       "source_point_id": 1747
     },
     {
@@ -66,7 +66,7 @@
         "Якшас охотница за головами",
         "1785",
         "Моб по еже",
-        "Mob diário"
+        "Esquadrão diário"
       ],
       "category": "challenge",
       "icon_key": "mob",
@@ -80,7 +80,7 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Mob diário",
+      "type_label": "Esquadrão diário",
       "source_point_id": 1785
     },
     {
@@ -100,7 +100,7 @@
       "altitude": 84,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "mobs",
+      "tip": "esquadrão",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
@@ -2130,7 +2130,7 @@
         "1",
         "1703",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -2144,7 +2144,7 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1703
     },
     {
@@ -3556,7 +3556,7 @@
       "altitude": 86,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Испытание",
+      "tip": "Prova",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
@@ -3580,7 +3580,7 @@
       "altitude": 89,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "Мобы",
+      "tip": "Esquadrão",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
@@ -3594,7 +3594,7 @@
         "Якшас",
         "1749",
         "Моб по еже",
-        "Mob diário"
+        "Esquadrão diário"
       ],
       "category": "challenge",
       "icon_key": "mob",
@@ -3604,11 +3604,11 @@
       "altitude": 78,
       "zone": null,
       "reset_policy": "daily",
-      "tip": "Yaksha призыватель, Yaksha заклинатель, Yaksha призываьель душ, Yaksha заклинатель приливов\nПадает Обратная чешуя и Стенающая живая костть",
+      "tip": "Yaksha invocador, Yaksha conjurador, Yaksha invocador de almas, Yaksha conjurador das marés\nDropa Escama inversa da vitória e Osso vivo gemebundo",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Mob diário",
+      "type_label": "Esquadrão diário",
       "source_point_id": 1749
     },
     {
@@ -3628,7 +3628,7 @@
       "altitude": 86,
       "zone": null,
       "reset_policy": "daily",
-      "tip": "На входе в пещеру",
+      "tip": "Na entrada da caverna",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
@@ -3642,7 +3642,7 @@
         "Командир клана Резчиков",
         "1750",
         "Моб по еже",
-        "Mob diário"
+        "Esquadrão diário"
       ],
       "category": "challenge",
       "icon_key": "mob",
@@ -3656,7 +3656,7 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Mob diário",
+      "type_label": "Esquadrão diário",
       "source_point_id": 1750
     },
     {
@@ -3666,7 +3666,7 @@
         "Командир клана Резчиков",
         "1751",
         "Моб по еже",
-        "Mob diário"
+        "Esquadrão diário"
       ],
       "category": "challenge",
       "icon_key": "mob",
@@ -3680,7 +3680,7 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Mob diário",
+      "type_label": "Esquadrão diário",
       "source_point_id": 1751
     },
     {
@@ -3690,7 +3690,7 @@
         "Командир клана Резчиков",
         "1753",
         "Моб по еже",
-        "Mob diário"
+        "Esquadrão diário"
       ],
       "category": "challenge",
       "icon_key": "mob",
@@ -3704,7 +3704,7 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Mob diário",
+      "type_label": "Esquadrão diário",
       "source_point_id": 1753
     },
     {
@@ -3714,7 +3714,7 @@
         "Командир клана Резчиков",
         "1754",
         "Моб по еже",
-        "Mob diário"
+        "Esquadrão diário"
       ],
       "category": "challenge",
       "icon_key": "mob",
@@ -3728,7 +3728,7 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Mob diário",
+      "type_label": "Esquadrão diário",
       "source_point_id": 1754
     },
     {
@@ -3738,7 +3738,7 @@
         "Командир клана Резчиков",
         "1755",
         "Моб по еже",
-        "Mob diário"
+        "Esquadrão diário"
       ],
       "category": "challenge",
       "icon_key": "mob",
@@ -3752,7 +3752,7 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Mob diário",
+      "type_label": "Esquadrão diário",
       "source_point_id": 1755
     },
     {
@@ -3882,7 +3882,7 @@
         "Якшас-заклинатель приливов",
         "1761",
         "Моб по еже",
-        "Mob diário"
+        "Esquadrão diário"
       ],
       "category": "challenge",
       "icon_key": "mob",
@@ -3896,7 +3896,7 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Mob diário",
+      "type_label": "Esquadrão diário",
       "source_point_id": 1761
     },
     {
@@ -3906,7 +3906,7 @@
         "Якшас-заклинатель приливов",
         "1762",
         "Моб по еже",
-        "Mob diário"
+        "Esquadrão diário"
       ],
       "category": "challenge",
       "icon_key": "mob",
@@ -3920,7 +3920,7 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Mob diário",
+      "type_label": "Esquadrão diário",
       "source_point_id": 1762
     },
     {
@@ -3930,7 +3930,7 @@
         "Якшас-заклинатель приливов",
         "1763",
         "Моб по еже",
-        "Mob diário"
+        "Esquadrão diário"
       ],
       "category": "challenge",
       "icon_key": "mob",
@@ -3944,7 +3944,7 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Mob diário",
+      "type_label": "Esquadrão diário",
       "source_point_id": 1763
     },
     {
@@ -3954,7 +3954,7 @@
         "Якшас-заклинатель приливов",
         "1764",
         "Моб по еже",
-        "Mob diário"
+        "Esquadrão diário"
       ],
       "category": "challenge",
       "icon_key": "mob",
@@ -3968,7 +3968,7 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Mob diário",
+      "type_label": "Esquadrão diário",
       "source_point_id": 1764
     },
     {
@@ -3978,7 +3978,7 @@
         "Якшас-заклинатель приливов",
         "1765",
         "Моб по еже",
-        "Mob diário"
+        "Esquadrão diário"
       ],
       "category": "challenge",
       "icon_key": "mob",
@@ -3992,7 +3992,7 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Mob diário",
+      "type_label": "Esquadrão diário",
       "source_point_id": 1765
     },
     {
@@ -4122,7 +4122,7 @@
         "Командир клана Резчиков",
         "1752",
         "Моб по еже",
-        "Mob diário"
+        "Esquadrão diário"
       ],
       "category": "challenge",
       "icon_key": "mob",
@@ -4132,11 +4132,11 @@
       "altitude": 124,
       "zone": null,
       "reset_policy": "daily",
-      "tip": "Сотрясатель Клана Резчиков",
+      "tip": "Abalador do Clã dos Entalhadores",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Mob diário",
+      "type_label": "Esquadrão diário",
       "source_point_id": 1752
     },
     {
@@ -8716,7 +8716,7 @@
       "altitude": 1,
       "zone": null,
       "reset_policy": "daily",
-      "tip": "На дереве",
+      "tip": "Na árvore",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
@@ -8740,7 +8740,7 @@
       "altitude": 1,
       "zone": null,
       "reset_policy": "daily",
-      "tip": "На дереве",
+      "tip": "Na árvore",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
@@ -8754,7 +8754,7 @@
         "мастер рудника клана резчиков",
         "1787",
         "Моб по еже",
-        "Mob diário"
+        "Esquadrão diário"
       ],
       "category": "challenge",
       "icon_key": "mob",
@@ -8764,11 +8764,11 @@
       "altitude": 103,
       "zone": null,
       "reset_policy": "daily",
-      "tip": "на скале mobs",
+      "tip": "na rocha · esquadrão",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Mob diário",
+      "type_label": "Esquadrão diário",
       "source_point_id": 1787
     },
     {
@@ -8893,12 +8893,12 @@
     },
     {
       "id": "pwm-czinsyuan-1580",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1580",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8912,17 +8912,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1580
     },
     {
       "id": "pwm-czinsyuan-1581",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1581",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8936,17 +8936,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1581
     },
     {
       "id": "pwm-czinsyuan-1582",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1582",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8960,17 +8960,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1582
     },
     {
       "id": "pwm-czinsyuan-1583",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1583",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -8984,17 +8984,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1583
     },
     {
       "id": "pwm-czinsyuan-1584",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1584",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9008,17 +9008,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1584
     },
     {
       "id": "pwm-czinsyuan-1585",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1585",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9032,17 +9032,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1585
     },
     {
       "id": "pwm-czinsyuan-1586",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1586",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9056,17 +9056,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1586
     },
     {
       "id": "pwm-czinsyuan-1587",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1587",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9080,17 +9080,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1587
     },
     {
       "id": "pwm-czinsyuan-1588",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1588",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9104,17 +9104,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1588
     },
     {
       "id": "pwm-czinsyuan-1589",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1589",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9128,17 +9128,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1589
     },
     {
       "id": "pwm-czinsyuan-1590",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1590",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9152,17 +9152,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1590
     },
     {
       "id": "pwm-czinsyuan-1591",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1591",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9176,17 +9176,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1591
     },
     {
       "id": "pwm-czinsyuan-1592",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1592",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9200,17 +9200,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1592
     },
     {
       "id": "pwm-czinsyuan-1593",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1593",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9224,17 +9224,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1593
     },
     {
       "id": "pwm-czinsyuan-1594",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1594",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9248,17 +9248,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1594
     },
     {
       "id": "pwm-czinsyuan-1595",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1595",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9272,17 +9272,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1595
     },
     {
       "id": "pwm-czinsyuan-1596",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1596",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9296,17 +9296,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1596
     },
     {
       "id": "pwm-czinsyuan-1597",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1597",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9320,17 +9320,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1597
     },
     {
       "id": "pwm-czinsyuan-1598",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1598",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9344,17 +9344,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1598
     },
     {
       "id": "pwm-czinsyuan-1600",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1600",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9368,17 +9368,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1600
     },
     {
       "id": "pwm-czinsyuan-1601",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1601",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9392,17 +9392,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1601
     },
     {
       "id": "pwm-czinsyuan-1602",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1602",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9416,17 +9416,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1602
     },
     {
       "id": "pwm-czinsyuan-1604",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1604",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9440,17 +9440,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1604
     },
     {
       "id": "pwm-czinsyuan-1605",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1605",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9464,17 +9464,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1605
     },
     {
       "id": "pwm-czinsyuan-1606",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1606",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9488,17 +9488,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1606
     },
     {
       "id": "pwm-czinsyuan-1607",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1607",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9512,17 +9512,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1607
     },
     {
       "id": "pwm-czinsyuan-1608",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1608",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9536,17 +9536,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1608
     },
     {
       "id": "pwm-czinsyuan-1609",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1609",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9560,17 +9560,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1609
     },
     {
       "id": "pwm-czinsyuan-1610",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1610",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9584,17 +9584,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1610
     },
     {
       "id": "pwm-czinsyuan-1611",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1611",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9608,17 +9608,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1611
     },
     {
       "id": "pwm-czinsyuan-1614",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1614",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9632,17 +9632,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1614
     },
     {
       "id": "pwm-czinsyuan-1615",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1615",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9656,17 +9656,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1615
     },
     {
       "id": "pwm-czinsyuan-1616",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1616",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9680,17 +9680,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1616
     },
     {
       "id": "pwm-czinsyuan-1617",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1617",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9704,17 +9704,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1617
     },
     {
       "id": "pwm-czinsyuan-1618",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1618",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9728,17 +9728,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1618
     },
     {
       "id": "pwm-czinsyuan-1619",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1619",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9752,17 +9752,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1619
     },
     {
       "id": "pwm-czinsyuan-1620",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1620",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9776,17 +9776,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1620
     },
     {
       "id": "pwm-czinsyuan-1621",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1621",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9800,17 +9800,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1621
     },
     {
       "id": "pwm-czinsyuan-1622",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1622",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9824,17 +9824,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1622
     },
     {
       "id": "pwm-czinsyuan-1624",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1624",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9848,17 +9848,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1624
     },
     {
       "id": "pwm-czinsyuan-1625",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1625",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9872,17 +9872,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1625
     },
     {
       "id": "pwm-czinsyuan-1626",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1626",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9896,17 +9896,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1626
     },
     {
       "id": "pwm-czinsyuan-1627",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1627",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9920,17 +9920,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1627
     },
     {
       "id": "pwm-czinsyuan-1628",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1628",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9944,17 +9944,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1628
     },
     {
       "id": "pwm-czinsyuan-1629",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1629",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9968,17 +9968,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1629
     },
     {
       "id": "pwm-czinsyuan-1630",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1630",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -9992,17 +9992,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1630
     },
     {
       "id": "pwm-czinsyuan-1631",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1631",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10016,17 +10016,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1631
     },
     {
       "id": "pwm-czinsyuan-1632",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1632",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10040,17 +10040,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1632
     },
     {
       "id": "pwm-czinsyuan-1613",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1613",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10064,17 +10064,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1613
     },
     {
       "id": "pwm-czinsyuan-1603",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1603",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10084,21 +10084,21 @@
       "altitude": 102,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "выс 119",
+      "tip": "alt. 119",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1603
     },
     {
       "id": "pwm-czinsyuan-1623",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1623",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10108,21 +10108,21 @@
       "altitude": 90,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "пещера",
+      "tip": "caverna",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1623
     },
     {
       "id": "pwm-czinsyuan-1612",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1612",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10132,21 +10132,21 @@
       "altitude": 84,
       "zone": null,
       "reset_policy": "permanent",
-      "tip": "в дереве",
+      "tip": "dentro da árvore",
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1612
     },
     {
       "id": "pwm-czinsyuan-1634",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1634",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10160,17 +10160,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1634
     },
     {
       "id": "pwm-czinsyuan-1635",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1635",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10184,17 +10184,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1635
     },
     {
       "id": "pwm-czinsyuan-1636",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1636",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10208,17 +10208,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1636
     },
     {
       "id": "pwm-czinsyuan-1637",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1637",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10232,17 +10232,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1637
     },
     {
       "id": "pwm-czinsyuan-1638",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1638",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10256,17 +10256,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1638
     },
     {
       "id": "pwm-czinsyuan-1639",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1639",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10280,17 +10280,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1639
     },
     {
       "id": "pwm-czinsyuan-1640",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1640",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10304,17 +10304,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1640
     },
     {
       "id": "pwm-czinsyuan-1641",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1641",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10328,17 +10328,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1641
     },
     {
       "id": "pwm-czinsyuan-1642",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1642",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10352,17 +10352,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1642
     },
     {
       "id": "pwm-czinsyuan-1643",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1643",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10376,17 +10376,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1643
     },
     {
       "id": "pwm-czinsyuan-1644",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1644",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10400,17 +10400,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1644
     },
     {
       "id": "pwm-czinsyuan-1645",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1645",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10424,17 +10424,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1645
     },
     {
       "id": "pwm-czinsyuan-1646",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1646",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10448,17 +10448,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1646
     },
     {
       "id": "pwm-czinsyuan-1647",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1647",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10472,17 +10472,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1647
     },
     {
       "id": "pwm-czinsyuan-1648",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1648",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10496,17 +10496,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1648
     },
     {
       "id": "pwm-czinsyuan-1649",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1649",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10520,17 +10520,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1649
     },
     {
       "id": "pwm-czinsyuan-1650",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1650",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10544,17 +10544,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1650
     },
     {
       "id": "pwm-czinsyuan-1651",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1651",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10568,17 +10568,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1651
     },
     {
       "id": "pwm-czinsyuan-1652",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1652",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10592,17 +10592,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1652
     },
     {
       "id": "pwm-czinsyuan-1653",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1653",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10616,17 +10616,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1653
     },
     {
       "id": "pwm-czinsyuan-1654",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1654",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10640,17 +10640,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1654
     },
     {
       "id": "pwm-czinsyuan-1655",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1655",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10664,17 +10664,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1655
     },
     {
       "id": "pwm-czinsyuan-1656",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1656",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10688,17 +10688,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1656
     },
     {
       "id": "pwm-czinsyuan-1657",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1657",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10712,17 +10712,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1657
     },
     {
       "id": "pwm-czinsyuan-1658",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1658",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10736,17 +10736,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1658
     },
     {
       "id": "pwm-czinsyuan-1659",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1659",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10760,17 +10760,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1659
     },
     {
       "id": "pwm-czinsyuan-1660",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1660",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10784,17 +10784,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1660
     },
     {
       "id": "pwm-czinsyuan-1661",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1661",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10808,17 +10808,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1661
     },
     {
       "id": "pwm-czinsyuan-1662",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1662",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10832,17 +10832,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1662
     },
     {
       "id": "pwm-czinsyuan-1663",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1663",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10856,17 +10856,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1663
     },
     {
       "id": "pwm-czinsyuan-1664",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1664",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10880,17 +10880,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1664
     },
     {
       "id": "pwm-czinsyuan-1665",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1665",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10904,17 +10904,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1665
     },
     {
       "id": "pwm-czinsyuan-1666",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1666",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10928,17 +10928,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1666
     },
     {
       "id": "pwm-czinsyuan-1667",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1667",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10952,17 +10952,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1667
     },
     {
       "id": "pwm-czinsyuan-1668",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1668",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -10976,17 +10976,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1668
     },
     {
       "id": "pwm-czinsyuan-1669",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1669",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -11000,17 +11000,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1669
     },
     {
       "id": "pwm-czinsyuan-1670",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1670",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -11024,17 +11024,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1670
     },
     {
       "id": "pwm-czinsyuan-1671",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1671",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -11048,17 +11048,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1671
     },
     {
       "id": "pwm-czinsyuan-1672",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1672",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -11072,17 +11072,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1672
     },
     {
       "id": "pwm-czinsyuan-1673",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1673",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -11096,17 +11096,17 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1673
     },
     {
       "id": "pwm-czinsyuan-1674",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1674",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -11120,7 +11120,7 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1674
     },
     {
@@ -11197,12 +11197,12 @@
     },
     {
       "id": "pwm-czinsyuan-1633",
-      "name": "Reflexo",
+      "name": "Relíquia",
       "aliases": [
         "Отблеск",
         "1633",
         "Отблеск",
-        "Reflexo"
+        "Relíquia"
       ],
       "category": "collectible",
       "icon_key": "glint",
@@ -11216,7 +11216,7 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Reflexo",
+      "type_label": "Relíquia",
       "source_point_id": 1633
     },
     {
@@ -11226,7 +11226,7 @@
         "Крушитель клана Резчиков",
         "1781",
         "Моб по еже",
-        "Mob diário"
+        "Esquadrão diário"
       ],
       "category": "challenge",
       "icon_key": "mob",
@@ -11240,7 +11240,7 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Mob diário",
+      "type_label": "Esquadrão diário",
       "source_point_id": 1781
     },
     {
@@ -11250,7 +11250,7 @@
         "Мастер рудника клана Резчиков",
         "1677",
         "Моб по еже",
-        "Mob diário"
+        "Esquadrão diário"
       ],
       "category": "challenge",
       "icon_key": "mob",
@@ -11264,7 +11264,7 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Mob diário",
+      "type_label": "Esquadrão diário",
       "source_point_id": 1677
     },
     {
@@ -11274,7 +11274,7 @@
         "Командир клана Резчиков",
         "1678",
         "Моб по еже",
-        "Mob diário"
+        "Esquadrão diário"
       ],
       "category": "challenge",
       "icon_key": "mob",
@@ -11288,7 +11288,7 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Mob diário",
+      "type_label": "Esquadrão diário",
       "source_point_id": 1678
     },
     {
@@ -11298,7 +11298,7 @@
         "Захватчик клана Резчиков",
         "1679",
         "Моб по еже",
-        "Mob diário"
+        "Esquadrão diário"
       ],
       "category": "challenge",
       "icon_key": "mob",
@@ -11312,7 +11312,7 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Mob diário",
+      "type_label": "Esquadrão diário",
       "source_point_id": 1679
     },
     {
@@ -11346,7 +11346,7 @@
         "Мастер рудника клана Резчиков",
         "1784",
         "Моб по еже",
-        "Mob diário"
+        "Esquadrão diário"
       ],
       "category": "challenge",
       "icon_key": "mob",
@@ -11360,7 +11360,7 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Mob diário",
+      "type_label": "Esquadrão diário",
       "source_point_id": 1784
     },
     {
@@ -11370,7 +11370,7 @@
         "Мастер рудника клана Резчиков",
         "1783",
         "Моб по еже",
-        "Mob diário"
+        "Esquadrão diário"
       ],
       "category": "challenge",
       "icon_key": "mob",
@@ -11384,7 +11384,7 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Mob diário",
+      "type_label": "Esquadrão diário",
       "source_point_id": 1783
     },
     {
@@ -11394,7 +11394,7 @@
         "Мастер рудника клана Резчиков",
         "1704",
         "Моб по еже",
-        "Mob diário"
+        "Esquadrão diário"
       ],
       "category": "challenge",
       "icon_key": "mob",
@@ -11408,7 +11408,7 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "third_party",
-      "type_label": "Mob diário",
+      "type_label": "Esquadrão diário",
       "source_point_id": 1704
     }
   ]
