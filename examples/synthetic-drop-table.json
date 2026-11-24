@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "publication_allowed": false,
+  "notice": "EXEMPLO ARTIFICIAL: não representa baú, item ou chance do Perfect World.",
+  "id": "fixture-chest",
+  "revision": "fixture-v1",
+  "model_version": "groups-v1",
+  "probability_status": "hypothetical",
+  "game_build_id": null,
+  "groups": [
+    {
+      "id": "g1",
+      "order": 1,
+      "type": "guaranteed",
+      "entries": [
+        {
+          "id": "a",
+          "order": 1,
+          "rewards": [
+            {
+              "item_id": "fixture-token",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g2",
+      "order": 2,
+      "type": "exclusive_weighted",
+      "rolls": 1,
+      "weight_kind": "declared_probability",
+      "probability_denominator": 10000,
+      "entries": [
+        {
+          "id": "b",
+          "order": 1,
+          "weight": 100,
+          "rewards": [
+            {
+              "item_id": "fixture-rare",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "c",
+          "order": 2,
+          "weight": 9900,
+          "rewards": [
+            {
+              "item_id": "fixture-common",
+              "quantity": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g3",
+      "order": 3,
+      "type": "independent_bernoulli",
+      "rolls": 1,
+      "entries": [
+        {
+          "id": "d",
+          "order": 1,
+          "numerator": 1,
+          "denominator": 2,
+          "rewards": [
+            {
+              "item_id": "fixture-bonus",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

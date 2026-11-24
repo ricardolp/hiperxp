@@ -1,0 +1,541 @@
+[
+  {
+    "id": "pw-21377",
+    "name_pt_br": "Diamante do Tigre",
+    "aliases": [
+      "21377"
+    ]
+  },
+  {
+    "id": "pw-21378",
+    "name_pt_br": "Diamante do Dragão",
+    "aliases": [
+      "21378"
+    ]
+  },
+  {
+    "id": "pw-23972",
+    "name_pt_br": "Carimbo da Diretoria do Cubo",
+    "aliases": [
+      "23972"
+    ]
+  },
+  {
+    "id": "pw-24722",
+    "name_pt_br": "Muita Sorte - Perfect World",
+    "aliases": [
+      "24722"
+    ]
+  },
+  {
+    "id": "pw-24725",
+    "name_pt_br": "Pergaminho dos Deuses",
+    "aliases": [
+      "24725"
+    ]
+  },
+  {
+    "id": "pw-25151",
+    "name_pt_br": "Insígnia Líder Brado de Batalha",
+    "aliases": [
+      "25151"
+    ]
+  },
+  {
+    "id": "pw-26388",
+    "name_pt_br": "★★Céu Tempestuoso",
+    "aliases": [
+      "26388"
+    ]
+  },
+  {
+    "id": "pw-26389",
+    "name_pt_br": "★★Tempestade Nebulosa",
+    "aliases": [
+      "26389"
+    ]
+  },
+  {
+    "id": "pw-27502",
+    "name_pt_br": "Manuscrito do Destino",
+    "aliases": [
+      "27502"
+    ]
+  },
+  {
+    "id": "pw-28300",
+    "name_pt_br": "Pedra da Selva",
+    "aliases": [
+      "28300"
+    ]
+  },
+  {
+    "id": "pw-28350",
+    "name_pt_br": "Medalha da Glória",
+    "aliases": [
+      "28350"
+    ]
+  },
+  {
+    "id": "pw-28641",
+    "name_pt_br": "Símbolo do General Lotor",
+    "aliases": [
+      "28641"
+    ]
+  },
+  {
+    "id": "pw-32082",
+    "name_pt_br": "★★Capa Universal",
+    "aliases": [
+      "32082"
+    ]
+  },
+  {
+    "id": "pw-36676",
+    "name_pt_br": "Imperador",
+    "aliases": [
+      "36676"
+    ]
+  },
+  {
+    "id": "pw-38256",
+    "name_pt_br": "★★★Coroa da Insanidade",
+    "aliases": [
+      "38256"
+    ]
+  },
+  {
+    "id": "pw-38257",
+    "name_pt_br": "★★★Capa da Ascensão",
+    "aliases": [
+      "38257"
+    ]
+  },
+  {
+    "id": "pw-39872",
+    "name_pt_br": "Moeda de Bronze",
+    "aliases": [
+      "39872"
+    ]
+  },
+  {
+    "id": "pw-39873",
+    "name_pt_br": "Moeda de Ouro",
+    "aliases": [
+      "39873"
+    ]
+  },
+  {
+    "id": "pw-43955",
+    "name_pt_br": "Orbe de Poder - Despertar VI",
+    "aliases": [
+      "43955"
+    ]
+  },
+  {
+    "id": "pw-47254",
+    "name_pt_br": "Pedra de Liberação",
+    "aliases": [
+      "47254"
+    ]
+  },
+  {
+    "id": "pw-47269",
+    "name_pt_br": "Pedra do Céu Vermelho",
+    "aliases": [
+      "47269"
+    ]
+  },
+  {
+    "id": "pw-47270",
+    "name_pt_br": "Pedra da Clareza",
+    "aliases": [
+      "47270"
+    ]
+  },
+  {
+    "id": "pw-47274",
+    "name_pt_br": "Pedra da Ravina",
+    "aliases": [
+      "47274"
+    ]
+  },
+  {
+    "id": "pw-47275",
+    "name_pt_br": "Pedra do Combate",
+    "aliases": [
+      "47275"
+    ]
+  },
+  {
+    "id": "pw-47277",
+    "name_pt_br": "Pedra da Proteção",
+    "aliases": [
+      "47277"
+    ]
+  },
+  {
+    "id": "pw-47308",
+    "name_pt_br": "Caixa do Amuleto de Platina",
+    "aliases": [
+      "47308"
+    ]
+  },
+  {
+    "id": "pw-47309",
+    "name_pt_br": "Caixa do Hierograma de Platina",
+    "aliases": [
+      "47309"
+    ]
+  },
+  {
+    "id": "pw-48668",
+    "name_pt_br": "Cristal de Jade",
+    "aliases": [
+      "48668"
+    ]
+  },
+  {
+    "id": "pw-48669",
+    "name_pt_br": "Relíquia Reforjada",
+    "aliases": [
+      "48669"
+    ]
+  },
+  {
+    "id": "pw-50261",
+    "name_pt_br": "Madeira Profanada Bruta",
+    "aliases": [
+      "50261"
+    ]
+  },
+  {
+    "id": "pw-50263",
+    "name_pt_br": "Caveira Zênite Bruta",
+    "aliases": [
+      "50263"
+    ]
+  },
+  {
+    "id": "pw-50265",
+    "name_pt_br": "Essência Dracônica Bruta",
+    "aliases": [
+      "50265"
+    ]
+  },
+  {
+    "id": "pw-51167",
+    "name_pt_br": "Ídolo de Jade",
+    "aliases": [
+      "51167"
+    ]
+  },
+  {
+    "id": "pw-58015",
+    "name_pt_br": "Pacote de Runas Nível 4",
+    "aliases": [
+      "58015"
+    ]
+  },
+  {
+    "id": "pw-58016",
+    "name_pt_br": "Pacote de Runas Nível 7",
+    "aliases": [
+      "58016"
+    ]
+  },
+  {
+    "id": "pw-58682",
+    "name_pt_br": "Pedra dos Princípios",
+    "aliases": [
+      "58682"
+    ]
+  },
+  {
+    "id": "pw-58684",
+    "name_pt_br": "Pedra do Primogênito",
+    "aliases": [
+      "58684"
+    ]
+  },
+  {
+    "id": "pw-59659",
+    "name_pt_br": "Estio",
+    "aliases": [
+      "59659"
+    ]
+  },
+  {
+    "id": "pw-59660",
+    "name_pt_br": "Espírito da Gravura",
+    "aliases": [
+      "59660"
+    ]
+  },
+  {
+    "id": "pw-59974",
+    "name_pt_br": "Espírito Sagrado Adormecido",
+    "aliases": [
+      "59974"
+    ]
+  },
+  {
+    "id": "pw-60098",
+    "name_pt_br": "Pedra Lunar da Punição",
+    "aliases": [
+      "60098"
+    ]
+  },
+  {
+    "id": "pw-60239",
+    "name_pt_br": "Capítulo do Oceano Cerúleo",
+    "aliases": [
+      "60239"
+    ]
+  },
+  {
+    "id": "pw-61765",
+    "name_pt_br": "Pacote Cristal do Luar",
+    "aliases": [
+      "61765"
+    ]
+  },
+  {
+    "id": "pw-61766",
+    "name_pt_br": "Pacote Adormecido (Corpo)",
+    "aliases": [
+      "61766"
+    ]
+  },
+  {
+    "id": "pw-61767",
+    "name_pt_br": "Pacote Adormecido (Calça)",
+    "aliases": [
+      "61767"
+    ]
+  },
+  {
+    "id": "pw-61768",
+    "name_pt_br": "Pacote Adormecido (Botas)",
+    "aliases": [
+      "61768"
+    ]
+  },
+  {
+    "id": "pw-61769",
+    "name_pt_br": "Pacote Adormecido (Braçadeiras)",
+    "aliases": [
+      "61769"
+    ]
+  },
+  {
+    "id": "pw-62270",
+    "name_pt_br": "Pérola Suprema de Astrolábio",
+    "aliases": [
+      "62270"
+    ]
+  },
+  {
+    "id": "pw-62332",
+    "name_pt_br": "Peça de Tear: Anel Estrelado",
+    "aliases": [
+      "62332"
+    ]
+  },
+  {
+    "id": "pw-62333",
+    "name_pt_br": "Peça de Poeira: Arca Estelar",
+    "aliases": [
+      "62333"
+    ]
+  },
+  {
+    "id": "pw-62334",
+    "name_pt_br": "Peça dos Tesouros do Elísio",
+    "aliases": [
+      "62334"
+    ]
+  },
+  {
+    "id": "pw-64628",
+    "name_pt_br": "Artefato de Catarata de Pó",
+    "aliases": [
+      "64628"
+    ]
+  },
+  {
+    "id": "pw-64630",
+    "name_pt_br": "Cristal do Luar",
+    "aliases": [
+      "64630"
+    ]
+  },
+  {
+    "id": "pw-65908",
+    "name_pt_br": "Tab. de Jade Sonho Espiritual",
+    "aliases": [
+      "65908"
+    ]
+  },
+  {
+    "id": "pw-65909",
+    "name_pt_br": "Fonte da Pedra Excêntrica",
+    "aliases": [
+      "65909"
+    ]
+  },
+  {
+    "id": "pw-66184",
+    "name_pt_br": "Sino de Trajes",
+    "aliases": [
+      "66184"
+    ]
+  },
+  {
+    "id": "pw-66856",
+    "name_pt_br": "Laço do Domador de Dragões",
+    "aliases": [
+      "66856"
+    ]
+  },
+  {
+    "id": "pw-66858",
+    "name_pt_br": "Leque do Brilho Real",
+    "aliases": [
+      "66858"
+    ]
+  },
+  {
+    "id": "pw-67135",
+    "name_pt_br": "P. Temporal Armadura Crepúsculo",
+    "aliases": [
+      "67135"
+    ]
+  },
+  {
+    "id": "pw-67136",
+    "name_pt_br": "P. Temp. Calças do Crepúsculo",
+    "aliases": [
+      "67136"
+    ]
+  },
+  {
+    "id": "pw-67137",
+    "name_pt_br": "P. Temporal Botas do Crepúsculo",
+    "aliases": [
+      "67137"
+    ]
+  },
+  {
+    "id": "pw-67138",
+    "name_pt_br": "P. Temp. Braçadeiras do Crep.",
+    "aliases": [
+      "67138"
+    ]
+  },
+  {
+    "id": "pw-67145",
+    "name_pt_br": "Arca do Avatar (S)",
+    "aliases": [
+      "67145"
+    ]
+  },
+  {
+    "id": "pw-68145",
+    "name_pt_br": "Disco de Pregar Almas",
+    "aliases": [
+      "68145"
+    ]
+  },
+  {
+    "id": "pw-68146",
+    "name_pt_br": "Loção Purificadora de Almas",
+    "aliases": [
+      "68146"
+    ]
+  },
+  {
+    "id": "pw-68150",
+    "name_pt_br": "Pacote de Runas (nível 9)",
+    "aliases": [
+      "68150"
+    ]
+  },
+  {
+    "id": "pw-69139",
+    "name_pt_br": "Escama Dragão Púrpura Empírico",
+    "aliases": [
+      "69139"
+    ]
+  },
+  {
+    "id": "pw-70565",
+    "name_pt_br": "Extrato Sagrado Bebê Celestial",
+    "aliases": [
+      "70565"
+    ]
+  },
+  {
+    "id": "pw-71530",
+    "name_pt_br": "Geada",
+    "aliases": [
+      "71530"
+    ]
+  },
+  {
+    "id": "pw-71618",
+    "name_pt_br": "Cinzel Espiritual Grande Caixa",
+    "aliases": [
+      "71618"
+    ]
+  },
+  {
+    "id": "pw-72580",
+    "name_pt_br": "Caldeirão de Eons",
+    "aliases": [
+      "72580"
+    ]
+  },
+  {
+    "id": "pw-75379",
+    "name_pt_br": "Esfera Nebulosa: Supremo",
+    "aliases": [
+      "75379"
+    ]
+  },
+  {
+    "id": "pw-75899",
+    "name_pt_br": "Escudo da Deusa do Sol",
+    "aliases": [
+      "75899"
+    ]
+  },
+  {
+    "id": "pw-79289",
+    "name_pt_br": "Ovo de Gansinho",
+    "aliases": [
+      "79289"
+    ]
+  },
+  {
+    "id": "pw-84691",
+    "name_pt_br": "Lágrima de Yaoji",
+    "aliases": [
+      "84691"
+    ]
+  },
+  {
+    "id": "pw-86555",
+    "name_pt_br": "Arca do Portal de Nuema",
+    "aliases": [
+      "86555"
+    ]
+  },
+  {
+    "id": "pw-87569",
+    "name_pt_br": "Lótus Purificadora do Mundo",
+    "aliases": [
+      "87569"
+    ]
+  }
+]

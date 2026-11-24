@@ -1,0 +1,44 @@
+[
+  {
+    "pair": "texto escuro",
+    "foreground": "#FAF7F8",
+    "background": "#141114",
+    "ratio": 17.61,
+    "aa_normal_text": true
+  },
+  {
+    "pair": "secundário escuro",
+    "foreground": "#B9ACB3",
+    "background": "#141114",
+    "ratio": 8.58,
+    "aa_normal_text": true
+  },
+  {
+    "pair": "botão escuro",
+    "foreground": "#141114",
+    "background": "#FF0036",
+    "ratio": 4.74,
+    "aa_normal_text": true
+  },
+  {
+    "pair": "texto claro",
+    "foreground": "#21181D",
+    "background": "#FFF9FA",
+    "ratio": 16.64,
+    "aa_normal_text": true
+  },
+  {
+    "pair": "botão claro",
+    "foreground": "#FFFFFF",
+    "background": "#C6002B",
+    "ratio": 6.11,
+    "aa_normal_text": true
+  },
+  {
+    "pair": "branco sobre rubi marca — evitar texto pequeno",
+    "foreground": "#FFFFFF",
+    "background": "#FF0036",
+    "ratio": 3.96,
+    "aa_normal_text": false
+  }
+]

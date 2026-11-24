@@ -1,0 +1,10 @@
+/* HiperXP — carregar a partir de /brand/web/tokens.css. Fontes de apoio, não o lettering da marca. */
+@font-face{font-family:Exo 2;src:url('../fontes/Exo2-Variable.ttf') format('truetype');font-style:normal;font-weight:100 900;font-display:swap}
+@font-face{font-family:Exo 2;src:url('../fontes/Exo2-Italic-Variable.ttf') format('truetype');font-style:italic;font-weight:100 900;font-display:swap}
+@font-face{font-family:Inter;src:url('../fontes/Inter-Variable.ttf') format('truetype');font-style:normal;font-weight:100 900;font-display:swap}
+:root{--hx-ruby:#FF0036;--hx-ruby-hover:#D9002E;--hx-crimson:#B80028;--hx-wine:#650C20;--hx-pink:#FFD1D8;--hx-bg:#141114;--hx-surface:#211B20;--hx-border:#40333B;--hx-text:#FAF7F8;--hx-muted:#B9ACB3;--hx-action:#FF0036;--hx-action-fg:#141114;--hx-success:#62D9A0;--hx-warning:#F2C46D;--hx-info:#8DBBFF;--hx-font-title:'Exo 2',sans-serif;--hx-font-body:Inter,sans-serif;--hx-radius:12px;--hx-radius-sm:8px;--hx-space:8px}
+[data-theme=light]{--hx-bg:#FFF9FA;--hx-surface:#FFFFFF;--hx-text:#21181D;--hx-muted:#66545F;--hx-border:#DFC9D2;--hx-action:#C6002B;--hx-action-fg:#FFFFFF}
+.hx-button{border:0;border-radius:var(--hx-radius-sm);padding:12px 20px;background:var(--hx-action);color:var(--hx-action-fg);font:600 14px var(--hx-font-body)}
+.hx-button:focus-visible{outline:3px solid var(--hx-info);outline-offset:3px}
+.hx-logo{display:block;max-width:100%;height:auto}
+.hx-logo-light{display:none}[data-theme=light] .hx-logo-dark{display:none}[data-theme=light] .hx-logo-light{display:block}

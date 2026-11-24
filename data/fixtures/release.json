@@ -1,0 +1,18 @@
+{
+  "id": "release-pwmap-ru-v1",
+  "schema_version": 1,
+  "status": "active",
+  "synthetic": false,
+  "created_at": "2026-11-23T00:00:00Z",
+  "notice": "Mapas e pontos importados de pw-map.ru como referência estrangeira. Validação BR e autorização de republicação ainda pendentes.",
+  "maps": [
+    "cidade-da-paz",
+    "tianyu",
+    "jingxuan"
+  ],
+  "drop_tables": [
+    "bau-da-aurora",
+    "pergaminho-abissal",
+    "pergaminho-de-tianyu"
+  ]
+}

@@ -1,0 +1,564 @@
+{
+  "schema_version": 1,
+  "synthetic": false,
+  "publication_allowed": false,
+  "notice": "Tabela importada do simulador comunitário (spoiler). Chances estimadas/observadas — não confirmadas no cliente BR. Simulação local sem efeito no jogo.",
+  "id": "chest-tianyu",
+  "slug": "pergaminho-de-tianyu",
+  "name_pt_br": "Pergaminho de Tianyu",
+  "revision": "spoiler-import-v1",
+  "model_version": "groups-v1",
+  "probability_status": "estimated",
+  "game_build_id": null,
+  "groups": [
+    {
+      "id": "exclusive",
+      "order": 1,
+      "type": "exclusive_weighted",
+      "rolls": 1,
+      "weight_kind": "declared_probability",
+      "probability_denominator": 1000000,
+      "entries": [
+        {
+          "id": "e1",
+          "order": 1,
+          "weight": 847564,
+          "rewards": [
+            {
+              "item_id": "pw-39872",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "order": 2,
+          "weight": 50000,
+          "rewards": [
+            {
+              "item_id": "pw-24722",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e3",
+          "order": 3,
+          "weight": 5000,
+          "rewards": [
+            {
+              "item_id": "pw-39873",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e4",
+          "order": 4,
+          "weight": 30000,
+          "rewards": [
+            {
+              "item_id": "pw-47254",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e5",
+          "order": 5,
+          "weight": 500,
+          "rewards": [
+            {
+              "item_id": "pw-70565",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e6",
+          "order": 6,
+          "weight": 800,
+          "rewards": [
+            {
+              "item_id": "pw-69139",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e7",
+          "order": 7,
+          "weight": 500,
+          "rewards": [
+            {
+              "item_id": "pw-66184",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e8",
+          "order": 8,
+          "weight": 600,
+          "rewards": [
+            {
+              "item_id": "pw-66856",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e9",
+          "order": 9,
+          "weight": 300,
+          "rewards": [
+            {
+              "item_id": "pw-66858",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e10",
+          "order": 10,
+          "weight": 10000,
+          "rewards": [
+            {
+              "item_id": "pw-47270",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e11",
+          "order": 11,
+          "weight": 600,
+          "rewards": [
+            {
+              "item_id": "pw-47277",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e12",
+          "order": 12,
+          "weight": 600,
+          "rewards": [
+            {
+              "item_id": "pw-47275",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e13",
+          "order": 13,
+          "weight": 700,
+          "rewards": [
+            {
+              "item_id": "pw-21377",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e14",
+          "order": 14,
+          "weight": 700,
+          "rewards": [
+            {
+              "item_id": "pw-21378",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e15",
+          "order": 15,
+          "weight": 800,
+          "rewards": [
+            {
+              "item_id": "pw-64630",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e16",
+          "order": 16,
+          "weight": 8000,
+          "rewards": [
+            {
+              "item_id": "pw-59974",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e17",
+          "order": 17,
+          "weight": 6000,
+          "rewards": [
+            {
+              "item_id": "pw-61769",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e18",
+          "order": 18,
+          "weight": 6000,
+          "rewards": [
+            {
+              "item_id": "pw-61768",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e19",
+          "order": 19,
+          "weight": 6000,
+          "rewards": [
+            {
+              "item_id": "pw-61766",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e20",
+          "order": 20,
+          "weight": 6000,
+          "rewards": [
+            {
+              "item_id": "pw-61767",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e21",
+          "order": 21,
+          "weight": 2000,
+          "rewards": [
+            {
+              "item_id": "pw-48669",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e22",
+          "order": 22,
+          "weight": 800,
+          "rewards": [
+            {
+              "item_id": "pw-51167",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e23",
+          "order": 23,
+          "weight": 800,
+          "rewards": [
+            {
+              "item_id": "pw-64628",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e24",
+          "order": 24,
+          "weight": 800,
+          "rewards": [
+            {
+              "item_id": "pw-26388",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e25",
+          "order": 25,
+          "weight": 800,
+          "rewards": [
+            {
+              "item_id": "pw-26389",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e26",
+          "order": 26,
+          "weight": 800,
+          "rewards": [
+            {
+              "item_id": "pw-25151",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e27",
+          "order": 27,
+          "weight": 800,
+          "rewards": [
+            {
+              "item_id": "pw-23972",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e28",
+          "order": 28,
+          "weight": 8000,
+          "rewards": [
+            {
+              "item_id": "pw-58015",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e29",
+          "order": 29,
+          "weight": 200,
+          "rewards": [
+            {
+              "item_id": "pw-58016",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e30",
+          "order": 30,
+          "weight": 1400,
+          "rewards": [
+            {
+              "item_id": "pw-65909",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e31",
+          "order": 31,
+          "weight": 80,
+          "rewards": [
+            {
+              "item_id": "pw-32082",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e32",
+          "order": 32,
+          "weight": 800,
+          "rewards": [
+            {
+              "item_id": "pw-27502",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e33",
+          "order": 33,
+          "weight": 80,
+          "rewards": [
+            {
+              "item_id": "pw-24725",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e34",
+          "order": 34,
+          "weight": 80,
+          "rewards": [
+            {
+              "item_id": "pw-60239",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e35",
+          "order": 35,
+          "weight": 20,
+          "rewards": [
+            {
+              "item_id": "pw-43955",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e36",
+          "order": 36,
+          "weight": 20,
+          "rewards": [
+            {
+              "item_id": "pw-38256",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e37",
+          "order": 37,
+          "weight": 10,
+          "rewards": [
+            {
+              "item_id": "pw-60098",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e38",
+          "order": 38,
+          "weight": 10,
+          "rewards": [
+            {
+              "item_id": "pw-48668",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e39",
+          "order": 39,
+          "weight": 10,
+          "rewards": [
+            {
+              "item_id": "pw-65908",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e40",
+          "order": 40,
+          "weight": 10,
+          "rewards": [
+            {
+              "item_id": "pw-68146",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e41",
+          "order": 41,
+          "weight": 9,
+          "rewards": [
+            {
+              "item_id": "pw-68145",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e42",
+          "order": 42,
+          "weight": 10,
+          "rewards": [
+            {
+              "item_id": "pw-71530",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e43",
+          "order": 43,
+          "weight": 500,
+          "rewards": [
+            {
+              "item_id": "pw-67145",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e44",
+          "order": 44,
+          "weight": 50,
+          "rewards": [
+            {
+              "item_id": "pw-50265",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e45",
+          "order": 45,
+          "weight": 150,
+          "rewards": [
+            {
+              "item_id": "pw-50263",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e46",
+          "order": 46,
+          "weight": 1000,
+          "rewards": [
+            {
+              "item_id": "pw-50261",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e47",
+          "order": 47,
+          "weight": 9,
+          "rewards": [
+            {
+              "item_id": "pw-72580",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e48",
+          "order": 48,
+          "weight": 8,
+          "rewards": [
+            {
+              "item_id": "pw-75899",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "e49",
+          "order": 49,
+          "weight": 80,
+          "rewards": [
+            {
+              "item_id": "pw-79289",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

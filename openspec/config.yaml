@@ -1,0 +1,8 @@
+schema: spec-driven
+context: |
+  Produto novo para a comunidade brasileira de Perfect World.
+  MVP: Cidade da Paz, Tianyu e simulador de baús/pacotes.
+  Stack proposta: Go, PostgreSQL, React, Vite, TypeScript, shadcn/ui e Leaflet.
+  Nenhum dado real foi extraído neste pacote.
+  Manter origem, região, build e revisão; nunca inventar coordenadas ou probabilidades.
+  Usar requisitos SHALL e cenários WHEN/THEN para aceitação.

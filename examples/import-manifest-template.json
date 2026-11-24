@@ -1,0 +1,19 @@
+{
+  "format_version": 1,
+  "synthetic": true,
+  "publication_allowed": false,
+  "source_kind": "synthetic",
+  "game_build": {
+    "region": "BR",
+    "version_label": null,
+    "build_number": null
+  },
+  "tool": {
+    "name": "to-be-implemented",
+    "parser_version": null
+  },
+  "files": [],
+  "warnings": [
+    "Template sem arquivos reais; requer manifesto produzido pelo extrator."
+  ]
+}

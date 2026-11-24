@@ -1,0 +1,18 @@
+{
+  "ruby": "#FF0036",
+  "rubyHover": "#D9002E",
+  "crimson": "#B80028",
+  "wine": "#650C20",
+  "pink": "#FFD1D8",
+  "background": "#141114",
+  "surface": "#211B20",
+  "border": "#40333B",
+  "text": "#FAF7F8",
+  "muted": "#B9ACB3",
+  "paper": "#FFF9FA",
+  "ink": "#21181D",
+  "actionLight": "#C6002B",
+  "success": "#62D9A0",
+  "warning": "#F2C46D",
+  "info": "#8DBBFF"
+}

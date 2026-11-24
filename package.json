@@ -1,0 +1,20 @@
+{
+  "name": "hiperxp",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Ferramentas comunitárias Perfect World — mapas e simulador de baús",
+  "packageManager": "pnpm@10.13.1",
+  "scripts": {
+    "dev": "pnpm --filter @hiperxp/web dev",
+    "build": "pnpm -r run build",
+    "test": "pnpm -r run test",
+    "lint": "pnpm -r run lint",
+    "typecheck": "pnpm -r run typecheck"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild"]
+  }
+}
