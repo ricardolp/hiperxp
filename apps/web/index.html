@@ -48,7 +48,7 @@
     />
     <meta
       property="og:image"
-      content="https://hiperxp.com/brand/social/hiperxp-og-1200x630.png"
+      content="https://hiperxp.com/brand/social/hiperxp-og-pw-1200x630.png"
     />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -63,10 +63,24 @@
     />
     <meta
       name="twitter:image"
-      content="https://hiperxp.com/brand/social/hiperxp-og-1200x630.png"
+      content="https://hiperxp.com/brand/social/hiperxp-og-pw-1200x630.png"
     />
     <link rel="stylesheet" href="/brand/web/tokens.css" />
     <title>HiperXP — Mapas e missões do Reino Oriental | Perfect World</title>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-ZECKM8ZEQW"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      // page_view é enviado pelo React (SPA); evita hit duplicado no 1º load
+      gtag("config", "G-ZECKM8ZEQW", { send_page_view: false });
+    </script>
   </head>
   <body>
     <div id="root"></div>
