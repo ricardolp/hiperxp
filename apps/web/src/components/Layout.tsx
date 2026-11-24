@@ -36,7 +36,7 @@ const NAV_RIGHT: NavItem[] = [
 function GitHubIcon() {
   return (
     <svg
-      className="btn-contribute-icon"
+      className="nav-github-icon"
       viewBox="0 0 16 16"
       width="14"
       height="14"
@@ -110,13 +110,13 @@ export function Layout() {
           <nav className="nav nav--right" aria-label="Principal direita">
             <NavItems items={NAV_RIGHT} pathname={pathname} />
             <a
-              className="btn-contribute"
+              className="nav-github"
               href={GITHUB_URL}
               target="_blank"
               rel="noopener noreferrer"
             >
               <GitHubIcon />
-              Contribua
+              GitHub
             </a>
           </nav>
 
@@ -145,14 +145,14 @@ export function Layout() {
             onNavigate={() => setMenuOpen(false)}
           />
           <a
-            className="btn-contribute btn-contribute--mobile"
+            className="nav-github nav-github--mobile"
             href={GITHUB_URL}
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setMenuOpen(false)}
           >
             <GitHubIcon />
-            Contribua
+            GitHub
           </a>
         </nav>
       </header>
