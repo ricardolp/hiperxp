@@ -53,3 +53,11 @@ pnpm dev
 ```
 
 A publicação de dados reais ainda depende da investigação do cliente BR e da calibração dos mapas. Não tratar fixtures como conteúdo oficial do jogo.
+
+## Contribuir
+
+Código aberto em [github.com/ricardolp/hiperxp](https://github.com/ricardolp/hiperxp). Issues e pull requests são bem-vindos.
+
+## Licença
+
+O código deste repositório é distribuído sob a [licença MIT](./LICENSE). Imagens, conteúdo importado do jogo e assets de terceiros podem ter termos próprios e não estão cobertos pela MIT.

@@ -3,6 +3,9 @@ export const SITE_URL = (
   import.meta.env.VITE_SITE_URL || "https://hiperxp.com"
 ).replace(/\/$/, "");
 
+export const GITHUB_URL =
+  import.meta.env.VITE_GITHUB_URL || "https://github.com/ricardolp/hiperxp";
+
 export const SITE_NAME = "HiperXP";
 
 export const SITE_DEFAULT_TITLE =

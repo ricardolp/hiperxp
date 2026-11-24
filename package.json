@@ -3,6 +3,15 @@
   "private": true,
   "version": "0.1.0",
   "description": "Ferramentas comunitárias Perfect World — mapas e simulador de baús",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ricardolp/hiperxp.git"
+  },
+  "homepage": "https://github.com/ricardolp/hiperxp#readme",
+  "bugs": {
+    "url": "https://github.com/ricardolp/hiperxp/issues"
+  },
   "packageManager": "pnpm@10.13.1",
   "scripts": {
     "dev": "pnpm --filter @hiperxp/web dev",

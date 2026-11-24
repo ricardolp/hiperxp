@@ -162,6 +162,55 @@ button {
   background: var(--hx-ruby, #ff0036);
 }
 
+.btn-contribute {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-left: 0.55rem;
+  padding: 0.45rem 0.85rem;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: var(--hx-radius-sm, 8px);
+  background: rgba(255, 0, 54, 0.14);
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.btn-contribute:hover {
+  background: var(--hx-ruby, #ff0036);
+  border-color: var(--hx-ruby, #ff0036);
+  color: #fff;
+}
+
+.btn-contribute-icon {
+  flex-shrink: 0;
+}
+
+.btn-contribute--mobile {
+  margin: 0.45rem 0 0;
+  justify-content: center;
+  width: 100%;
+}
+
+.nav a.btn-contribute,
+.nav-mobile a.btn-contribute {
+  padding: 0.45rem 0.85rem;
+  letter-spacing: 0.08em;
+}
+
+.nav a.btn-contribute:hover,
+.nav-mobile a.btn-contribute:hover {
+  background: var(--hx-ruby, #ff0036);
+  color: #fff;
+}
+
 .nav-toggle {
   display: none;
   grid-column: 3;
