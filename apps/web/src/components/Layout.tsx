@@ -109,17 +109,16 @@ export function Layout() {
 
           <nav className="nav nav--right" aria-label="Principal direita">
             <NavItems items={NAV_RIGHT} pathname={pathname} />
+            <a
+              className="btn-contribute"
+              href={GITHUB_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GitHubIcon />
+              Contribua
+            </a>
           </nav>
-
-          <a
-            className="btn-contribute"
-            href={GITHUB_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <GitHubIcon />
-            Contribua
-          </a>
 
           <button
             type="button"

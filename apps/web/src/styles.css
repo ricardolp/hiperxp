@@ -200,11 +200,13 @@ button {
   width: 100%;
 }
 
+.nav a.btn-contribute,
 .nav-mobile a.btn-contribute {
   padding: 0.45rem 0.85rem;
   letter-spacing: 0.08em;
 }
 
+.nav a.btn-contribute:hover,
 .nav-mobile a.btn-contribute:hover {
   background: var(--hx-ruby, #ff0036);
   color: #fff;
@@ -245,10 +247,6 @@ button {
   .brand {
     position: static;
     transform: none;
-  }
-
-  .site-header-inner > .btn-contribute {
-    display: none;
   }
 
   .nav-toggle {
