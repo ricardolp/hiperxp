@@ -1,0 +1,831 @@
+{
+  "meta": {
+    "elements_version": 805306970,
+    "elements_version_low": 602,
+    "timestamp": 311893,
+    "item_count": 77
+  },
+  "items": [
+    {
+      "id": 32082,
+      "list": 6,
+      "name_pt_br": "★★Capa Universal",
+      "icon_path": "很吊的披风.dds",
+      "addon_texts": [],
+      "record_size": 1164,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/32082.png",
+      "icon_atlas_index": 8273
+    },
+    {
+      "id": 38256,
+      "list": 6,
+      "name_pt_br": "★★★Coroa da Insanidade",
+      "icon_path": "降世之冠.dds",
+      "addon_texts": [],
+      "record_size": 1164,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/38256.png",
+      "icon_atlas_index": 13709
+    },
+    {
+      "id": 38257,
+      "list": 6,
+      "name_pt_br": "★★★Capa da Ascensão",
+      "icon_path": "飞升之翼.dds",
+      "addon_texts": [],
+      "record_size": 1164,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/38257.png",
+      "icon_atlas_index": 14020
+    },
+    {
+      "id": 26388,
+      "list": 9,
+      "name_pt_br": "★★Céu Tempestuoso",
+      "icon_path": "戒指3.dds",
+      "addon_texts": [],
+      "record_size": 1172,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/26388.png",
+      "icon_atlas_index": 8474
+    },
+    {
+      "id": 26389,
+      "list": 9,
+      "name_pt_br": "★★Tempestade Nebulosa",
+      "icon_path": "戒指2.dds",
+      "addon_texts": [],
+      "record_size": 1172,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/26389.png",
+      "icon_atlas_index": 8473
+    },
+    {
+      "id": 21377,
+      "list": 35,
+      "name_pt_br": "Diamante do Tigre",
+      "icon_path": "Surfaces\\图标\\物品\\金刚之石.dds",
+      "addon_texts": [
+        "Nível de Atq +1"
+      ],
+      "record_size": 476,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/21377.png",
+      "icon_atlas_index": 13264
+    },
+    {
+      "id": 21378,
+      "list": 35,
+      "name_pt_br": "Diamante do Dragão",
+      "icon_path": "Surfaces\\图标\\物品\\磐甲之石.dds",
+      "addon_texts": [
+        "Nível de Def +1"
+      ],
+      "record_size": 476,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/21378.png",
+      "icon_atlas_index": 11158
+    },
+    {
+      "id": 47269,
+      "list": 35,
+      "name_pt_br": "Pedra do Céu Vermelho",
+      "icon_path": "昊天之石.dds",
+      "addon_texts": [
+        "Constit. +16"
+      ],
+      "record_size": 476,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/47269.png",
+      "icon_atlas_index": 9014
+    },
+    {
+      "id": 47270,
+      "list": 35,
+      "name_pt_br": "Pedra da Clareza",
+      "icon_path": "烁光之石.dds",
+      "addon_texts": [
+        "a N N",
+        "Espiríto +12"
+      ],
+      "record_size": 476,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/47270.png",
+      "icon_atlas_index": 10201
+    },
+    {
+      "id": 47274,
+      "list": 35,
+      "name_pt_br": "Pedra da Ravina",
+      "icon_path": "金乌之石.dds",
+      "addon_texts": [
+        "-움-",
+        "Espiríto +32"
+      ],
+      "record_size": 476,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/47274.png",
+      "icon_atlas_index": 13257
+    },
+    {
+      "id": 47275,
+      "list": 35,
+      "name_pt_br": "Pedra do Combate",
+      "icon_path": "新夜叉之石.dds",
+      "addon_texts": [
+        "Nv Atq +1"
+      ],
+      "record_size": 476,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/47275.png",
+      "icon_atlas_index": 8833
+    },
+    {
+      "id": 47277,
+      "list": 35,
+      "name_pt_br": "Pedra da Proteção",
+      "icon_path": "新百障之石.dds",
+      "addon_texts": [
+        "Nv Def +1"
+      ],
+      "record_size": 476,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/47277.png",
+      "icon_atlas_index": 8880
+    },
+    {
+      "id": 58682,
+      "list": 35,
+      "name_pt_br": "Pedra dos Princípios",
+      "icon_path": "高级女娲之石.dds",
+      "addon_texts": [
+        "-움-ോ",
+        "Canalização -4%",
+        "Con +12"
+      ],
+      "record_size": 476,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/58682.png",
+      "icon_atlas_index": 14143
+    },
+    {
+      "id": 58684,
+      "list": 35,
+      "name_pt_br": "Pedra do Primogênito",
+      "icon_path": "高级轩辕之石.dds",
+      "addon_texts": [
+        "-움-׭",
+        "Acerto Crít +2%",
+        "Con +12"
+      ],
+      "record_size": 476,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/58684.png",
+      "icon_atlas_index": 14162
+    },
+    {
+      "id": 47308,
+      "list": 73,
+      "name_pt_br": "Caixa do Amuleto de Platina",
+      "icon_path": "Surfaces\\图标\\物品\\白金护身符.dds",
+      "addon_texts": [],
+      "record_size": 856,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/47308.png",
+      "icon_atlas_index": 10918
+    },
+    {
+      "id": 47309,
+      "list": 73,
+      "name_pt_br": "Caixa do Hierograma de Platina",
+      "icon_path": "Surfaces\\图标\\物品\\白金守神符.dds",
+      "addon_texts": [],
+      "record_size": 856,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/47309.png",
+      "icon_atlas_index": 10917
+    },
+    {
+      "id": 58015,
+      "list": 73,
+      "name_pt_br": "Pacote de Runas Nível 4",
+      "icon_path": "符文包中级.dds",
+      "addon_texts": [],
+      "record_size": 856,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/58015.png",
+      "icon_atlas_index": 11439
+    },
+    {
+      "id": 58016,
+      "list": 73,
+      "name_pt_br": "Pacote de Runas Nível 7",
+      "icon_path": "符文包高级.dds",
+      "addon_texts": [],
+      "record_size": 856,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/58016.png",
+      "icon_atlas_index": 11442
+    },
+    {
+      "id": 61765,
+      "list": 73,
+      "name_pt_br": "Pacote Cristal do Luar",
+      "icon_path": "白色月之流晶.dds",
+      "addon_texts": [],
+      "record_size": 856,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/61765.png",
+      "icon_atlas_index": 10885
+    },
+    {
+      "id": 61766,
+      "list": 73,
+      "name_pt_br": "Pacote Adormecido (Corpo)",
+      "icon_path": "沉睡的王者灵魂上衣.dds",
+      "addon_texts": [],
+      "record_size": 856,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/61766.png",
+      "icon_atlas_index": 9654
+    },
+    {
+      "id": 61767,
+      "list": 73,
+      "name_pt_br": "Pacote Adormecido (Calça)",
+      "icon_path": "沉睡的王者灵魂裤子.dds",
+      "addon_texts": [],
+      "record_size": 856,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/61767.png",
+      "icon_atlas_index": 9657
+    },
+    {
+      "id": 61768,
+      "list": 73,
+      "name_pt_br": "Pacote Adormecido (Botas)",
+      "icon_path": "沉睡的王者灵魂鞋子.dds",
+      "addon_texts": [],
+      "record_size": 856,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/61768.png",
+      "icon_atlas_index": 9658
+    },
+    {
+      "id": 61769,
+      "list": 73,
+      "name_pt_br": "Pacote Adormecido (Braçadeiras)",
+      "icon_path": "沉睡的王者灵魂护腕.dds",
+      "addon_texts": [],
+      "record_size": 856,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/61769.png",
+      "icon_atlas_index": 9656
+    },
+    {
+      "id": 67135,
+      "list": 73,
+      "name_pt_br": "P. Temporal Armadura Crepúsculo",
+      "icon_path": "黄昏衣服宝箱.dds",
+      "addon_texts": [],
+      "record_size": 856,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/67135.png",
+      "icon_atlas_index": 14446
+    },
+    {
+      "id": 67136,
+      "list": 73,
+      "name_pt_br": "P. Temp. Calças do Crepúsculo",
+      "icon_path": "黄昏裤子宝箱.dds",
+      "addon_texts": [],
+      "record_size": 856,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/67136.png",
+      "icon_atlas_index": 14447
+    },
+    {
+      "id": 67137,
+      "list": 73,
+      "name_pt_br": "P. Temporal Botas do Crepúsculo",
+      "icon_path": "黄昏鞋子宝箱.dds",
+      "addon_texts": [],
+      "record_size": 856,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/67137.png",
+      "icon_atlas_index": 14449
+    },
+    {
+      "id": 67138,
+      "list": 73,
+      "name_pt_br": "P. Temp. Braçadeiras do Crep.",
+      "icon_path": "黄昏手腕宝箱.dds",
+      "addon_texts": [],
+      "record_size": 856,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/67138.png",
+      "icon_atlas_index": 14443
+    },
+    {
+      "id": 68150,
+      "list": 73,
+      "name_pt_br": "Pacote de Runas (nível 9)",
+      "icon_path": "符文包高级.dds",
+      "addon_texts": [],
+      "record_size": 856,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/68150.png",
+      "icon_atlas_index": 11442
+    },
+    {
+      "id": 71618,
+      "list": 73,
+      "name_pt_br": "Cinzel Espiritual Grande Caixa",
+      "icon_path": "生灵刻刀礼包.dds",
+      "addon_texts": [],
+      "record_size": 856,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/71618.png",
+      "icon_atlas_index": 10721
+    },
+    {
+      "id": 86555,
+      "list": 73,
+      "name_pt_br": "Arca do Portal de Nuema",
+      "icon_path": "卡牌宝箱SS橙色.dds",
+      "addon_texts": [],
+      "record_size": 856,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/86555.png",
+      "icon_atlas_index": 5056
+    },
+    {
+      "id": 23972,
+      "list": 74,
+      "name_pt_br": "Carimbo da Diretoria do Cubo",
+      "icon_path": "Surfaces\\图标\\男物品\\邪魂之印.dds",
+      "addon_texts": [],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/23972.png",
+      "icon_atlas_index": 13198
+    },
+    {
+      "id": 24722,
+      "list": 74,
+      "name_pt_br": "Muita Sorte - Perfect World",
+      "icon_path": "完美上上签变色.dds",
+      "addon_texts": [
+        "'ༀ'"
+      ],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/24722.png",
+      "icon_atlas_index": 7392
+    },
+    {
+      "id": 24725,
+      "list": 74,
+      "name_pt_br": "Pergaminho dos Deuses",
+      "icon_path": "遗训刻文.dds",
+      "addon_texts": [],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/24725.png",
+      "icon_atlas_index": 13191
+    },
+    {
+      "id": 25151,
+      "list": 74,
+      "name_pt_br": "Insígnia Líder Brado de Batalha",
+      "icon_path": "战歌统帅徽章.dds",
+      "addon_texts": [
+        "'ༀ'"
+      ],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/25151.png",
+      "icon_atlas_index": 8501
+    },
+    {
+      "id": 27502,
+      "list": 74,
+      "name_pt_br": "Manuscrito do Destino",
+      "icon_path": "天命之书.dds",
+      "addon_texts": [
+        "'ༀ'"
+      ],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/27502.png",
+      "icon_atlas_index": 7011
+    },
+    {
+      "id": 28300,
+      "list": 74,
+      "name_pt_br": "Pedra da Selva",
+      "icon_path": "丛林之石.dds",
+      "addon_texts": [],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/28300.png",
+      "icon_atlas_index": 3805
+    },
+    {
+      "id": 28350,
+      "list": 74,
+      "name_pt_br": "Medalha da Glória",
+      "icon_path": "勇士奖章2.dds",
+      "addon_texts": [],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/28350.png",
+      "icon_atlas_index": 4904
+    },
+    {
+      "id": 28641,
+      "list": 74,
+      "name_pt_br": "Símbolo do General Lotor",
+      "icon_path": "Surfaces\\男物品\\凝露剑.dds",
+      "addon_texts": [
+        "'ༀ'"
+      ],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/28641.png",
+      "icon_atlas_index": 4713
+    },
+    {
+      "id": 39872,
+      "list": 74,
+      "name_pt_br": "Moeda de Bronze",
+      "icon_path": "五铢钱.dds",
+      "addon_texts": [],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/39872.png",
+      "icon_atlas_index": 4113
+    },
+    {
+      "id": 39873,
+      "list": 74,
+      "name_pt_br": "Moeda de Ouro",
+      "icon_path": "完美_五铢钱.dds",
+      "addon_texts": [],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/39873.png",
+      "icon_atlas_index": 7390
+    },
+    {
+      "id": 43955,
+      "list": 74,
+      "name_pt_br": "Orbe de Poder - Despertar VI",
+      "icon_path": "六转指玄珠.dds",
+      "addon_texts": [],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/43955.png",
+      "icon_atlas_index": 4576
+    },
+    {
+      "id": 47254,
+      "list": 74,
+      "name_pt_br": "Pedra de Liberação",
+      "icon_path": "鬼斧徽记.dds",
+      "addon_texts": [],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/47254.png",
+      "icon_atlas_index": 14189
+    },
+    {
+      "id": 48668,
+      "list": 74,
+      "name_pt_br": "Cristal de Jade",
+      "icon_path": "寂照犀变.dds",
+      "addon_texts": [],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/48668.png",
+      "icon_atlas_index": 7570
+    },
+    {
+      "id": 48669,
+      "list": 74,
+      "name_pt_br": "Relíquia Reforjada",
+      "icon_path": "浑天尘降.dds",
+      "addon_texts": [],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/48669.png",
+      "icon_atlas_index": 9818
+    },
+    {
+      "id": 50261,
+      "list": 74,
+      "name_pt_br": "Madeira Profanada Bruta",
+      "icon_path": "凌墟渎神木流通.dds",
+      "addon_texts": [],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/50261.png",
+      "icon_atlas_index": 4697
+    },
+    {
+      "id": 50263,
+      "list": 74,
+      "name_pt_br": "Caveira Zênite Bruta",
+      "icon_path": "天玄骨流通.dds",
+      "addon_texts": [],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/50263.png",
+      "icon_atlas_index": 7037
+    },
+    {
+      "id": 50265,
+      "list": 74,
+      "name_pt_br": "Essência Dracônica Bruta",
+      "icon_path": "凌墟八觉髓流通.dds",
+      "addon_texts": [],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/50265.png",
+      "icon_atlas_index": 4693
+    },
+    {
+      "id": 51167,
+      "list": 74,
+      "name_pt_br": "Ídolo de Jade",
+      "icon_path": "38头盔兑换物.dds",
+      "addon_texts": [],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/51167.png",
+      "icon_atlas_index": 3272
+    },
+    {
+      "id": 59660,
+      "list": 74,
+      "name_pt_br": "Espírito da Gravura",
+      "icon_path": "生灵刻刀.dds",
+      "addon_texts": [],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/59660.png",
+      "icon_atlas_index": 10720
+    },
+    {
+      "id": 60098,
+      "list": 74,
+      "name_pt_br": "Pedra Lunar da Punição",
+      "icon_path": "寂照犀变_黄昏.dds",
+      "addon_texts": [],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/60098.png",
+      "icon_atlas_index": 7571
+    },
+    {
+      "id": 62332,
+      "list": 74,
+      "name_pt_br": "Peça de Tear: Anel Estrelado",
+      "icon_path": "格斗场披风材料碎片.dds",
+      "addon_texts": [],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/62332.png",
+      "icon_atlas_index": 9359
+    },
+    {
+      "id": 62333,
+      "list": 74,
+      "name_pt_br": "Peça de Poeira: Arca Estelar",
+      "icon_path": "格斗场戒指材料碎片.dds",
+      "addon_texts": [],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/62333.png",
+      "icon_atlas_index": 9357
+    },
+    {
+      "id": 62334,
+      "list": 74,
+      "name_pt_br": "Peça dos Tesouros do Elísio",
+      "icon_path": "凌云武器材料碎片.dds",
+      "addon_texts": [],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/62334.png",
+      "icon_atlas_index": 4684
+    },
+    {
+      "id": 64628,
+      "list": 74,
+      "name_pt_br": "Artefato de Catarata de Pó",
+      "icon_path": "浑天尘降至尊.dds",
+      "addon_texts": [
+        "'ༀ'"
+      ],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/64628.png",
+      "icon_atlas_index": 9819
+    },
+    {
+      "id": 65908,
+      "list": 74,
+      "name_pt_br": "Tab. de Jade Sonho Espiritual",
+      "icon_path": "七星逍遥珠.dds",
+      "addon_texts": [],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/65908.png",
+      "icon_atlas_index": 3676
+    },
+    {
+      "id": 65909,
+      "list": 74,
+      "name_pt_br": "Fonte da Pedra Excêntrica",
+      "icon_path": "宝石箱子碎片.dds",
+      "addon_texts": [],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/65909.png",
+      "icon_atlas_index": 7472
+    },
+    {
+      "id": 66184,
+      "list": 74,
+      "name_pt_br": "Sino de Trajes",
+      "icon_path": "嘉年华合欢铃.dds",
+      "addon_texts": [
+        "'ༀ'"
+      ],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/66184.png",
+      "icon_atlas_index": 5366
+    },
+    {
+      "id": 66856,
+      "list": 74,
+      "name_pt_br": "Laço do Domador de Dragões",
+      "icon_path": "缚龙索.dds",
+      "addon_texts": [
+        "'ༀ'"
+      ],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/66856.png",
+      "icon_atlas_index": 11984
+    },
+    {
+      "id": 66858,
+      "list": 74,
+      "name_pt_br": "Leque do Brilho Real",
+      "icon_path": "衔霞扇.dds",
+      "addon_texts": [
+        "'ༀ'"
+      ],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/66858.png",
+      "icon_atlas_index": 12766
+    },
+    {
+      "id": 72580,
+      "list": 74,
+      "name_pt_br": "Caldeirão de Eons",
+      "icon_path": "2021定鼎千秋.dds",
+      "addon_texts": [],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/72580.png",
+      "icon_atlas_index": 1774
+    },
+    {
+      "id": 75899,
+      "list": 74,
+      "name_pt_br": "Escudo da Deusa do Sol",
+      "icon_path": "羲和神照.dds",
+      "addon_texts": [],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/75899.png",
+      "icon_atlas_index": 12019
+    },
+    {
+      "id": 84691,
+      "list": 74,
+      "name_pt_br": "Lágrima de Yaoji",
+      "icon_path": "十梦泪影.dds",
+      "addon_texts": [],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/84691.png",
+      "icon_atlas_index": 4998
+    },
+    {
+      "id": 87569,
+      "list": 74,
+      "name_pt_br": "Lótus Purificadora do Mundo",
+      "icon_path": "218饰品材料.dds",
+      "addon_texts": [],
+      "record_size": 344,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/87569.png",
+      "icon_atlas_index": 2963
+    },
+    {
+      "id": 79289,
+      "list": 94,
+      "name_pt_br": "Ovo de Gansinho",
+      "icon_path": "图鉴2023年三只鹅骑宠.dds",
+      "addon_texts": [
+        "Disponível no Festival Lunar"
+      ],
+      "record_size": 908,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/79289.png",
+      "icon_atlas_index": 5930
+    },
+    {
+      "id": 36676,
+      "list": 111,
+      "name_pt_br": "Imperador",
+      "icon_path": "帝王.dds",
+      "addon_texts": [
+        "'저+ༀ"
+      ],
+      "record_size": 512,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/36676.png",
+      "icon_atlas_index": 8062
+    },
+    {
+      "id": 59659,
+      "list": 118,
+      "name_pt_br": "Estio",
+      "icon_path": "太上之灵.dds",
+      "addon_texts": [],
+      "record_size": 1356,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/59659.png",
+      "icon_atlas_index": 7075
+    },
+    {
+      "id": 71530,
+      "list": 118,
+      "name_pt_br": "Geada",
+      "icon_path": "高级精灵2.dds",
+      "addon_texts": [],
+      "record_size": 1356,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/71530.png",
+      "icon_atlas_index": 14158
+    },
+    {
+      "id": 67145,
+      "list": 181,
+      "name_pt_br": "Arca do Avatar (S)",
+      "icon_path": "卡牌宝箱SS.dds",
+      "addon_texts": [],
+      "record_size": 2396,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/67145.png",
+      "icon_atlas_index": 5055
+    },
+    {
+      "id": 75379,
+      "list": 197,
+      "name_pt_br": "Esfera Nebulosa: Supremo",
+      "icon_path": "高级星云散聚石.dds",
+      "addon_texts": [],
+      "record_size": 348,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/75379.png",
+      "icon_atlas_index": 14150
+    },
+    {
+      "id": 62270,
+      "list": 199,
+      "name_pt_br": "Pérola Suprema de Astrolábio",
+      "icon_path": "星魂百纳丹5级.dds",
+      "addon_texts": [],
+      "record_size": 356,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/62270.png",
+      "icon_atlas_index": 9075
+    },
+    {
+      "id": 64630,
+      "list": 200,
+      "name_pt_br": "Cristal do Luar",
+      "icon_path": "白色月之流晶.dds",
+      "addon_texts": [
+        "é䄀é䄀é䄀é䄀é䄀é䄀é䄀é䄀é䄀é䄀é䄀é䄀é䄀é䄀é䄀é䄀é䄀é䄀é䄀é䄀é䄀é䄀é䄀é䄀é䄀é䄀é䄀é䄀é䄀é䄀é䄀é䄀"
+      ],
+      "record_size": 484,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/64630.png",
+      "icon_atlas_index": 10885
+    },
+    {
+      "id": 60239,
+      "list": 287,
+      "name_pt_br": "Capítulo do Oceano Cerúleo",
+      "icon_path": "碧海玄章.dds",
+      "addon_texts": [
+        "?耀?耀?耀?耀?耀?耀?耀?耀?耀?"
+      ],
+      "record_size": 476,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/60239.png",
+      "icon_atlas_index": 11138
+    },
+    {
+      "id": 59974,
+      "list": 302,
+      "name_pt_br": "Espírito Sagrado Adormecido",
+      "icon_path": "沉睡的王者灵魂头部.dds",
+      "addon_texts": [],
+      "record_size": 348,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/59974.png",
+      "icon_atlas_index": 9655
+    },
+    {
+      "id": 68146,
+      "list": 329,
+      "name_pt_br": "Loção Purificadora de Almas",
+      "icon_path": "净灵业水.dds",
+      "addon_texts": [],
+      "record_size": 348,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/68146.png",
+      "icon_atlas_index": 4677
+    },
+    {
+      "id": 68145,
+      "list": 330,
+      "name_pt_br": "Disco de Pregar Almas",
+      "icon_path": "定灵盘.dds",
+      "addon_texts": [],
+      "record_size": 348,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/68145.png",
+      "icon_atlas_index": 7463
+    },
+    {
+      "id": 70565,
+      "list": 365,
+      "name_pt_br": "Extrato Sagrado Bebê Celestial",
+      "icon_path": "通用碎片04.dds",
+      "addon_texts": [],
+      "record_size": 2392,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/70565.png",
+      "icon_atlas_index": 13175
+    },
+    {
+      "id": 69139,
+      "list": 377,
+      "name_pt_br": "Escama Dragão Púrpura Empírico",
+      "icon_path": "紫龙鳞.dds",
+      "addon_texts": [
+        ">㴉̀",
+        ">稒Ԁ"
+      ],
+      "record_size": 1124,
+      "icon_file": "d:/Projetos/hiperxp/data/fixtures/sources/client-br-levelup/icons/69139.png",
+      "icon_atlas_index": 11745
+    }
+  ]
+}

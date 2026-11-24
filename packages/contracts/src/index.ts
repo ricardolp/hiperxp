@@ -194,7 +194,7 @@ export type QuestGuideFixture = {
   summary_pt_br: string | null;
   prerequisite_pt_br: string | null;
   rewards_pt_br: string | null;
-  /** ISO date for blog-style ordering when known (Trivia publish date). */
+  /** ISO date for blog-style ordering when known (source publish date). */
   published_at?: string | null;
   coverage_status: CoverageStatus;
   review_status: ReviewStatus;

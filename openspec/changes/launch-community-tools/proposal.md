@@ -27,4 +27,4 @@ Nenhuma: projeto novo.
 
 # Impact
 
-Frontend público, API Go, PostgreSQL, arquivos estáticos em CDN, importador local e console de revisão. Integração externa é opcional e restrita à obtenção revisada de dados; o site publicado não depende de disponibilidade do PW Map ou TriviaPW. Não alterar o cliente nem disponibilizar o instalador completo do jogo.
+Frontend público, API Go, PostgreSQL, arquivos estáticos em CDN, importador local e console de revisão. Integração externa é opcional e restrita à obtenção revisada de dados; o site publicado não depende de disponibilidade de sites comunitários externos (ex.: PW Map). Não alterar o cliente nem disponibilizar o instalador completo do jogo.

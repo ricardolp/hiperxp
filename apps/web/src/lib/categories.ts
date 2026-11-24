@@ -1,6 +1,6 @@
 import type { PointCategory } from "@hiperxp/contracts";
 
-/** Nomes alinhados ao cliente/comunidade BR (TriviaPW / PRODUCT). */
+/** Nomes alinhados ao cliente/comunidade BR. */
 export const CATEGORY_LABELS: Record<PointCategory, string> = {
   chest: "Baú",
   challenge: "Desafio / Esquadrão",

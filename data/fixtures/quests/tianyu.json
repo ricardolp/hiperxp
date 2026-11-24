@@ -7,7 +7,7 @@
   "synthetic": false,
   "origin": "community_observed",
   "review_status": "foreign_reference",
-  "notice": "Guias comunitários estruturados (Trivia PW / VK). foreign_reference — validar no cliente BR antes de republicar.",
+  "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
   "sources": [
     "https://triviapw.com.br/",
     "https://vk.com/@-149459137-mirovye-kvesty-vostochnyh-zemel",
@@ -34,7 +34,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://triviapw.com.br/2026/05/19/historias-noturnas-guia-da-jornada/",
-      "notice": "Guias comunitários estruturados (Trivia PW / VK). foreign_reference — validar no cliente BR antes de republicar.",
+      "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
       "steps": [
         {
           "id": "step-01-conflito",
@@ -1480,7 +1480,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://triviapw.com.br/2026/05/19/origem-comum-do-preto-e-branco-guia-da-jornada/",
-      "notice": "Guias comunitários estruturados (Trivia PW / VK). foreign_reference — validar no cliente BR antes de republicar.",
+      "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
       "steps": [
         {
           "id": "step-01-risco-de-conflito",
@@ -2729,7 +2729,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://triviapw.com.br/2026/05/19/canglan-sob-neve-serena-guia-da-jornada/",
-      "notice": "Guias comunitários estruturados (Trivia PW / VK). foreign_reference — validar no cliente BR antes de republicar.",
+      "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
       "steps": [
         {
           "id": "step-01-poema-sem-assinatura",
@@ -2806,7 +2806,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://triviapw.com.br/2026/05/19/montanha-espiritual-guia-da-jornada/",
-      "notice": "Guias comunitários estruturados (Trivia PW / VK). foreign_reference — validar no cliente BR antes de republicar.",
+      "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
       "steps": [
         {
           "id": "step-01-rumores",
@@ -2907,7 +2907,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://triviapw.com.br/2026/05/19/desembainhar-a-espada-guia-da-jornada/",
-      "notice": "Guias comunitários estruturados (Trivia PW / VK). foreign_reference — validar no cliente BR antes de republicar.",
+      "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
       "steps": [
         {
           "id": "step-01-estranheza-à-beira-da-rua",

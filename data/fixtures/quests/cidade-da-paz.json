@@ -7,7 +7,7 @@
   "synthetic": false,
   "origin": "community_observed",
   "review_status": "foreign_reference",
-  "notice": "Guias comunitários estruturados (Trivia PW / VK). foreign_reference — validar no cliente BR antes de republicar.",
+  "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
   "sources": [
     "https://triviapw.com.br/",
     "https://vk.com/@-149459137-mirovye-kvesty-vostochnyh-zemel",
@@ -34,7 +34,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://triviapw.com.br/2025/11/23/aventuras-correntes-ocultas-missao-global-reino-oriental/",
-      "notice": "Guias comunitários estruturados (Trivia PW / VK). foreign_reference — validar no cliente BR antes de republicar.",
+      "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
       "steps": [
         {
           "id": "step-01-investigação-secreta",
@@ -170,7 +170,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://vk.com/@-149459137-mirovye-kvesty-vostochnyh-zemel",
-      "notice": "Guias comunitários estruturados (Trivia PW / VK). foreign_reference — validar no cliente BR antes de republicar.",
+      "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
       "steps": [
         {
           "id": "step-01-prólogo",
@@ -351,7 +351,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://triviapw.com.br/2025/11/23/mundo-poco-antigo-do-norte-missao-global-reino-oriental/",
-      "notice": "Guias comunitários estruturados (Trivia PW / VK). foreign_reference — validar no cliente BR antes de republicar.",
+      "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
       "steps": [
         {
           "id": "step-01-fragmentos-de-inscrição",
@@ -523,14 +523,14 @@
       ],
       "excerpt_pt_br": "Recupere as cinco Pedras da Serenidade e acabe com o furacão no mar.",
       "summary_pt_br": "Recupere as cinco Pedras da Serenidade e acabe com o furacão no mar.",
-      "prerequisite_pt_br": "Memórias do Passado (conforme Trivia)",
+      "prerequisite_pt_br": "Memórias do Passado",
       "rewards_pt_br": null,
       "published_at": "2025-11-23",
       "coverage_status": "partial",
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://triviapw.com.br/2025/11/23/mundo-tempestade-missao-global-reino-oriental/",
-      "notice": "Guias comunitários estruturados (Trivia PW / VK). foreign_reference — validar no cliente BR antes de republicar.",
+      "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
       "steps": [
         {
           "id": "step-01-fragmentos-de-metal",
@@ -684,7 +684,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://triviapw.com.br/2025/11/23/pedra-espiritual-dos-4-simbolos-missao-global-reino-oriental/",
-      "notice": "Guias comunitários estruturados (Trivia PW / VK). foreign_reference — validar no cliente BR antes de republicar.",
+      "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
       "steps": [
         {
           "id": "step-01-tartaruga-negra",
@@ -838,7 +838,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://triviapw.com.br/2025/11/23/segredo-da-montanha-longquan-missao-global-reino-oriental/",
-      "notice": "Guias comunitários estruturados (Trivia PW / VK). foreign_reference — validar no cliente BR antes de republicar.",
+      "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
       "steps": [
         {
           "id": "step-01-pagode-qianxun",
@@ -996,7 +996,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://triviapw.com.br/2025/11/23/altar-do-dragao-flamejante-missao-global-reino-oriental/",
-      "notice": "Guias comunitários estruturados (Trivia PW / VK). foreign_reference — validar no cliente BR antes de republicar.",
+      "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
       "steps": [
         {
           "id": "step-01-selos-elementais",
@@ -1138,7 +1138,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://triviapw.com.br/2025/11/23/aventuras-misterio-da-origem-missao-global-reino-oriental/",
-      "notice": "Guias comunitários estruturados (Trivia PW / VK). foreign_reference — validar no cliente BR antes de republicar.",
+      "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
       "steps": [
         {
           "id": "step-01-triunfo",
@@ -1250,7 +1250,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://triviapw.com.br/2025/11/23/desejo-da-alma-do-livro-missao-global-reino-oriental/",
-      "notice": "Guias comunitários estruturados (Trivia PW / VK). foreign_reference — validar no cliente BR antes de republicar.",
+      "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
       "steps": [
         {
           "id": "step-01-biblioteca",
@@ -1352,7 +1352,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://triviapw.com.br/2025/11/22/aventuras-loja-de-tecidos-missao-global-reino-oriental/",
-      "notice": "Guias comunitários estruturados (Trivia PW / VK). foreign_reference — validar no cliente BR antes de republicar.",
+      "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
       "steps": [
         {
           "id": "step-01-dono-louco",
@@ -1480,7 +1480,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://triviapw.com.br/2025/11/23/aventura-morte-inesperada-missao-global-reino-oriental/",
-      "notice": "Guias comunitários estruturados (Trivia PW / VK). foreign_reference — validar no cliente BR antes de republicar.",
+      "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
       "steps": [
         {
           "id": "step-01-a-morte-de-boren",
@@ -1603,7 +1603,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://triviapw.com.br/2025/11/23/aventuras-passado-missao-global-reino-oriental/",
-      "notice": "Guias comunitários estruturados (Trivia PW / VK). foreign_reference — validar no cliente BR antes de republicar.",
+      "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
       "steps": [
         {
           "id": "step-01-encontro-e-boneca",
@@ -1715,7 +1715,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://triviapw.com.br/2025/11/22/aventuras-medicos-sombrios-missao-global-reino-oriental/",
-      "notice": "Guias comunitários estruturados (Trivia PW / VK). foreign_reference — validar no cliente BR antes de republicar.",
+      "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
       "steps": [
         {
           "id": "step-01-cadáver",
@@ -1852,7 +1852,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://triviapw.com.br/2025/11/23/aventuras-em-busca-do-filho-missao-global-reino-oriental/",
-      "notice": "Guias comunitários estruturados (Trivia PW / VK). foreign_reference — validar no cliente BR antes de republicar.",
+      "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
       "steps": [
         {
           "id": "step-01-sumiço",
@@ -1963,7 +1963,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://triviapw.com.br/2025/11/23/aventuras-homicidio-missao-global-reino-oriental/",
-      "notice": "Guias comunitários estruturados (Trivia PW / VK). foreign_reference — validar no cliente BR antes de republicar.",
+      "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
       "steps": [
         {
           "id": "step-01-encontro-casual",
@@ -2054,7 +2054,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://triviapw.com.br/2025/11/23/aventuras-destino-inesperado-missao-global-reino-oriental/",
-      "notice": "Guias comunitários estruturados (Trivia PW / VK). foreign_reference — validar no cliente BR antes de republicar.",
+      "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
       "steps": [
         {
           "id": "step-01-de-volta-para-casa",
@@ -2151,7 +2151,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://triviapw.com.br/2025/11/23/aventuras-passado-missao-global-reino-oriental-2/",
-      "notice": "Guias comunitários estruturados (Trivia PW / VK). foreign_reference — validar no cliente BR antes de republicar.",
+      "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
       "steps": [
         {
           "id": "step-01-início",

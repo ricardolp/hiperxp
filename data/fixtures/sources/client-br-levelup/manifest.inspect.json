@@ -1,0 +1,39 @@
+{
+  "source_kind": "client_br_levelup",
+  "client_dir": "C:\\Level Up\\Perfect World",
+  "copied_at": "2026-11-24T00:16:51.8093343-03:00",
+  "perfectworld_version_file": "20120820",
+  "version_sw": "537 0 / 51",
+  "elements_data": {
+    "sha256": "AF7F082F396A49B98D42326EA30F0020D411C3082943A0725CD37F6B7A5843C9",
+    "header_hex": "5A 02 00 30 55 C2 04 00 03 52 18 00 81 53 DA 2A",
+    "apparent_version": 602,
+    "path": "element/data/elements.data",
+    "note": "Compressed/post-v500 style header; parser TBD",
+    "size": 25193338
+  },
+  "policy": "read-only copy; client never modified",
+  "extract": {
+    "tool": "tools/extract-client-items.py",
+    "completed_at": "2026-11-24T03:31:32.221626+00:00",
+    "catalog": {
+      "json": "items/items.all.json",
+      "item_count": 43502,
+      "with_icon_path": 43502
+    },
+    "icons_all": {
+      "dir": "icons-all",
+      "png_count": 42429,
+      "missing": 1073
+    },
+    "icons_fixtures": {
+      "dir": "icons",
+      "png_count": 77
+    },
+    "descriptions": {
+      "client_elements": "not found (flavor text absent from elements.data)",
+      "cotacao_json": "items/descriptions.cotacao.json",
+      "cotacao_fixture_ids": 77
+    }
+  }
+}
