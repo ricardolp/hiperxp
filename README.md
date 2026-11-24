@@ -1,63 +1,144 @@
-# PW Comunidade — mapas e simulador de drops
+<p align="center">
+  <img src="apps/web/public/brand/logos/hiperxp-colorida-240w.png" alt="HiperXP" width="220" />
+</p>
 
-Especificação de produto e implementação • 23/11/2026 • versão 1.0
+<h1 align="center">HiperXP</h1>
 
-Nome provisório, sem identidade visual ou domínio definidos.
+<p align="center">
+  <strong>Ferramentas da comunidade para Perfect World</strong><br />
+  Mapas interativos, guias de missões e simulador de baús — em português, gratuito e open source.
+</p>
 
-## Objetivo
+<p align="center">
+  <a href="https://hiperxp.com">Site</a> ·
+  <a href="https://github.com/ricardolp/hiperxp">GitHub</a> ·
+  <a href="#contribuir">Contribuir</a> ·
+  <a href="#licença">MIT</a>
+</p>
 
-Criar um site público, gratuito e em português para jogadores de Perfect World, começando pelos mapas interativos da **Cidade da Paz** e **Tianyu**, com acompanhamento de exploração por personagem, e por um **simulador de abertura de baús e pacotes**. Preparar a estrutura para outras fontes de drop, sem presumir que a fórmula de monstros seja igual à de baús.
+<p align="center">
+  <img alt="Licença MIT" src="https://img.shields.io/badge/licença-MIT-red?style=flat-square" />
+  <img alt="Idioma" src="https://img.shields.io/badge/idioma-pt--BR-blue?style=flat-square" />
+  <img alt="Stack" src="https://img.shields.io/badge/stack-React%20%2B%20Vite%20%2B%20TypeScript-black?style=flat-square" />
+</p>
 
-O usuário dispõe do cliente no próprio computador. Este pacote especifica uma ferramenta local de extração, mas não acessa esse computador nem contém arquivos extraídos, imagens do jogo, coordenadas verificadas ou tabelas reais de drops. Os exemplos são explicitamente sintéticos.
+---
 
-## O que está incluído
+## Uma iniciativa da comunidade
 
-- `PRODUCT.md`: escopo, experiência, decisões e critérios de lançamento.
-- `openspec/changes/launch-community-tools/`: proposta, desenho técnico, tarefas e requisitos com cenários de aceitação.
-- `docs/data-contracts.md`: contratos de dados, identidade, versões e exemplos.
-- `docs/drop-engine.md`: regras probabilísticas e casos de referência.
-- `docs/client-import.md`: extração local e publicação revisada.
-- `docs/api.md`: endpoints e regras de concorrência.
-- `docs/sources.md`: fontes consultadas, limitações e pendências.
-- `docs/acceptance.md`: plano de verificação e condições de lançamento.
-- `examples/`: dados artificiais para orientar implementação; proibido publicar como dados reais.
+O **HiperXP** nasceu para facilitar a vida de quem joga Perfect World no servidor brasileiro: descobrir pontos no Reino Oriental, acompanhar missões e entender chances de baús — sem login forçado, sem automação e sem depender da conta do jogo.
 
-## Como usar a OpenSpec
+É um projeto de fãs, **independente** da Level Up / Perfect World Entertainment. Não somos afiliados, endossados ou patrocinados pelo jogo oficial. Conteúdo de referência, progresso local no navegador e simulação isolada do cliente.
 
-Esta é uma proposta ainda não implementada. Os requisitos ficam em `openspec/changes/launch-community-tools/specs/`, sob `## ADDED Requirements`. A pasta `openspec/specs/` deve receber a especificação vigente somente quando a mudança for implementada e arquivada. Não marcar tarefas como feitas só porque estão descritas.
+Se você curte mapas, guias ou dados do PW, este repositório é um convite para construir junto.
 
-O pacote segue a organização documentada pelo projeto OpenSpec: `proposal.md`, `design.md`, `tasks.md` e especificações por capacidade. A validação oficial da CLI deve ser executada no ambiente de implementação; este pacote não afirma ter sido validado por uma versão instalada da CLI.
+## O que o site oferece
 
-## Decisões assumidas
-
-| Tema | Decisão inicial |
+| Área | O que faz |
 |---|---|
-| Público | Comunidade do PW brasileiro oficial |
-| Idioma | pt-BR, com aliases estrangeiros preservados |
-| Mapas do MVP | Cidade da Paz e Tianyu, cada um independente |
-| Simulador | Baús/pacotes; drops de monstros somente após fórmula comprovada |
-| Cadastro | Opcional; consulta e simulação livres |
-| Progresso | Local por personagem; sincronização opcional com conta |
-| Stack proposta | Go, PostgreSQL, React + Vite + TypeScript + shadcn/ui; Leaflet |
-| Dados | Origem, versão, cobertura e revisão visíveis |
-| Publicação | Releases imutáveis; sem depender de sites externos em tempo de uso |
-| Código aberto | Intenção de repositório público; MIT proposta para código novo |
+| **Mapas** | Cidade da Paz, Tianyu e Jingxuan com pan/zoom, filtros, coordenadas e checklist por personagem |
+| **Missões** | Guias das histórias do Reino Oriental, com etapas e coords em português |
+| **Simulador** | Abertura de baús/pacotes com motor local (Web Worker), seed e exportação |
 
-## Desenvolvimento
+Progresso de exploração fica no **IndexedDB** do navegador (exportar/importar na toolbar do mapa). A simulação **não** conecta à sua conta nem altera o jogo.
 
-Scaffold inicial disponível: monorepo com interface dos dois mapas, progresso local e simulador sobre fixtures sintéticas. Ver `docs/dev.md`.
+## Rodar localmente
 
 ```bash
 pnpm install
 pnpm dev
 ```
 
-A publicação de dados reais ainda depende da investigação do cliente BR e da calibração dos mapas. Não tratar fixtures como conteúdo oficial do jogo.
+Abre em `http://localhost:5173`. Detalhes em [`docs/dev.md`](./docs/dev.md).
+
+```bash
+pnpm test        # pacotes
+pnpm build       # build de produção
+pnpm typecheck
+```
+
+## Estrutura do monorepo
+
+| Caminho | Função |
+|---|---|
+| `apps/web` | Interface (mapas, missões, simulador) |
+| `packages/contracts` | Tipos e utilitários compartilhados |
+| `packages/drop-engine` | Motor probabilístico + RNG |
+| `data/fixtures` | Dados de desenvolvimento / referência |
+| `design/identidade` | Kit da marca |
+| `docs/` | Contratos, fontes, importação e aceite |
+| `openspec/` | Proposta e requisitos do lançamento |
+| `tools/` | Importadores e scripts de build |
+
+## Atribuições e referências
+
+O HiperXP se apoia no trabalho da comunidade internacional e brasileira. Em especial:
+
+### Mapas — [pw-map.ru](https://pw-map.ru)
+
+Referência principal de layout, pontos e arte dos mapas do Reino Oriental (uso atual marcado como referência estrangeira; republicação permanente depende de autorização ou assets do cliente BR):
+
+| Região | Link de referência |
+|---|---|
+| Cidade da Paz | [pw-map.ru/pokoi](https://pw-map.ru/pokoi) |
+| Tianyu | [pw-map.ru/tianyuy](https://pw-map.ru/tianyuy) |
+| Jingxuan | [pw-map.ru/czinsyuan](https://pw-map.ru/czinsyuan) |
+
+Guia citado pelo PW Map: [pwonline.ru — thread de exploração](https://pwonline.ru/forums/showthread.php?t=217872).
+
+### Guias e termos BR — Trivia PW
+
+Índices e guias em português usados como base de nomes, jornadas e UX:
+
+- [Localizações do mapa Reino Oriental](https://triviapw.com.br/2025/11/19/localizacoes-do-mapa-reino-oriental/)
+- [Missões da Cidade da Paz Eterna](https://triviapw.com.br/2025/10/31/missoes-da-cidade-da-paz-eterna-guia-completo/)
+- [Cidade de Tianyu — jornadas](https://triviapw.com.br/2026/05/21/cidade-de-tianyu-jornadas/)
+
+### Outras referências
+
+| Fonte | Uso |
+|---|---|
+| [VK — missões mundiais das terras orientais](https://vk.com/@-149459137-mirovye-kvesty-vostochnyh-zemel) | Texto completo das 17 histórias (RU) |
+| [PWI Fandom — City of Peace](https://pwi.fandom.com/wiki/Eastern_Continent/City_of_Peace_Exploration) | Índice de exploração em inglês |
+| [MyAceEditor](https://github.com/ipasetto/MyAceEditor) | Formatos do cliente |
+| [pw-resource](https://github.com/nbshelton/pw-resource) | Loader de `elements.data` |
+| [DataTranslator](https://github.com/Kn1fe/DataTranslator) | `elements.data` / `tasks.data` |
+| [Leaflet](https://leafletjs.com/) | Renderer dos mapas |
+| [OpenSpec](https://github.com/Fission-AI/OpenSpec) | Organização da proposta |
+
+Inventário completo, limites e pendências: [`docs/sources.md`](./docs/sources.md).
+
+> Perfect World e marcas relacionadas pertencem aos seus respectivos donos. Assets do jogo e conteúdo de terceiros **não** estão cobertos pela licença MIT deste repositório.
+
+## Documentação
+
+- [`PRODUCT.md`](./PRODUCT.md) — escopo e critérios de produto
+- [`docs/data-contracts.md`](./docs/data-contracts.md) — contratos de dados
+- [`docs/drop-engine.md`](./docs/drop-engine.md) — regras do simulador
+- [`docs/client-import.md`](./docs/client-import.md) — extração local e publicação
+- [`docs/api.md`](./docs/api.md) — endpoints previstos
+- [`docs/acceptance.md`](./docs/acceptance.md) — plano de verificação
+- [`openspec/changes/launch-community-tools/`](./openspec/changes/launch-community-tools/) — proposta, design e tarefas
 
 ## Contribuir
 
-Código aberto em [github.com/ricardolp/hiperxp](https://github.com/ricardolp/hiperxp). Issues e pull requests são bem-vindos.
+Toda ajuda é bem-vinda: correção de coordenada, guia de missão, melhoria de UX, parser do cliente ou documentação.
+
+1. Abra uma [issue](https://github.com/ricardolp/hiperxp/issues) ou um pull request
+2. Prefira mudanças pequenas e revisáveis
+3. Não envie assets oficiais do jogo sem permissão clara
+4. Contribuições de dados devem trazer **fonte** e, quando possível, evidência
+
+Repositório: [github.com/ricardolp/hiperxp](https://github.com/ricardolp/hiperxp)
 
 ## Licença
 
-O código deste repositório é distribuído sob a [licença MIT](./LICENSE). Imagens, conteúdo importado do jogo e assets de terceiros podem ter termos próprios e não estão cobertos pela MIT.
+O **código** deste repositório é distribuído sob a [licença MIT](./LICENSE).
+
+Imagens, coordenadas de referência de terceiros, conteúdo importado do jogo e fontes tipográficas (OFL) seguem os termos dos respectivos autores — ver [`docs/sources.md`](./docs/sources.md) e `apps/web/public/brand/README.md`.
+
+---
+
+<p align="center">
+  Feito pela comunidade, para a comunidade · Perfect World BR
+</p>
