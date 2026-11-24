@@ -175,6 +175,27 @@ function ChestSimulator({ initialSlug }: { initialSlug?: string }) {
 
   return (
     <div className="chest-sim">
+      <div className="chest-sim-credit">
+        <div className="chest-sim-credit-bar">
+          <img
+            className="chest-sim-credit-mark"
+            src="/sim/credit-mark.webp"
+            width={48}
+            height={48}
+            alt=""
+          />
+          <span>
+            Este é o Simulador de Baú do Spoiler. Feito pelo Medaline
+          </span>
+        </div>
+      </div>
+
+      <div className="chest-sim-body">
+      {initialSlug ? (
+        <p className="chest-back">
+          <Link to="/simulador">← Simulador</Link>
+        </p>
+      ) : null}
       <section className="chest-sim-hero" aria-labelledby="sim-title">
         <div className="chest-sim-label">Simulador de recompensas</div>
         <h1 id="sim-title">Abra seus baús</h1>
@@ -373,13 +394,14 @@ function ChestSimulator({ initialSlug }: { initialSlug?: string }) {
           ) : null}
         </section>
       </div>
+      </div>
     </div>
   );
 }
 
 export function DropsIndexPage() {
   return (
-    <main className="page chest-sim-page">
+    <main className="chest-sim-page">
       <ChestSimulator />
     </main>
   );
@@ -392,10 +414,7 @@ export function DropDetailPage() {
     return <Navigate to="/simulador" replace />;
   }
   return (
-    <main className="page chest-sim-page">
-      <p className="chest-back">
-        <Link to="/simulador">← Simulador</Link>
-      </p>
+    <main className="chest-sim-page">
       <ChestSimulator initialSlug={slug} />
     </main>
   );

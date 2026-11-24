@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, Navigate, useParams, useSearchParams } from "react-router-dom";
 import type { PointCategory } from "@hiperxp/contracts";
+import { ConfirmDialog } from "../components/ConfirmDialog";
 import { MapView } from "../components/MapView";
 import { ALL_CATEGORIES, CATEGORY_LABELS } from "../lib/categories";
 import { getMap, mapOrder, maps } from "../lib/data";
@@ -37,6 +38,7 @@ export function MapPage() {
   const [status, setStatus] = useState("");
   const [filtersOpen, setFiltersOpen] = useState(true);
   const [pointsOpen, setPointsOpen] = useState(true);
+  const [clearConfirmOpen, setClearConfirmOpen] = useState(false);
 
   const selectedId = searchParams.get("ponto");
 
@@ -143,10 +145,7 @@ export function MapPage() {
 
   async function clearProgress() {
     if (!activeId || !map) return;
-    const ok = window.confirm(
-      `Limpar o progresso deste mapa (${map.name_pt_br})?`,
-    );
-    if (!ok) return;
+    setClearConfirmOpen(false);
     await resetProgress({
       characterId: activeId,
       mapPointIds: map.points.map((p) => p.id),
@@ -185,12 +184,23 @@ export function MapPage() {
           <button
             type="button"
             className="btn map-clear-btn"
-            onClick={() => void clearProgress()}
+            onClick={() => setClearConfirmOpen(true)}
           >
             Limpar
           </button>
         </div>
       </div>
+
+      <ConfirmDialog
+        open={clearConfirmOpen}
+        title="Limpar progresso"
+        description={`Zerar as marcações deste mapa (${map.name_pt_br})? Essa ação não pode ser desfeita.`}
+        confirmLabel="Limpar"
+        cancelLabel="Cancelar"
+        danger
+        onConfirm={() => void clearProgress()}
+        onCancel={() => setClearConfirmOpen(false)}
+      />
 
       <div className="map-shell">
         <div

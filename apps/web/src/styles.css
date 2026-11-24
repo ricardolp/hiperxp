@@ -445,9 +445,63 @@ button {
   border-color: #f5f1f3;
 }
 
+.btn-danger {
+  background: color-mix(in srgb, var(--danger) 22%, var(--bg-elevated));
+  border-color: color-mix(in srgb, var(--danger) 55%, transparent);
+  color: #f2d0d5;
+}
+
+.btn-danger:hover {
+  background: color-mix(in srgb, var(--danger) 34%, var(--bg-elevated));
+  border-color: color-mix(in srgb, var(--danger) 70%, transparent);
+  color: #fbe6e9;
+}
+
 .btn:disabled {
   opacity: 0.5;
   cursor: not-allowed;
+}
+
+.confirm-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1200;
+  display: grid;
+  place-items: center;
+  padding: 1.25rem;
+  background: rgba(4, 3, 4, 0.72);
+  backdrop-filter: blur(6px);
+}
+
+.confirm-dialog {
+  width: min(380px, 100%);
+  padding: 1.15rem 1.2rem 1.1rem;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: linear-gradient(160deg, #161318, #100e10);
+  box-shadow: var(--shadow);
+}
+
+.confirm-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.confirm-desc {
+  margin: 0.55rem 0 0;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.confirm-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-top: 1.15rem;
 }
 
 .field {
@@ -1212,8 +1266,23 @@ button {
 
 /* —— Simulador de baús (template spoiler) —— */
 .chest-sim-page {
-  width: min(1120px, calc(100% - 40px));
-  padding-top: 0;
+  flex: 1;
+  width: 100%;
+  padding: 0 0 3rem;
+  --page-background: #533e4d;
+  --art-width: max(100%, 1900px);
+  --art-height: max(753.16px, 39.64vw);
+  background:
+    linear-gradient(
+      180deg,
+      #30263626,
+      transparent 25%,
+      transparent 73%,
+      var(--page-background)
+    )
+    center top / 100% var(--art-height) no-repeat,
+    url("/sim/page-art.jpg") center top / var(--art-width) auto no-repeat,
+    var(--page-background);
 }
 
 .chest-sim {
@@ -1225,6 +1294,39 @@ button {
   --sim-accent: #c2e8f3;
   --sim-active: #a42d43;
   color: var(--sim-ink);
+}
+
+.chest-sim-credit {
+  background-color: #30263666;
+  border-bottom: 1px solid var(--sim-line);
+}
+
+.chest-sim-credit-bar {
+  width: min(1120px, calc(100% - 40px));
+  margin: auto;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-block: 10px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.chest-sim-credit-mark {
+  flex: none;
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border: 0;
+  border-radius: 11px;
+  background: none;
+}
+
+.chest-sim-body {
+  width: min(1120px, calc(100% - 40px));
+  margin: auto;
 }
 
 .chest-back {
@@ -1602,7 +1704,7 @@ button {
 .chest-reward-icon {
   width: 32px;
   height: 32px;
-  margin: 0 auto;
+  margin: 0 auto 7px;
   border-radius: 4px;
 }
 
@@ -1617,6 +1719,8 @@ button {
   color: white;
   font-size: 0.75rem;
   font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
   font-variant-numeric: tabular-nums;
 }
 
@@ -1657,6 +1761,12 @@ button {
 }
 
 @media (max-width: 700px) {
+  .chest-sim-page {
+    --art-width: 1450px;
+    --art-height: 574.78px;
+    background-position: center top, 70% top;
+  }
+
   .chest-panels {
     grid-template-columns: 1fr;
   }
