@@ -60,11 +60,12 @@ function markerIcon(point: MapPointFixture, selected: boolean, done: boolean) {
     (point.icon_key || "").startsWith("drop-");
   const isImageMarker =
     (point.icon_key || "") === "quest-imagem" ||
-    Boolean(point.icon?.includes("/icons/quest/imagem"));
+    Boolean(point.icon?.includes("/icons/quest/imagem")) ||
+    Boolean(point.icon?.includes("/quests/") && /\.(png|webp|jpe?g)$/i.test(point.icon));
   const size = isDropBadge || isImageMarker
     ? selected
-      ? 34
-      : 28
+      ? 36
+      : 30
     : selected
       ? 28
       : 22;

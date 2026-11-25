@@ -1660,6 +1660,22 @@ button {
   flex: none;
 }
 
+.map-popup-thumb {
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.18);
+}
+
+.map-popup-photo {
+  display: block;
+  width: 100%;
+  max-height: 160px;
+  margin-top: 0.45rem;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.12);
+}
+
 .map-popup-title {
   display: flex;
   flex-direction: column;

@@ -94,6 +94,15 @@ Guia citado pelo PW Map: [pwonline.ru — thread de exploração](https://pwonli
 - [Missões da Cidade da Paz Eterna](https://triviapw.com.br/2025/10/31/missoes-da-cidade-da-paz-eterna-guia-completo/)
 - [Cidade de Tianyu — jornadas](https://triviapw.com.br/2026/05/21/cidade-de-tianyu-jornadas/)
 
+### Nomes e comunidade BR
+
+Fontes para alinhar nomenclatura, termos oficiais e conversa da comunidade:
+
+| Fonte | Uso |
+|---|---|
+| [Discord Darkanas](https://discord.gg/sssUV8eETW) · [YouTube @Darkanas](https://www.youtube.com/@Darkanas/posts) | Comunidade / posts — nomes e referências BR |
+| [Discord oficial Level Up](https://discord.com/invite/pwlup) | Canal oficial — nomenclatura e avisos do servidor BR |
+
 ### Outras referências
 
 | Fonte | Uso |

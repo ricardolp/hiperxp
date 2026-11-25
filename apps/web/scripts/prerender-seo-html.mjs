@@ -49,10 +49,14 @@ function replaceTitle(html, title) {
 }
 
 function injectNoscript(html, route, url) {
+  const keywordsLine = route.keywords
+    ? `<p>${htmlEscape(route.keywords)}</p>`
+    : "";
   const block = `<noscript>
   <main>
     <h1>${htmlEscape(route.title)}</h1>
     <p>${htmlEscape(route.description)}</p>
+    ${keywordsLine}
     <p><a href="${htmlEscape(url)}">${htmlEscape(url)}</a></p>
   </main>
 </noscript>`;
@@ -97,7 +101,8 @@ function applyRouteMeta(html, siteUrl, route) {
     out,
     "name",
     "keywords",
-    "Perfect World, PW, quest Perfect World, Alma da Paz Eterna, mapa Reino Oriental, Cidade da Paz, Tianyu, Jingxuan, guia de missões, HiperXP",
+    route.keywords ||
+      "Perfect World, PW, mapa Reino Oriental, Cidade da Paz, Tianyu, Jingxuan, guia de missões Perfect World, HiperXP",
   );
   out = replaceLinkCanonical(out, url);
   out = replaceMeta(out, "property", "og:type", route.type || "website");

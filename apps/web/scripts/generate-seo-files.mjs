@@ -116,6 +116,53 @@ function withBrand(title) {
   return title.includes(SITE_NAME) ? title : `${title} | ${SITE_NAME}`;
 }
 
+const SITE_DEFAULT_KEYWORDS =
+  "Perfect World, PW, mapa Reino Oriental, Cidade da Paz, Tianyu, Jingxuan, guia de missões Perfect World, HiperXP";
+
+function joinKeywords(...parts) {
+  const seen = new Set();
+  const out = [];
+  for (const part of parts) {
+    if (!part) continue;
+    for (const raw of String(part).split(",")) {
+      const term = raw.trim();
+      if (!term) continue;
+      const key = term.toLocaleLowerCase("pt-BR");
+      if (seen.has(key)) continue;
+      seen.add(key);
+      out.push(term);
+    }
+  }
+  return out.slice(0, 16).join(", ");
+}
+
+function questShortName(name) {
+  return String(name || "")
+    .replace(/\s*\(Diária I–V\)\s*/i, "")
+    .trim();
+}
+
+function questKeywords(quest, mapName) {
+  const shortName = questShortName(quest.name_pt_br);
+  const searchAliases = (quest.aliases || [])
+    .filter((a) => /pw|perfect world|guia|missão|quest|diária|alma/i.test(a))
+    .slice(0, 6);
+  return joinKeywords(
+    shortName,
+    `${shortName} PW`,
+    `${shortName} Perfect World`,
+    `guia ${shortName}`,
+    `missão ${shortName}`,
+    `quest ${shortName}`,
+    quest.kind === "daily" ? `diária ${shortName}` : null,
+    mapName,
+    ...searchAliases,
+    "Perfect World",
+    "PW",
+    "HiperXP",
+  );
+}
+
 function questGuidePath(quest) {
   const embed = questEmbedRedirects[quest.map_slug];
   if (embed) return embed;
@@ -181,6 +228,13 @@ pushRoute({
   description: SITE_DEFAULT_DESCRIPTION,
   image: SITE_OG_IMAGE,
   type: "website",
+  keywords: joinKeywords(
+    SITE_DEFAULT_KEYWORDS,
+    "Alma da Paz Eterna",
+    "Alma da Paz Eterna PW",
+    "Alma de Tianyu",
+    "simulador de baús Perfect World",
+  ),
   priority: "1.0",
   changefreq: "weekly",
   lastmod: today,
@@ -194,6 +248,16 @@ pushRoute({
   ),
   image: SITE_OG_IMAGE,
   type: "website",
+  keywords: joinKeywords(
+    "simulador de baús Perfect World",
+    "simulador baús PW",
+    "Baú da Aurora",
+    "Pergaminho Abissal",
+    "Pergaminho de Tianyu",
+    "Perfect World",
+    "PW",
+    "HiperXP",
+  ),
   priority: "0.8",
   changefreq: "weekly",
   lastmod: today,
@@ -207,6 +271,15 @@ pushRoute({
   ),
   image: SITE_OG_IMAGE,
   type: "website",
+  keywords: joinKeywords(
+    "database Perfect World",
+    "PWDatabase",
+    "itens Perfect World",
+    "missões PW",
+    "Perfect World",
+    "PW",
+    "HiperXP",
+  ),
   priority: "0.9",
   changefreq: "weekly",
   lastmod: today,
@@ -227,6 +300,15 @@ for (const slug of mapOrder) {
     description,
     image: map.asset || `/maps/${slug}.webp`,
     type: "website",
+    keywords: joinKeywords(
+      `mapa ${map.name_pt_br}`,
+      map.name_pt_br,
+      ...(map.aliases || []).slice(0, 3),
+      region,
+      "Perfect World",
+      "PW",
+      "HiperXP",
+    ),
     priority: slug === "cidade-da-paz" ? "1.0" : "0.9",
     changefreq: "weekly",
     lastmod: today,
@@ -241,8 +323,14 @@ for (const mapSlug of questMapOrder) {
   const quests = [...(catalog.quests || [])].sort(
     (a, b) => (a.order || 0) - (b.order || 0),
   );
+  const highlight =
+    mapSlug === "cidade-da-paz"
+      ? "Alma da Paz Eterna, jornadas e diárias"
+      : mapSlug === "tianyu"
+        ? "Alma de Tianyu, jornadas e diárias"
+        : "jornadas, anedotas e diárias";
   const listDescription = clampDescription(
-    `Guias de quest Perfect World (PW) em ${mapName} (${region}): etapas, NPCs e coordenadas. ${quests.length} missões no HiperXP — Alma da Paz, jornadas e diárias.`,
+    `Guias de quest Perfect World (PW) em ${mapName} (${region}): etapas, NPCs e coordenadas. ${quests.length} missões no HiperXP — ${highlight}.`,
   );
 
   pushRoute({
@@ -251,6 +339,17 @@ for (const mapSlug of questMapOrder) {
     description: listDescription,
     image: mapsBySlug[mapSlug]?.asset || SITE_OG_IMAGE,
     type: "website",
+    keywords: joinKeywords(
+      `quests ${mapName}`,
+      `missões ${mapName}`,
+      mapSlug === "cidade-da-paz" ? "Alma da Paz Eterna PW" : null,
+      mapSlug === "tianyu" ? "Alma de Tianyu PW" : null,
+      mapName,
+      region,
+      "Perfect World",
+      "PW",
+      "HiperXP",
+    ),
     priority: mapSlug === "cidade-da-paz" ? "0.95" : "0.85",
     changefreq: "weekly",
     lastmod: today,
@@ -273,13 +372,11 @@ for (const mapSlug of questMapOrder) {
       mapName;
     const regionQ = regionLabel(mapSlug);
     const excerpt = (quest.excerpt_pt_br || quest.summary_pt_br || "").trim();
-    const shortName = String(quest.name_pt_br || "")
-      .replace(/\s*\(Diária I–V\)\s*/i, "")
-      .trim();
+    const shortName = questShortName(quest.name_pt_br);
     const description = clampDescription(
       excerpt
-        ? `${excerpt} Guia quest PW (${kind.toLowerCase()}) — ${displayMap}, ${regionQ}.`
-        : `Guia completo da quest ${shortName} no Perfect World (PW): etapas, NPCs e coordenadas em ${displayMap} (${regionQ}).`,
+        ? `${excerpt} ${displayMap}, ${regionQ}.`
+        : `Guia ${shortName} PW (Perfect World): etapas, NPCs e coordenadas em ${displayMap} (${regionQ}).`,
     );
 
     const isPriorityQuest =
@@ -287,9 +384,11 @@ for (const mapSlug of questMapOrder) {
 
     pushRoute({
       path: canonical,
-      title: withBrand(
-        `${shortName} — guia quest PW (${kind.toLowerCase()}) | ${displayMap}`,
-      ),
+      title: isPriorityQuest
+        ? withBrand(`${shortName} PW — guia diária Perfect World`)
+        : withBrand(
+            `${shortName} — guia quest PW (${kind.toLowerCase()}) | ${displayMap}`,
+          ),
       description,
       image:
         quest.cover_image ||
@@ -297,6 +396,7 @@ for (const mapSlug of questMapOrder) {
         mapsBySlug[quest.map_slug]?.asset ||
         SITE_OG_IMAGE,
       type: "article",
+      keywords: questKeywords(quest, displayMap),
       priority: isPriorityQuest ? "1.0" : "0.8",
       changefreq: isPriorityQuest ? "weekly" : "monthly",
       lastmod: quest.published_at || today,
@@ -314,6 +414,14 @@ for (const slug of dropSlugs) {
     ),
     image: SITE_OG_IMAGE,
     type: "website",
+    keywords: joinKeywords(
+      table.name_pt_br,
+      `simulador ${table.name_pt_br}`,
+      "simulador de baús Perfect World",
+      "Perfect World",
+      "PW",
+      "HiperXP",
+    ),
     priority: "0.7",
     changefreq: "monthly",
     lastmod: today,
@@ -327,6 +435,7 @@ for (const legacy of legacyRedirects) {
     description: SITE_DEFAULT_DESCRIPTION,
     image: SITE_OG_IMAGE,
     type: "website",
+    keywords: SITE_DEFAULT_KEYWORDS,
     noindex: true,
     redirectTo: legacy.to,
   });
@@ -375,6 +484,7 @@ const seoRoutesPayload = {
     title: SITE_DEFAULT_TITLE,
     description: SITE_DEFAULT_DESCRIPTION,
     image: SITE_OG_IMAGE,
+    keywords: SITE_DEFAULT_KEYWORDS,
   },
   routes: uniqueRoutes.map((r) => ({
     path: r.path,
@@ -382,6 +492,7 @@ const seoRoutesPayload = {
     description: r.description,
     image: r.image || SITE_OG_IMAGE,
     type: r.type || "website",
+    keywords: r.keywords || SITE_DEFAULT_KEYWORDS,
     noindex: Boolean(r.noindex),
     redirectTo: r.redirectTo || null,
   })),

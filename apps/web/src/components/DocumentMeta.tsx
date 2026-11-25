@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import { resolveSeo, SEO_DEFAULTS } from "../lib/seo";
+import { resolveSeo, SEO_DEFAULTS, SITE_DEFAULT_KEYWORDS } from "../lib/seo";
 import { absoluteAsset, absoluteUrl } from "../lib/site";
 
 const JSON_LD_ID = "hiperxp-json-ld";
@@ -68,11 +68,7 @@ export function DocumentMeta() {
       "robots",
       seo.noindex ? "noindex, nofollow" : "index, follow, max-image-preview:large",
     );
-    upsertMeta(
-      "name",
-      "keywords",
-      "Perfect World, PW, quest Perfect World, Alma da Paz Eterna, mapa Reino Oriental, Cidade da Paz, Tianyu, Jingxuan, guia de missões, HiperXP",
-    );
+    upsertMeta("name", "keywords", seo.keywords || SITE_DEFAULT_KEYWORDS);
 
     upsertMeta("property", "og:site_name", SEO_DEFAULTS.siteName);
     upsertMeta("property", "og:locale", SEO_DEFAULTS.locale);

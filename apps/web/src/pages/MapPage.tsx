@@ -36,8 +36,8 @@ const CATEGORY_ICON_KEYS: Record<PointCategory, string> = {
   challenge: "challenge",
   collectible: "glint",
   daily_resource: "resource",
-  npc: "quest",
-  teleport: "quest",
+  npc: "npc",
+  teleport: "teleport",
   quest_objective: "quest",
 };
 
@@ -313,8 +313,24 @@ export function MapPage() {
                     <img
                       src={iconUrl(selected.icon_key, selected.icon)}
                       alt=""
-                      width={24}
-                      height={24}
+                      width={
+                        selected.icon_key === "quest-imagem" ||
+                        selected.icon?.includes("/quests/")
+                          ? 40
+                          : 24
+                      }
+                      height={
+                        selected.icon_key === "quest-imagem" ||
+                        selected.icon?.includes("/quests/")
+                          ? 40
+                          : 24
+                      }
+                      className={
+                        selected.icon_key === "quest-imagem" ||
+                        selected.icon?.includes("/quests/")
+                          ? "map-popup-thumb"
+                          : undefined
+                      }
                     />
                     <div className="map-popup-title">
                       <strong>{selected.name}</strong>
@@ -336,6 +352,14 @@ export function MapPage() {
                   </p>
                   {selected.tip ? (
                     <p className="map-popup-tip">{selected.tip}</p>
+                  ) : null}
+                  {selected.icon_key === "quest-imagem" &&
+                  selected.icon?.includes("/quests/") ? (
+                    <img
+                      className="map-popup-photo"
+                      src={selected.icon}
+                      alt={selected.name}
+                    />
                   ) : null}
                   <div className="actions map-popup-actions">
                     <button

@@ -14,91 +14,25 @@
   "height": 2648,
   "asset": "/maps/quedanunca.webp",
   "transform": {
-    "a": 4.417132213993277,
-    "b": 0.042198431879535314,
-    "c": -527.8894436451035,
-    "d": -0.6948151057642183,
-    "e": -5.140482255125197,
-    "f": 4381.014911376134
+    "a": 5.2585213291929405,
+    "b": 0.17271191935531882,
+    "c": -921.3362812617536,
+    "d": 0.31852408210752237,
+    "e": 5.000832593039969,
+    "f": -1515.9064777097442
   },
-  "notice": "Mapa Western Steppes (Quedanunca) da PWpedia — qualidade alta. Pontos simplificados das diárias com calibração aproximada. foreign_reference.",
+  "notice": "Mapa Western Steppes (Quedanunca) da PWpedia. Pontos: diárias + 20 fotos Memórias, teleportes/bancos/ferreiros/recursos do RuPW. Sem dump completo de NPCs. foreign_reference.",
   "synthetic": false,
   "origin": "third_party",
-  "source_url": "https://pwi.fandom.com/wiki/File:Western_Steppes_Map_zoom.png",
+  "source_url": "https://rupw.org/pwdb/?ds=174&p=map&m=a78&t=npc",
   "points": [
-    {
-      "id": "npc-espirito-sagrado",
-      "name": "Espírito Sagrado",
-      "aliases": [],
-      "category": "quest_objective",
-      "x": 586,
-      "y": 505,
-      "altitude": 12,
-      "zone": "Continente Ocidental",
-      "reset_policy": "daily",
-      "tip": "Início da escolta e Memórias do Passado",
-      "access_conditions": null,
-      "review_status": "foreign_reference",
-      "origin": "community_observed",
-      "type_label": "Diária",
-      "icon_key": "quest"
-    },
-    {
-      "id": "npc-portal-da-vida",
-      "name": "Oficial Portal da Vida",
-      "aliases": [],
-      "category": "quest_objective",
-      "x": 504,
-      "y": 499,
-      "altitude": 12,
-      "zone": "Continente Ocidental",
-      "reset_policy": "daily",
-      "tip": "Entrega Esforço da Guerra I",
-      "access_conditions": null,
-      "review_status": "foreign_reference",
-      "origin": "community_observed",
-      "type_label": "Diária",
-      "icon_key": "quest"
-    },
-    {
-      "id": "npc-cerne-quebrado",
-      "name": "Oficial Cerne Quebrado",
-      "aliases": [],
-      "category": "quest_objective",
-      "x": 448,
-      "y": 520,
-      "altitude": 10,
-      "zone": "Continente Ocidental",
-      "reset_policy": "daily",
-      "tip": "Entrega Esforço da Guerra II",
-      "access_conditions": null,
-      "review_status": "foreign_reference",
-      "origin": "community_observed",
-      "type_label": "Diária",
-      "icon_key": "quest"
-    },
-    {
-      "id": "npc-garganta-uivante",
-      "name": "Oficial Garganta Uivante",
-      "aliases": [],
-      "category": "quest_objective",
-      "x": 446,
-      "y": 559,
-      "altitude": 11,
-      "zone": "Continente Ocidental",
-      "reset_policy": "daily",
-      "tip": "Entrega Esforço da Guerra III",
-      "access_conditions": null,
-      "review_status": "foreign_reference",
-      "origin": "community_observed",
-      "type_label": "Diária",
-      "icon_key": "quest"
-    },
     {
       "id": "npc-althea",
       "name": "Althea — Salões Luz Aurora",
       "aliases": [],
       "category": "quest_objective",
+      "icon_key": "quest",
+      "icon": "/icons/pw-map/quest-icon.webp",
       "x": 442,
       "y": 627,
       "altitude": 3,
@@ -108,8 +42,2475 @@
       "access_conditions": null,
       "review_status": "foreign_reference",
       "origin": "community_observed",
-      "type_label": "Diária",
-      "icon_key": "quest"
+      "type_label": "Diária"
+    },
+    {
+      "id": "npc-espirito-sagrado",
+      "name": "Espírito Sagrado",
+      "aliases": [],
+      "category": "quest_objective",
+      "icon_key": "quest",
+      "icon": "/icons/pw-map/quest-icon.webp",
+      "x": 586,
+      "y": 505,
+      "altitude": 12,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Início da escolta e Memórias do Passado",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "type_label": "Diária"
+    },
+    {
+      "id": "npc-kolorte",
+      "name": "Kolorte",
+      "aliases": [],
+      "category": "quest_objective",
+      "icon_key": "quest",
+      "icon": "/icons/pw-map/quest-icon.webp",
+      "x": 544,
+      "y": 584,
+      "altitude": null,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Diária Dragão Topo das Nuvens (Nicada)",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "type_label": "Diária"
+    },
+    {
+      "id": "npc-cerne-quebrado",
+      "name": "Oficial Cerne Quebrado",
+      "aliases": [],
+      "category": "quest_objective",
+      "icon_key": "quest",
+      "icon": "/icons/pw-map/quest-icon.webp",
+      "x": 448,
+      "y": 520,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Entrega Esforço da Guerra II",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "type_label": "Diária"
+    },
+    {
+      "id": "npc-garganta-uivante",
+      "name": "Oficial Garganta Uivante",
+      "aliases": [],
+      "category": "quest_objective",
+      "icon_key": "quest",
+      "icon": "/icons/pw-map/quest-icon.webp",
+      "x": 446,
+      "y": 559,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Entrega Esforço da Guerra III",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "type_label": "Diária"
+    },
+    {
+      "id": "npc-portal-da-vida",
+      "name": "Oficial Portal da Vida",
+      "aliases": [],
+      "category": "quest_objective",
+      "icon_key": "quest",
+      "icon": "/icons/pw-map/quest-icon.webp",
+      "x": 504,
+      "y": 499,
+      "altitude": 12,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Entrega Esforço da Guerra I",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "type_label": "Diária"
+    },
+    {
+      "id": "npc-roberts",
+      "name": "Veterano Roberts",
+      "aliases": [],
+      "category": "quest_objective",
+      "icon_key": "quest",
+      "icon": "/icons/pw-map/quest-icon.webp",
+      "x": 478,
+      "y": 593,
+      "altitude": null,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Diária A Cidade das Bestas (Magnier)",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "type_label": "Diária"
+    },
+    {
+      "id": "memoria-step-23-baixio-do-monolito",
+      "name": "Baixio do Monólito",
+      "aliases": [
+        "Baixio do Monólito (Monolith Shoal)"
+      ],
+      "category": "quest_objective",
+      "icon_key": "quest-imagem",
+      "icon": "/quests/esforco-da-guerra/photo-17.png",
+      "x": 417,
+      "y": 751,
+      "altitude": null,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Memórias do Passado · alinhe a vista com a foto",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "type_label": "Memória / foto"
+    },
+    {
+      "id": "memoria-step-08-bar-da-evelyn",
+      "name": "Bar da Evelyn",
+      "aliases": [
+        "Bar da Evelyn (Evelyn's Bar)"
+      ],
+      "category": "quest_objective",
+      "icon_key": "quest-imagem",
+      "icon": "/quests/esforco-da-guerra/photo-02.png",
+      "x": 323,
+      "y": 588,
+      "altitude": null,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Memórias do Passado · alinhe a vista com a foto · Pode voar acima do prédio.",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "type_label": "Memória / foto"
+    },
+    {
+      "id": "memoria-step-11-bosque-disspa",
+      "name": "Bosque Disspa",
+      "aliases": [
+        "Bosque Disspa (Disspa Woods)"
+      ],
+      "category": "quest_objective",
+      "icon_key": "quest-imagem",
+      "icon": "/quests/esforco-da-guerra/photo-05.png",
+      "x": 468,
+      "y": 639,
+      "altitude": null,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Memórias do Passado · alinhe a vista com a foto",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "type_label": "Memória / foto"
+    },
+    {
+      "id": "memoria-step-18-campo-girassol",
+      "name": "Campo Girassol",
+      "aliases": [
+        "Campo Girassol (Sunflower Shrub)"
+      ],
+      "category": "quest_objective",
+      "icon_key": "quest-imagem",
+      "icon": "/quests/esforco-da-guerra/photo-12.png",
+      "x": 375,
+      "y": 715,
+      "altitude": null,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Memórias do Passado · alinhe a vista com a foto · Fique abaixo da altura 20.",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "type_label": "Memória / foto"
+    },
+    {
+      "id": "memoria-step-19-cemiterio-de-titas",
+      "name": "Cemitério de Titãs",
+      "aliases": [
+        "Cemitério de Titãs (Titan Ruins)"
+      ],
+      "category": "quest_objective",
+      "icon_key": "quest-imagem",
+      "icon": "/quests/esforco-da-guerra/photo-13.png",
+      "x": 346,
+      "y": 745,
+      "altitude": null,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Memórias do Passado · alinhe a vista com a foto",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "type_label": "Memória / foto"
+    },
+    {
+      "id": "memoria-step-25-cerne-quebrado-foto",
+      "name": "Cerne Quebrado",
+      "aliases": [
+        "Cerne Quebrado (Shattered Hub)"
+      ],
+      "category": "quest_objective",
+      "icon_key": "quest-imagem",
+      "icon": "/quests/esforco-da-guerra/photo-19.png",
+      "x": 463,
+      "y": 508,
+      "altitude": null,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Memórias do Passado · alinhe a vista com a foto",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "type_label": "Memória / foto"
+    },
+    {
+      "id": "memoria-step-10-descanso-glorioso",
+      "name": "Descanso Glorioso",
+      "aliases": [
+        "Descanso Glorioso (Glory's Rest)"
+      ],
+      "category": "quest_objective",
+      "icon_key": "quest-imagem",
+      "icon": "/quests/esforco-da-guerra/photo-04.png",
+      "x": 415,
+      "y": 526,
+      "altitude": null,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Memórias do Passado · alinhe a vista com a foto",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "type_label": "Memória / foto"
+    },
+    {
+      "id": "memoria-step-21-docas-de-datun",
+      "name": "Docas de Datun",
+      "aliases": [
+        "Docas de Datun (Datun Docks)"
+      ],
+      "category": "quest_objective",
+      "icon_key": "quest-imagem",
+      "icon": "/quests/esforco-da-guerra/photo-15.png",
+      "x": 374,
+      "y": 464,
+      "altitude": null,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Memórias do Passado · alinhe a vista com a foto",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "type_label": "Memória / foto"
+    },
+    {
+      "id": "memoria-step-12-floresta-de-hibeth",
+      "name": "Floresta de Hibeth",
+      "aliases": [
+        "Floresta de Hibeth (Hibeth Forest)"
+      ],
+      "category": "quest_objective",
+      "icon_key": "quest-imagem",
+      "icon": "/quests/esforco-da-guerra/photo-06.png",
+      "x": 377,
+      "y": 513,
+      "altitude": null,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Memórias do Passado · alinhe a vista com a foto",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "type_label": "Memória / foto"
+    },
+    {
+      "id": "memoria-step-15-fonte-abandonada",
+      "name": "Fonte Abandonada",
+      "aliases": [
+        "Fonte Abandonada (Derelict Mint)"
+      ],
+      "category": "quest_objective",
+      "icon_key": "quest-imagem",
+      "icon": "/quests/esforco-da-guerra/photo-09.png",
+      "x": 599,
+      "y": 705,
+      "altitude": null,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Memórias do Passado · alinhe a vista com a foto",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "type_label": "Memória / foto"
+    },
+    {
+      "id": "memoria-step-20-fonte-da-vida",
+      "name": "Fonte da Vida",
+      "aliases": [
+        "Fonte da Vida (Well of Life)"
+      ],
+      "category": "quest_objective",
+      "icon_key": "quest-imagem",
+      "icon": "/quests/esforco-da-guerra/photo-14.png",
+      "x": 466,
+      "y": 478,
+      "altitude": null,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Memórias do Passado · alinhe a vista com a foto",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "type_label": "Memória / foto"
+    },
+    {
+      "id": "memoria-step-26-fontequente",
+      "name": "Fontequente",
+      "aliases": [
+        "Fontequente (Warmspring)"
+      ],
+      "category": "quest_objective",
+      "icon_key": "quest-imagem",
+      "icon": "/quests/esforco-da-guerra/photo-20.png",
+      "x": 529,
+      "y": 563,
+      "altitude": null,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Memórias do Passado · alinhe a vista com a foto",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "type_label": "Memória / foto"
+    },
+    {
+      "id": "memoria-step-09-igreja",
+      "name": "Igreja",
+      "aliases": [
+        "Igreja (Church)"
+      ],
+      "category": "quest_objective",
+      "icon_key": "quest-imagem",
+      "icon": "/quests/esforco-da-guerra/photo-03.png",
+      "x": 374,
+      "y": 592,
+      "altitude": null,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Memórias do Passado · alinhe a vista com a foto · Pode voar acima do prédio.",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "type_label": "Memória / foto"
+    },
+    {
+      "id": "memoria-step-13-lago-da-tormenta",
+      "name": "Lago da Tormenta",
+      "aliases": [
+        "Lago da Tormenta (Storm Lake)"
+      ],
+      "category": "quest_objective",
+      "icon_key": "quest-imagem",
+      "icon": "/quests/esforco-da-guerra/photo-07.png",
+      "x": 562,
+      "y": 723,
+      "altitude": null,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Memórias do Passado · alinhe a vista com a foto",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "type_label": "Memória / foto"
+    },
+    {
+      "id": "memoria-step-14-portal-do-infinito",
+      "name": "Portal do Infinito",
+      "aliases": [
+        "Portal do Infinito (Gate of Cycles)"
+      ],
+      "category": "quest_objective",
+      "icon_key": "quest-imagem",
+      "icon": "/quests/esforco-da-guerra/photo-08.png",
+      "x": 572,
+      "y": 666,
+      "altitude": 27,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Memórias do Passado · alinhe a vista com a foto · Título Círculo em Repetição ao concluir neste local.",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "type_label": "Memória / foto"
+    },
+    {
+      "id": "memoria-step-07-praca-do-paladino",
+      "name": "Praça do Paladino",
+      "aliases": [
+        "Praça do Paladino (Paladin's Square)"
+      ],
+      "category": "quest_objective",
+      "icon_key": "quest-imagem",
+      "icon": "/quests/esforco-da-guerra/photo-01.png",
+      "x": 351,
+      "y": 600,
+      "altitude": null,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Memórias do Passado · alinhe a vista com a foto",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "type_label": "Memória / foto"
+    },
+    {
+      "id": "memoria-step-22-queda-mata-dragao",
+      "name": "Queda do Mata-dragão",
+      "aliases": [
+        "Queda do Mata-dragão (Dragonslayer's Fall)"
+      ],
+      "category": "quest_objective",
+      "icon_key": "quest-imagem",
+      "icon": "/quests/esforco-da-guerra/photo-16.png",
+      "x": 446,
+      "y": 599,
+      "altitude": null,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Memórias do Passado · alinhe a vista com a foto",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "type_label": "Memória / foto"
+    },
+    {
+      "id": "memoria-step-24-templo-de-nimis",
+      "name": "Templo de Nimis",
+      "aliases": [
+        "Templo de Nimis (Temple of Nimis)"
+      ],
+      "category": "quest_objective",
+      "icon_key": "quest-imagem",
+      "icon": "/quests/esforco-da-guerra/photo-18.png",
+      "x": 340,
+      "y": 667,
+      "altitude": null,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Memórias do Passado · alinhe a vista com a foto · Pode voar acima do prédio.",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "type_label": "Memória / foto"
+    },
+    {
+      "id": "memoria-step-16-tribo-senhor-feras",
+      "name": "Tribo do Senhor das Feras",
+      "aliases": [
+        "Tribo do Senhor das Feras (Beast Lord Tribe)"
+      ],
+      "category": "quest_objective",
+      "icon_key": "quest-imagem",
+      "icon": "/quests/esforco-da-guerra/photo-10.png",
+      "x": 559,
+      "y": 481,
+      "altitude": null,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Memórias do Passado · alinhe a vista com a foto",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "type_label": "Memória / foto"
+    },
+    {
+      "id": "memoria-step-17-vale-orbital",
+      "name": "Vale Orbital",
+      "aliases": [
+        "Vale Orbital (Fountain of Omen)"
+      ],
+      "category": "quest_objective",
+      "icon_key": "quest-imagem",
+      "icon": "/quests/esforco-da-guerra/photo-11.png",
+      "x": 409,
+      "y": 702,
+      "altitude": null,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Memórias do Passado · alinhe a vista com a foto",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "type_label": "Memória / foto"
+    },
+    {
+      "id": "rupw-npc-58943-415-663",
+      "name": "Melman, o Teleportador",
+      "aliases": [
+        "Мастер телепортации Фиалка"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 415,
+      "y": 663,
+      "altitude": 14,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-52515-481-537",
+      "name": "Mestra de Teleporte Angela",
+      "aliases": [
+        "Мастер телепортации Анжела"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 481,
+      "y": 537,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-52276-316-491",
+      "name": "Mestra de Teleporte Anita",
+      "aliases": [
+        "Мастер телепортации Анита"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 316,
+      "y": 491,
+      "altitude": 13,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-52258-376-472",
+      "name": "Mestra de Teleporte Jacqueline",
+      "aliases": [
+        "Мастер телепортации Жаклин"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 376,
+      "y": 472,
+      "altitude": 12,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-52310-371-515",
+      "name": "Mestra de Teleporte Lydia",
+      "aliases": [
+        "Мастер телепортации Лидия"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 371,
+      "y": 515,
+      "altitude": 12,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-52527-481-479",
+      "name": "Mestra de Teleporte Natalie",
+      "aliases": [
+        "Мастер телепортации Натали"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 481,
+      "y": 479,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-52488-459-636",
+      "name": "Mestra de Teleporte Rachel",
+      "aliases": [
+        "Мастер телепортации Рэйчел"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 459,
+      "y": 636,
+      "altitude": 13,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-52456-470-586",
+      "name": "Mestra de Teleporte Stephanie",
+      "aliases": [
+        "Мастер телепортации Стефани"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 470,
+      "y": 586,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-52419-332-585",
+      "name": "Mestra de Teleporte Velona",
+      "aliases": [
+        "Мастер телепортации Верона"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 332,
+      "y": 585,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-52539-440-492",
+      "name": "Mestra de Teleporte Zhenya",
+      "aliases": [
+        "Мастер телепортации Джен"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 440,
+      "y": 492,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-52403-332-617",
+      "name": "Mestre de Teleporte",
+      "aliases": [
+        "Мастер телепортации Гвинет"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 332,
+      "y": 617,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-52350-365-617",
+      "name": "Mestre de Teleporte",
+      "aliases": [
+        "Мастер телепортации"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 365,
+      "y": 617,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-52523-447-520",
+      "name": "Mestre de Teleporte",
+      "aliases": [
+        "Мастер телепортации"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 447,
+      "y": 520,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-52370-365-585",
+      "name": "Mestre de Teleporte Grant",
+      "aliases": [
+        "Мастер телепортации Грант"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 365,
+      "y": 585,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-52451-415-630",
+      "name": "Mestre de Teleporte Irma",
+      "aliases": [
+        "Мастер телепортации Йетта"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 415,
+      "y": 630,
+      "altitude": 12,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-61893-595-678",
+      "name": "Teleportador Fitz",
+      "aliases": [
+        "Мастер телепортации Фина"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 595,
+      "y": 678,
+      "altitude": 12,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-61887-520-734",
+      "name": "Teleportador Lennon",
+      "aliases": [
+        "Мастер телепортации Ланио"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 520,
+      "y": 734,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-52300-312-521",
+      "name": "Teleportador Todd",
+      "aliases": [
+        "Мастер телепортации Тодд"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 312,
+      "y": 521,
+      "altitude": 13,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-58922-470-700",
+      "name": "Teleportadora Angela",
+      "aliases": [
+        "Мастер телепортации Антила"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 470,
+      "y": 700,
+      "altitude": 12,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-72240-257-694",
+      "name": "Teleportadora Bertha",
+      "aliases": [
+        "Мастер телепортации Берта"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 257,
+      "y": 694,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-72243-196-751",
+      "name": "Teleportadora Chloe",
+      "aliases": [
+        "Мастер телепортации Хлоя"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 196,
+      "y": 751,
+      "altitude": 1,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-72241-284-713",
+      "name": "Teleportadora Daphnia",
+      "aliases": [
+        "Мастер телепортации Дафия"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 284,
+      "y": 713,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-58963-442-689",
+      "name": "Teleportadora Dariena",
+      "aliases": [
+        "Мастер телепортации Далина"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 442,
+      "y": 689,
+      "altitude": 13,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-72242-232-721",
+      "name": "Teleportadora Enid",
+      "aliases": [
+        "Мастер телепортации Инид"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 232,
+      "y": 721,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-58973-469-673",
+      "name": "Teleportadora Gloria",
+      "aliases": [
+        "Мастер телепортации Глория"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 469,
+      "y": 673,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-61890-537-708",
+      "name": "Teleportadora Ingrid",
+      "aliases": [
+        "Мастер телепортации Индис"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 537,
+      "y": 708,
+      "altitude": 12,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-63055-564-607",
+      "name": "Teleportadora Issidore",
+      "aliases": [
+        "Мастер телепортации Айседора"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 564,
+      "y": 607,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-58904-370-742",
+      "name": "Teleportadora Jamie",
+      "aliases": [
+        "Мастер телепортации Махаон"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 370,
+      "y": 742,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-63097-525-566",
+      "name": "Teleportadora Joanna",
+      "aliases": [
+        "Мастер телепортации Джоан"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 525,
+      "y": 566,
+      "altitude": 16,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-63056-543-582",
+      "name": "Teleportadora Kirie",
+      "aliases": [
+        "Мастер телепортации Целия"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 543,
+      "y": 582,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-61884-524-669",
+      "name": "Teleportadora Lena",
+      "aliases": [
+        "Мастер телепортации Лина"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 524,
+      "y": 669,
+      "altitude": 13,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-63086-508-633",
+      "name": "Teleportadora Monica",
+      "aliases": [
+        "Мастер телепортации Моника"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 508,
+      "y": 633,
+      "altitude": 15,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-59422-386-674",
+      "name": "Teleportadora Penaz",
+      "aliases": [
+        "Мастер телепортации Бонис"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 386,
+      "y": 674,
+      "altitude": 13,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-63071-582-565",
+      "name": "Teleportadora Selia",
+      "aliases": [
+        "Мастер телепортации Амалия"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 582,
+      "y": 565,
+      "altitude": 12,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-63080-585-633",
+      "name": "Teleportadora Wendy",
+      "aliases": [
+        "Мастер телепортации Венди"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 585,
+      "y": 633,
+      "altitude": 12,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-68458-556-459",
+      "name": "Teletransportadora Mocca",
+      "aliases": [
+        "Мастер телепортации Марика"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 556,
+      "y": 459,
+      "altitude": 13,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-68448-533-543",
+      "name": "Teletransportadora Monica",
+      "aliases": [
+        "Мастер телепортации Морис"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 533,
+      "y": 543,
+      "altitude": 21,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-68459-593-505",
+      "name": "Teletransportadora Morena",
+      "aliases": [
+        "Мастер телепортации Молика"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 593,
+      "y": 505,
+      "altitude": 12,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-58889-350-702",
+      "name": "Trayce, a Teleportadora",
+      "aliases": [
+        "Мастер телепортации Сесиль"
+      ],
+      "category": "teleport",
+      "icon_key": "teleport",
+      "icon": "/icons/pw-map/icons_1784109905068661400.png",
+      "x": 350,
+      "y": 702,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Mestre de teleporte",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Teleporte"
+    },
+    {
+      "id": "rupw-npc-59423-373-744",
+      "name": "Banqueira Inverno",
+      "aliases": [
+        "Банкир Эсси"
+      ],
+      "category": "npc",
+      "icon_key": "npc",
+      "icon": "/icons/npc.svg",
+      "x": 373,
+      "y": 744,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Banqueiro",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Banco"
+    },
+    {
+      "id": "rupw-npc-61891-524-712",
+      "name": "Banqueira Noah",
+      "aliases": [
+        "Банкир Нола"
+      ],
+      "category": "npc",
+      "icon_key": "npc",
+      "icon": "/icons/npc.svg",
+      "x": 524,
+      "y": 712,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Banqueiro",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Banco"
+    },
+    {
+      "id": "rupw-npc-61894-592-672",
+      "name": "Banqueiro Arno",
+      "aliases": [
+        "Банкир Анно"
+      ],
+      "category": "npc",
+      "icon_key": "npc",
+      "icon": "/icons/npc.svg",
+      "x": 592,
+      "y": 672,
+      "altitude": 12,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Banqueiro",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Banco"
+    },
+    {
+      "id": "rupw-npc-58887-352-697",
+      "name": "Banqueiro Cyril",
+      "aliases": [
+        "Банкир Тавиэль"
+      ],
+      "category": "npc",
+      "icon_key": "npc",
+      "icon": "/icons/npc.svg",
+      "x": 352,
+      "y": 697,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Banqueiro",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Banco"
+    },
+    {
+      "id": "rupw-npc-58932-386-672",
+      "name": "Banqueiro Emery",
+      "aliases": [
+        "Банкир Эвери"
+      ],
+      "category": "npc",
+      "icon_key": "npc",
+      "icon": "/icons/npc.svg",
+      "x": 386,
+      "y": 672,
+      "altitude": 13,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Banqueiro",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Banco"
+    },
+    {
+      "id": "rupw-npc-61885-525-665",
+      "name": "Banqueiro Jeremy",
+      "aliases": [
+        "Банкир Джереми"
+      ],
+      "category": "npc",
+      "icon_key": "npc",
+      "icon": "/icons/npc.svg",
+      "x": 525,
+      "y": 665,
+      "altitude": 13,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Banqueiro",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Banco"
+    },
+    {
+      "id": "rupw-npc-61888-517-731",
+      "name": "Banqueiro Nathaniel",
+      "aliases": [
+        "Банкир Натаниэль"
+      ],
+      "category": "npc",
+      "icon_key": "npc",
+      "icon": "/icons/npc.svg",
+      "x": 517,
+      "y": 731,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Banqueiro",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Banco"
+    },
+    {
+      "id": "rupw-npc-59322-471-673",
+      "name": "Banqueiro Naza",
+      "aliases": [
+        "Банкир Кайл"
+      ],
+      "category": "npc",
+      "icon_key": "npc",
+      "icon": "/icons/npc.svg",
+      "x": 471,
+      "y": 673,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Banqueiro",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Banco"
+    },
+    {
+      "id": "rupw-npc-72244-255-695",
+      "name": "Ferreiro Boris",
+      "aliases": [
+        "Кузнец Борис"
+      ],
+      "category": "npc",
+      "icon_key": "npc",
+      "icon": "/icons/npc.svg",
+      "x": 255,
+      "y": 695,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Ferreiro",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Ferreiro"
+    },
+    {
+      "id": "rupw-npc-52353-372-565",
+      "name": "Ferreiro Darley",
+      "aliases": [
+        "Кузнец Дарри"
+      ],
+      "category": "npc",
+      "icon_key": "npc",
+      "icon": "/icons/npc.svg",
+      "x": 372,
+      "y": 565,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Ferreiro",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Ferreiro"
+    },
+    {
+      "id": "rupw-npc-61895-590-676",
+      "name": "Ferreiro Dean",
+      "aliases": [
+        "Кузнец Динн"
+      ],
+      "category": "npc",
+      "icon_key": "npc",
+      "icon": "/icons/npc.svg",
+      "x": 590,
+      "y": 676,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Ferreiro",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Ferreiro"
+    },
+    {
+      "id": "rupw-npc-52498-475-579",
+      "name": "Ferreiro Hoggins",
+      "aliases": [
+        "Кузнец Хокинс"
+      ],
+      "category": "npc",
+      "icon_key": "npc",
+      "icon": "/icons/npc.svg",
+      "x": 475,
+      "y": 579,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Ferreiro",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Ferreiro"
+    },
+    {
+      "id": "rupw-npc-52255-379-476",
+      "name": "Ferreiro Jaime",
+      "aliases": [
+        "Кузнец Джеймс"
+      ],
+      "category": "npc",
+      "icon_key": "npc",
+      "icon": "/icons/npc.svg",
+      "x": 379,
+      "y": 476,
+      "altitude": 12,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Ferreiro",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Ferreiro"
+    },
+    {
+      "id": "rupw-npc-63081-587-635",
+      "name": "Ferreiro Jerome",
+      "aliases": [
+        "Кузнец Жером"
+      ],
+      "category": "npc",
+      "icon_key": "npc",
+      "icon": "/icons/npc.svg",
+      "x": 587,
+      "y": 635,
+      "altitude": 12,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Ferreiro",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Ferreiro"
+    },
+    {
+      "id": "rupw-npc-52408-331-573",
+      "name": "Ferreiro Morgan",
+      "aliases": [
+        "Кузнец Морган"
+      ],
+      "category": "npc",
+      "icon_key": "npc",
+      "icon": "/icons/npc.svg",
+      "x": 331,
+      "y": 573,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Ferreiro",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Ferreiro"
+    },
+    {
+      "id": "rupw-npc-63059-548-599",
+      "name": "Ferreiro Viktor",
+      "aliases": [
+        "Кузнец Викторий"
+      ],
+      "category": "npc",
+      "icon_key": "npc",
+      "icon": "/icons/npc.svg",
+      "x": 548,
+      "y": 599,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Ferreiro",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Ferreiro"
+    },
+    {
+      "id": "rupw-npc-58921-443-688",
+      "name": "Frederick, o Banqueiro Feliz",
+      "aliases": [
+        "Банкир Фредерик"
+      ],
+      "category": "npc",
+      "icon_key": "npc",
+      "icon": "/icons/npc.svg",
+      "x": 443,
+      "y": 688,
+      "altitude": 13,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Banqueiro",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Banco"
+    },
+    {
+      "id": "rupw-npc-58941-417-663",
+      "name": "Marty, o Banqueiro",
+      "aliases": [
+        "Банкир Копытце"
+      ],
+      "category": "npc",
+      "icon_key": "npc",
+      "icon": "/icons/npc.svg",
+      "x": 417,
+      "y": 663,
+      "altitude": 14,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Banqueiro",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Banco"
+    },
+    {
+      "id": "rupw-npc-58949-416-661",
+      "name": "Rabicó, o Porco Ferreiro",
+      "aliases": [
+        "Кузнец Золотце"
+      ],
+      "category": "npc",
+      "icon_key": "npc",
+      "icon": "/icons/npc.svg",
+      "x": 416,
+      "y": 661,
+      "altitude": 14,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Ferreiro",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Ferreiro"
+    },
+    {
+      "id": "rupw-mine-54236-382-584",
+      "name": "Baú com coroa",
+      "aliases": [
+        "Сундук с короной"
+      ],
+      "category": "chest",
+      "icon_key": "chest",
+      "icon": "/icons/pw-map/icons_1784113895501464640.webp",
+      "x": 382,
+      "y": 584,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Baú no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Baú"
+    },
+    {
+      "id": "rupw-mine-54233-382-587",
+      "name": "Baú com coroa",
+      "aliases": [
+        "Сундук с короной"
+      ],
+      "category": "chest",
+      "icon_key": "chest",
+      "icon": "/icons/pw-map/icons_1784113895501464640.webp",
+      "x": 382,
+      "y": 587,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Baú no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Baú"
+    },
+    {
+      "id": "rupw-mine-54235-384-584",
+      "name": "Baú com coroa",
+      "aliases": [
+        "Сундук с короной"
+      ],
+      "category": "chest",
+      "icon_key": "chest",
+      "icon": "/icons/pw-map/icons_1784113895501464640.webp",
+      "x": 384,
+      "y": 584,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Baú no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Baú"
+    },
+    {
+      "id": "rupw-mine-54234-384-587",
+      "name": "Baú com coroa",
+      "aliases": [
+        "Сундук с короной"
+      ],
+      "category": "chest",
+      "icon_key": "chest",
+      "icon": "/icons/pw-map/icons_1784113895501464640.webp",
+      "x": 384,
+      "y": 587,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Baú no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Baú"
+    },
+    {
+      "id": "rupw-mine-53615-315-610",
+      "name": "Baú no gabinete de Alexander",
+      "aliases": [
+        "Сундук в кабинете Александра"
+      ],
+      "category": "chest",
+      "icon_key": "chest",
+      "icon": "/icons/pw-map/icons_1784113895501464640.webp",
+      "x": 315,
+      "y": 610,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "permanent",
+      "tip": "Baú no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Baú"
+    },
+    {
+      "id": "rupw-mine-59232-448-685",
+      "name": "Altar do eremita",
+      "aliases": [
+        "Алтарь отшельника"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 448,
+      "y": 685,
+      "altitude": 13,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-59389-359-743",
+      "name": "Anel do poder sombrio",
+      "aliases": [
+        "Кольцо темной силы"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 359,
+      "y": 743,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-59231-487-714",
+      "name": "Barreira mágica",
+      "aliases": [
+        "Магический барьер"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 487,
+      "y": 714,
+      "altitude": 15,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-53766-379-636",
+      "name": "Caldeirão",
+      "aliases": [
+        "Котел"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 379,
+      "y": 636,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-59383-342-723",
+      "name": "Carta misteriosa",
+      "aliases": [
+        "Загадочное письмо"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 342,
+      "y": 723,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-59320-484-719",
+      "name": "Chama da montanha sagrada",
+      "aliases": [
+        "Пламя священной горы"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 484,
+      "y": 719,
+      "altitude": 12,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-54230-318-626",
+      "name": "Coelho ferido",
+      "aliases": [
+        "Раненый кролик"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 318,
+      "y": 626,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-53762-450-490",
+      "name": "Coluna do poder celestial",
+      "aliases": [
+        "Колонна небесной силы"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 450,
+      "y": 490,
+      "altitude": 14,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-54447-306-566",
+      "name": "Coral misterioso",
+      "aliases": [
+        "Загадочный коралл"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 306,
+      "y": 566,
+      "altitude": 9,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-54231-343-639",
+      "name": "Cristal da glória — Portão da cidade",
+      "aliases": [
+        "Кристалл славы - Врата города"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 343,
+      "y": 639,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-54232-316-634",
+      "name": "Cristal da glória — Templo",
+      "aliases": [
+        "Кристалл славы - Храм"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 316,
+      "y": 634,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-53765-377-632",
+      "name": "Esfera de invocação",
+      "aliases": [
+        "Сфера призыва"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 377,
+      "y": 632,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-53755-421-569",
+      "name": "Formação de magia da ressurreição",
+      "aliases": [
+        "Строй магии воскрешения"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 421,
+      "y": 569,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-54730-425-531",
+      "name": "Formação fantasma",
+      "aliases": [
+        "Призрачный строй"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 425,
+      "y": 531,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-59223-411-659",
+      "name": "Kalanchoe",
+      "aliases": [
+        "Каланхоэ"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 411,
+      "y": 659,
+      "altitude": 14,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-59451-355-705",
+      "name": "Lanterna antiga",
+      "aliases": [
+        "Древний фонарь"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 355,
+      "y": 705,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-54720-381-617",
+      "name": "Livros proibidos",
+      "aliases": [
+        "Запрещенные книги"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 381,
+      "y": 617,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-53452-385-616",
+      "name": "Local brilhante",
+      "aliases": [
+        "Светящееся место"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 385,
+      "y": 616,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-54723-481-464",
+      "name": "Local de envio de cartas",
+      "aliases": [
+        "Место для отправки писем"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 481,
+      "y": 464,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-53764-413-480",
+      "name": "Ninho de orros",
+      "aliases": [
+        "Строй высиживаемых орро"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 413,
+      "y": 480,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-54237-318-572",
+      "name": "Objeto dourado perdido",
+      "aliases": [
+        "Золотая потерянная вещь"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 318,
+      "y": 572,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-54239-319-572",
+      "name": "Objeto perdido comum",
+      "aliases": [
+        "Обычная потерянная вещь"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 319,
+      "y": 572,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-54238-318-573",
+      "name": "Objeto perdido prateado",
+      "aliases": [
+        "Серебряная потерянная вещь"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 318,
+      "y": 573,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-59230-417-731",
+      "name": "Ovo de serpente",
+      "aliases": [
+        "Змеиное яйцо"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 417,
+      "y": 731,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-59233-469-675",
+      "name": "Pedra de Lorenz",
+      "aliases": [
+        "Камень Лоренца"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 469,
+      "y": 675,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-53767-382-631",
+      "name": "Pedras do trovão",
+      "aliases": [
+        "Громовые камни"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 382,
+      "y": 631,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-54287-379-528",
+      "name": "Penas do gênio sombrio",
+      "aliases": [
+        "Перья темного джинна"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 379,
+      "y": 528,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-59512-375-730",
+      "name": "Placa de aviso",
+      "aliases": [
+        "Предупреждающий знак"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 375,
+      "y": 730,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-54727-424-531",
+      "name": "Ponto de energia",
+      "aliases": [
+        "Энергетическая точка"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 424,
+      "y": 531,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-54726-425-530",
+      "name": "Ponto de energia",
+      "aliases": [
+        "Энергетическая точка"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 425,
+      "y": 530,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-54724-425-532",
+      "name": "Ponto de energia",
+      "aliases": [
+        "Энергетическая точка"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 425,
+      "y": 532,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-54725-426-531",
+      "name": "Ponto de energia",
+      "aliases": [
+        "Энергетическая точка"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 426,
+      "y": 531,
+      "altitude": 11,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-54722-451-491",
+      "name": "Pulmões de dollok",
+      "aliases": [
+        "Легкие доллока"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 451,
+      "y": 491,
+      "altitude": 14,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-54728-381-564",
+      "name": "Rosa",
+      "aliases": [
+        "Роза"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 381,
+      "y": 564,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
+    },
+    {
+      "id": "rupw-mine-53768-407-604",
+      "name": "Ursinho Alice",
+      "aliases": [
+        "Медвежонок Элис"
+      ],
+      "category": "daily_resource",
+      "icon_key": "resource",
+      "icon": "/icons/pw-map/grib-icon.webp",
+      "x": 407,
+      "y": 604,
+      "altitude": 10,
+      "zone": "Continente Ocidental",
+      "reset_policy": "daily",
+      "tip": "Recurso / interação no mapa",
+      "access_conditions": null,
+      "review_status": "foreign_reference",
+      "origin": "third_party",
+      "type_label": "Recurso"
     }
   ],
   "native_refs": {
@@ -126,6 +2527,14 @@
         "game": [
           320,
           613
+        ],
+        "image_png": [
+          900,
+          1025
+        ],
+        "image_leaflet": [
+          900,
+          1623
         ]
       },
       {
@@ -133,20 +2542,74 @@
         "game": [
           330,
           576
+        ],
+        "image_png": [
+          930,
+          1155
+        ],
+        "image_leaflet": [
+          930,
+          1493
         ]
       },
       {
-        "name": "Dawnlight Halls",
+        "name": "Evelyn tavern",
         "game": [
-          442,
-          627
+          315,
+          594
+        ],
+        "image_png": [
+          880,
+          1120
+        ],
+        "image_leaflet": [
+          880,
+          1528
+        ]
+      },
+      {
+        "name": "Paladin Square",
+        "game": [
+          359,
+          601
+        ],
+        "image_png": [
+          1030,
+          1050
+        ],
+        "image_leaflet": [
+          1030,
+          1598
+        ]
+      },
+      {
+        "name": "Church",
+        "game": [
+          384,
+          586
+        ],
+        "image_png": [
+          1150,
+          1085
+        ],
+        "image_leaflet": [
+          1150,
+          1563
         ]
       },
       {
         "name": "Datun Docks",
         "game": [
-          367,
+          368,
           466
+        ],
+        "image_png": [
+          1125,
+          1725
+        ],
+        "image_leaflet": [
+          1125,
+          923
         ]
       },
       {
@@ -154,6 +2617,104 @@
         "game": [
           380,
           475
+        ],
+        "image_png": [
+          1175,
+          1675
+        ],
+        "image_leaflet": [
+          1175,
+          973
+        ]
+      },
+      {
+        "name": "Lantis Tavern",
+        "game": [
+          312,
+          527
+        ],
+        "image_png": [
+          800,
+          1425
+        ],
+        "image_leaflet": [
+          800,
+          1223
+        ]
+      },
+      {
+        "name": "Wenham",
+        "game": [
+          325,
+          491
+        ],
+        "image_png": [
+          825,
+          1600
+        ],
+        "image_leaflet": [
+          825,
+          1048
+        ]
+      },
+      {
+        "name": "Hibeth entrance",
+        "game": [
+          381,
+          502
+        ],
+        "image_png": [
+          1160,
+          1510
+        ],
+        "image_leaflet": [
+          1160,
+          1138
+        ]
+      },
+      {
+        "name": "Dawnlight Halls",
+        "game": [
+          442,
+          627
+        ],
+        "image_png": [
+          1475,
+          825
+        ],
+        "image_leaflet": [
+          1475,
+          1823
+        ]
+      },
+      {
+        "name": "Dragonslayer Fall",
+        "game": [
+          440,
+          602
+        ],
+        "image_png": [
+          1525,
+          1025
+        ],
+        "image_leaflet": [
+          1525,
+          1623
+        ]
+      },
+      {
+        "name": "Magnier",
+        "game": [
+          478,
+          593
+        ],
+        "image_png": [
+          1720,
+          1100
+        ],
+        "image_leaflet": [
+          1720,
+          1548
         ]
       }
     ]

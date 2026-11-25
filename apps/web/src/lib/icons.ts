@@ -7,6 +7,8 @@ export const ICON_URLS: Record<string, string> = {
   quest: "/icons/pw-map/quest-icon.webp",
   resource: "/icons/pw-map/grib-icon.webp",
   mob: "/icons/pw-map/monster-icon.webp",
+  teleport: "/icons/pw-map/icons_1784109905068661400.png",
+  npc: "/icons/npc.svg",
 };
 
 export const ICON_LABELS: Record<string, string> = {
@@ -17,6 +19,8 @@ export const ICON_LABELS: Record<string, string> = {
   quest: "Missão Global",
   resource: "Recurso diário",
   mob: "Esquadrão",
+  teleport: "Teleporte",
+  npc: "NPC",
   "drop-guerreiro": "Elmo de Lobo Cinzento",
   "drop-cavaleiro": "Peitoral de Padrão Místico",
   "drop-mutante": "Crina Vermelha",
@@ -40,7 +44,7 @@ export const ICON_LABELS: Record<string, string> = {
   "drop-ty-tita-espirito": "Titã Espírito",
   "drop-ty-tita-pacificador": "Titã Pacificador",
   "drop-ty-tita-furioso": "Titã Furioso",
-  "quest-imagem": "Imagem / foto",
+  "quest-imagem": "Memória / foto",
 };
 
 export function iconUrl(

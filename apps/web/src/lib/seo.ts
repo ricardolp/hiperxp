@@ -30,9 +30,63 @@ export type SeoPayload = {
   path: string;
   image?: string;
   type?: "website" | "article";
+  /** Keywords específicas da rota — evita canibalizar "Alma da Paz Eterna" em páginas erradas. */
+  keywords?: string;
   noindex?: boolean;
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
 };
+
+/** Keywords genéricas do site (sem nome de quest específica). */
+export const SITE_DEFAULT_KEYWORDS =
+  "Perfect World, PW, mapa Reino Oriental, Cidade da Paz, Tianyu, Jingxuan, guia de missões Perfect World, HiperXP";
+
+function joinKeywords(...parts: Array<string | null | undefined>): string {
+  const seen = new Set<string>();
+  const out: string[] = [];
+  for (const part of parts) {
+    if (!part) continue;
+    for (const raw of part.split(",")) {
+      const term = raw.trim();
+      if (!term) continue;
+      const key = term.toLocaleLowerCase("pt-BR");
+      if (seen.has(key)) continue;
+      seen.add(key);
+      out.push(term);
+    }
+  }
+  return out.slice(0, 16).join(", ");
+}
+
+function questShortName(name: string): string {
+  return name.replace(/\s*\(Diária I–V\)\s*/i, "").trim();
+}
+
+/** Variações de busca (nome + PW/Perfect World + aliases curtos). */
+function questKeywords(
+  quest: QuestGuideFixture,
+  mapName: string,
+): string {
+  const shortName = questShortName(quest.name_pt_br);
+  const searchAliases = (quest.aliases ?? [])
+    .filter((a) =>
+      /pw|perfect world|guia|missão|quest|diária|alma/i.test(a),
+    )
+    .slice(0, 6);
+  return joinKeywords(
+    shortName,
+    `${shortName} PW`,
+    `${shortName} Perfect World`,
+    `guia ${shortName}`,
+    `missão ${shortName}`,
+    `quest ${shortName}`,
+    quest.kind === "daily" ? `diária ${shortName}` : null,
+    mapName,
+    ...searchAliases,
+    "Perfect World",
+    "PW",
+    "HiperXP",
+  );
+}
 
 function clampDescription(text: string, max = 160): string {
   const clean = text.replace(/\s+/g, " ").trim();
@@ -112,6 +166,13 @@ function homeSeo(): SeoPayload {
     description: SITE_DEFAULT_DESCRIPTION,
     path: "/",
     type: "website",
+    keywords: joinKeywords(
+      SITE_DEFAULT_KEYWORDS,
+      "Alma da Paz Eterna",
+      "Alma da Paz Eterna PW",
+      "Alma de Tianyu",
+      "simulador de baús Perfect World",
+    ),
     jsonLd: [
       websiteJsonLd(),
       {
@@ -164,6 +225,15 @@ function mapSeo(slug: string): SeoPayload | null {
     path: `/mapas/${map.slug}`,
     image: map.asset ?? `/maps/${map.slug}.webp`,
     type: "website",
+    keywords: joinKeywords(
+      `mapa ${map.name_pt_br}`,
+      map.name_pt_br,
+      ...(map.aliases ?? []).slice(0, 3),
+      region,
+      "Perfect World",
+      "PW",
+      "HiperXP",
+    ),
     jsonLd: [
       breadcrumbJsonLd([
         { name: "Início", path: "/" },
@@ -192,8 +262,14 @@ function questListSeo(mapSlug: string): SeoPayload | null {
   const mapName = maps[mapSlug]?.name_pt_br ?? catalog.name_pt_br ?? mapSlug;
   const count = listQuests(mapSlug).length;
   const region = regionLabel(mapSlug);
+  const highlight =
+    mapSlug === "cidade-da-paz"
+      ? "Alma da Paz Eterna, jornadas e diárias"
+      : mapSlug === "tianyu"
+        ? "Alma de Tianyu, jornadas e diárias"
+        : "jornadas, anedotas e diárias";
   const description = clampDescription(
-    `Guias de quest Perfect World (PW) em ${mapName} (${region}): etapas, NPCs e coordenadas. ${count} missões no HiperXP — Alma da Paz, jornadas e diárias.`,
+    `Guias de quest Perfect World (PW) em ${mapName} (${region}): etapas, NPCs e coordenadas. ${count} missões no HiperXP — ${highlight}.`,
   );
 
   return {
@@ -201,6 +277,17 @@ function questListSeo(mapSlug: string): SeoPayload | null {
     description,
     path: `/missoes/${mapSlug}`,
     type: "website",
+    keywords: joinKeywords(
+      `quests ${mapName}`,
+      `missões ${mapName}`,
+      mapSlug === "cidade-da-paz" ? "Alma da Paz Eterna PW" : null,
+      mapSlug === "tianyu" ? "Alma de Tianyu PW" : null,
+      mapName,
+      region,
+      "Perfect World",
+      "PW",
+      "HiperXP",
+    ),
     jsonLd: [
       breadcrumbJsonLd([
         { name: "Início", path: "/" },
@@ -231,21 +318,27 @@ function questPostSeo(mapSlug: string, questSlug: string): SeoPayload | null {
   const kind = questKindLabel(quest.kind);
   const excerpt = questExcerpt(quest);
   const region = regionLabel(mapSlug);
-  const shortName = quest.name_pt_br.replace(/\s*\(Diária I–V\)\s*/i, "").trim();
+  const shortName = questShortName(quest.name_pt_br);
+  const isPriorityQuest =
+    quest.slug === "alma-da-paz-eterna" || quest.slug === "alma-de-tianyu";
   const description = clampDescription(
     excerpt
-      ? `${excerpt} Guia quest PW (${kind.toLowerCase()}) — ${mapName}, ${region}.`
-      : `Guia completo da quest ${shortName} no Perfect World (PW): etapas, NPCs e coordenadas em ${mapName} (${region}).`,
+      ? `${excerpt} ${mapName}, ${region}.`
+      : `Guia ${shortName} PW (Perfect World): etapas, NPCs e coordenadas em ${mapName} (${region}).`,
   );
+  const title = isPriorityQuest
+    ? withBrand(`${shortName} PW — guia diária Perfect World`)
+    : withBrand(
+        `${shortName} — guia quest PW (${kind.toLowerCase()}) | ${mapName}`,
+      );
 
   return {
-    title: withBrand(
-      `${shortName} — guia quest PW (${kind.toLowerCase()}) | ${mapName}`,
-    ),
+    title,
     description,
     path: questGuidePath(quest),
     image: quest.cover_image || maps[quest.map_slug]?.asset,
     type: "article",
+    keywords: questKeywords(quest, mapName),
     jsonLd: [
       breadcrumbJsonLd([
         { name: "Início", path: "/" },
@@ -261,6 +354,11 @@ function questPostSeo(mapSlug: string, questSlug: string): SeoPayload | null {
         "@context": "https://schema.org",
         "@type": "Article",
         headline: quest.name_pt_br,
+        alternateName: [
+          `${shortName} PW`,
+          `${shortName} Perfect World`,
+          ...(quest.aliases ?? []).slice(0, 5),
+        ],
         description,
         datePublished: quest.published_at ?? undefined,
         inLanguage: "pt-BR",
@@ -273,6 +371,11 @@ function questPostSeo(mapSlug: string, questSlug: string): SeoPayload | null {
             "@type": "ImageObject",
             url: absoluteAsset("/brand/icones/hiperxp-gema-512.png"),
           },
+        },
+        about: {
+          "@type": "Thing",
+          name: "Perfect World",
+          alternateName: ["PW", "Perfect World BR"],
         },
       },
     ],

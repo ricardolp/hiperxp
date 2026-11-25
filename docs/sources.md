@@ -13,6 +13,8 @@ Consulta em 23/11/2026. Acessar uma página não confirma disponibilidade de tod
 | https://triviapw.com.br/2025/10/31/missoes-da-cidade-da-paz-eterna-guia-completo/ | Índice das 17 missões globais (BR) | Nomes e links individuais; corpo HTML às vezes omitido no fetch automatizado |
 | https://vk.com/@-149459137-mirovye-kvesty-vostochnyh-zemel | Guia completo RU das 17 histórias | Texto integral com coords/diálogos; base de `data/fixtures/quests/cidade-da-paz.json` |
 | https://triviapw.com.br/2026/05/21/cidade-de-tianyu-jornadas/ | Índice das jornadas de Tianyu | 5 jornadas + desafios auxiliares; fixtures em `data/fixtures/quests/tianyu.json` |
+| https://discord.gg/sssUV8eETW · https://www.youtube.com/@Darkanas/posts | Comunidade Darkanas (Discord + posts YT) | Referência de nomes/termos BR; conteúdo não importado ainda |
+| https://discord.com/invite/pwlup | Discord oficial Level Up (PW BR) | Nomenclatura e avisos oficiais do servidor BR; conteúdo não importado ainda |
 | `client-br-levelup` / `elements.data` | Itens + receitas do cliente BR | ~43k itens (+ ícones); ~12k receitas (lista 68 RECIPE_ESSENCE) via `extract-client-recipes.py`; catálogo em `/database` |
 | `client-br-levelup` / `tasks.data` | Missões do cliente BR | ~26k missões (v237) com textos/recompensas/premissas/séries via `extract-client-tasks.py`. NPCs ainda pendentes |
 | https://github.com/ipasetto/MyAceEditor | Referência de formatos do cliente | README documenta formatos e GPL-3.0; compatibilidade com build do usuário não testada |
