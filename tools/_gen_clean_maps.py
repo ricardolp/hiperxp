@@ -35,7 +35,7 @@ def clean_map(path: Path, title: str, accent: str, subtitle: str) -> None:
 def main() -> None:
     root = Path("apps/web/public/maps")
     root.mkdir(parents=True, exist_ok=True)
-    clean_map(root / "quedanunca.svg", "Quedanunca", "#5b8def", "Mapa base limpo · calibração em breve")
+    # Quedanunca usa arte real em quedanunca.jpg — não recriar o SVG vazio.
     clean_map(root / "mundo-primitivo.svg", "Mundo Primitivo", "#c4a35a", "Mapa base limpo · calibração em breve")
     clean_map(root / "mundo-normal.svg", "Mundo Normal", "#6fbf8a", "Mapa base limpo · pontos em breve")
 

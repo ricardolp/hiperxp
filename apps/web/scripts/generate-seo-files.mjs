@@ -20,7 +20,12 @@ const SITE_URL = (process.env.VITE_SITE_URL || "https://hiperxp.com").replace(
 const SITE_NAME = "HiperXP";
 
 /** Mapas com página pública /mapas/:slug */
-const mapOrder = ["cidade-da-paz", "tianyu", "jingxuan"];
+const mapOrder = [
+  "cidade-da-paz",
+  "tianyu",
+  "jingxuan",
+  "continente-ocidental",
+];
 
 /** Catálogos de missões indexáveis (alinha com apps/web/src/lib/data.ts) */
 const questMapOrder = [

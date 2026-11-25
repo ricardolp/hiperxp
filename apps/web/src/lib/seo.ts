@@ -144,14 +144,22 @@ function mapSeo(slug: string): SeoPayload | null {
   if (!(mapOrder as readonly string[]).includes(slug)) return null;
   const region = regionLabel(slug);
   const aliases = map.aliases?.slice(0, 3).join(", ");
+  const focus =
+    slug === "continente-ocidental"
+      ? "diárias de Vigor, NPCs e coordenadas"
+      : "baús, desafios, relíquias, NPCs e coordenadas";
   const description = clampDescription(
-    `Mapa interativo do Reino Oriental — ${map.name_pt_br}: baús, desafios, relíquias, NPCs e coordenadas do Perfect World (PW)${
+    `Mapa interativo — ${map.name_pt_br} (${region}): ${focus} do Perfect World (PW)${
       aliases ? `. Também: ${aliases}` : ""
     }. ${map.points.length} pontos mapeados no HiperXP.`,
   );
 
   return {
-    title: withBrand(`Mapa ${map.name_pt_br} — Reino Oriental Perfect World`),
+    title: withBrand(
+      region === "Perfect World"
+        ? `Mapa ${map.name_pt_br} — Perfect World`
+        : `Mapa ${map.name_pt_br} — ${region} Perfect World`,
+    ),
     description,
     path: `/mapas/${map.slug}`,
     image: map.asset ?? `/maps/${map.slug}.webp`,

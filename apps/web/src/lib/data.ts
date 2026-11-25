@@ -37,21 +37,21 @@ export const maps: Record<string, MapFixture> = {
   "mundo-primitivo": mundoPrimitivoJson as MapFixture,
   "mundo-normal": mundoNormalJson as MapFixture,
 };
-/** Mapas com página pública /mapas/:slug (Reino Oriental). */
+/** Mapas com página pública /mapas/:slug. */
 export const mapOrder = [
   "cidade-da-paz",
   "tianyu",
   "jingxuan",
+  "continente-ocidental",
 ] as const;
 
 /**
  * Mapas só para dados de guia / embed — sem página em /mapas.
- * Quedanunca e Mundo Primitivo ficam de fora até haver arte de mapa real.
+ * Mundo Primitivo fica de fora até haver arte de mapa real.
  */
 export const embedOnlyMapSlugs = [
   "drops-reino-oriental",
   "drops-tianyu",
-  "continente-ocidental",
   "mundo-primitivo",
   "mundo-normal",
 ] as const;

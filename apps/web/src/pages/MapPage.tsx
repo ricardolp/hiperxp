@@ -18,8 +18,13 @@ import {
   setPointCompleted,
 } from "../lib/progress";
 
-/** Abas do seletor — Reino Oriental; demais mapas ficam nas rotas. */
-const MAP_TABS = ["cidade-da-paz", "tianyu", "jingxuan"] as const;
+/** Abas do seletor de mapas públicos. */
+const MAP_TABS = [
+  "cidade-da-paz",
+  "tianyu",
+  "jingxuan",
+  "continente-ocidental",
+] as const;
 
 const EMBED_ONLY_REDIRECT: Record<string, string> = {
   "drops-reino-oriental": "/missoes/cidade-da-paz/alma-da-paz-eterna",

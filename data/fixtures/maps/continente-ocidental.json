@@ -10,21 +10,21 @@
     "Despertar Selvagem"
   ],
   "coverage_status": "partial",
-  "width": 875,
-  "height": 850,
-  "asset": "/maps/quedanunca.svg",
+  "width": 2487,
+  "height": 2648,
+  "asset": "/maps/quedanunca.webp",
   "transform": {
-    "a": 1,
-    "b": 0,
-    "c": 0,
-    "d": 0,
-    "e": -1,
-    "f": 850
+    "a": 4.417132213993277,
+    "b": 0.042198431879535314,
+    "c": -527.8894436451035,
+    "d": -0.6948151057642183,
+    "e": -5.140482255125197,
+    "f": 4381.014911376134
   },
-  "notice": "Mapa base limpo — calibração completa em breve. Pontos das diárias listados como referência aproximada.",
-  "synthetic": true,
-  "origin": "community_observed",
-  "source_url": "https://pwi.fandom.com/wiki/Grim_War_Efforts",
+  "notice": "Mapa Western Steppes (Quedanunca) da PWpedia — qualidade alta. Pontos simplificados das diárias com calibração aproximada. foreign_reference.",
+  "synthetic": false,
+  "origin": "third_party",
+  "source_url": "https://pwi.fandom.com/wiki/File:Western_Steppes_Map_zoom.png",
   "points": [
     {
       "id": "npc-espirito-sagrado",
@@ -111,5 +111,51 @@
       "type_label": "Diária",
       "icon_key": "quest"
     }
-  ]
+  ],
+  "native_refs": {
+    "pwi.fandom.com": {
+      "file": "Western_Steppes_Map_zoom.png",
+      "size": [
+        2487,
+        2648
+      ]
+    },
+    "calibration_landmarks": [
+      {
+        "name": "City Hall",
+        "game": [
+          320,
+          613
+        ]
+      },
+      {
+        "name": "Marketplace",
+        "game": [
+          330,
+          576
+        ]
+      },
+      {
+        "name": "Dawnlight Halls",
+        "game": [
+          442,
+          627
+        ]
+      },
+      {
+        "name": "Datun Docks",
+        "game": [
+          367,
+          466
+        ]
+      },
+      {
+        "name": "Niore",
+        "game": [
+          380,
+          475
+        ]
+      }
+    ]
+  }
 }
