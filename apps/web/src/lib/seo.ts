@@ -145,13 +145,13 @@ function mapSeo(slug: string): SeoPayload | null {
   const region = regionLabel(slug);
   const aliases = map.aliases?.slice(0, 3).join(", ");
   const description = clampDescription(
-    `Mapa interativo de ${map.name_pt_br} (${region}): baús, desafios, relíquias, NPCs e coordenadas${
-      aliases ? `. Também conhecido como ${aliases}` : ""
-    }. ${map.points.length} pontos mapeados.`,
+    `Mapa interativo do Reino Oriental — ${map.name_pt_br}: baús, desafios, relíquias, NPCs e coordenadas do Perfect World (PW)${
+      aliases ? `. Também: ${aliases}` : ""
+    }. ${map.points.length} pontos mapeados no HiperXP.`,
   );
 
   return {
-    title: withBrand(`Mapa ${map.name_pt_br} — ${region} Perfect World`),
+    title: withBrand(`Mapa ${map.name_pt_br} — Reino Oriental Perfect World`),
     description,
     path: `/mapas/${map.slug}`,
     image: map.asset ?? `/maps/${map.slug}.webp`,
@@ -185,11 +185,11 @@ function questListSeo(mapSlug: string): SeoPayload | null {
   const count = listQuests(mapSlug).length;
   const region = regionLabel(mapSlug);
   const description = clampDescription(
-    `Guias de missões em ${mapName} (${region}): jornadas, diárias e missões com etapas e coordenadas. ${count} guias no HiperXP.`,
+    `Guias de quest Perfect World (PW) em ${mapName} (${region}): etapas, NPCs e coordenadas. ${count} missões no HiperXP — Alma da Paz, jornadas e diárias.`,
   );
 
   return {
-    title: withBrand(`Missões de ${mapName} — ${region} Perfect World`),
+    title: withBrand(`Quests ${mapName} — ${region} Perfect World (PW)`),
     description,
     path: `/missoes/${mapSlug}`,
     type: "website",
@@ -223,15 +223,16 @@ function questPostSeo(mapSlug: string, questSlug: string): SeoPayload | null {
   const kind = questKindLabel(quest.kind);
   const excerpt = questExcerpt(quest);
   const region = regionLabel(mapSlug);
+  const shortName = quest.name_pt_br.replace(/\s*\(Diária I–V\)\s*/i, "").trim();
   const description = clampDescription(
     excerpt
-      ? `${excerpt} Guia ${kind.toLowerCase()} em ${mapName}, ${region} — Perfect World.`
-      : `Guia completo da missão ${quest.name_pt_br} (${kind}) em ${mapName}, ${region} — Perfect World. Etapas e coordenadas.`,
+      ? `${excerpt} Guia quest PW (${kind.toLowerCase()}) — ${mapName}, ${region}.`
+      : `Guia completo da quest ${shortName} no Perfect World (PW): etapas, NPCs e coordenadas em ${mapName} (${region}).`,
   );
 
   return {
     title: withBrand(
-      `${quest.name_pt_br} — missão ${mapName} (${region})`,
+      `${shortName} — guia quest PW (${kind.toLowerCase()}) | ${mapName}`,
     ),
     description,
     path: questGuidePath(quest),
@@ -449,7 +450,7 @@ export function buildSitemapEntries(now = new Date()): {
       loc: absoluteUrl("/missoes/cidade-da-paz"),
       lastmod,
       changefreq: "weekly",
-      priority: "0.9",
+      priority: "0.95",
     },
     {
       loc: absoluteUrl("/simulador"),
@@ -470,23 +471,29 @@ export function buildSitemapEntries(now = new Date()): {
       loc: absoluteUrl(`/mapas/${slug}`),
       lastmod,
       changefreq: "weekly",
-      priority: "0.9",
+      priority: slug === "cidade-da-paz" ? "1.0" : "0.9",
     });
   }
 
+  const seenQuestPaths = new Set<string>();
   for (const mapSlug of questMapOrder) {
     entries.push({
       loc: absoluteUrl(`/missoes/${mapSlug}`),
       lastmod,
       changefreq: "weekly",
-      priority: "0.85",
+      priority: mapSlug === "cidade-da-paz" ? "0.95" : "0.85",
     });
     for (const quest of listQuests(mapSlug)) {
+      const path = questGuidePath(quest);
+      if (seenQuestPaths.has(path)) continue;
+      seenQuestPaths.add(path);
+      const isPriority =
+        quest.slug === "alma-da-paz-eterna" || quest.slug === "alma-de-tianyu";
       entries.push({
-        loc: absoluteUrl(questGuidePath(quest)),
+        loc: absoluteUrl(path),
         lastmod: quest.published_at ?? lastmod,
-        changefreq: "monthly",
-        priority: "0.8",
+        changefreq: isPriority ? "weekly" : "monthly",
+        priority: isPriority ? "1.0" : "0.8",
       });
     }
   }

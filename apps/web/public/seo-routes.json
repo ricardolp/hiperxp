@@ -1,0 +1,624 @@
+{
+  "siteUrl": "https://hiperxp.com",
+  "siteName": "HiperXP",
+  "generatedAt": "2026-11-25T15:47:20.728Z",
+  "defaults": {
+    "title": "Mapa Reino Oriental e guias de quest Perfect World (PW) | HiperXP",
+    "description": "Mapa interativo do Reino Oriental (Cidade da Paz, Tianyu, Jingxuan), guia de quests PW com coordenadas — Alma da Paz Eterna, Alma de Tianyu — e simulador de…",
+    "image": "/brand/social/hiperxp-og-pw-1200x630.png"
+  },
+  "routes": [
+    {
+      "path": "/",
+      "title": "Mapa Reino Oriental e guias de quest Perfect World (PW) | HiperXP",
+      "description": "Mapa interativo do Reino Oriental (Cidade da Paz, Tianyu, Jingxuan), guia de quests PW com coordenadas — Alma da Paz Eterna, Alma de Tianyu — e simulador de…",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "website",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/simulador",
+      "title": "Simulador de baús Perfect World (PW) | HiperXP",
+      "description": "Simule aberturas de baús do Perfect World (Baú da Aurora, Pergaminho Abissal, Pergaminho de Tianyu) e compare chances teóricas — HiperXP.",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "website",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/database",
+      "title": "Database Perfect World — itens e missões PW | HiperXP",
+      "description": "Enciclopédia do cliente BR (Level Up): busque itens e missões do Perfect World, descrições e base para receitas — sucessor comunitário do PWDatabase.",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "website",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/mapas/cidade-da-paz",
+      "title": "Mapa Cidade da Paz Eterna — Reino Oriental Perfect World | HiperXP",
+      "description": "Mapa interativo do Reino Oriental — Cidade da Paz Eterna: baús, desafios, relíquias, NPCs e coordenadas do Perfect World (PW). Também: Город Покоя, Pokoi,…",
+      "image": "/maps/cidade-da-paz.webp",
+      "type": "website",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/mapas/tianyu",
+      "title": "Mapa Tianyu — Reino Oriental Perfect World | HiperXP",
+      "description": "Mapa interativo do Reino Oriental — Tianyu: baús, desafios, relíquias, NPCs e coordenadas do Perfect World (PW). Também: Город Тяньюй, Tianyuy, Тяньюй. 422…",
+      "image": "/maps/tianyu.webp",
+      "type": "website",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/mapas/jingxuan",
+      "title": "Mapa Jingxuan — Reino Oriental Perfect World | HiperXP",
+      "description": "Mapa interativo do Reino Oriental — Jingxuan: baús, desafios, relíquias, NPCs e coordenadas do Perfect World (PW). Também: Город Цзинсюань, Czinsyuan,…",
+      "image": "/maps/jingxuan.webp",
+      "type": "website",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/cidade-da-paz",
+      "title": "Quests Cidade da Paz Eterna — Reino Oriental Perfect World (PW) | HiperXP",
+      "description": "Guias de quest Perfect World (PW) em Cidade da Paz Eterna (Reino Oriental): etapas, NPCs e coordenadas. 19 missões no HiperXP — Alma da Paz, jornadas e diárias.",
+      "image": "/maps/cidade-da-paz.webp",
+      "type": "website",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/cidade-da-paz/alma-da-paz-eterna",
+      "title": "Alma da Paz Eterna — guia quest PW (diária) | Cidade da Paz Eterna | HiperXP",
+      "description": "Diária de relíquias da Cidade da Paz: 4 etapas com paisagens, fotos, bolinhas/mochila e farm — mutuamente exclusiva com Alma de Tianyu no mesmo dia. Guia…",
+      "image": "/quests/alma-da-paz-eterna/cover.webp",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/cidade-da-paz/mie-wuyan",
+      "title": "Derrotar Mie Wuyan — guia quest PW (diária) | Cidade da Paz Eterna | HiperXP",
+      "description": "Boss diário do Reino Oriental — token, plataforma e farm de Ramos Secos. Guia quest PW (diária) — Cidade da Paz Eterna, Reino Oriental.",
+      "image": "/maps/cidade-da-paz.webp",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/cidade-da-paz/correntes-ocultas",
+      "title": "Correntes Ocultas — guia quest PW (missão global) | Cidade da Paz Eterna | HiperXP",
+      "description": "Identifique cinco espiões disfarçados na Cidade da Paz Eterna. Guia quest PW (missão global) — Cidade da Paz Eterna, Reino Oriental.",
+      "image": "/maps/cidade-da-paz.webp",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/cidade-da-paz/ceu-atraves-das-folhas-caidas",
+      "title": "Céu através das Folhas Caídas — guia quest PW (missão global) | Cidade da Paz Eterna | HiperXP",
+      "description": "Cadeia longa no País dos Sonhos: prólogo + 5 capítulos (Mil Luzes, Sonhos Diurnos, Romance e Estrelas, Culinária, Dourado). Guia quest PW (missão global) —…",
+      "image": "/maps/cidade-da-paz.webp",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/cidade-da-paz/poco-antigo-do-norte",
+      "title": "Poço Antigo do Norte — guia quest PW (missão global) | Cidade da Paz Eterna | HiperXP",
+      "description": "Inscrições, selos com senha e dois baús dourados no poço antigo. Guia quest PW (missão global) — Cidade da Paz Eterna, Reino Oriental.",
+      "image": "/maps/cidade-da-paz.webp",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/cidade-da-paz/tempestade",
+      "title": "Tempestade — guia quest PW (missão global) | Cidade da Paz Eterna | HiperXP",
+      "description": "Recupere as cinco Pedras da Serenidade e acabe com o furacão no mar. Guia quest PW (missão global) — Cidade da Paz Eterna, Reino Oriental.",
+      "image": "/maps/cidade-da-paz.webp",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/cidade-da-paz/pedra-espiritual-dos-4-simbolos",
+      "title": "Pedra Espiritual dos 4 Símbolos — guia quest PW (missão global) | Cidade da Paz Eterna | HiperXP",
+      "description": "Recupere Tartaruga, Dragão, Tigre e Fênix e devolva aos altares. Guia quest PW (missão global) — Cidade da Paz Eterna, Reino Oriental.",
+      "image": "/maps/cidade-da-paz.webp",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/cidade-da-paz/segredo-da-montanha-longquan",
+      "title": "Segredo da Montanha Longquan — guia quest PW (missão global) | Cidade da Paz Eterna | HiperXP",
+      "description": "Cinco capítulos: Pagode Qianxun, Caverna do Dragão Adormecido, Degraus do Coração Puro, Túmulo do Príncipe Chengsong, Montanha do Senhor Morto. Guia quest PW…",
+      "image": "/maps/cidade-da-paz.webp",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/cidade-da-paz/altar-do-dragao-flamejante",
+      "title": "Altar do Dragão Flamejante — guia quest PW (missão global) | Cidade da Paz Eterna | HiperXP",
+      "description": "Selos elementais, mecanismos, esconde-esconde com Lanxi e gemas do dragão. Guia quest PW (missão global) — Cidade da Paz Eterna, Reino Oriental.",
+      "image": "/maps/cidade-da-paz.webp",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/cidade-da-paz/misterio-da-origem",
+      "title": "O Mistério da Origem — guia quest PW (missão global) | Cidade da Paz Eterna | HiperXP",
+      "description": "Segredo do nascimento do General Haifeng e Yuan Hongshan. Guia quest PW (missão global) — Cidade da Paz Eterna, Reino Oriental.",
+      "image": "/maps/cidade-da-paz.webp",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/cidade-da-paz/desejo-da-alma-do-livro",
+      "title": "Desejo da Alma do Livro — guia quest PW (missão global) | Cidade da Paz Eterna | HiperXP",
+      "description": "Cinco poemas/senhas levam a baús antigos e ao desfecho com Yue Yang. Guia quest PW (missão global) — Cidade da Paz Eterna, Reino Oriental.",
+      "image": "/maps/cidade-da-paz.webp",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/cidade-da-paz/loja-de-tecidos",
+      "title": "Loja de Tecidos — guia quest PW (missão global) | Cidade da Paz Eterna | HiperXP",
+      "description": "Assombração na loja: talismã, pó, ilusão e os irmãos Chu. Guia quest PW (missão global) — Cidade da Paz Eterna, Reino Oriental.",
+      "image": "/maps/cidade-da-paz.webp",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/cidade-da-paz/morte-inesperada",
+      "title": "Morte Inesperada — guia quest PW (missão global) | Cidade da Paz Eterna | HiperXP",
+      "description": "Shunying, Lu Xiaoqi e a verdade por trás do 'sequestro' da criança. Guia quest PW (missão global) — Cidade da Paz Eterna, Reino Oriental.",
+      "image": "/maps/cidade-da-paz.webp",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/cidade-da-paz/memorias-do-passado",
+      "title": "Memórias do Passado — guia quest PW (missão global) | Cidade da Paz Eterna | HiperXP",
+      "description": "Ran Yi, a boneca de Rongyue e visitas ao longo dos anos. Guia quest PW (missão global) — Cidade da Paz Eterna, Reino Oriental.",
+      "image": "/maps/cidade-da-paz.webp",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/cidade-da-paz/medicos-sombrios",
+      "title": "Médicos Sombrios — guia quest PW (missão global) | Cidade da Paz Eterna | HiperXP",
+      "description": "Cadáver, mapas da base e captura de Chu Yan / Chu Heng. Guia quest PW (missão global) — Cidade da Paz Eterna, Reino Oriental.",
+      "image": "/maps/cidade-da-paz.webp",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/cidade-da-paz/em-busca-do-filho",
+      "title": "Em Busca do Filho — guia quest PW (missão global) | Cidade da Paz Eterna | HiperXP",
+      "description": "Peixinho desaparece; vaga-lumes, escola e roupa nova. Guia quest PW (missão global) — Cidade da Paz Eterna, Reino Oriental.",
+      "image": "/maps/cidade-da-paz.webp",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/cidade-da-paz/homicidio",
+      "title": "Homicídio — guia quest PW (missão global) | Cidade da Paz Eterna | HiperXP",
+      "description": "Morte da Tia Li: autópsia, Veratrum e carta de despedida. Guia quest PW (missão global) — Cidade da Paz Eterna, Reino Oriental.",
+      "image": "/maps/cidade-da-paz.webp",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/cidade-da-paz/destino-inesperado",
+      "title": "Destino Inesperado — guia quest PW (missão global) | Cidade da Paz Eterna | HiperXP",
+      "description": "Ye Fuyao, rompimento de noivado e reconciliação com Jiang Chengyu. Guia quest PW (missão global) — Cidade da Paz Eterna, Reino Oriental.",
+      "image": "/maps/cidade-da-paz.webp",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/cidade-da-paz/passado-de-bujuan",
+      "title": "Passado de Bujuan — guia quest PW (missão global) | Cidade da Paz Eterna | HiperXP",
+      "description": "Encerramento das missões globais da Cidade da Paz. Guia quest PW (missão global) — Cidade da Paz Eterna, Reino Oriental.",
+      "image": "/maps/cidade-da-paz.webp",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/tianyu",
+      "title": "Quests Tianyu — Reino Oriental Perfect World (PW) | HiperXP",
+      "description": "Guias de quest Perfect World (PW) em Tianyu (Reino Oriental): etapas, NPCs e coordenadas. 6 missões no HiperXP — Alma da Paz, jornadas e diárias.",
+      "image": "/maps/tianyu.webp",
+      "type": "website",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/tianyu/alma-de-tianyu",
+      "title": "Alma de Tianyu — guia quest PW (diária) | Tianyu | HiperXP",
+      "description": "Diária de relíquias de Tianyu: paisagens/fotos, bolinhas/mochila e farm de monstros — mutuamente exclusiva com Alma da Paz no mesmo dia. Guia quest PW…",
+      "image": "/quests/alma-de-tianyu/cover.webp",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/tianyu/historias-noturnas",
+      "title": "Histórias Noturnas — guia quest PW (jornada) | Tianyu | HiperXP",
+      "description": "Jornada teatral em Tianyu com Yunque'er e o diretor do teatro. Guia quest PW (jornada) — Tianyu, Reino Oriental.",
+      "image": "/maps/tianyu.webp",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/tianyu/origem-comum-do-preto-e-branco",
+      "title": "Origem Comum do Preto e Branco — guia quest PW (jornada) | Tianyu | HiperXP",
+      "description": "Disputas entre Alados; mensageiros e cavernas de Asa Branca/Negra. Guia quest PW (jornada) — Tianyu, Reino Oriental.",
+      "image": "/maps/tianyu.webp",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/tianyu/canglan-sob-neve-serena",
+      "title": "Canglan sob Neve Serena — guia quest PW (jornada) | Tianyu | HiperXP",
+      "description": "Pavilhão da Adoração à Espada, formação das estátuas e Espada da Neve Serena. Guia quest PW (jornada) — Tianyu, Reino Oriental.",
+      "image": "/maps/tianyu.webp",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/tianyu/montanha-espiritual",
+      "title": "Montanha Espiritual — guia quest PW (jornada) | Tianyu | HiperXP",
+      "description": "Selos das Três Bestas Sagradas: Xuanji, runas e cavernas de Ling Shan. Guia quest PW (jornada) — Tianyu, Reino Oriental.",
+      "image": "/maps/tianyu.webp",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/tianyu/desembainhar-a-espada",
+      "title": "Desembainhar a Espada — guia quest PW (jornada) | Tianyu | HiperXP",
+      "description": "Missão de aventura: loucura na cidade externa, Pavilhão e três duelos com Yi Nanping. Guia quest PW (jornada) — Tianyu, Reino Oriental.",
+      "image": "/maps/tianyu.webp",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/continente-ocidental",
+      "title": "Quests Quedanunca — Diárias e Vigor — Perfect World Perfect World (PW) | HiperXP",
+      "description": "Guias de quest Perfect World (PW) em Quedanunca — Diárias e Vigor (Perfect World): etapas, NPCs e coordenadas. 7 missões no HiperXP — Alma da Paz, jornadas e…",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "website",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/continente-ocidental/esforco-da-guerra",
+      "title": "Esforço da Guerra Cruéis e Memórias do Passado — guia quest PW (diária) | Quedanunca — Diárias e Vigor | HiperXP",
+      "description": "Diária de escolta de suprimentos até Althea + 20 fotos de memória no Continente Ocidental. Guia quest PW (diária) — Quedanunca — Diárias e Vigor, Perfect World.",
+      "image": "/quests/esforco-da-guerra/cover.png",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/continente-ocidental/espiritos-sagrados",
+      "title": "Espíritos Sagrados (Farm de Vigor) — guia quest PW (diária) | Quedanunca — Diárias e Vigor | HiperXP",
+      "description": "Pontos de farm diário de Vitae/Vigor por Limite de Céu no Continente Ocidental. Guia quest PW (diária) — Quedanunca — Diárias e Vigor, Perfect World.",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/continente-ocidental/chama-da-vinganca",
+      "title": "Chama da Vingança — guia quest PW (diária) | Quedanunca — Diárias e Vigor | HiperXP",
+      "description": "Diária de Vigor do Céu Devoto — progresso ao norte de Quedanunca. Guia quest PW (diária) — Quedanunca — Diárias e Vigor, Perfect World.",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/continente-ocidental/dias-de-aposentadoria",
+      "title": "Dias de Aposentadoria — guia quest PW (diária) | Quedanunca — Diárias e Vigor | HiperXP",
+      "description": "Diária de Vigor do Céu Crepúsculo em Quedanunca. Guia quest PW (diária) — Quedanunca — Diárias e Vigor, Perfect World.",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/continente-ocidental/cidade-das-bestas",
+      "title": "A Cidade das Bestas — guia quest PW (diária) | Quedanunca — Diárias e Vigor | HiperXP",
+      "description": "Diária de Vigor do Céu Real — Veterano Roberts em Magnier. Guia quest PW (diária) — Quedanunca — Diárias e Vigor, Perfect World.",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/continente-ocidental/dragao-topo-das-nuvens",
+      "title": "Dragão Topo das Nuvens — guia quest PW (diária) | Quedanunca — Diárias e Vigor | HiperXP",
+      "description": "Corrida nas muralhas de Nicada — Vigor conforme o tempo. Guia quest PW (diária) — Quedanunca — Diárias e Vigor, Perfect World.",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/continente-ocidental/agua-de-ymir",
+      "title": "A Água de Ymir — guia quest PW (diária) | Quedanunca — Diárias e Vigor | HiperXP",
+      "description": "Diária de Vigor do Céu Majestoso — Landar na Floresta Vidal / Reino Congelado. Guia quest PW (diária) — Quedanunca — Diárias e Vigor, Perfect World.",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/mundo-normal",
+      "title": "Quests Mundo Normal — Saga do Herói — Perfect World Perfect World (PW) | HiperXP",
+      "description": "Guias de quest Perfect World (PW) em Mundo Normal — Saga do Herói (Perfect World): etapas, NPCs e coordenadas. 17 missões no HiperXP — Alma da Paz, jornadas e…",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "website",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/mundo-normal/saga-do-heroi",
+      "title": "Saga do Herói — Como funciona — guia quest PW (jornada) | Mundo Normal — Saga do Herói | HiperXP",
+      "description": "Visão geral das 16 Sagas do Herói: ativação, requisitos, recompensas e índice por classe. Guia quest PW (jornada) — Mundo Normal — Saga do Herói, Perfect World.",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/mundo-normal/saga-espadachim-chung",
+      "title": "Saga do Herói: Espadachim Chung — guia quest PW (jornada) | Mundo Normal — Saga do Herói | HiperXP",
+      "description": "Saga completa da Espadachim Chung: ativação + 3 capítulos (40 etapas). Guia quest PW (jornada) — Mundo Normal — Saga do Herói, Perfect World.",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/mundo-normal/saga-feiticeira-tensa",
+      "title": "Saga do Herói: Feiticeira Tensa — guia quest PW (jornada) | Mundo Normal — Saga do Herói | HiperXP",
+      "description": "Saga completa da Feiticeira Tensa: ativação + 4 capítulos (46 etapas). Guia quest PW (jornada) — Mundo Normal — Saga do Herói, Perfect World.",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/mundo-normal/saga-tecnica-atiya",
+      "title": "Saga do Herói: Técnica Atiya — guia quest PW (jornada) | Mundo Normal — Saga do Herói | HiperXP",
+      "description": "Saga completa da Técnica Atiya: ativação + 3 capítulos (39 etapas). Guia quest PW (jornada) — Mundo Normal — Saga do Herói, Perfect World.",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/mundo-normal/saga-caminhante-syvos",
+      "title": "Saga do Herói: Caminhante Syvos — guia quest PW (jornada) | Mundo Normal — Saga do Herói | HiperXP",
+      "description": "Saga completa da Caminhante Syvos: ativação + 3 capítulos (35 etapas). Guia quest PW (jornada) — Mundo Normal — Saga do Herói, Perfect World.",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/mundo-normal/saga-barbaro-viensa",
+      "title": "Saga do Herói: Bárbaro Viensa — guia quest PW (jornada) | Mundo Normal — Saga do Herói | HiperXP",
+      "description": "Saga completa da Bárbaro Viensa: ativação + 4 capítulos (40 etapas). Guia quest PW (jornada) — Mundo Normal — Saga do Herói, Perfect World.",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/mundo-normal/saga-toximante-yeona",
+      "title": "Saga do Herói: Toximante Yeona — guia quest PW (jornada) | Mundo Normal — Saga do Herói | HiperXP",
+      "description": "Saga completa da Toximante Yeona: ativação + 3 capítulos (35 etapas). Guia quest PW (jornada) — Mundo Normal — Saga do Herói, Perfect World.",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/mundo-normal/saga-arqueira-yi",
+      "title": "Saga do Herói: Arqueira Yi Asa Poderosa — guia quest PW (jornada) | Mundo Normal — Saga do Herói | HiperXP",
+      "description": "Saga completa da Arqueira Yi: ativação + 4 capítulos (41 etapas). Guia quest PW (jornada) — Mundo Normal — Saga do Herói, Perfect World.",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/mundo-normal/saga-clerigo-yuusa",
+      "title": "Saga do Herói: Clérigo Yuusa — guia quest PW (jornada) | Mundo Normal — Saga do Herói | HiperXP",
+      "description": "Saga completa da Clérigo Yuusa: ativação + 4 capítulos (40 etapas). Guia quest PW (jornada) — Mundo Normal — Saga do Herói, Perfect World.",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/mundo-normal/saga-edgerunner-tevin",
+      "title": "Saga do Herói: Edgerunner Tevin — guia quest PW (jornada) | Mundo Normal — Saga do Herói | HiperXP",
+      "description": "Saga completa da Edgerunner Tevin: ativação + 3 capítulos (43 etapas). Guia quest PW (jornada) — Mundo Normal — Saga do Herói, Perfect World.",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/mundo-normal/saga-psiquico-dongfang-meng",
+      "title": "Saga do Herói: Psíquico Dongfang Meng — guia quest PW (jornada) | Mundo Normal — Saga do Herói | HiperXP",
+      "description": "Saga completa da Psíquico Dongfang Meng: ativação + 4 capítulos (36 etapas). Guia quest PW (jornada) — Mundo Normal — Saga do Herói, Perfect World.",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/mundo-normal/saga-bardo-dongfang-liqing",
+      "title": "Saga do Herói: Bardo Dongfang Liqing — guia quest PW (jornada) | Mundo Normal — Saga do Herói | HiperXP",
+      "description": "Saga completa da Bardo Dongfang Liqing: ativação + 4 capítulos (52 etapas). Guia quest PW (jornada) — Mundo Normal — Saga do Herói, Perfect World.",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/mundo-normal/saga-assassino-dongfang-lie",
+      "title": "Saga do Herói: Assassino Dongfang Lie — guia quest PW (jornada) | Mundo Normal — Saga do Herói | HiperXP",
+      "description": "Saga completa da Assassino Dongfang Lie: ativação + 4 capítulos (41 etapas). Guia quest PW (jornada) — Mundo Normal — Saga do Herói, Perfect World.",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/mundo-normal/saga-mistico-yuanruo",
+      "title": "Saga do Herói: Místico Yuanruo — guia quest PW (jornada) | Mundo Normal — Saga do Herói | HiperXP",
+      "description": "Saga completa da Místico Yuanruo: ativação + 4 capítulos (41 etapas). Guia quest PW (jornada) — Mundo Normal — Saga do Herói, Perfect World.",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/mundo-normal/saga-buscador-mu-sui-liang",
+      "title": "Saga do Herói: Buscador Mu Sui Liang — guia quest PW (jornada) | Mundo Normal — Saga do Herói | HiperXP",
+      "description": "Saga completa da Buscador Mu Sui Liang: ativação + 4 capítulos (41 etapas). Guia quest PW (jornada) — Mundo Normal — Saga do Herói, Perfect World.",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/mundo-normal/saga-tempestuoso-ye-hansu",
+      "title": "Saga do Herói: Tempestuoso Ye Hansu — guia quest PW (jornada) | Mundo Normal — Saga do Herói | HiperXP",
+      "description": "Saga completa da Tempestuoso Ye Hansu: ativação + 0 capítulos (31 etapas). Guia quest PW (jornada) — Mundo Normal — Saga do Herói, Perfect World.",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/mundo-normal/saga-laminado-crepusculo-feng-jieao",
+      "title": "Saga do Herói: Lâmina do Crepúsculo Feng Jie'ao — guia quest PW (jornada) | Mundo Normal — Saga do Herói | HiperXP",
+      "description": "Saga completa da Lâmina do Crepúsculo Feng Jie'ao: ativação + 4 capítulos (41 etapas). Guia quest PW (jornada) — Mundo Normal — Saga do Herói, Perfect World.",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "article",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/simulador/bau-da-aurora",
+      "title": "Baú da Aurora — simulador de drops PW | HiperXP",
+      "description": "Tabela e simulador do Baú da Aurora no Perfect World: taxas, recompensas e simulação de aberturas no HiperXP.",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "website",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/simulador/pergaminho-abissal",
+      "title": "Pergaminho Abissal — simulador de drops PW | HiperXP",
+      "description": "Tabela e simulador do Pergaminho Abissal no Perfect World: taxas, recompensas e simulação de aberturas no HiperXP.",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "website",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/simulador/pergaminho-de-tianyu",
+      "title": "Pergaminho de Tianyu — simulador de drops PW | HiperXP",
+      "description": "Tabela e simulador do Pergaminho de Tianyu no Perfect World: taxas, recompensas e simulação de aberturas no HiperXP.",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "website",
+      "noindex": false,
+      "redirectTo": null
+    },
+    {
+      "path": "/missoes/drops-reino-oriental/alma-da-paz-eterna",
+      "title": "Redirecionando… | HiperXP",
+      "description": "Mapa interativo do Reino Oriental (Cidade da Paz, Tianyu, Jingxuan), guia de quests PW com coordenadas — Alma da Paz Eterna, Alma de Tianyu — e simulador de…",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "website",
+      "noindex": true,
+      "redirectTo": "/missoes/cidade-da-paz/alma-da-paz-eterna"
+    },
+    {
+      "path": "/missoes/drops-reino-oriental",
+      "title": "Redirecionando… | HiperXP",
+      "description": "Mapa interativo do Reino Oriental (Cidade da Paz, Tianyu, Jingxuan), guia de quests PW com coordenadas — Alma da Paz Eterna, Alma de Tianyu — e simulador de…",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "website",
+      "noindex": true,
+      "redirectTo": "/missoes/cidade-da-paz/alma-da-paz-eterna"
+    },
+    {
+      "path": "/missoes/drops-reino-oriental/drops-de-mobs",
+      "title": "Redirecionando… | HiperXP",
+      "description": "Mapa interativo do Reino Oriental (Cidade da Paz, Tianyu, Jingxuan), guia de quests PW com coordenadas — Alma da Paz Eterna, Alma de Tianyu — e simulador de…",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "website",
+      "noindex": true,
+      "redirectTo": "/missoes/cidade-da-paz/alma-da-paz-eterna"
+    },
+    {
+      "path": "/mapas/drops-reino-oriental",
+      "title": "Redirecionando… | HiperXP",
+      "description": "Mapa interativo do Reino Oriental (Cidade da Paz, Tianyu, Jingxuan), guia de quests PW com coordenadas — Alma da Paz Eterna, Alma de Tianyu — e simulador de…",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "website",
+      "noindex": true,
+      "redirectTo": "/missoes/cidade-da-paz/alma-da-paz-eterna"
+    },
+    {
+      "path": "/missoes/drops-tianyu/alma-de-tianyu",
+      "title": "Redirecionando… | HiperXP",
+      "description": "Mapa interativo do Reino Oriental (Cidade da Paz, Tianyu, Jingxuan), guia de quests PW com coordenadas — Alma da Paz Eterna, Alma de Tianyu — e simulador de…",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "website",
+      "noindex": true,
+      "redirectTo": "/missoes/tianyu/alma-de-tianyu"
+    },
+    {
+      "path": "/mapas/drops-tianyu",
+      "title": "Redirecionando… | HiperXP",
+      "description": "Mapa interativo do Reino Oriental (Cidade da Paz, Tianyu, Jingxuan), guia de quests PW com coordenadas — Alma da Paz Eterna, Alma de Tianyu — e simulador de…",
+      "image": "/brand/social/hiperxp-og-pw-1200x630.png",
+      "type": "website",
+      "noindex": true,
+      "redirectTo": "/missoes/tianyu/alma-de-tianyu"
+    }
+  ]
+}

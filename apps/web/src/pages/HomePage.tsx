@@ -4,6 +4,7 @@ import {
   featuredQuestPosts,
   maps,
   questExcerpt,
+  questGuidePath,
   questKindLabel,
 } from "../lib/data";
 import {
@@ -23,7 +24,7 @@ const MAP_BLURBS: Record<string, string> = {
   jingxuan: "Pontos, coordenadas e checklist no mapa.",
   "continente-ocidental": "Diárias de Vigor, Espíritos Sagrados e escolta.",
   "mundo-primitivo": "Diárias de Limite de Céu e farm de Vitae.",
-  "mundo-normal": "Continente Perfect World — pontos em breve.",
+  "mundo-normal": "Saga do Herói e continente Perfect World.",
 };
 
 const SECTION_MENUS = [
@@ -129,7 +130,7 @@ export function HomePage() {
       <div className="home-body">
         <section className="home-search" aria-label="Busca">
           <h1 className="visually-hidden">
-            HiperXP — mapas e missões do Reino Oriental Perfect World
+            HiperXP — mapa Reino Oriental e guias de quest Perfect World (PW)
           </h1>
           <label className="home-search-field" htmlFor="home-search-input">
             <span className="visually-hidden">Buscar mapas, missões e simulador</span>
@@ -298,7 +299,7 @@ export function HomePage() {
                       <Link
                         key={quest.id}
                         className="home-post-row"
-                        to={`/missoes/${quest.map_slug}/${quest.slug}`}
+                        to={questGuidePath(quest)}
                       >
                         <div
                           className="home-post-thumb"
@@ -344,7 +345,7 @@ export function HomePage() {
                         <li key={quest.id}>
                           <Link
                             className="home-popular-item"
-                            to={`/missoes/${quest.map_slug}/${quest.slug}`}
+                            to={questGuidePath(quest)}
                           >
                             <span className="home-popular-rank" aria-hidden>
                               {String(index + 1).padStart(2, "0")}

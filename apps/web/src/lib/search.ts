@@ -112,7 +112,7 @@ const MAP_BLURBS: Record<string, string> = {
   jingxuan: "Pontos, coordenadas e checklist no mapa.",
   "continente-ocidental": "Diárias de Vigor, Espíritos Sagrados e escolta.",
   "mundo-primitivo": "Diárias de Limite de Céu e farm de Vitae.",
-  "mundo-normal": "Continente Perfect World — pontos em breve.",
+  "mundo-normal": "Saga do Herói e continente Perfect World.",
 };
 
 export function searchSite(query: string, limit = 40): SearchHit[] {

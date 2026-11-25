@@ -19,6 +19,7 @@ import questsTianyuJson from "@fixtures/quests/tianyu.json";
 import questsContinenteOcidentalJson from "@fixtures/quests/continente-ocidental.json";
 import continenteOcidentalJson from "@fixtures/maps/continente-ocidental.json";
 import questsMundoPrimitivoJson from "@fixtures/quests/mundo-primitivo.json";
+import questsMundoNormalJson from "@fixtures/quests/mundo-normal.json";
 import mundoPrimitivoJson from "@fixtures/maps/mundo-primitivo.json";
 import mundoNormalJson from "@fixtures/maps/mundo-normal.json";
 import dropsReinoOrientalJson from "@fixtures/maps/drops-reino-oriental.json";
@@ -81,6 +82,7 @@ export const questCatalogs: Record<string, QuestCatalogFixture> = {
   tianyu: questsTianyuJson as QuestCatalogFixture,
   "continente-ocidental": questsContinenteOcidentalJson as QuestCatalogFixture,
   "mundo-primitivo": questsMundoPrimitivoJson as QuestCatalogFixture,
+  "mundo-normal": questsMundoNormalJson as QuestCatalogFixture,
 };
 
 const itemsById = new Map(items.map((item) => [item.id, item]));
@@ -116,6 +118,7 @@ export const questMapOrder = [
   "cidade-da-paz",
   "tianyu",
   "continente-ocidental",
+  "mundo-normal",
 ] as const;
 
 export function listAllQuests(): QuestGuideFixture[] {

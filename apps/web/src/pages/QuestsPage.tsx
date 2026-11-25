@@ -201,7 +201,9 @@ export function QuestsPage() {
   const pageLead =
     mapSlug === "continente-ocidental"
       ? `Diárias de Vigor, Espíritos Sagrados e escolta em ${mapName}.`
-      : `Etapas e coordenadas das missões em ${mapName}. Guias comunitários para explorar o continente oriental.`;
+      : mapSlug === "cidade-da-paz"
+        ? `Guias de quest PW da Cidade da Paz Eterna (Reino Oriental): Alma da Paz Eterna, missões globais e diárias com coordenadas.`
+        : `Etapas e coordenadas das missões em ${mapName}. Guias comunitários de quest Perfect World (PW).`;
 
   return (
     <main className="page qg-page">

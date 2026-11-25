@@ -9,10 +9,10 @@ export const GITHUB_URL =
 export const SITE_NAME = "HiperXP";
 
 export const SITE_DEFAULT_TITLE =
-  "HiperXP — Mapas e missões do Reino Oriental | Perfect World";
+  "Mapa Reino Oriental e guias de quest Perfect World (PW) | HiperXP";
 
 export const SITE_DEFAULT_DESCRIPTION =
-  "Mapas interativos (Cidade da Paz, Tianyu, Jingxuan), guias de missões com coordenadas e simulador de baús do Perfect World.";
+  "Mapa interativo do Reino Oriental (Cidade da Paz, Tianyu, Jingxuan), guia de quests PW com coordenadas — Alma da Paz Eterna, Alma de Tianyu — e simulador de baús do Perfect World.";
 
 export const SITE_OG_IMAGE = "/brand/social/hiperxp-og-pw-1200x630.png";
 

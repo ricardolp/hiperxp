@@ -71,7 +71,7 @@ export function DocumentMeta() {
     upsertMeta(
       "name",
       "keywords",
-      "Perfect World, Reino Oriental, mapa Perfect World, missões Perfect World, Cidade da Paz, Tianyu, Jingxuan, coordenadas, guia de quest, HiperXP",
+      "Perfect World, PW, quest Perfect World, Alma da Paz Eterna, mapa Reino Oriental, Cidade da Paz, Tianyu, Jingxuan, guia de missões, HiperXP",
     );
 
     upsertMeta("property", "og:site_name", SEO_DEFAULTS.siteName);

@@ -6,8 +6,10 @@
   "scripts": {
     "dev": "vite",
     "seo:generate": "node scripts/generate-seo-files.mjs",
+    "seo:prerender": "node scripts/prerender-seo-html.mjs",
     "prebuild": "node scripts/generate-seo-files.mjs",
     "build": "tsc -b && vite build",
+    "postbuild": "node scripts/copy-database-icons.mjs && node scripts/prerender-seo-html.mjs",
     "icons:copy": "node scripts/copy-database-icons.mjs",
     "preview": "vite preview --host 0.0.0.0 --port ${PORT:-4173}",
     "start": "serve -s dist -l tcp://0.0.0.0:${PORT:-3000}",
