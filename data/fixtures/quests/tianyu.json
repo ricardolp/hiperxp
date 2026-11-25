@@ -9,16 +9,15 @@
   "review_status": "foreign_reference",
   "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
   "sources": [
-    "https://triviapw.com.br/",
     "https://vk.com/@-149459137-mirovye-kvesty-vostochnyh-zemel",
     "data/fixtures/sources/quest-guides/",
-    "https://triviapw.com.br/2026/06/03/nova-missao-diaria-coracao-de-tianyu-reino-oriental-segredos-de-tianyu/"
+    "data/fixtures/sources/client-br-levelup/"
   ],
   "quests": [
     {
       "id": "quest-tianyu-alma-de-tianyu",
       "slug": "alma-de-tianyu",
-      "map_slug": "tianyu",
+      "map_slug": "drops-tianyu",
       "kind": "daily",
       "order": 0,
       "name_pt_br": "Alma de Tianyu (Diária I–V)",
@@ -29,25 +28,31 @@
         "Alma de Tianyu III",
         "Alma de Tianyu IV",
         "Alma de Tianyu V",
-        "Diária Tianyu"
+        "Diária Tianyu",
+        "Eternal Tianyu Soul",
+        "Monte Qiu",
+        "Veia da Espada Flutuante",
+        "Árvore Whitewing",
+        "Floresta de Flores"
       ],
-      "excerpt_pt_br": "Diária de relíquias do Coração de Tianyu — mutuamente exclusiva com Alma da Paz no mesmo dia.",
-      "summary_pt_br": "Com Alma de Tianyu nível 1+, aceite no Sacerdote Divino de Tianyu. Mesmas quatro etapas da Alma da Paz (Alma de Pan Gu → Poder Celestial → Memória de Pan Gu → Artefato dos Cinco Refinos). Recompensa Relíquia de Tianyu do nível da missão.",
-      "prerequisite_pt_br": "Nv 100+, Reborn II, meridiano completo, Alma de Tianyu Nv.1+. Não fazer Alma da Paz Eterna no mesmo dia.",
-      "rewards_pt_br": "Relíquia / Consciência Alma de Tianyu; Selo do Palácio Celestial (valores conforme patch).",
+      "excerpt_pt_br": "Diária de relíquias de Tianyu: paisagens/fotos, bolinhas/mochila e farm de monstros — mutuamente exclusiva com Alma da Paz no mesmo dia.",
+      "summary_pt_br": "Com Alma de Tianyu Nv.1+, aceite no Sacerdote Divino. Complete Etapa 1 (paisagem, foto ou NPC) → Etapa 2 (bolinhas ou mochila) → Etapa 3 (coleta/farm) → Etapa Final (materiais Nv.1 ou Horcrux N−1). Bênção 400 para concluir; falha à meia-noite do dia seguinte.",
+      "prerequisite_pt_br": "Nv 100+, Reborn II, meridiano completo, Alma de Tianyu Nv.1+. Não fazer [[guia:cidade-da-paz/alma-da-paz-eterna|Alma da Paz Eterna]] no mesmo dia.",
+      "rewards_pt_br": "Relíquia Alma de Tianyu (nível da missão); [[item:1000003|Selo do Palácio Celestial]].",
       "published_at": "2026-06-03",
-      "coverage_status": "partial",
+      "coverage_status": "enriched",
       "review_status": "foreign_reference",
       "origin": "community_observed",
-      "source_url": "https://triviapw.com.br/2026/06/03/nova-missao-diaria-coracao-de-tianyu-reino-oriental-segredos-de-tianyu/",
-      "notice": "Estrutura das 4 etapas igual à Alma da Paz; pools de coords ainda compartilhados/parciais. foreign_reference — Trivia spoiler + patch notes LUG.",
+      "source_url": null,
+      "notice": "Guia no padrão visual do Reino Oriental (Discord Darkanas): galeria + mapa com câmera e ícones de drop. foreign_reference — validar nomes dos itens no cliente BR.",
+      "cover_image": "/quests/alma-de-tianyu/cover.webp",
       "steps": [
         {
-          "id": "step-01-desbloquear",
+          "id": "step-01-aceitar",
           "order": 1,
-          "title_pt_br": "Desbloquear Alma de Tianyu",
-          "instruction_pt_br": "Desperte a aba Coração de Tianyu (itens de troca Pan Gu + exp de anedota/desafios/globais de Tianyu). A passiva Trindade Pura (+25% HP) exige Fonte de Energia: Cauda Nv.10 no Salão Principal.",
-          "npc": null,
+          "title_pt_br": "Aceitar a diária",
+          "instruction_pt_br": "Desperte a aba Coração de Tianyu (itens Pan Gu + anedotas/desafios/globais). Fonte de Energia: Cauda Nv.10 no Salão Principal para Trindade Pura (+25% HP).\n\nFale com o Sacerdote Divino de Tianyu e aceite Alma de Tianyu no nível da sua alma (I–V). Bênção 400 para concluir; a missão falha à meia-noite do dia seguinte.",
+          "npc": "Sacerdote Divino de Tianyu",
           "coords": [
             {
               "x": 198,
@@ -56,45 +61,1018 @@
             }
           ],
           "dialog_hint": null,
-          "notes": "Fonte Cauda — 198,761(135). Relíquias Cauda ×100 pelo mapa.",
+          "notes": "Mutuamente exclusiva com [[guia:cidade-da-paz/alma-da-paz-eterna|Alma da Paz Eterna]]. IDs cliente: 52979–52983.",
           "image_url": null,
           "image_alt": null
         },
         {
-          "id": "step-02-aceitar",
+          "id": "step-02-etapa1",
           "order": 2,
-          "title_pt_br": "Aceitar a diária",
-          "instruction_pt_br": "Fale com o Sacerdote Divino de Tianyu (Sacerdote de Tianyu) e aceite Alma de Tianyu no nível da sua alma (I–V). Falha às 0h.",
-          "npc": "Sacerdote Divino de Tianyu",
-          "coords": [],
+          "title_pt_br": "Etapa 1 — Coordenadas das imagens",
+          "instruction_pt_br": "A primeira etapa usa as coordenadas das imagens de referência (paisagem, cenário ou foto), ou pede para falar com um NPC.\n\nCompare a imagem da missão com as fotos abaixo, depois vá até o ponto correspondente.\n\nNo mapa, os locais das imagens usam o indicador de câmera — diferente dos círculos de drop da Etapa 3.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 312,
+              "y": 560,
+              "altitude": 86
+            },
+            {
+              "x": 180,
+              "y": 586,
+              "altitude": 100
+            },
+            {
+              "x": 329,
+              "y": 572,
+              "altitude": 87
+            },
+            {
+              "x": 308,
+              "y": 736,
+              "altitude": 77
+            },
+            {
+              "x": 180,
+              "y": 541,
+              "altitude": 101
+            },
+            {
+              "x": 201,
+              "y": 774,
+              "altitude": 82
+            },
+            {
+              "x": 207,
+              "y": 648,
+              "altitude": 109
+            },
+            {
+              "x": 328,
+              "y": 795,
+              "altitude": 78
+            }
+          ],
           "dialog_hint": null,
-          "notes": "IDs cliente 52979–52983. Coordenada exata do NPC ainda não confirmada no Trivia — use o ícone da missão no mapa.",
+          "notes": "As três primeiras etapas variam de um dia para o outro, mas o formato é o mesmo em todos os níveis.",
           "image_url": null,
           "image_alt": null
         },
         {
-          "id": "step-03-etapas",
+          "id": "step-03-etapa2",
           "order": 3,
-          "title_pt_br": "Quatro etapas (mesmo modelo da Alma da Paz)",
-          "instruction_pt_br": "【I】 Alma de Pan Gu · 【II】 Poder Celestial · 【III】 Memória de Pan Gu · 【IV】 Artefato dos Cinco Refinos. Enquanto o Trivia não publicar pools próprios de Tianyu, use as coordenadas do guia Alma da Paz Eterna para variantes de paisagem/foto/NPC/corrida/auxílio/farm.",
+          "title_pt_br": "Etapa 2 — Bolinhas ou Mochila",
+          "instruction_pt_br": "Encontre o NPC da etapa 2. A missão sorteia uma destas tarefas:\n• Percorra as \"bolinhas com número\" — use as bolinhas azuis para ganhar velocidade e não se perder.\n• Receba uma mochila e leve até a área marcada no mapa — é impossível voar enquanto estiver com a mochila.",
           "npc": null,
           "coords": [],
           "dialog_hint": null,
-          "notes": "Ver /missoes/cidade-da-paz/alma-da-paz-eterna",
+          "notes": "Sem voo na variante da mochila. Morreu/teleportou pode falhar a etapa.",
           "image_url": null,
           "image_alt": null
         },
         {
-          "id": "step-04-reportar",
+          "id": "step-04-etapa3",
           "order": 4,
-          "title_pt_br": "Reportar ao Sacerdote",
-          "instruction_pt_br": "Ao fechar as etapas, retorne ao Sacerdote de Tianyu para reportar e receber a relíquia do nível correspondente.",
-          "npc": "Sacerdote de Tianyu",
-          "coords": [],
+          "title_pt_br": "Etapa 3 — Coleta e combate",
+          "instruction_pt_br": "Ajude os moradores a coletar recursos ou lutar contra monstros. Use o mapa e a lista de missões para achar os NPCs.\nSe faltar item de drop: selecione-o no inventário e clique em \"Rastrear\" — os ícones dos monstros aparecem no mapa do cliente.\nNo mapa desta página, cada círculo é o ícone do drop do tipo de mob (igual ao padrão do Reino Oriental).\n\nMonstro Abissal: Profundezas / Guarda do Abismo: Abissal — Drop Abissal (Profundezas)\n• 341,771\n• 289,799\n• 329,760\n• 292,787\n• 200,716\n• 196,699\n• 344,793\n• 255,800\n• 254,782\n• 323,767\n• 314,757\n\nMonstro Abissal: Cristalizado / Guarda do Abismo: Nevado — Drop Abissal (Cristalizado)\n• 341,771\n• 289,799\n• 329,760\n• 336,801\n• 271,789\n• 211,699\n• 202,708\n• 192,686\n• 190,670\n• 200,674\n• 214,689\n• 323,767\n• 314,757\n\nMonstro Abissal: Mago / Guarda do Abismo: Invocador — Drop Abissal (Mago)\n• 292,787\n• 200,716\n• 196,699\n• 344,793\n• 255,800\n• 254,782\n• 336,801\n• 271,789\n• 211,699\n• 202,708\n• 192,686\n• 190,670\n• 200,674\n• 214,689\n• 323,767\n• 314,757\n\nMonstro Abissal: Caçador / Guarda do Abismo: Caçador — Drop Abissal (Caçador)\n• 259,739\n• 268,733\n• 286,741\n• 285,719\n• 221,675\n• 238,674\n• 245,684\n• 256,729\n• 301,718\n• 231,697\n• 216,644\n• 204,640\n\nMonstro Abissal: Atirador / Monstro Abissal: Atirador — Drop Abissal (Atirador)\n• 259,739\n• 268,733\n• 286,741\n• 285,719\n• 221,675\n• 238,674\n• 245,684\n• 267,720\n• 222,699\n• 216,644\n• 204,640\n\nGuarda do Abismo: Sombrio / Guarda do Abismo Sombrio — Drop Abissal (Sombrio)\n• 259,739\n• 268,733\n• 286,741\n• 285,719\n• 221,675\n• 238,674\n• 245,684\n• 267,720\n• 222,699\n\nGuerreiro Alado: Furioso / Guarda do Guerreiro Feroz — Drop Guerreiro Alado (Furioso)\n• 187,641\n• 152,531\n• 159,521\n• 159,512\n• 174,513\n• 287,511\n• 274,562\n• 266,581\n• 340,593\n• 344,564\n• 273,594\n• 305,592\n• 323,507\n• 341,519\n\nGuerreiro Alado: Sanguinário / Guarda do Guerreiro Sombrio — Drop Guerreiro Alado (Sanguinário)\n• 187,641\n• 152,531\n• 159,521\n• 159,512\n• 174,513\n• 287,511\n• 274,562\n• 266,581\n• 340,593\n• 344,564\n• 274,533\n• 294,553\n• 316,586\n• 324,594\n\nGuarda do Guerreiro / Guarda do Guerreiro Feroz / Sombrio — Drop Guarda do Guerreiro\n• 187,641\n• 152,531\n• 159,521\n• 159,512\n• 174,513\n• 287,511\n• 274,562\n• 266,581\n• 274,533\n• 294,553\n• 316,586\n• 324,594\n• 273,594\n• 305,592\n• 323,507\n• 341,519\n\nTitã do Crepúsculo: Espírito / Guarda do Gigante — Drop Titã (Espírito)\n• 174,643\n• 171,652\n• 183,653\n• 176,573\n• 162,547\n• 201,511\n• 322,536\n• 161,567\n• 175,543\n• 221,507\n• 290,544\n• 281,557\n• 299,581\n\nTitã do Crepúsculo: Pacificador / Guarda do Peso — Drop Titã (Pacificador)\n• 174,643\n• 171,652\n• 183,653\n• 176,573\n• 162,547\n• 201,511\n• 322,536\n• 161,567\n• 169,552\n• 283,590\n• 293,596\n• 316,520\n\nTitã do Crepúsculo: Furioso / Guarda do Caos — Drop Titã (Furioso)\n• 161,567\n• 169,552\n• 283,590\n• 293,596\n• 316,520\n• 175,543\n• 221,507\n• 290,544\n• 281,557\n• 299,581",
+          "npc": null,
+          "coords": [
+            {
+              "x": 341,
+              "y": 771,
+              "altitude": null
+            },
+            {
+              "x": 289,
+              "y": 799,
+              "altitude": null
+            },
+            {
+              "x": 329,
+              "y": 760,
+              "altitude": null
+            },
+            {
+              "x": 292,
+              "y": 787,
+              "altitude": null
+            },
+            {
+              "x": 200,
+              "y": 716,
+              "altitude": null
+            },
+            {
+              "x": 196,
+              "y": 699,
+              "altitude": null
+            },
+            {
+              "x": 344,
+              "y": 793,
+              "altitude": null
+            },
+            {
+              "x": 255,
+              "y": 800,
+              "altitude": null
+            },
+            {
+              "x": 254,
+              "y": 782,
+              "altitude": null
+            },
+            {
+              "x": 323,
+              "y": 767,
+              "altitude": null
+            },
+            {
+              "x": 314,
+              "y": 757,
+              "altitude": null
+            },
+            {
+              "x": 341,
+              "y": 771,
+              "altitude": null
+            },
+            {
+              "x": 289,
+              "y": 799,
+              "altitude": null
+            },
+            {
+              "x": 329,
+              "y": 760,
+              "altitude": null
+            },
+            {
+              "x": 336,
+              "y": 801,
+              "altitude": null
+            },
+            {
+              "x": 271,
+              "y": 789,
+              "altitude": null
+            },
+            {
+              "x": 211,
+              "y": 699,
+              "altitude": null
+            },
+            {
+              "x": 202,
+              "y": 708,
+              "altitude": null
+            },
+            {
+              "x": 192,
+              "y": 686,
+              "altitude": null
+            },
+            {
+              "x": 190,
+              "y": 670,
+              "altitude": null
+            },
+            {
+              "x": 200,
+              "y": 674,
+              "altitude": null
+            },
+            {
+              "x": 214,
+              "y": 689,
+              "altitude": null
+            },
+            {
+              "x": 323,
+              "y": 767,
+              "altitude": null
+            },
+            {
+              "x": 314,
+              "y": 757,
+              "altitude": null
+            },
+            {
+              "x": 292,
+              "y": 787,
+              "altitude": null
+            },
+            {
+              "x": 200,
+              "y": 716,
+              "altitude": null
+            },
+            {
+              "x": 196,
+              "y": 699,
+              "altitude": null
+            },
+            {
+              "x": 344,
+              "y": 793,
+              "altitude": null
+            },
+            {
+              "x": 255,
+              "y": 800,
+              "altitude": null
+            },
+            {
+              "x": 254,
+              "y": 782,
+              "altitude": null
+            },
+            {
+              "x": 336,
+              "y": 801,
+              "altitude": null
+            },
+            {
+              "x": 271,
+              "y": 789,
+              "altitude": null
+            },
+            {
+              "x": 211,
+              "y": 699,
+              "altitude": null
+            },
+            {
+              "x": 202,
+              "y": 708,
+              "altitude": null
+            },
+            {
+              "x": 192,
+              "y": 686,
+              "altitude": null
+            },
+            {
+              "x": 190,
+              "y": 670,
+              "altitude": null
+            },
+            {
+              "x": 200,
+              "y": 674,
+              "altitude": null
+            },
+            {
+              "x": 214,
+              "y": 689,
+              "altitude": null
+            },
+            {
+              "x": 323,
+              "y": 767,
+              "altitude": null
+            },
+            {
+              "x": 314,
+              "y": 757,
+              "altitude": null
+            },
+            {
+              "x": 259,
+              "y": 739,
+              "altitude": null
+            },
+            {
+              "x": 268,
+              "y": 733,
+              "altitude": null
+            },
+            {
+              "x": 286,
+              "y": 741,
+              "altitude": null
+            },
+            {
+              "x": 285,
+              "y": 719,
+              "altitude": null
+            },
+            {
+              "x": 221,
+              "y": 675,
+              "altitude": null
+            },
+            {
+              "x": 238,
+              "y": 674,
+              "altitude": null
+            },
+            {
+              "x": 245,
+              "y": 684,
+              "altitude": null
+            },
+            {
+              "x": 256,
+              "y": 729,
+              "altitude": null
+            },
+            {
+              "x": 301,
+              "y": 718,
+              "altitude": null
+            },
+            {
+              "x": 231,
+              "y": 697,
+              "altitude": null
+            },
+            {
+              "x": 216,
+              "y": 644,
+              "altitude": null
+            },
+            {
+              "x": 204,
+              "y": 640,
+              "altitude": null
+            },
+            {
+              "x": 259,
+              "y": 739,
+              "altitude": null
+            },
+            {
+              "x": 268,
+              "y": 733,
+              "altitude": null
+            },
+            {
+              "x": 286,
+              "y": 741,
+              "altitude": null
+            },
+            {
+              "x": 285,
+              "y": 719,
+              "altitude": null
+            },
+            {
+              "x": 221,
+              "y": 675,
+              "altitude": null
+            },
+            {
+              "x": 238,
+              "y": 674,
+              "altitude": null
+            },
+            {
+              "x": 245,
+              "y": 684,
+              "altitude": null
+            },
+            {
+              "x": 267,
+              "y": 720,
+              "altitude": null
+            },
+            {
+              "x": 222,
+              "y": 699,
+              "altitude": null
+            },
+            {
+              "x": 216,
+              "y": 644,
+              "altitude": null
+            },
+            {
+              "x": 204,
+              "y": 640,
+              "altitude": null
+            },
+            {
+              "x": 259,
+              "y": 739,
+              "altitude": null
+            },
+            {
+              "x": 268,
+              "y": 733,
+              "altitude": null
+            },
+            {
+              "x": 286,
+              "y": 741,
+              "altitude": null
+            },
+            {
+              "x": 285,
+              "y": 719,
+              "altitude": null
+            },
+            {
+              "x": 221,
+              "y": 675,
+              "altitude": null
+            },
+            {
+              "x": 238,
+              "y": 674,
+              "altitude": null
+            },
+            {
+              "x": 245,
+              "y": 684,
+              "altitude": null
+            },
+            {
+              "x": 267,
+              "y": 720,
+              "altitude": null
+            },
+            {
+              "x": 222,
+              "y": 699,
+              "altitude": null
+            },
+            {
+              "x": 187,
+              "y": 641,
+              "altitude": null
+            },
+            {
+              "x": 152,
+              "y": 531,
+              "altitude": null
+            },
+            {
+              "x": 159,
+              "y": 521,
+              "altitude": null
+            },
+            {
+              "x": 159,
+              "y": 512,
+              "altitude": null
+            },
+            {
+              "x": 174,
+              "y": 513,
+              "altitude": null
+            },
+            {
+              "x": 287,
+              "y": 511,
+              "altitude": null
+            },
+            {
+              "x": 274,
+              "y": 562,
+              "altitude": null
+            },
+            {
+              "x": 266,
+              "y": 581,
+              "altitude": null
+            },
+            {
+              "x": 340,
+              "y": 593,
+              "altitude": null
+            },
+            {
+              "x": 344,
+              "y": 564,
+              "altitude": null
+            },
+            {
+              "x": 273,
+              "y": 594,
+              "altitude": null
+            },
+            {
+              "x": 305,
+              "y": 592,
+              "altitude": null
+            },
+            {
+              "x": 323,
+              "y": 507,
+              "altitude": null
+            },
+            {
+              "x": 341,
+              "y": 519,
+              "altitude": null
+            },
+            {
+              "x": 187,
+              "y": 641,
+              "altitude": null
+            },
+            {
+              "x": 152,
+              "y": 531,
+              "altitude": null
+            },
+            {
+              "x": 159,
+              "y": 521,
+              "altitude": null
+            },
+            {
+              "x": 159,
+              "y": 512,
+              "altitude": null
+            },
+            {
+              "x": 174,
+              "y": 513,
+              "altitude": null
+            },
+            {
+              "x": 287,
+              "y": 511,
+              "altitude": null
+            },
+            {
+              "x": 274,
+              "y": 562,
+              "altitude": null
+            },
+            {
+              "x": 266,
+              "y": 581,
+              "altitude": null
+            },
+            {
+              "x": 340,
+              "y": 593,
+              "altitude": null
+            },
+            {
+              "x": 344,
+              "y": 564,
+              "altitude": null
+            },
+            {
+              "x": 274,
+              "y": 533,
+              "altitude": null
+            },
+            {
+              "x": 294,
+              "y": 553,
+              "altitude": null
+            },
+            {
+              "x": 316,
+              "y": 586,
+              "altitude": null
+            },
+            {
+              "x": 324,
+              "y": 594,
+              "altitude": null
+            },
+            {
+              "x": 187,
+              "y": 641,
+              "altitude": null
+            },
+            {
+              "x": 152,
+              "y": 531,
+              "altitude": null
+            },
+            {
+              "x": 159,
+              "y": 521,
+              "altitude": null
+            },
+            {
+              "x": 159,
+              "y": 512,
+              "altitude": null
+            },
+            {
+              "x": 174,
+              "y": 513,
+              "altitude": null
+            },
+            {
+              "x": 287,
+              "y": 511,
+              "altitude": null
+            },
+            {
+              "x": 274,
+              "y": 562,
+              "altitude": null
+            },
+            {
+              "x": 266,
+              "y": 581,
+              "altitude": null
+            },
+            {
+              "x": 274,
+              "y": 533,
+              "altitude": null
+            },
+            {
+              "x": 294,
+              "y": 553,
+              "altitude": null
+            },
+            {
+              "x": 316,
+              "y": 586,
+              "altitude": null
+            },
+            {
+              "x": 324,
+              "y": 594,
+              "altitude": null
+            },
+            {
+              "x": 273,
+              "y": 594,
+              "altitude": null
+            },
+            {
+              "x": 305,
+              "y": 592,
+              "altitude": null
+            },
+            {
+              "x": 323,
+              "y": 507,
+              "altitude": null
+            },
+            {
+              "x": 341,
+              "y": 519,
+              "altitude": null
+            },
+            {
+              "x": 174,
+              "y": 643,
+              "altitude": null
+            },
+            {
+              "x": 171,
+              "y": 652,
+              "altitude": null
+            },
+            {
+              "x": 183,
+              "y": 653,
+              "altitude": null
+            },
+            {
+              "x": 176,
+              "y": 573,
+              "altitude": null
+            },
+            {
+              "x": 162,
+              "y": 547,
+              "altitude": null
+            },
+            {
+              "x": 201,
+              "y": 511,
+              "altitude": null
+            },
+            {
+              "x": 322,
+              "y": 536,
+              "altitude": null
+            },
+            {
+              "x": 161,
+              "y": 567,
+              "altitude": null
+            },
+            {
+              "x": 175,
+              "y": 543,
+              "altitude": null
+            },
+            {
+              "x": 221,
+              "y": 507,
+              "altitude": null
+            },
+            {
+              "x": 290,
+              "y": 544,
+              "altitude": null
+            },
+            {
+              "x": 281,
+              "y": 557,
+              "altitude": null
+            },
+            {
+              "x": 299,
+              "y": 581,
+              "altitude": null
+            },
+            {
+              "x": 174,
+              "y": 643,
+              "altitude": null
+            },
+            {
+              "x": 171,
+              "y": 652,
+              "altitude": null
+            },
+            {
+              "x": 183,
+              "y": 653,
+              "altitude": null
+            },
+            {
+              "x": 176,
+              "y": 573,
+              "altitude": null
+            },
+            {
+              "x": 162,
+              "y": 547,
+              "altitude": null
+            },
+            {
+              "x": 201,
+              "y": 511,
+              "altitude": null
+            },
+            {
+              "x": 322,
+              "y": 536,
+              "altitude": null
+            },
+            {
+              "x": 161,
+              "y": 567,
+              "altitude": null
+            },
+            {
+              "x": 169,
+              "y": 552,
+              "altitude": null
+            },
+            {
+              "x": 283,
+              "y": 590,
+              "altitude": null
+            },
+            {
+              "x": 293,
+              "y": 596,
+              "altitude": null
+            },
+            {
+              "x": 316,
+              "y": 520,
+              "altitude": null
+            },
+            {
+              "x": 161,
+              "y": 567,
+              "altitude": null
+            },
+            {
+              "x": 169,
+              "y": 552,
+              "altitude": null
+            },
+            {
+              "x": 283,
+              "y": 590,
+              "altitude": null
+            },
+            {
+              "x": 293,
+              "y": 596,
+              "altitude": null
+            },
+            {
+              "x": 316,
+              "y": 520,
+              "altitude": null
+            },
+            {
+              "x": 175,
+              "y": 543,
+              "altitude": null
+            },
+            {
+              "x": 221,
+              "y": 507,
+              "altitude": null
+            },
+            {
+              "x": 290,
+              "y": 544,
+              "altitude": null
+            },
+            {
+              "x": 281,
+              "y": 557,
+              "altitude": null
+            },
+            {
+              "x": 299,
+              "y": 581,
+              "altitude": null
+            }
+          ],
           "dialog_hint": null,
-          "notes": null,
+          "notes": "Pools aleatórios por dia. Coordenadas e ícones comunitários (Darkanas) — validar nomes dos itens no cliente BR.",
           "image_url": null,
           "image_alt": null
+        },
+        {
+          "id": "step-05-etapa-final",
+          "order": 5,
+          "title_pt_br": "Etapa Final — Entrega do nível",
+          "instruction_pt_br": "A etapa final depende só do nível da missão aceita:\n• Nível 1: o Servo Pan Gu pede vários itens (recursos e drops de monstros).\n• Níveis 2–5: entregue uma Horcrux/relíquia aleatória de um nível abaixo (ex.: missão Nv.5 pede relíquia Nv.4).\n\nDica: exiba a missão e clique no nome da relíquia — a Loja de Relíquias abre para você procurar.\n\nAo fechar, retorne ao Sacerdote Divino de Tianyu para receber a Relíquia Alma de Tianyu + [[item:1000003|Selo do Palácio Celestial]].",
+          "npc": "Servo Pan Gu",
+          "coords": [],
+          "dialog_hint": null,
+          "notes": "Recompensa conforme o nível da missão / especialização.",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-paisagem-trono-asas",
+          "order": 10,
+          "title_pt_br": "Paisagem — Trono das Asas Azuis",
+          "instruction_pt_br": "Reconheça o altar com asas/barbatanas azuis translúcidas e a plataforma circular com orbes, e chegue ao ponto de vista.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 312,
+              "y": 560,
+              "altitude": 86
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Etapa 1 · variante Paisagem. Marco: estrutura em leque azul com base dourada.",
+          "image_url": "/quests/alma-de-tianyu/paisagem-trono-asas-azuis.webp",
+          "image_alt": "Trono das Asas Azuis — 312,560(86)"
+        },
+        {
+          "id": "step-paisagem-fortaleza",
+          "order": 11,
+          "title_pt_br": "Paisagem — Fortaleza Circular",
+          "instruction_pt_br": "Reconheça o edifício circular com pátio aberto, faixas vermelhas e árvores brancas, e chegue ao ponto de vista.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 180,
+              "y": 586,
+              "altitude": 100
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Etapa 1 · variante Paisagem. Marco: construção redonda cercada de floradas brancas.",
+          "image_url": "/quests/alma-de-tianyu/paisagem-fortaleza-circular.webp",
+          "image_alt": "Fortaleza Circular — 180,586(100)"
+        },
+        {
+          "id": "step-paisagem-rocha-ave",
+          "order": 12,
+          "title_pt_br": "Paisagem — Rocha da Ave Flutuante",
+          "instruction_pt_br": "Reconheça a ilha flutuante em forma de ave (cabeça, asas e cauda) e chegue ao ponto de vista.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 329,
+              "y": 572,
+              "altitude": 87
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Etapa 1 · variante Paisagem. Marco: rocha aviária suspensa no céu com musgo verde.",
+          "image_url": "/quests/alma-de-tianyu/paisagem-rocha-ave-flutuante.webp",
+          "image_alt": "Rocha da Ave Flutuante — 329,572(87)"
+        },
+        {
+          "id": "step-paisagem-desfiladeiro",
+          "order": 13,
+          "title_pt_br": "Paisagem — Desfiladeiro das Flores",
+          "instruction_pt_br": "Reconheça o desfiladeiro com árvores rosa à esquerda e árvores brancas no centro, sobre a água entre penhascos, e chegue ao ponto de vista.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 308,
+              "y": 736,
+              "altitude": 77
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Etapa 1 · variante Paisagem. Marco: ponte natural entre floradas rosa e brancas.",
+          "image_url": "/quests/alma-de-tianyu/paisagem-desfiladeiro-flores.webp",
+          "image_alt": "Desfiladeiro das Flores — 308,736(77)"
+        },
+        {
+          "id": "step-foto-monte-qiu",
+          "order": 14,
+          "title_pt_br": "Foto — Monte Qiu",
+          "instruction_pt_br": "Alcance o ponto 180,541(101) e tire uma foto do Monte Qiu.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 180,
+              "y": 541,
+              "altitude": 101
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Etapa 1 · variante Locais pitorescos. Tire a foto neste ponto.",
+          "image_url": "/quests/alma-de-tianyu/foto-monte-qiu.jpg",
+          "image_alt": "Monte Qiu — 180,541(101)"
+        },
+        {
+          "id": "step-foto-veia-espada",
+          "order": 15,
+          "title_pt_br": "Foto — Veia da Espada Flutuante",
+          "instruction_pt_br": "Vá até o ponto 201,774(82) e tire uma foto da Veia da Espada Flutuante.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 201,
+              "y": 774,
+              "altitude": 82
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Etapa 1 · variante Locais pitorescos. Marco: cristais azul-turquesa e fragmento flutuante.",
+          "image_url": "/quests/alma-de-tianyu/foto-veia-espada-flutuante.jpg",
+          "image_alt": "Veia da Espada Flutuante — 201,774(82)"
+        },
+        {
+          "id": "step-foto-arvore-whitewing",
+          "order": 16,
+          "title_pt_br": "Foto — Árvore Whitewing",
+          "instruction_pt_br": "Chegue ao ponto 207,648(109) e tire uma foto da Árvore Whitewing.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 207,
+              "y": 648,
+              "altitude": 109
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Etapa 1 · variante Locais pitorescos. Marco: árvore-plataforma com santuário no topo.",
+          "image_url": "/quests/alma-de-tianyu/foto-arvore-whitewing.webp",
+          "image_alt": "Árvore Whitewing — 207,648(109)"
+        },
+        {
+          "id": "step-foto-floresta-flores",
+          "order": 17,
+          "title_pt_br": "Foto — Floresta de Flores",
+          "instruction_pt_br": "Vá até o ponto 328,795(78) e tire uma foto da Floresta de Flores.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 328,
+              "y": 795,
+              "altitude": 78
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Etapa 1 · variante Locais pitorescos. Marco: folhagem laranja/vermelha e escadaria.",
+          "image_url": "/quests/alma-de-tianyu/foto-floresta-de-flores.webp",
+          "image_alt": "Floresta de Flores — 328,795(78)"
+        }
+      ],
+      "rewards": [
+        {
+          "label_pt_br": "Relíquia Alma de Tianyu",
+          "item_id": null,
+          "quantity": 1,
+          "note_pt_br": "Nível da missão / especialização"
+        },
+        {
+          "label_pt_br": "Consciência Alma de Tianyu",
+          "item_id": null,
+          "quantity": null,
+          "note_pt_br": "Quando aplicável ao nível"
+        },
+        {
+          "label_pt_br": "Selo do Palácio Celestial",
+          "item_id": 1000003,
+          "quantity": null,
+          "note_pt_br": "Quantidade conforme patch"
         }
       ]
     },
@@ -117,14 +1095,14 @@
       "coverage_status": "partial",
       "review_status": "foreign_reference",
       "origin": "community_observed",
-      "source_url": "https://triviapw.com.br/2026/05/19/historias-noturnas-guia-da-jornada/",
+      "source_url": null,
       "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
       "steps": [
         {
           "id": "step-01-conflito",
           "order": 1,
           "title_pt_br": "Conflito",
-          "instruction_pt_br": "Perto do Jardim de Pera, você encontra uma jovem chamada Yunque’er discutindo com o diretor do teatro. Parece que ela, a principal dan, quer abandonar a apresentação.\n\nPara iniciar a missão, fale com o NPC Yunque’er em 164,586(100) e a missão será concluída automaticamente.",
+          "instruction_pt_br": "Perto do Jardim de Pera, você encontra uma jovem chamada Yunque’er discutindo com o diretor do teatro. Parece que ela, a principal dan, quer abandonar a apresentação. Para iniciar a missão, fale com o NPC Yunque’er em 164,586(100) e a missão será concluída automaticamente.",
           "npc": "Yunque’er",
           "coords": [
             {
@@ -140,7 +1118,7 @@
           "id": "step-02-troca-de-papel",
           "order": 2,
           "title_pt_br": "Troca de Papel",
-          "instruction_pt_br": "Na conversa, você descobre que o Jardim de Pera celebra dez anos de fundação. Yunque’er, como principal dan, deveria abrir a festividade com a nova peça “O Lamento de Yuchan”, mas agora insiste em trocar de papel e interpretar o protagonista masculino.\n\nPara iniciar a missão, fale com o NPC Yunque’er em 164,586(100) e a missão será concluída automaticamente.",
+          "instruction_pt_br": "Na conversa, você descobre que o Jardim de Pera celebra dez anos de fundação. Yunque’er, como principal dan, deveria abrir a festividade com a nova peça “O Lamento de Yuchan”, mas agora insiste em trocar de papel e interpretar o protagonista masculino. Para iniciar a missão, fale com o NPC Yunque’er em 164,586(100) e a missão será concluída automaticamente.",
           "npc": "Yunque’er",
           "coords": [
             {
@@ -156,7 +1134,7 @@
           "id": "step-03-conversa",
           "order": 3,
           "title_pt_br": "Conversa",
-          "instruction_pt_br": "Após a saída irritada do diretor, você conversa com Yunque’er. Pergunta se pode se hospedar no teatro e como obter lugar para assistir à estreia. Ela reflete por um momento e lhe indica onde encontrar a administradora.\n\nPara iniciar a missão, fale com o NPC Yunque’er em 164,586(100).\n\nPara concluir a missão, fale com o NPC Administradora Liu em 151,577(100).",
+          "instruction_pt_br": "Após a saída irritada do diretor, você conversa com Yunque’er. Pergunta se pode se hospedar no teatro e como obter lugar para assistir à estreia. Ela reflete por um momento e lhe indica onde encontrar a administradora. Para iniciar a missão, fale com o NPC Yunque’er em 164,586(100). Para concluir a missão, fale com o NPC Administradora Liu em 151,577(100).",
           "npc": "Yunque’er",
           "coords": [
             {
@@ -177,7 +1155,7 @@
           "id": "step-04-hospedagem",
           "order": 4,
           "title_pt_br": "Hospedagem",
-          "instruction_pt_br": "Após esclarecer os detalhes sobre ingresso e hospedagem, você é levado ao quarto no segundo andar.\n\nPara concluir a missão, fale com o NPC Administradora Liu em 156,580(102).",
+          "instruction_pt_br": "Após esclarecer os detalhes sobre ingresso e hospedagem, você é levado ao quarto no segundo andar. Para concluir a missão, fale com o NPC Administradora Liu em 156,580(102).",
           "npc": "Administradora Liu",
           "coords": [
             {
@@ -193,7 +1171,7 @@
           "id": "step-05-anoitecer",
           "order": 5,
           "title_pt_br": "Anoitecer",
-          "instruction_pt_br": "Logo a noite cai...\n\nEssa missão será concluída automaticamente.",
+          "instruction_pt_br": "Logo a noite cai... Essa missão será concluída automaticamente.",
           "npc": null,
           "coords": [],
           "dialog_hint": null,
@@ -203,7 +1181,7 @@
           "id": "step-06-caçando-fantasmas",
           "order": 6,
           "title_pt_br": "Caçando Fantasmas?",
-          "instruction_pt_br": "Perseguir aquela figura estranha.\n\nApós iniciar esta missão, vá até o local indicado pela missão em 157,580(102), depois vá até 160,581(102) e conclua a missão indo até 163,584(102).",
+          "instruction_pt_br": "Perseguir aquela figura estranha. Após iniciar esta missão, vá até o local indicado pela missão em 157,580(102), depois vá até 160,581(102) e conclua a missão indo até 163,584(102).",
           "npc": null,
           "coords": [
             {
@@ -229,7 +1207,7 @@
           "id": "step-07-ensaio-noturno",
           "order": 7,
           "title_pt_br": "Ensaio Noturno",
-          "instruction_pt_br": "Para sua surpresa, a figura era Yunque’er, vestida como uma dan. Ao ser agarrada por você, ela também se espanta. Durante a conversa, revela que começará a treinar sua substituta, Qiao’er, a partir de amanhã, e por isso veio ensaiar sozinha esta noite. Sua curiosidade sobre a peça cresce. Yunque’er conta animadamente que a obra foi escrita por ela e por sua amiga A-Nian. A troca de papel é também uma homenagem: o dia da grande celebração do teatro coincide com o aniversário de falecimento de A-Nian, e o protagonista masculino foi criado por ela.\n\nPara iniciar a missão, fale com o NPC Yunque’er em 163,584(102).\n\nAperte B para abrir seu inventário e use o item “O Lamento de Yuchan”.",
+          "instruction_pt_br": "Para sua surpresa, a figura era Yunque’er, vestida como uma dan. Ao ser agarrada por você, ela também se espanta. Durante a conversa, revela que começará a treinar sua substituta, Qiao’er, a partir de amanhã, e por isso veio ensaiar sozinha esta noite. Sua curiosidade sobre a peça cresce. Yunque’er conta animadamente que a obra foi escrita por ela e por sua amiga A-Nian. A troca de papel é também uma homenagem: o dia da grande celebração do teatro coincide com o aniversário de falecimento de A-Nian, e o protagonista masculino foi criado por ela. Para iniciar a missão, fale com o NPC Yunque’er em 163,584(102). Aperte B para abrir seu inventário e use o item “O Lamento de Yuchan”.",
           "npc": "Yunque’er",
           "coords": [
             {
@@ -245,7 +1223,7 @@
           "id": "step-08-lembranças-do-passado",
           "order": 8,
           "title_pt_br": "Lembranças do Passado",
-          "instruction_pt_br": "Yunque’er conta suas memórias com a Irmã A-Nian. Você se comove e promete assistir ao ensaio no dia seguinte, além de comparecer à estreia.\n\nPara iniciar a missão, fale com o NPC Yunque’er em 163,584(102). Em seguida vá até 156,579(102) para concluir a missão.",
+          "instruction_pt_br": "Yunque’er conta suas memórias com a Irmã A-Nian. Você se comove e promete assistir ao ensaio no dia seguinte, além de comparecer à estreia. Para iniciar a missão, fale com o NPC Yunque’er em 163,584(102). Em seguida vá até 156,579(102) para concluir a missão.",
           "npc": "Yunque’er",
           "coords": [
             {
@@ -266,7 +1244,7 @@
           "id": "step-09-entre-cantos",
           "order": 9,
           "title_pt_br": "Entre Cantos",
-          "instruction_pt_br": "Após acordar, você vai ao palco. Yunque’er, vestida com o traje elegante de jovem erudito, orienta Qiao’er na parte de Chen Yuchan.\n\nVá até 157,584(100) para concluir a missão.",
+          "instruction_pt_br": "Após acordar, você vai ao palco. Yunque’er, vestida com o traje elegante de jovem erudito, orienta Qiao’er na parte de Chen Yuchan. Vá até 157,584(100) para concluir a missão.",
           "npc": null,
           "coords": [
             {
@@ -282,7 +1260,7 @@
           "id": "step-10-interrupção",
           "order": 10,
           "title_pt_br": "Interrupção",
-          "instruction_pt_br": "Durante a conversa, o diretor aparece inesperadamente.\n\nPara iniciar a missão, fale com o NPC Yunque’er em 157,585(100) e aguarde 5 segundos para a conclusão da missão.",
+          "instruction_pt_br": "Durante a conversa, o diretor aparece inesperadamente. Para iniciar a missão, fale com o NPC Yunque’er em 157,585(100) e aguarde 5 segundos para a conclusão da missão.",
           "npc": "Yunque’er",
           "coords": [
             {
@@ -298,7 +1276,7 @@
           "id": "step-11-convidado-de-honra",
           "order": 11,
           "title_pt_br": "Convidado de Honra",
-          "instruction_pt_br": "O diretor, com sorriso respeitoso, revela ter descoberto sua identidade como Jovem Sacerdote da Capital Imperial e informa que um assento na primeira fila foi reservado para você no dia da estreia.\n\nPara iniciar a missão, fale com o NPC Mestre do Jardim de Pera em 157,585(100).\n\nPara concluir a missão, fale com o NPC Yunque’er em 157,585(100).",
+          "instruction_pt_br": "O diretor, com sorriso respeitoso, revela ter descoberto sua identidade como Jovem Sacerdote da Capital Imperial e informa que um assento na primeira fila foi reservado para você no dia da estreia. Para iniciar a missão, fale com o NPC Mestre do Jardim de Pera em 157,585(100). Para concluir a missão, fale com o NPC Yunque’er em 157,585(100).",
           "npc": "Mestre do Jardim de Pera",
           "coords": [
             {
@@ -314,7 +1292,7 @@
           "id": "step-12-origens",
           "order": 12,
           "title_pt_br": "Origens",
-          "instruction_pt_br": "O diretor recebe os convidados à porta. Ao vê-lo, apresenta calorosamente os membros da Família Zhu e conta a história da construção do Jardim de Pera. Quando você diz que quer ver Yunque’er, ele informa que ela está na área de preparação e indica o caminho.\n\nPara iniciar a missão, fale com o NPC Mestre do Jardim de Pera em 169,586(100), em seguida vá até 151,576(100) para concluí-la.",
+          "instruction_pt_br": "O diretor recebe os convidados à porta. Ao vê-lo, apresenta calorosamente os membros da Família Zhu e conta a história da construção do Jardim de Pera. Quando você diz que quer ver Yunque’er, ele informa que ela está na área de preparação e indica o caminho. Para iniciar a missão, fale com o NPC Mestre do Jardim de Pera em 169,586(100), em seguida vá até 151,576(100) para concluí-la.",
           "npc": "Mestre do Jardim de Pera",
           "coords": [
             {
@@ -335,7 +1313,7 @@
           "id": "step-13-nos-bastidores",
           "order": 13,
           "title_pt_br": "Nos Bastidores",
-          "instruction_pt_br": "Você vai à sala de preparação para encorajar Yunque’er e Qiao’er.\n\nPara iniciar a missão, fale com o NPC Yunque’er em 150,576(100), em seguida vá até Vá até 158,586(100) para concluí-la.",
+          "instruction_pt_br": "Você vai à sala de preparação para encorajar Yunque’er e Qiao’er. Para iniciar a missão, fale com o NPC Yunque’er em 150,576(100), em seguida vá até Vá até 158,586(100) para concluí-la.",
           "npc": "Yunque’er",
           "coords": [
             {
@@ -356,7 +1334,7 @@
           "id": "step-14-a-família-zhu",
           "order": 14,
           "title_pt_br": "A Família Zhu",
-          "instruction_pt_br": "De volta ao teatro, o público já está acomodado. Após cumprimentar o chefe da Família Zhu e a esposa, você observa os três filhos: o primogênito é gentil e equilibrado, o segundo exala arrogância, e a filha mais nova mantém expressão fria. Cada um com seu estilo.\n\nPara iniciar a missão, fale com o NPC Zhu Peitong em 158,588(100), e aguarde cerca de 35 segundos até a conclusão da missão.",
+          "instruction_pt_br": "De volta ao teatro, o público já está acomodado. Após cumprimentar o chefe da Família Zhu e a esposa, você observa os três filhos: o primogênito é gentil e equilibrado, o segundo exala arrogância, e a filha mais nova mantém expressão fria. Cada um com seu estilo. Para iniciar a missão, fale com o NPC Zhu Peitong em 158,588(100), e aguarde cerca de 35 segundos até a conclusão da missão.",
           "npc": "Zhu Peitong",
           "coords": [
             {
@@ -372,7 +1350,7 @@
           "id": "step-15-intervalo",
           "order": 15,
           "title_pt_br": "Intervalo",
-          "instruction_pt_br": "Após algumas cenas, Yunque’er e Qiao’er deixam o palco. O diretor explica que é o intervalo; as duas protagonistas precisam trocar de figurino e hidratar a garganta, enquanto o público também descansa.\n\nPara iniciar a missão, fale com o NPC Mestre do Jardim de Pera em 159,583(100).",
+          "instruction_pt_br": "Após algumas cenas, Yunque’er e Qiao’er deixam o palco. O diretor explica que é o intervalo; as duas protagonistas precisam trocar de figurino e hidratar a garganta, enquanto o público também descansa. Para iniciar a missão, fale com o NPC Mestre do Jardim de Pera em 159,583(100).",
           "npc": "Mestre do Jardim de Pera",
           "coords": [
             {
@@ -388,7 +1366,7 @@
           "id": "step-16-monólogo",
           "order": 16,
           "title_pt_br": "Monólogo",
-          "instruction_pt_br": "Muito rapidamente, a peça chegou ao seu ato final; era para estar prestes a atingir o clímax, com Yuchan preparando-se para vestir sua armadura e entrar em cena, despedindo-se de seu amado Guan Chuan fora das muralhas da cidade, onde ele fincaria sua lança como juramento e os dois se uniriam em casamento sob o céu e a terra. No entanto, nesse momento, Yuchan — que deveria retornar ao palco já trocada — desapareceu sem deixar rastros, e Yunque’er, no papel de Guan Chuan, acabou cantando sozinha toda a cena como um monólogo.\n\nPara iniciar a missão, fale com o NPC Mestre do Jardim de Pera em 159,583(100).",
+          "instruction_pt_br": "Muito rapidamente, a peça chegou ao seu ato final; era para estar prestes a atingir o clímax, com Yuchan preparando-se para vestir sua armadura e entrar em cena, despedindo-se de seu amado Guan Chuan fora das muralhas da cidade, onde ele fincaria sua lança como juramento e os dois se uniriam em casamento sob o céu e a terra. No entanto, nesse momento, Yuchan — que deveria retornar ao palco já trocada — desapareceu sem deixar rastros, e Yunque’er, no papel de Guan Chuan, acabou cantando sozinha toda a cena como um monólogo. Para iniciar a missão, fale com o NPC Mestre do Jardim de Pera em 159,583(100).",
           "npc": "Mestre do Jardim de Pera",
           "coords": [
             {
@@ -404,7 +1382,7 @@
           "id": "step-17-sob-o-véu-da-escuridão",
           "order": 17,
           "title_pt_br": "Sob o Véu da Escuridão",
-          "instruction_pt_br": "De repente, todas as velas do teatro se apagam. Em meio ao tumulto e à confusão, o diretor ordena que reacendam as luzes.\n\nEssa missão será concluída automaticamente.",
+          "instruction_pt_br": "De repente, todas as velas do teatro se apagam. Em meio ao tumulto e à confusão, o diretor ordena que reacendam as luzes. Essa missão será concluída automaticamente.",
           "npc": null,
           "coords": [],
           "dialog_hint": null,
@@ -414,7 +1392,7 @@
           "id": "step-18-corpo-no-palco",
           "order": 18,
           "title_pt_br": "Corpo no Palco",
-          "instruction_pt_br": "No instante em que a luz retorna, você vê o segundo jovem senhor da Família Zhu caído morto diante de seus olhos.\n\nEssa missão será concluída automaticamente.",
+          "instruction_pt_br": "No instante em que a luz retorna, você vê o segundo jovem senhor da Família Zhu caído morto diante de seus olhos. Essa missão será concluída automaticamente.",
           "npc": null,
           "coords": [],
           "dialog_hint": null,
@@ -424,7 +1402,7 @@
           "id": "step-19-inspeção-da-cena",
           "order": 19,
           "title_pt_br": "Inspeção da Cena",
-          "instruction_pt_br": "Examine a cena no Jardim de Pera e converse com os presentes para identificar possíveis suspeitas.\n\nFale com NPCs e cave onde for preciso para completar os 10 registros da investigação.\n\n- Corpo no chão – 158,584(100)\n- Adaga no chão – 158,584(100)\n- Mestre do Jardim de Pera – 158,584(100)\n- Zhu Peitong – 158,584(100)\n- Zhu Wan – 158,584(100)\n- Comerciante de Tintas Ji Hao – 161,584(100)\n- Administradora Liu – 160,590(100)\n- Yanzi – 160,591(100)\n- Barqueiro que Assiste à Ópera – 163,585(100)\n- Lanterna em frente à escada – 158,582(100) – Ative o Voo do seu personagem se não conseguir cavar",
+          "instruction_pt_br": "Examine a cena no Jardim de Pera e converse com os presentes para identificar possíveis suspeitas. Fale com NPCs e cave onde for preciso para completar os 10 registros da investigação. - Corpo no chão – 158,584(100)\n- Adaga no chão – 158,584(100)\n- Mestre do Jardim de Pera – 158,584(100)\n- Zhu Peitong – 158,584(100)\n- Zhu Wan – 158,584(100)\n- Comerciante de Tintas Ji Hao – 161,584(100)\n- Administradora Liu – 160,590(100)\n- Yanzi – 160,591(100)\n- Barqueiro que Assiste à Ópera – 163,585(100)\n- Lanterna em frente à escada – 158,582(100) – Ative o Voo do seu personagem se não conseguir cavar",
           "npc": null,
           "coords": [
             {
@@ -465,7 +1443,7 @@
           "id": "step-20-a-cigarra-desaparecida",
           "order": 20,
           "title_pt_br": "A Cigarra Desaparecida",
-          "instruction_pt_br": "Após examinar o local, nada de evidente é encontrado. Você então se lembra de Qiao’er, que está desaparecida. Talvez haja alguma ligação. Olha para Yunque’er no palco e decide questioná-la.\n\nPara concluir a missão, fale com o NPC Yunque’er em 155,586(100).",
+          "instruction_pt_br": "Após examinar o local, nada de evidente é encontrado. Você então se lembra de Qiao’er, que está desaparecida. Talvez haja alguma ligação. Olha para Yunque’er no palco e decide questioná-la. Para concluir a missão, fale com o NPC Yunque’er em 155,586(100).",
           "npc": "Yunque’er",
           "coords": [
             {
@@ -481,7 +1459,7 @@
           "id": "step-21-camarim",
           "order": 21,
           "title_pt_br": "Camarim",
-          "instruction_pt_br": "Vocês seguem até o camarim. Qiao’er está desacordada em uma cadeira. Zhu Zhao suspeita que ela esteja fingindo, mas Zhu Wan examina e confirma que ela ingeriu um sedativo. Provavelmente foi drogada enquanto bebia chá para hidratar a garganta.\n\nApós iniciar esta missão, vá até 155,574(100) e fale com o NPC Zhu Zhao.\n\nEm seguida, pegue a xícara sobre a mesa em 155,573(100) e entregue-a a Zhu Wan, que entende de medicina e farmacologia, para examinar., depois conclua a missão falando com o NPC Zhu Wan.",
+          "instruction_pt_br": "Vocês seguem até o camarim. Qiao’er está desacordada em uma cadeira. Zhu Zhao suspeita que ela esteja fingindo, mas Zhu Wan examina e confirma que ela ingeriu um sedativo. Provavelmente foi drogada enquanto bebia chá para hidratar a garganta. Após iniciar esta missão, vá até 155,574(100) e fale com o NPC Zhu Zhao. Em seguida, pegue a xícara sobre a mesa em 155,573(100) e entregue-a a Zhu Wan, que entende de medicina e farmacologia, para examinar., depois conclua a missão falando com o NPC Zhu Wan.",
           "npc": null,
           "coords": [
             {
@@ -502,7 +1480,7 @@
           "id": "step-22-suspeita",
           "order": 22,
           "title_pt_br": "Suspeita",
-          "instruction_pt_br": "Durante a conversa, Zhu Peitong chega com seus homens e, sem explicações, leva Qiao’er como suspeita. Você tenta impedir, mas ele diz para não se envolver nos assuntos da família.\n\nPara concluir a missão, fale com o NPC Zhu Peitong em 155,575(100).",
+          "instruction_pt_br": "Durante a conversa, Zhu Peitong chega com seus homens e, sem explicações, leva Qiao’er como suspeita. Você tenta impedir, mas ele diz para não se envolver nos assuntos da família. Para concluir a missão, fale com o NPC Zhu Peitong em 155,575(100).",
           "npc": "Zhu Peitong",
           "coords": [
             {
@@ -518,7 +1496,7 @@
           "id": "step-23-interdição",
           "order": 23,
           "title_pt_br": "Interdição",
-          "instruction_pt_br": "Ao retornar ao Jardim de Pera, você descobre que o local foi interditado. O corpo de Zhuzhi foi levado pela Família Zhu, e Yunque’er desapareceu. O diretor informa que, ao ver Qiao’er ser levada como suspeita, Yunque’er ficou aflita e foi secretamente à Montanha Chiwu para tentar resgatá-la. Você suspira, achando-a impulsiva demais, e decide partir para a montanha em busca da verdade.\n\nApós iniciar esta missão, vá até 157,585(100), depois conclua a missão falando com o NPC Mestre do Jardim de Pera em 158,584(100).",
+          "instruction_pt_br": "Ao retornar ao Jardim de Pera, você descobre que o local foi interditado. O corpo de Zhuzhi foi levado pela Família Zhu, e Yunque’er desapareceu. O diretor informa que, ao ver Qiao’er ser levada como suspeita, Yunque’er ficou aflita e foi secretamente à Montanha Chiwu para tentar resgatá-la. Você suspira, achando-a impulsiva demais, e decide partir para a montanha em busca da verdade. Após iniciar esta missão, vá até 157,585(100), depois conclua a missão falando com o NPC Mestre do Jardim de Pera em 158,584(100).",
           "npc": "Mestre do Jardim de Pera",
           "coords": [
             {
@@ -539,7 +1517,7 @@
           "id": "step-24-segredos-ocultos",
           "order": 24,
           "title_pt_br": "Segredos Ocultos",
-          "instruction_pt_br": "Quando está prestes a sair, encontra a administradora do teatro à porta. Parece que ela o aguardava há algum tempo...\n\nApós iniciar esta missão, vá até 167,586(100), depois conclua a missão falando com o NPC Administradora Liu em 168,587(100).\n\nAo concluir a missão, será invocado um Baú Dourado.",
+          "instruction_pt_br": "Quando está prestes a sair, encontra a administradora do teatro à porta. Parece que ela o aguardava há algum tempo... Após iniciar esta missão, vá até 167,586(100), depois conclua a missão falando com o NPC Administradora Liu em 168,587(100). Ao concluir a missão, será invocado um Baú Dourado.",
           "npc": "Administradora Liu",
           "coords": [
             {
@@ -560,7 +1538,7 @@
           "id": "step-25-esplendor-dos-bordos-rubros",
           "order": 25,
           "title_pt_br": "Esplendor dos Bordos Rubros",
-          "instruction_pt_br": "Ao deixar o Jardim de Pera, o que vê diante de si é a montanha coberta por bordos vermelhos...\n\nApós iniciar esta missão, vá até 181,575(100) e Registre a paisagem da Montanha Chiwu, clicando sobre o ícone da “Câmera” na paisagem que será exibida.",
+          "instruction_pt_br": "Ao deixar o Jardim de Pera, o que vê diante de si é a montanha coberta por bordos vermelhos... Após iniciar esta missão, vá até 181,575(100) e Registre a paisagem da Montanha Chiwu, clicando sobre o ícone da “Câmera” na paisagem que será exibida.",
           "npc": null,
           "coords": [
             {
@@ -576,7 +1554,7 @@
           "id": "step-26-buscando-informações",
           "order": 26,
           "title_pt_br": "Buscando Informações",
-          "instruction_pt_br": "Passeie pela montanha...\n\nApós iniciar esta missão, vá até 198,576(103), depois conclua a missão falando com o NPC Vendedor Ambulante em 198,581(103).",
+          "instruction_pt_br": "Passeie pela montanha... Após iniciar esta missão, vá até 198,576(103), depois conclua a missão falando com o NPC Vendedor Ambulante em 198,581(103).",
           "npc": "Vendedor Ambulante",
           "coords": [
             {
@@ -597,7 +1575,7 @@
           "id": "step-27-jardim-shuo",
           "order": 27,
           "title_pt_br": "Jardim Shuo",
-          "instruction_pt_br": "Segundo os moradores da Montanha Chiwu, você encontra o Jardim Shuo, onde Zhu Zhi vivia.\n\nApós iniciar esta missão, vá até 210,561(109), em seguida até 213,561(109), depois ao lado do assento principal há duas placas posicionadas uma de frente para a outra, cave a placa à esquerda, depois a placa à direita.",
+          "instruction_pt_br": "Segundo os moradores da Montanha Chiwu, você encontra o Jardim Shuo, onde Zhu Zhi vivia. Após iniciar esta missão, vá até 210,561(109), em seguida até 213,561(109), depois ao lado do assento principal há duas placas posicionadas uma de frente para a outra, cave a placa à esquerda, depois a placa à direita.",
           "npc": null,
           "coords": [
             {
@@ -618,7 +1596,7 @@
           "id": "step-28-cabeça-de-fera",
           "order": 28,
           "title_pt_br": "Cabeça de Fera",
-          "instruction_pt_br": "Ao acionar algum mecanismo desconhecido, uma estátua com cabeça de fera surge diante de você...\n\nCave a cabeça em 214,562(109).",
+          "instruction_pt_br": "Ao acionar algum mecanismo desconhecido, uma estátua com cabeça de fera surge diante de você... Cave a cabeça em 214,562(109).",
           "npc": null,
           "coords": [
             {
@@ -634,7 +1612,7 @@
           "id": "step-29-passagem-secreta",
           "order": 29,
           "title_pt_br": "Passagem Secreta",
-          "instruction_pt_br": "O chão junto à parede se abre, revelando uma passagem secreta. Após hesitar por um momento, você decide explorá-la.\n\nVá até 213,563(109) e entre pela passagem secreta que se abriu. Desça as escadas até 211,563(106), em seguida vá até 213,572(104). Vá até 212,571(108) e a missão será concluída teleportando o personagem.",
+          "instruction_pt_br": "O chão junto à parede se abre, revelando uma passagem secreta. Após hesitar por um momento, você decide explorá-la. Vá até 213,563(109) e entre pela passagem secreta que se abriu. Desça as escadas até 211,563(106), em seguida vá até 213,572(104). Vá até 212,571(108) e a missão será concluída teleportando o personagem.",
           "npc": null,
           "coords": [
             {
@@ -665,7 +1643,7 @@
           "id": "step-30-pavilhão-feiyan",
           "order": 30,
           "title_pt_br": "Pavilhão Feiyan",
-          "instruction_pt_br": "Para sua surpresa, a passagem leva a outro quarto... Enquanto tenta se orientar, ouve uma leve tosse.\n\nEsta missão será concluída automaticamente.",
+          "instruction_pt_br": "Para sua surpresa, a passagem leva a outro quarto... Enquanto tenta se orientar, ouve uma leve tosse. Esta missão será concluída automaticamente.",
           "npc": null,
           "coords": [],
           "dialog_hint": null,
@@ -675,7 +1653,7 @@
           "id": "step-31-zhu-wan",
           "order": 31,
           "title_pt_br": "Zhu Wan",
-          "instruction_pt_br": "Só então percebe que Zhu Wan está parada no canto. Temendo um mal-entendido, você se apressa em explicar.\n\nPara iniciar a missão, fale com o NPC Zhu Wan em 212,568(109).",
+          "instruction_pt_br": "Só então percebe que Zhu Wan está parada no canto. Temendo um mal-entendido, você se apressa em explicar. Para iniciar a missão, fale com o NPC Zhu Wan em 212,568(109).",
           "npc": "Zhu Wan",
           "coords": [
             {
@@ -691,7 +1669,7 @@
           "id": "step-32-irmãos",
           "order": 32,
           "title_pt_br": "Irmãos",
-          "instruction_pt_br": "Vendo que Zhu Wan não pretende insistir no assunto, você a questiona abertamente sobre suas intenções no Jardim de Pera naquele dia. Ela, porém, desvia o tema e conduz a conversa para outro rumo...\n\nPara iniciar a missão, fale com o NPC Zhu Wan em 212,568(109).",
+          "instruction_pt_br": "Vendo que Zhu Wan não pretende insistir no assunto, você a questiona abertamente sobre suas intenções no Jardim de Pera naquele dia. Ela, porém, desvia o tema e conduz a conversa para outro rumo... Para iniciar a missão, fale com o NPC Zhu Wan em 212,568(109).",
           "npc": "Zhu Wan",
           "coords": [
             {
@@ -707,7 +1685,7 @@
           "id": "step-33-residência-guizang",
           "order": 33,
           "title_pt_br": "Residência Guizang",
-          "instruction_pt_br": "Segundo Zhu Wan, pode haver mais pistas na residência de Zhu Peitong e Gong Jinghua. Você decide ir até a Residência Guizang.\n\nVá até 226,564(117) para concluir a missão.",
+          "instruction_pt_br": "Segundo Zhu Wan, pode haver mais pistas na residência de Zhu Peitong e Gong Jinghua. Você decide ir até a Residência Guizang. Vá até 226,564(117) para concluir a missão.",
           "npc": null,
           "coords": [
             {
@@ -723,7 +1701,7 @@
           "id": "step-34-a-escultura-na-mesa",
           "order": 34,
           "title_pt_br": "A Escultura na Mesa",
-          "instruction_pt_br": "Na mesa da Residência Guizang, encontre a escultura de madeira mencionada por Zhu Wan e abra o pequeno cadeado nela. Segundo Zhu Wan, o cadeado de combinação de hoje foi ajustado para a data de seu aniversário, ou seja, oitavo dia do décimo mês.\n\nVá até 227,562(117) e cave a escultura na mesa, quando solicitar a senha, informe 1008.",
+          "instruction_pt_br": "Na mesa da Residência Guizang, encontre a escultura de madeira mencionada por Zhu Wan e abra o pequeno cadeado nela. Segundo Zhu Wan, o cadeado de combinação de hoje foi ajustado para a data de seu aniversário, ou seja, oitavo dia do décimo mês. Vá até 227,562(117) e cave a escultura na mesa, quando solicitar a senha, informe 1008.",
           "npc": null,
           "coords": [
             {
@@ -739,7 +1717,7 @@
           "id": "step-35-as-cabeças-de-fera",
           "order": 35,
           "title_pt_br": "As Cabeças de Fera",
-          "instruction_pt_br": "Dentro da Residência Guizang, após ativar o mecanismo, você encontra duas estátuas com cabeça de fera. Ao girá-las, uma passagem secreta se revela.\n\nAgora ative o Voo e cave as duas Cabeças em 227,566(117).",
+          "instruction_pt_br": "Dentro da Residência Guizang, após ativar o mecanismo, você encontra duas estátuas com cabeça de fera. Ao girá-las, uma passagem secreta se revela. Agora ative o Voo e cave as duas Cabeças em 227,566(117).",
           "npc": null,
           "coords": [
             {
@@ -755,7 +1733,7 @@
           "id": "step-36-visitantes-inesperados",
           "order": 36,
           "title_pt_br": "Visitantes Inesperados",
-          "instruction_pt_br": "Antes que consiga descer pela passagem, vozes são ouvidas do lado de fora.\n\nEssa missão será concluída automaticamente.",
+          "instruction_pt_br": "Antes que consiga descer pela passagem, vozes são ouvidas do lado de fora. Essa missão será concluída automaticamente.",
           "npc": null,
           "coords": [],
           "dialog_hint": null,
@@ -765,7 +1743,7 @@
           "id": "step-37-esconder-se",
           "order": 37,
           "title_pt_br": "Esconder-se",
-          "instruction_pt_br": "Sem tempo para se esconder adequadamente, você salta para dentro da passagem secreta.\n\nEntre na passagem secreta em 229,566(117), e vá até 228,564(112).",
+          "instruction_pt_br": "Sem tempo para se esconder adequadamente, você salta para dentro da passagem secreta. Entre na passagem secreta em 229,566(117), e vá até 228,564(112).",
           "npc": null,
           "coords": [
             {
@@ -786,7 +1764,7 @@
           "id": "step-38-flagrado-em-pleno-ato",
           "order": 38,
           "title_pt_br": "Flagrado em Pleno Ato",
-          "instruction_pt_br": "Você é surpreendido por Zhu Peitong, e o administrador da família o convida “educadamente” para dentro do quarto.\n\nPara iniciar a missão, fale com o NPC Administrador da Residência Zhu em 230,565(112).",
+          "instruction_pt_br": "Você é surpreendido por Zhu Peitong, e o administrador da família o convida “educadamente” para dentro do quarto. Para iniciar a missão, fale com o NPC Administrador da Residência Zhu em 230,565(112).",
           "npc": "Administrador da Residência Zhu",
           "coords": [
             {
@@ -802,7 +1780,7 @@
           "id": "step-39-porta-fechada",
           "order": 39,
           "title_pt_br": "Porta Fechada",
-          "instruction_pt_br": "Zhu Peitong o adverte a não se envolver mais nos assuntos da Família Zhu. Você não tem escolha a não ser se retirar.\n\nPara iniciar a missão, fale com o NPC Zhu Peitong em 228,563(117).\n\nVá até 225,564(117) para concluir a missão.",
+          "instruction_pt_br": "Zhu Peitong o adverte a não se envolver mais nos assuntos da Família Zhu. Você não tem escolha a não ser se retirar. Para iniciar a missão, fale com o NPC Zhu Peitong em 228,563(117). Vá até 225,564(117) para concluir a missão.",
           "npc": "Zhu Peitong",
           "coords": [
             {
@@ -823,7 +1801,7 @@
           "id": "step-40-convite-aceito",
           "order": 40,
           "title_pt_br": "Convite Aceito",
-          "instruction_pt_br": "Ao sair contrariado da Residência Guizang, o primogênito da Família Zhu, Zhu Zhao, chega às pressas. Ele diz que, já que você veio de longe e tiveram a oportunidade de se conhecer, gostaria de convidá-lo ao Pavilhão Changliu para uma conversa.\n\nPara iniciar a missão, fale com o NPC Zhu Zhao em 225,565(117).",
+          "instruction_pt_br": "Ao sair contrariado da Residência Guizang, o primogênito da Família Zhu, Zhu Zhao, chega às pressas. Ele diz que, já que você veio de longe e tiveram a oportunidade de se conhecer, gostaria de convidá-lo ao Pavilhão Changliu para uma conversa. Para iniciar a missão, fale com o NPC Zhu Zhao em 225,565(117).",
           "npc": "Zhu Zhao",
           "coords": [
             {
@@ -839,7 +1817,7 @@
           "id": "step-41-pavilhão-changliu",
           "order": 41,
           "title_pt_br": "Pavilhão Changliu",
-          "instruction_pt_br": "Ir ao Pavilhão Changliu.\n\nVá até 204,564(106) para concluir a missão.",
+          "instruction_pt_br": "Ir ao Pavilhão Changliu. Vá até 204,564(106) para concluir a missão.",
           "npc": null,
           "coords": [
             {
@@ -855,7 +1833,7 @@
           "id": "step-42-histórias-do-passado",
           "order": 42,
           "title_pt_br": "Histórias do Passado",
-          "instruction_pt_br": "Zhu Zhao conversa com você com naturalidade, aparentando ser gentil e confiável. Durante o diálogo, você obtém mais informações...\n\nPara iniciar a missão, fale com o NPC Zhu Zhao em 206,564(106).",
+          "instruction_pt_br": "Zhu Zhao conversa com você com naturalidade, aparentando ser gentil e confiável. Durante o diálogo, você obtém mais informações... Para iniciar a missão, fale com o NPC Zhu Zhao em 206,564(106).",
           "npc": "Zhu Zhao",
           "coords": [
             {
@@ -871,7 +1849,7 @@
           "id": "step-43-sobre-a-montanha-chiwu",
           "order": 43,
           "title_pt_br": "Sobre a Montanha Chiwu",
-          "instruction_pt_br": "Você obtém de Zhu Zhao diversas informações sobre os moradores da montanha.\n\nPara iniciar a missão, fale com o NPC Zhu Zhao em 206,564(106).",
+          "instruction_pt_br": "Você obtém de Zhu Zhao diversas informações sobre os moradores da montanha. Para iniciar a missão, fale com o NPC Zhu Zhao em 206,564(106).",
           "npc": "Zhu Zhao",
           "coords": [
             {
@@ -887,7 +1865,7 @@
           "id": "step-44-investigação-solitária",
           "order": 44,
           "title_pt_br": "Investigação Solitária",
-          "instruction_pt_br": "Após uma longa busca, pode-se dizer que você não encontrou praticamente nada. Ainda assim, não desanima. Está decidido a revirar a Montanha Chiwu de ponta-cabeça se for preciso, até encontrar o paradeiro de Yunque’er e Qiao’er. Como Zhu Peitong já começou a desconfiar de você, decide não agir de forma precipitada e passa a sondar discretamente os moradores da montanha.\n\nInvestigue os seguintes locais:\n\n- Entregador – 189,576(100)\n- Xiu Lan em 193,552(102)\n- Tia Li – 209,533(103) -> 216,587(113) -> 220,587(113) e cave o incenso\n- 216,543(109) -> Criança em 218,539(109)\n- Shunzi – 234,521(100)\n\nApós coletar todas as pistas, a missão será concluída automaticamente.",
+          "instruction_pt_br": "Após uma longa busca, pode-se dizer que você não encontrou praticamente nada. Ainda assim, não desanima. Está decidido a revirar a Montanha Chiwu de ponta-cabeça se for preciso, até encontrar o paradeiro de Yunque’er e Qiao’er. Como Zhu Peitong já começou a desconfiar de você, decide não agir de forma precipitada e passa a sondar discretamente os moradores da montanha. Investigue os seguintes locais: - Entregador – 189,576(100)\n- Xiu Lan em 193,552(102)\n- Tia Li – 209,533(103) -> 216,587(113) -> 220,587(113) e cave o incenso\n- 216,543(109) -> Criança em 218,539(109)\n- Shunzi – 234,521(100) Após coletar todas as pistas, a missão será concluída automaticamente.",
           "npc": null,
           "coords": [
             {
@@ -938,7 +1916,7 @@
           "id": "step-45-estalagem-luz-dos-pescadores",
           "order": 45,
           "title_pt_br": "Estalagem Luz dos Pescadores",
-          "instruction_pt_br": "Ao cair da noite, você realmente encontra Ning Yingying ao lado de um barco de pesca. Ela está recepcionando os clientes com entusiasmo, você se apresenta e conversa um pouco. O horário de funcionamento da Taverna Luz de Pesca é das 19h às 8h. Vá até lá à noite para encontrar a proprietária Ning, no horário de Pangu. Você pode conferir o horário de Pangu através da página Estado dos Servidores.\n\nPara concluir a missão, fale com o NPC Ning Yingying em 182,583(99).",
+          "instruction_pt_br": "Ao cair da noite, você realmente encontra Ning Yingying ao lado de um barco de pesca. Ela está recepcionando os clientes com entusiasmo, você se apresenta e conversa um pouco. O horário de funcionamento da Taverna Luz de Pesca é das 19h às 8h. Vá até lá à noite para encontrar a proprietária Ning, no horário de Pangu. Você pode conferir o horário de Pangu através da página Estado dos Servidores. Para concluir a missão, fale com o NPC Ning Yingying em 182,583(99).",
           "npc": "Ning Yingying",
           "coords": [
             {
@@ -954,7 +1932,7 @@
           "id": "step-46-encontro",
           "order": 46,
           "title_pt_br": "Encontro",
-          "instruction_pt_br": "Por acaso, você avista Yunque’er ali perto…\n\nA missão será concluída automaticamente.",
+          "instruction_pt_br": "Por acaso, você avista Yunque’er ali perto… A missão será concluída automaticamente.",
           "npc": null,
           "coords": [],
           "dialog_hint": null,
@@ -964,7 +1942,7 @@
           "id": "step-47-informações-valiosas",
           "order": 47,
           "title_pt_br": "Informações Valiosas",
-          "instruction_pt_br": "Yunque’er conta que esteve escondida pela montanha procurando por Qiao’er, mas não a encontrou, e por isso veio pedir ajuda a Ning Yingying. Bem informada, Ning Yingying ouviu de um cliente bêbado que a Família Zhu cultua um tal “Deus da Montanha”. Dizem que é uma entidade sinistra, jamais mostrada ao público, sendo venerada apenas na residência ancestral durante reuniões familiares.\n\nPara iniciar a missão, fale com o NPC Yunque’er em 180,583(100).\n\nPara concluir a missão, fale com o NPC Ning Yingying em 182,583(99).",
+          "instruction_pt_br": "Yunque’er conta que esteve escondida pela montanha procurando por Qiao’er, mas não a encontrou, e por isso veio pedir ajuda a Ning Yingying. Bem informada, Ning Yingying ouviu de um cliente bêbado que a Família Zhu cultua um tal “Deus da Montanha”. Dizem que é uma entidade sinistra, jamais mostrada ao público, sendo venerada apenas na residência ancestral durante reuniões familiares. Para iniciar a missão, fale com o NPC Yunque’er em 180,583(100). Para concluir a missão, fale com o NPC Ning Yingying em 182,583(99).",
           "npc": "Yunque’er",
           "coords": [
             {
@@ -985,7 +1963,7 @@
           "id": "step-48-convencendo",
           "order": 48,
           "title_pt_br": "Convencendo",
-          "instruction_pt_br": "Você percebe que há algo obscuro ali e decide investigar. Yunque’er insiste em ir no seu lugar para não colocá-lo em risco, mas você a convence de que seria perigoso para ela. Após muita insistência, ela concorda em ficar.\n\nPara iniciar a missão, fale com o NPC Yunque’er em 180,583(100).",
+          "instruction_pt_br": "Você percebe que há algo obscuro ali e decide investigar. Yunque’er insiste em ir no seu lugar para não colocá-lo em risco, mas você a convence de que seria perigoso para ela. Após muita insistência, ela concorda em ficar. Para iniciar a missão, fale com o NPC Yunque’er em 180,583(100).",
           "npc": "Yunque’er",
           "coords": [
             {
@@ -1001,7 +1979,7 @@
           "id": "step-49-residência-da-família-qu",
           "order": 49,
           "title_pt_br": "Residência da Família Qu",
-          "instruction_pt_br": "Ir até a residência ancestral.\n\nVá até a coordenada 238,566(122)",
+          "instruction_pt_br": "Ir até a residência ancestral. Vá até a coordenada 238,566(122)",
           "npc": null,
           "coords": [
             {
@@ -1027,7 +2005,7 @@
           "id": "step-51-descer-pelo-túnel",
           "order": 51,
           "title_pt_br": "Descer pelo Túnel",
-          "instruction_pt_br": "Caminhe até o fim do túnel sob a Residência Zhu.\n\nCave a cabeça em 240,566(122).",
+          "instruction_pt_br": "Caminhe até o fim do túnel sob a Residência Zhu. Cave a cabeça em 240,566(122).",
           "npc": null,
           "coords": [
             {
@@ -1043,7 +2021,7 @@
           "id": "step-52-descer-pelo-túnel",
           "order": 52,
           "title_pt_br": "Descer pelo Túnel",
-          "instruction_pt_br": "Caminhe até o fim do túnel sob a Residência Zhu.\n\nVá até a coordenada 240,568(121) passando pela passagem secreta, depois siga até 240,566(117).",
+          "instruction_pt_br": "Caminhe até o fim do túnel sob a Residência Zhu. Vá até a coordenada 240,568(121) passando pela passagem secreta, depois siga até 240,566(117).",
           "npc": null,
           "coords": [
             {
@@ -1064,7 +2042,7 @@
           "id": "step-53-derrotar-os-guardas",
           "order": 53,
           "title_pt_br": "Derrotar os Guardas",
-          "instruction_pt_br": "Você chega à câmara de sacrifício do Deus da Montanha e vê que Qiao’er realmente está ali, com manchas de sangue no corpo. Você derrota os guardas que a vigiavam e a leva dali.\n\nVocê precisa derrotar: Guarda da Família Zhu (×2). Se falhar, aborte a missão e começe de novo.",
+          "instruction_pt_br": "Você chega à câmara de sacrifício do Deus da Montanha e vê que Qiao’er realmente está ali, com manchas de sangue no corpo. Você derrota os guardas que a vigiavam e a leva dali. Você precisa derrotar: Guarda da Família Zhu (×2). Se falhar, aborte a missão e começe de novo.",
           "npc": null,
           "coords": [],
           "dialog_hint": null,
@@ -1074,7 +2052,7 @@
           "id": "step-54-resgate",
           "order": 54,
           "title_pt_br": "Resgate",
-          "instruction_pt_br": "Não há tempo a perder. Diga a Qiao’er para segui-lo de perto.\n\nPara iniciar a missão, fale com o NPC Qiao’er em 240,566(117).",
+          "instruction_pt_br": "Não há tempo a perder. Diga a Qiao’er para segui-lo de perto. Para iniciar a missão, fale com o NPC Qiao’er em 240,566(117).",
           "npc": "Qiao’er",
           "coords": [
             {
@@ -1090,7 +2068,7 @@
           "id": "step-55-fuga-na-calada-da-noite",
           "order": 55,
           "title_pt_br": "Fuga na Calada da Noite",
-          "instruction_pt_br": "Após escapar e se esquivar de perseguições, vocês retornam em segurança à Estalagem Luz dos Pescadores.\n\nVá até a coordenada 181,583(100) para concluir a missão.",
+          "instruction_pt_br": "Após escapar e se esquivar de perseguições, vocês retornam em segurança à Estalagem Luz dos Pescadores. Vá até a coordenada 181,583(100) para concluir a missão.",
           "npc": null,
           "coords": [
             {
@@ -1106,7 +2084,7 @@
           "id": "step-56-evitar-a-tempestade",
           "order": 56,
           "title_pt_br": "Evitar a Tempestade",
-          "instruction_pt_br": "Ao ver Qiao’er a salvo, Yunque’er chora de alívio. Depois de questionar Qiao’er sobre o ocorrido, você decide escoltá-las até a Cidade da Paz Eterna para evitar problemas. Yunquer concorda, profundamente emocionada.\n\nPara iniciar a missão, fale com o NPC Yunque’er em 181,583(100).\n\nPara concluir a missão, fale com o NPC Qiao’er em 181,583(100).",
+          "instruction_pt_br": "Ao ver Qiao’er a salvo, Yunque’er chora de alívio. Depois de questionar Qiao’er sobre o ocorrido, você decide escoltá-las até a Cidade da Paz Eterna para evitar problemas. Yunquer concorda, profundamente emocionada. Para iniciar a missão, fale com o NPC Yunque’er em 181,583(100). Para concluir a missão, fale com o NPC Qiao’er em 181,583(100).",
           "npc": "Yunque’er",
           "coords": [
             {
@@ -1122,7 +2100,7 @@
           "id": "step-57-despedida",
           "order": 57,
           "title_pt_br": "Despedida",
-          "instruction_pt_br": "Levá-las até a Cidade da Paz Eterna.\n\nVá até 165,405(69) e a missão será concluida automaticamente.",
+          "instruction_pt_br": "Levá-las até a Cidade da Paz Eterna. Vá até 165,405(69) e a missão será concluida automaticamente.",
           "npc": null,
           "coords": [
             {
@@ -1138,7 +2116,7 @@
           "id": "step-58-o-som-tardio-do-pipa",
           "order": 58,
           "title_pt_br": "O Som Tardio do Pipa",
-          "instruction_pt_br": "Você retorna à Estalagem Luz dos Pescadores para conversar com Ning Yingying e Du Ningyan. Descobre que Ning Yingying administra a estalagem desde os 15 anos. Durante viagens para comprar mercadorias, conheceu Du Ningyan, que estava sem lar. Tornaram-se amigas íntimas e passaram a trabalhar juntas ali.\n\nPara concluir a missão, fale com o NPC Ning Yingying em 182,583(99).",
+          "instruction_pt_br": "Você retorna à Estalagem Luz dos Pescadores para conversar com Ning Yingying e Du Ningyan. Descobre que Ning Yingying administra a estalagem desde os 15 anos. Durante viagens para comprar mercadorias, conheceu Du Ningyan, que estava sem lar. Tornaram-se amigas íntimas e passaram a trabalhar juntas ali. Para concluir a missão, fale com o NPC Ning Yingying em 182,583(99).",
           "npc": "Ning Yingying",
           "coords": [
             {
@@ -1154,7 +2132,7 @@
           "id": "step-59-residência-anexa",
           "order": 59,
           "title_pt_br": "Residência Anexa",
-          "instruction_pt_br": "Por meio de Du Ningyan, você descobre que a residência anexa de Zhu Peitong pode esconder segredos. Talvez ali haja pistas importantes.\n\nPara iniciar a missão, fale com o NPC Du Ningyan em 182,583(99).",
+          "instruction_pt_br": "Por meio de Du Ningyan, você descobre que a residência anexa de Zhu Peitong pode esconder segredos. Talvez ali haja pistas importantes. Para iniciar a missão, fale com o NPC Du Ningyan em 182,583(99).",
           "npc": "Du Ningyan",
           "coords": [
             {
@@ -1170,7 +2148,7 @@
           "id": "step-60-pavilhão-à-beira-do-riacho",
           "order": 60,
           "title_pt_br": "Pavilhão à Beira do Riacho",
-          "instruction_pt_br": "Vá ao Pavilhão à Beira do Riacho investigar.\n\nVá até 173,592(100) e a missão será concluída automaticamente.",
+          "instruction_pt_br": "Vá ao Pavilhão à Beira do Riacho investigar. Vá até 173,592(100) e a missão será concluída automaticamente.",
           "npc": null,
           "coords": [
             {
@@ -1186,7 +2164,7 @@
           "id": "step-61-intermediários-e-livros",
           "order": 61,
           "title_pt_br": "Intermediários e Livros",
-          "instruction_pt_br": "Procure e investigue dentro do Pavilhão à Beira do Riacho.\n\nColete as pistas em:\n\n- Baú – 169,590(100)\n- Baú – 169,591(100)\n- Baú – 169,591(101) no segundo andar\n- Vá até 169,594(100) e use a ação Refletir",
+          "instruction_pt_br": "Procure e investigue dentro do Pavilhão à Beira do Riacho. Colete as pistas em: - Baú – 169,590(100)\n- Baú – 169,591(100)\n- Baú – 169,591(101) no segundo andar\n- Vá até 169,594(100) e use a ação Refletir",
           "npc": null,
           "coords": [
             {
@@ -1217,7 +2195,7 @@
           "id": "step-62-mercadorias",
           "order": 62,
           "title_pt_br": "Mercadorias",
-          "instruction_pt_br": "Entregue os livros de contabilidade a Du Ningyan. Ela começa imediatamente a analisá-los e descobre que, anos atrás, houve um problema com um lote de “mercadorias”.\n\nPara concluir a missão, fale com o NPC Du Ningyan em 177,591(100).",
+          "instruction_pt_br": "Entregue os livros de contabilidade a Du Ningyan. Ela começa imediatamente a analisá-los e descobre que, anos atrás, houve um problema com um lote de “mercadorias”. Para concluir a missão, fale com o NPC Du Ningyan em 177,591(100).",
           "npc": "Du Ningyan",
           "coords": [
             {
@@ -1233,7 +2211,7 @@
           "id": "step-63-organizando-as-pistas",
           "order": 63,
           "title_pt_br": "Organizando as Pistas",
-          "instruction_pt_br": "Organize as pistas que possui no momento.\n\nEsta missão será concluída automaticamente.",
+          "instruction_pt_br": "Organize as pistas que possui no momento. Esta missão será concluída automaticamente.",
           "npc": null,
           "coords": [],
           "dialog_hint": null,
@@ -1243,7 +2221,7 @@
           "id": "step-64-prova-crucial",
           "order": 64,
           "title_pt_br": "Prova Crucial",
-          "instruction_pt_br": "Você descobre que o funeral de Zhu Zhi será realizado amanhã. Algo nisso parece estranho, mas você está exausto demais hoje. Melhor voltar ao Jardim de Pera para descansar.\n\nPara iniciar a missão, fale com o NPC Du Ningyan em 177,591(100).",
+          "instruction_pt_br": "Você descobre que o funeral de Zhu Zhi será realizado amanhã. Algo nisso parece estranho, mas você está exausto demais hoje. Melhor voltar ao Jardim de Pera para descansar. Para iniciar a missão, fale com o NPC Du Ningyan em 177,591(100).",
           "npc": "Du Ningyan",
           "coords": [
             {
@@ -1259,7 +2237,7 @@
           "id": "step-65-descanso-breve",
           "order": 65,
           "title_pt_br": "Descanso Breve",
-          "instruction_pt_br": "Uma noite se passa...\n\nEssa missão será concluída automaticamente e um Baú Dourado aparecerá.",
+          "instruction_pt_br": "Uma noite se passa... Essa missão será concluída automaticamente e um Baú Dourado aparecerá.",
           "npc": null,
           "coords": [],
           "dialog_hint": null,
@@ -1269,7 +2247,7 @@
           "id": "step-66-investigação-discreta",
           "order": 66,
           "title_pt_br": "Investigação Discreta",
-          "instruction_pt_br": "Quando o funeral de Zhu Zhi começa, você se aproxima discretamente do portão do salão ancestral da Família Zhu para tentar investigar.\n\nVá até 233,539(111) para concluir a missão.",
+          "instruction_pt_br": "Quando o funeral de Zhu Zhi começa, você se aproxima discretamente do portão do salão ancestral da Família Zhu para tentar investigar. Vá até 233,539(111) para concluir a missão.",
           "npc": null,
           "coords": [
             {
@@ -1285,7 +2263,7 @@
           "id": "step-67-retirada",
           "order": 67,
           "title_pt_br": "Retirada",
-          "instruction_pt_br": "Você é convidado a se retirar pelo administrador da Residência Zhu.\n\nPara iniciar a missão, fale com o NPC Administrador da Residência Zhu em 233,539(111).",
+          "instruction_pt_br": "Você é convidado a se retirar pelo administrador da Residência Zhu. Para iniciar a missão, fale com o NPC Administrador da Residência Zhu em 233,539(111).",
           "npc": "Administrador da Residência Zhu",
           "coords": [
             {
@@ -1301,7 +2279,7 @@
           "id": "step-68-vida-e-morte",
           "order": 68,
           "title_pt_br": "Vida e Morte",
-          "instruction_pt_br": "Um estrondo repentino...\n\nEsta missão será concluída automaticamente.",
+          "instruction_pt_br": "Um estrondo repentino... Esta missão será concluída automaticamente.",
           "npc": null,
           "coords": [],
           "dialog_hint": null,
@@ -1311,7 +2289,7 @@
           "id": "step-69-olhos-do-buda-não-veem",
           "order": 69,
           "title_pt_br": "Olhos do Buda Não Veem",
-          "instruction_pt_br": "Você corre ao local e encontra dois moradores da mina cochichando, repetindo que o céu tem olhos. Percebendo algo oculto em suas palavras, aproxima-se para perguntar.\n\nVá até 168,547(100) para concluir a missão.",
+          "instruction_pt_br": "Você corre ao local e encontra dois moradores da mina cochichando, repetindo que o céu tem olhos. Percebendo algo oculto em suas palavras, aproxima-se para perguntar. Vá até 168,547(100) para concluir a missão.",
           "npc": null,
           "coords": [
             {
@@ -1327,7 +2305,7 @@
           "id": "step-70-mina-de-linshi",
           "order": 70,
           "title_pt_br": "Mina de Linshi",
-          "instruction_pt_br": "Pelos moradores da mina, você descobre que no passado ocorreu um acidente no local, porém a Família Zhu nunca investigou a verdadeira causa. Após o incidente, a residência da mina passou a ser assombrada com frequência, então os moradores se mudaram espontaneamente para onde hoje fica a vila. Segundo os familiares dos mineiros que morreram, o acidente parece ter sido causado porque o Clã Zhu forçou os trabalhadores a extrair minério em áreas mais profundas, e aqueles minérios pareciam ter algo de anormal... Eles esperam que o caso ganhe repercussão, para que a verdade sobre a morte dos mineiros seja finalmente esclarecida.\n\nPara iniciar a missão, fale com o NPC Velho Xu em 167,545(101).…",
+          "instruction_pt_br": "Pelos moradores da mina, você descobre que no passado ocorreu um acidente no local, porém a Família Zhu nunca investigou a verdadeira causa. Após o incidente, a residência da mina passou a ser assombrada com frequência, então os moradores se mudaram espontaneamente para onde hoje fica a vila. Segundo os familiares dos mineiros que morreram, o acidente parece ter sido causado porque o Clã Zhu forçou os trabalhadores a extrair minério em áreas mais profundas, e aqueles minérios pareciam ter algo de anormal... Eles esperam que o caso ganhe repercussão, para que a verdade sobre a morte dos mineiros seja finalmente esclarecida. Para iniciar a missão, fale com o NPC Velho Xu em 167,545(101).…",
           "npc": "Velho Xu",
           "coords": [
             {
@@ -1343,7 +2321,7 @@
           "id": "step-71-examinar-a-parte-quebrada",
           "order": 71,
           "title_pt_br": "Examinar a Parte Quebrada",
-          "instruction_pt_br": "Vá até o topo da estátua de Buda para investigar.\n\nVá até a coordenada 155,542(111) para concluir a missão.",
+          "instruction_pt_br": "Vá até o topo da estátua de Buda para investigar. Vá até a coordenada 155,542(111) para concluir a missão.",
           "npc": null,
           "coords": [
             {
@@ -1359,7 +2337,7 @@
           "id": "step-72-o-culpado",
           "order": 72,
           "title_pt_br": "O Culpado?",
-          "instruction_pt_br": "Parece ter encontrado o culpado por derrubar a estátua?\n\nPara concluir a missão, fale com o NPC Da Yuan’er em 155,542(111).",
+          "instruction_pt_br": "Parece ter encontrado o culpado por derrubar a estátua? Para concluir a missão, fale com o NPC Da Yuan’er em 155,542(111).",
           "npc": "Da Yuan’er",
           "coords": [
             {
@@ -1375,7 +2353,7 @@
           "id": "step-73-rumo-à-entrada-da-mina",
           "order": 73,
           "title_pt_br": "Rumo à Entrada da Mina",
-          "instruction_pt_br": "Vá até a mina para investigar.\n\nVá até 166,523(109) para concluir a missão.",
+          "instruction_pt_br": "Vá até a mina para investigar. Vá até 166,523(109) para concluir a missão.",
           "npc": null,
           "coords": [
             {
@@ -1391,7 +2369,7 @@
           "id": "step-74-inspecionando-a-mina",
           "order": 74,
           "title_pt_br": "Inspecionando a Mina",
-          "instruction_pt_br": "Examine o interior da mina.\n\nApós iniciar esta missão, vá até 156,523(104), depois vá até 160,517(104), em seguida será solicitado uma que você colete uma Amostra de Pedra Linshi. Essas pedras estão espalhadas ao redor da mina, parecem cristais azuis, como na imagem abaixo.\n\nNem todas as pedras poderão ser coletadas. Procure as pedras cujo cursor do mouse muda quando você passa ele por cima da pedra.",
+          "instruction_pt_br": "Examine o interior da mina. Após iniciar esta missão, vá até 156,523(104), depois vá até 160,517(104), em seguida será solicitado uma que você colete uma Amostra de Pedra Linshi. Essas pedras estão espalhadas ao redor da mina, parecem cristais azuis, como na imagem abaixo. Nem todas as pedras poderão ser coletadas. Procure as pedras cujo cursor do mouse muda quando você passa ele por cima da pedra.",
           "npc": null,
           "coords": [
             {
@@ -1412,7 +2390,7 @@
           "id": "step-75-oficina-abandonada",
           "order": 75,
           "title_pt_br": "Oficina Abandonada",
-          "instruction_pt_br": "Visite a oficina e investigue a identidade da vítima que foi denunciada na época.\n\nApós iniciar esta missão, vá até o local indicado pela missão, depois Abrir as caixas empilhadas para dar uma olhada?, depois conclua a missão falando com o NPC Operário da Oficina.\n\nQuando a missão iniciar, vá até 178,539(100), em seguida cave as caixas que estão empilhadas em 176,536(100).\n\nConclua a missão falando com o NPC Operário da Oficina em 177,540(100).",
+          "instruction_pt_br": "Visite a oficina e investigue a identidade da vítima que foi denunciada na época. Após iniciar esta missão, vá até o local indicado pela missão, depois Abrir as caixas empilhadas para dar uma olhada?, depois conclua a missão falando com o NPC Operário da Oficina. Quando a missão iniciar, vá até 178,539(100), em seguida cave as caixas que estão empilhadas em 176,536(100). Conclua a missão falando com o NPC Operário da Oficina em 177,540(100).",
           "npc": "Operário da Oficina",
           "coords": [
             {
@@ -1438,7 +2416,7 @@
           "id": "step-76-antigos-acontecimentos",
           "order": 76,
           "title_pt_br": "Antigos Acontecimentos",
-          "instruction_pt_br": "Investigue pistas nas casas dos mineradores próximo à mina.\n\nInvestigue os antigos acontecimentos nas seguintes coordenadas:\n\n- Wang Xing – 184,528(100) -> Wei Guangyuan – 185,519(100)\n- Mulher Atarefada – 184,521(100)\n- Velinha – 190,521(100)\n- Chen Xiang – 189,524(100) -> Cave o cachorro em 189,525(100)\n- Vá até 201,516(100) e espere a missão “Marcas no Canto da Parede” iniciar -> Entre na casa e cave a parede do canto, em 203,517(100)",
+          "instruction_pt_br": "Investigue pistas nas casas dos mineradores próximo à mina. Investigue os antigos acontecimentos nas seguintes coordenadas: - Wang Xing – 184,528(100) -> Wei Guangyuan – 185,519(100)\n- Mulher Atarefada – 184,521(100)\n- Velinha – 190,521(100)\n- Chen Xiang – 189,524(100) -> Cave o cachorro em 189,525(100)\n- Vá até 201,516(100) e espere a missão “Marcas no Canto da Parede” iniciar -> Entre na casa e cave a parede do canto, em 203,517(100)",
           "npc": null,
           "coords": [
             {
@@ -1489,7 +2467,7 @@
           "id": "step-77-estranho-evento-no-cemitério",
           "order": 77,
           "title_pt_br": "Estranho Evento no Cemitério",
-          "instruction_pt_br": "Investigue o cemitério mencionado pelos mineiros.\n\nVá até 224,508(100) e a missão será concluída automaticamente.",
+          "instruction_pt_br": "Investigue o cemitério mencionado pelos mineiros. Vá até 224,508(100) e a missão será concluída automaticamente.",
           "npc": null,
           "coords": [
             {
@@ -1505,7 +2483,7 @@
           "id": "step-78-yunque-er",
           "order": 78,
           "title_pt_br": "Yunque’er?",
-          "instruction_pt_br": "Você encontra novamente Yunque’er, que deveria já ter ido embora.\n\nAguarde 5 segundos e a missão será concluída automaticamente.",
+          "instruction_pt_br": "Você encontra novamente Yunque’er, que deveria já ter ido embora. Aguarde 5 segundos e a missão será concluída automaticamente.",
           "npc": null,
           "coords": [],
           "dialog_hint": null,
@@ -1515,7 +2493,7 @@
           "id": "step-79-motivo-do-retorno",
           "order": 79,
           "title_pt_br": "Motivo do Retorno",
-          "instruction_pt_br": "Após uma breve conversa, vocês decidem mudar de lugar para falar.\n\nPara iniciar a missão, fale com o NPC Yunque’er em 226,510(100), em seguida a missão será concluída automaticamente.",
+          "instruction_pt_br": "Após uma breve conversa, vocês decidem mudar de lugar para falar. Para iniciar a missão, fale com o NPC Yunque’er em 226,510(100), em seguida a missão será concluída automaticamente.",
           "npc": "Yunque’er",
           "coords": [
             {
@@ -1531,7 +2509,7 @@
           "id": "step-80-rumo-ao-jardim-de-pera",
           "order": 80,
           "title_pt_br": "Rumo ao Jardim de Pera",
-          "instruction_pt_br": "Voltar ao Jardim de Pera.\n\nVá até 162,586(100) para completar a missão.",
+          "instruction_pt_br": "Voltar ao Jardim de Pera. Vá até 162,586(100) para completar a missão.",
           "npc": null,
           "coords": [
             {
@@ -1563,14 +2541,14 @@
       "coverage_status": "partial",
       "review_status": "foreign_reference",
       "origin": "community_observed",
-      "source_url": "https://triviapw.com.br/2026/05/19/origem-comum-do-preto-e-branco-guia-da-jornada/",
+      "source_url": null,
       "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
       "steps": [
         {
           "id": "step-01-risco-de-conflito",
           "order": 1,
           "title_pt_br": "Risco de Conflito",
-          "instruction_pt_br": "Na Cidade de Tianyu chegaram enviados do Palácio Imperial. O Senhor da Cidade informou que ainda estão lidando com as consequências da invasão dos espíritos rancorosos, e precisa que você, em nome deles, descubra a causa das recentes disputas entre os Alados e a situação atual. Na área onde reside o povo Asa Branca, haverá alguém para recebê-lo.\n\nPara iniciar a missão, fale com o NPC Chefe Sun Kuang em 197,758(135).\n\nPara concluir a missão, fale com o NPC Mensageiro Liao Hua em 197,757(135).",
+          "instruction_pt_br": "Na Cidade de Tianyu chegaram enviados do Palácio Imperial. O Senhor da Cidade informou que ainda estão lidando com as consequências da invasão dos espíritos rancorosos, e precisa que você, em nome deles, descubra a causa das recentes disputas entre os Alados e a situação atual. Na área onde reside o povo Asa Branca, haverá alguém para recebê-lo. Para iniciar a missão, fale com o NPC Chefe Sun Kuang em 197,758(135). Para concluir a missão, fale com o NPC Mensageiro Liao Hua em 197,757(135).",
           "npc": "Chefe Sun Kuang",
           "coords": [
             {
@@ -1591,7 +2569,7 @@
           "id": "step-02-ao-sul-de-tianyu",
           "order": 2,
           "title_pt_br": "Ao Sul de Tianyu",
-          "instruction_pt_br": "Seguindo as orientações do enviado da Mansão Po Ju, você chegou aos arredores da área onde vivem os Asa Branca, no sudeste de Tianyu. De repente, ouviu vagamente o choro de uma criança.\n\nVá até a coordenada 218,667(83) para concluir a missão.",
+          "instruction_pt_br": "Seguindo as orientações do enviado da Mansão Po Ju, você chegou aos arredores da área onde vivem os Asa Branca, no sudeste de Tianyu. De repente, ouviu vagamente o choro de uma criança. Vá até a coordenada 218,667(83) para concluir a missão.",
           "npc": null,
           "coords": [
             {
@@ -1607,7 +2585,7 @@
           "id": "step-03-floresta-sinistra",
           "order": 3,
           "title_pt_br": "Floresta Sinistra",
-          "instruction_pt_br": "Diante de você, havia um garoto com asas brancas nas costas. Ele tremia de medo ao olhar para a floresta sombria e as ruínas ao norte, claramente assustado.\n\nPara concluir a missão, fale com o NPC Selmi do Clã Asa Branca em 223,668(83).",
+          "instruction_pt_br": "Diante de você, havia um garoto com asas brancas nas costas. Ele tremia de medo ao olhar para a floresta sombria e as ruínas ao norte, claramente assustado. Para concluir a missão, fale com o NPC Selmi do Clã Asa Branca em 223,668(83).",
           "npc": "Selmi do Clã Asa Branca",
           "coords": [
             {
@@ -1623,7 +2601,7 @@
           "id": "step-04-acolhedor-e-amável",
           "order": 4,
           "title_pt_br": "Acolhedor e Amável",
-          "instruction_pt_br": "Embora o lugar seja perigoso, não dá para ignorar o estado da criança. Você precisa acalmá-la para conseguir mais informações.\n\nUse a ação Acenar, em seguida fale com o NPC Selmi do Clã Asa Branca em 223,668(83) para concluir a missão.",
+          "instruction_pt_br": "Embora o lugar seja perigoso, não dá para ignorar o estado da criança. Você precisa acalmá-la para conseguir mais informações. Use a ação Acenar, em seguida fale com o NPC Selmi do Clã Asa Branca em 223,668(83) para concluir a missão.",
           "npc": "Selmi do Clã Asa Branca",
           "coords": [
             {
@@ -1639,7 +2617,7 @@
           "id": "step-05-a-criança-perdida",
           "order": 5,
           "title_pt_br": "A Criança Perdida",
-          "instruction_pt_br": "A criança contou que é do povo Asa Branca. Com a tensão recente na cidade, ficou entediada e fugiu. Mas acabou se perdendo nesta floresta, ouvindo estranhos sons rastejantes. Agora, mais calma, já pode retornar à cidade.\n\nPara iniciar a missão, fale com o NPC Selmi do Clã Asa Branca em 223,668(83), em seguida vá até a coordenada 219,624(90) e conclua a missão falando com o NPC Selmi do Clã Asa Branca em 219,622(90).",
+          "instruction_pt_br": "A criança contou que é do povo Asa Branca. Com a tensão recente na cidade, ficou entediada e fugiu. Mas acabou se perdendo nesta floresta, ouvindo estranhos sons rastejantes. Agora, mais calma, já pode retornar à cidade. Para iniciar a missão, fale com o NPC Selmi do Clã Asa Branca em 223,668(83), em seguida vá até a coordenada 219,624(90) e conclua a missão falando com o NPC Selmi do Clã Asa Branca em 219,622(90).",
           "npc": "Selmi do Clã Asa Branca",
           "coords": [
             {
@@ -1665,7 +2643,7 @@
           "id": "step-06-hora-da-reunião",
           "order": 6,
           "title_pt_br": "Hora da Reunião",
-          "instruction_pt_br": "Um homem adulto agradeceu a você. Após se identificar, ele explicou que o ancião da tribo estava reunindo tropas para se preparar contra um possível conflito militar. O enviado da Mansão Po Ju também estava na cidade, junto do ancião.\n\nPara iniciar a missão, fale com o NPC Selmi do Clã Asa Branca em em 219,622(90).\n\nPara concluir a missão, fale com o NPC Jin Qieguo em 224,621(101).",
+          "instruction_pt_br": "Um homem adulto agradeceu a você. Após se identificar, ele explicou que o ancião da tribo estava reunindo tropas para se preparar contra um possível conflito militar. O enviado da Mansão Po Ju também estava na cidade, junto do ancião. Para iniciar a missão, fale com o NPC Selmi do Clã Asa Branca em em 219,622(90). Para concluir a missão, fale com o NPC Jin Qieguo em 224,621(101).",
           "npc": "Selmi do Clã Asa Branca",
           "coords": [
             {
@@ -1686,7 +2664,7 @@
           "id": "step-07-o-elo-da-questão",
           "order": 7,
           "title_pt_br": "O Elo da Questão",
-          "instruction_pt_br": "Está claro: a posição atual da Mansão Po Ju é que apenas quando o conflito envolver diretamente os Espíritos Rancorosos, eles agirão conforme os regulamentos. Até lá, tudo é considerado apenas um conflito de governança regional. Porém, com a guerra se aproximando, você não pode se manter à parte. Só resta buscar mais informações com o ancião.\n\nPara iniciar a missão, fale com o NPC Ancião Selantir em 226,619(103).\n\nPara concluir a missão, fale com o NPC Sos, Guarda da Rota Norte em 231,639(88).",
+          "instruction_pt_br": "Está claro: a posição atual da Mansão Po Ju é que apenas quando o conflito envolver diretamente os Espíritos Rancorosos, eles agirão conforme os regulamentos. Até lá, tudo é considerado apenas um conflito de governança regional. Porém, com a guerra se aproximando, você não pode se manter à parte. Só resta buscar mais informações com o ancião. Para iniciar a missão, fale com o NPC Ancião Selantir em 226,619(103). Para concluir a missão, fale com o NPC Sos, Guarda da Rota Norte em 231,639(88).",
           "npc": "Ancião Selantir",
           "coords": [
             {
@@ -1707,7 +2685,7 @@
           "id": "step-08-construção-rápida-de-barreira",
           "order": 8,
           "title_pt_br": "Construção Rápida de Barreira",
-          "instruction_pt_br": "O comandante da defesa da rota norte está muito preocupado com a atual escassez de efetivo e precisa da sua ajuda para construir estacas de bloqueio. Organize a madeira nos desfiladeiros e monte as estacas defensivas. É necessário erguer as fortificações nos três desfiladeiros.\n\nPara iniciar a missão, fale com o NPC Sos, Guarda da Rota Norte em 231,639(88), em seguida cave a Pilha de Madeira em:\n\n- 228,642(88)\n- 213,636(88)\n- 206,624(88)\n\nQuando terminar, volte até o NPC Sos, Guarda da Rota Norte em 231,639(88) para concluir a missão.",
+          "instruction_pt_br": "O comandante da defesa da rota norte está muito preocupado com a atual escassez de efetivo e precisa da sua ajuda para construir estacas de bloqueio. Organize a madeira nos desfiladeiros e monte as estacas defensivas. É necessário erguer as fortificações nos três desfiladeiros. Para iniciar a missão, fale com o NPC Sos, Guarda da Rota Norte em 231,639(88), em seguida cave a Pilha de Madeira em: - 228,642(88)\n- 213,636(88)\n- 206,624(88) Quando terminar, volte até o NPC Sos, Guarda da Rota Norte em 231,639(88) para concluir a missão.",
           "npc": "Sos, Guarda da Rota Norte",
           "coords": [
             {
@@ -1738,7 +2716,7 @@
           "id": "step-09-ruínas-caídas",
           "order": 9,
           "title_pt_br": "Ruínas Caídas",
-          "instruction_pt_br": "Siga para as Ruínas Caídas e priorize lidar com as Aranhas Venenosas, eliminando a ameaça no caminho norte.\n\nVá até a coordenada 225,669(83) para concluir a missão.",
+          "instruction_pt_br": "Siga para as Ruínas Caídas e priorize lidar com as Aranhas Venenosas, eliminando a ameaça no caminho norte. Vá até a coordenada 225,669(83) para concluir a missão.",
           "npc": null,
           "coords": [
             {
@@ -1754,7 +2732,7 @@
           "id": "step-10-incêndio-nos-ninhos-de-aranha",
           "order": 10,
           "title_pt_br": "Incêndio nos Ninhos de Aranha",
-          "instruction_pt_br": "Procure os ninhos de aranha na área e use fogo para eliminá-los de uma só vez. Os ninhos de aranha estão envoltos por névoa negra. Observe os pontos onde a névoa se concentra, pois ali se encontram os ninhos.\n\nVá até a coordenada 231,674(83) e clique sobre a fumaça preta no chão para atear fogo no covil.\n\nFaça o mesmo em 229,680(83) e 239,683(82).",
+          "instruction_pt_br": "Procure os ninhos de aranha na área e use fogo para eliminá-los de uma só vez. Os ninhos de aranha estão envoltos por névoa negra. Observe os pontos onde a névoa se concentra, pois ali se encontram os ninhos. Vá até a coordenada 231,674(83) e clique sobre a fumaça preta no chão para atear fogo no covil. Faça o mesmo em 229,680(83) e 239,683(82).",
           "npc": null,
           "coords": [
             {
@@ -1780,7 +2758,7 @@
           "id": "step-11-partida-decidida",
           "order": 11,
           "title_pt_br": "Partida Decidida",
-          "instruction_pt_br": "O plano foi um sucesso. Deixe este local e reporte-se ao comandante da defesa do norte.\n\nPara concluir a missão, fale com o NPC Sos, Guarda da Rota Norte em 231,639(88).",
+          "instruction_pt_br": "O plano foi um sucesso. Deixe este local e reporte-se ao comandante da defesa do norte. Para concluir a missão, fale com o NPC Sos, Guarda da Rota Norte em 231,639(88).",
           "npc": "Sos, Guarda da Rota Norte",
           "coords": [
             {
@@ -1796,7 +2774,7 @@
           "id": "step-12-crise-na-linha-de-frente",
           "order": 12,
           "title_pt_br": "Crise na Linha de Frente",
-          "instruction_pt_br": "Os Asa Negra já se aproximam da linha de defesa oeste, e as forças dos Asa Branca estão recuando passo a passo. O comandante da defesa do norte precisa que você encontre o Sacerdote Asa Branca que está liderando a resistência na linha de frente.\n\nPara concluir a missão, fale com o NPC Sacerdote Senifa em 206,623(88).",
+          "instruction_pt_br": "Os Asa Negra já se aproximam da linha de defesa oeste, e as forças dos Asa Branca estão recuando passo a passo. O comandante da defesa do norte precisa que você encontre o Sacerdote Asa Branca que está liderando a resistência na linha de frente. Para concluir a missão, fale com o NPC Sacerdote Senifa em 206,623(88).",
           "npc": "Sacerdote Senifa",
           "coords": [
             {
@@ -1812,7 +2790,7 @@
           "id": "step-13-aliados-em-perigo",
           "order": 13,
           "title_pt_br": "Aliados em Perigo",
-          "instruction_pt_br": "O Sacerdote Asa Branca explicou que a pequena tropa enviada anteriormente foi cercada pelo exército Asa Negra por terem capturado um dos seus que conhece informações cruciais. Você precisa se infiltrar no cerco, resgatar os soldados Asa Branca e também esse Asa Negra.\n\nPara iniciar a missão, fale com o NPC Sacerdote Senifa em 206,623(88).\n\nVocê precisa derrotar: Guerreiro da Asa Negra (×5) em 195,619(88) e a missão será concluída.",
+          "instruction_pt_br": "O Sacerdote Asa Branca explicou que a pequena tropa enviada anteriormente foi cercada pelo exército Asa Negra por terem capturado um dos seus que conhece informações cruciais. Você precisa se infiltrar no cerco, resgatar os soldados Asa Branca e também esse Asa Negra. Para iniciar a missão, fale com o NPC Sacerdote Senifa em 206,623(88). Você precisa derrotar: Guerreiro da Asa Negra (×5) em 195,619(88) e a missão será concluída.",
           "npc": "Sacerdote Senifa",
           "coords": [
             {
@@ -1833,7 +2811,7 @@
           "id": "step-14-informação-crucial",
           "order": 14,
           "title_pt_br": "Informação Crucial",
-          "instruction_pt_br": "Você encontrou os soldados Asa Branca e o Asa Negra capturados. Com os inimigos já derrotados nas redondezas, é hora de retornar à cidade.\n\nPara concluir a missão, fale com o NPC Soldado Selse em 195,621(88). A missão será concluída automaticamente.",
+          "instruction_pt_br": "Você encontrou os soldados Asa Branca e o Asa Negra capturados. Com os inimigos já derrotados nas redondezas, é hora de retornar à cidade. Para concluir a missão, fale com o NPC Soldado Selse em 195,621(88). A missão será concluída automaticamente.",
           "npc": "Soldado Selse",
           "coords": [
             {
@@ -1849,7 +2827,7 @@
           "id": "step-15-o-prisioneiro",
           "order": 15,
           "title_pt_br": "O Prisioneiro",
-          "instruction_pt_br": "O prisioneiro Asa Negra foi levado diante do Sacerdote Asa Branca. A chocante revelação foi que o Ancião dos Asa Negra havia sido aprisionado. E tudo isso porque o Sacerdote Asa Negra descobriu um método para aumentar o número de guerreiros de seu povo, o que lhes deu coragem para enfrentar os Asa Branca.\n\nPara concluir a missão, fale com o NPC Sacerdote Senifa em 206,623(88).",
+          "instruction_pt_br": "O prisioneiro Asa Negra foi levado diante do Sacerdote Asa Branca. A chocante revelação foi que o Ancião dos Asa Negra havia sido aprisionado. E tudo isso porque o Sacerdote Asa Negra descobriu um método para aumentar o número de guerreiros de seu povo, o que lhes deu coragem para enfrentar os Asa Branca. Para concluir a missão, fale com o NPC Sacerdote Senifa em 206,623(88).",
           "npc": "Sacerdote Senifa",
           "coords": [
             {
@@ -1865,7 +2843,7 @@
           "id": "step-16-antigas-histórias-dos-alados",
           "order": 16,
           "title_pt_br": "Antigas Histórias dos Alados",
-          "instruction_pt_br": "O Sacerdote Asa Branca pede que você relate a situação ao Ancião Asa Branca. Os próximos passos devem ser definidos junto a ele.\n\nPara concluir a missão, fale com o NPC Ancião Selantir em 226,619(103).\n\nAo concluir a missão, será invocado no mesmo local, um Baú Dourado.",
+          "instruction_pt_br": "O Sacerdote Asa Branca pede que você relate a situação ao Ancião Asa Branca. Os próximos passos devem ser definidos junto a ele. Para concluir a missão, fale com o NPC Ancião Selantir em 226,619(103). Ao concluir a missão, será invocado no mesmo local, um Baú Dourado.",
           "npc": "Ancião Selantir",
           "coords": [
             {
@@ -1881,7 +2859,7 @@
           "id": "step-17-silêncio-do-choro-infantil",
           "order": 17,
           "title_pt_br": "Silêncio do Choro Infantil",
-          "instruction_pt_br": "O Ancião Asa Branca falou sobre o recente aumento nos casos de desaparecimento de crianças, que coincidem em tempo com as ações do povo Asa Negra. Ele espera que você investigue para descobrir se existe ligação entre os dois fatos.\n\nPara iniciar e concluir a missão, fale com o NPC Ancião Selantir em 226,619(103).",
+          "instruction_pt_br": "O Ancião Asa Branca falou sobre o recente aumento nos casos de desaparecimento de crianças, que coincidem em tempo com as ações do povo Asa Negra. Ele espera que você investigue para descobrir se existe ligação entre os dois fatos. Para iniciar e concluir a missão, fale com o NPC Ancião Selantir em 226,619(103).",
           "npc": "Ancião Selantir",
           "coords": [
             {
@@ -1897,7 +2875,7 @@
           "id": "step-18-às-vésperas-da-infiltração",
           "order": 18,
           "title_pt_br": "Às Vésperas da Infiltração",
-          "instruction_pt_br": "Segundo o Ancião da Asa Branca, o feitiço lançado sobre você pode entrar em ressonância com certas estruturas especiais da Tribo da Asa Negra, permitindo que permaneça invisível. No entanto, esse método possui uma desvantagem: em intervalos regulares, é necessário retornar à área branca para renovar a ressonância e manter o efeito de invisibilidade.\n\nPara iniciar a missão, fale com o NPC Ancião Selantir em 226,619(103). Aguarde 10 segundos e a missão será concluída automaticamente.",
+          "instruction_pt_br": "Segundo o Ancião da Asa Branca, o feitiço lançado sobre você pode entrar em ressonância com certas estruturas especiais da Tribo da Asa Negra, permitindo que permaneça invisível. No entanto, esse método possui uma desvantagem: em intervalos regulares, é necessário retornar à área branca para renovar a ressonância e manter o efeito de invisibilidade. Para iniciar a missão, fale com o NPC Ancião Selantir em 226,619(103). Aguarde 10 segundos e a missão será concluída automaticamente.",
           "npc": "Ancião Selantir",
           "coords": [
             {
@@ -1913,7 +2891,7 @@
           "id": "step-19-assuntos-ritual-misterioso",
           "order": 19,
           "title_pt_br": "Assuntos · Ritual Misterioso",
-          "instruction_pt_br": "Durante a infiltração no território, evite as patrulhas dos guerreiros da Asa Negra. Aproximar-se demais pode fazer com que percebam sua presença pelo fluxo de energia, resultando no fracasso da missão! Quando o tempo de invisibilidade estiver quase se esgotando, retorne à área branca para restaurar o efeito. Em caso de falha na missão, volte até o Ancião da Asa Branca para aceitá-la novamente.\n\nPara iniciar a missão, fale com o NPC Ancião Selantir em 226,619(103).\n\nVá até o local do ritual em 170,628(88) antes que o tempo acabe.",
+          "instruction_pt_br": "Durante a infiltração no território, evite as patrulhas dos guerreiros da Asa Negra. Aproximar-se demais pode fazer com que percebam sua presença pelo fluxo de energia, resultando no fracasso da missão! Quando o tempo de invisibilidade estiver quase se esgotando, retorne à área branca para restaurar o efeito. Em caso de falha na missão, volte até o Ancião da Asa Branca para aceitá-la novamente. Para iniciar a missão, fale com o NPC Ancião Selantir em 226,619(103). Vá até o local do ritual em 170,628(88) antes que o tempo acabe.",
           "npc": "Ancião Selantir",
           "coords": [
             {
@@ -1934,7 +2912,7 @@
           "id": "step-20-inimigo-virando-aliado",
           "order": 20,
           "title_pt_br": "Inimigo virando Aliado",
-          "instruction_pt_br": "Agora você entende a confiança dos Asa Negra ao iniciar a guerra: este método de assimilação fez com que suas forças rapidamente retornassem ao mesmo nível dos Asa Branca. Você precisa contar isso ao Sacerdote Asa Branca o quanto antes.\n\nEsta missão será concluída automaticamente.",
+          "instruction_pt_br": "Agora você entende a confiança dos Asa Negra ao iniciar a guerra: este método de assimilação fez com que suas forças rapidamente retornassem ao mesmo nível dos Asa Branca. Você precisa contar isso ao Sacerdote Asa Branca o quanto antes. Esta missão será concluída automaticamente.",
           "npc": null,
           "coords": [],
           "dialog_hint": null,
@@ -1944,7 +2922,7 @@
           "id": "step-21-cortar-o-mal-pela-raiz",
           "order": 21,
           "title_pt_br": "Cortar o Mal pela Raiz",
-          "instruction_pt_br": "O Ancião Asa Branca ficou chocado com a situação. Se isso não for impedido, o futuro dos Asa Branca poderá ser completamente destruído. Ele espera que você volte a se infiltrar no território dos Asa Negra e resgate as crianças aprisionadas.\n\nPara concluir a missão, fale com o NPC Ancião Selantir em 226,619(103).",
+          "instruction_pt_br": "O Ancião Asa Branca ficou chocado com a situação. Se isso não for impedido, o futuro dos Asa Branca poderá ser completamente destruído. Ele espera que você volte a se infiltrar no território dos Asa Negra e resgate as crianças aprisionadas. Para concluir a missão, fale com o NPC Ancião Selantir em 226,619(103).",
           "npc": "Ancião Selantir",
           "coords": [
             {
@@ -1960,7 +2938,7 @@
           "id": "step-22-ajudando-o-futuro",
           "order": 22,
           "title_pt_br": "Ajudando o Futuro",
-          "instruction_pt_br": "Você se infiltra novamente no território da Tribo da Asa Negra. Desta vez, precisa resgatar as crianças da Asa Branca que estão presas! Evite as patrulhas dos guerreiros da Asa Negra. Aproximar-se demais pode fazer com que percebam sua presença, levando ao fracasso da missão! Quando o tempo de invisibilidade estiver quase se esgotando, retorne à área branca para restaurar o efeito. Em caso de falha na missão, volte até o Ancião da Asa Branca para aceitá-la novamente.\n\nPara iniciar a missão, fale com o NPC Ancião Selantir em 226,619(103). Em seguida você será teleportado e precisará localizar 4 Crianças Desaparecidas antes do tempo acabar e sem que os Guerreiros da Asa Negra te veja.\n\nAs c…",
+          "instruction_pt_br": "Você se infiltra novamente no território da Tribo da Asa Negra. Desta vez, precisa resgatar as crianças da Asa Branca que estão presas! Evite as patrulhas dos guerreiros da Asa Negra. Aproximar-se demais pode fazer com que percebam sua presença, levando ao fracasso da missão! Quando o tempo de invisibilidade estiver quase se esgotando, retorne à área branca para restaurar o efeito. Em caso de falha na missão, volte até o Ancião da Asa Branca para aceitá-la novamente. Para iniciar a missão, fale com o NPC Ancião Selantir em 226,619(103). Em seguida você será teleportado e precisará localizar 4 Crianças Desaparecidas antes do tempo acabar e sem que os Guerreiros da Asa Negra te veja. As c…",
           "npc": "Ancião Selantir",
           "coords": [
             {
@@ -1996,7 +2974,7 @@
           "id": "step-23-fugindo-das-muralhas",
           "order": 23,
           "title_pt_br": "Fugindo das Muralhas",
-          "instruction_pt_br": "Você leva as crianças para longe do perigo. O Ancião Asa Branca aguarda notícias de seu retorno.\n\nPara concluir a missão, fale com o NPC Ancião Selantir em 226,619(103).",
+          "instruction_pt_br": "Você leva as crianças para longe do perigo. O Ancião Asa Branca aguarda notícias de seu retorno. Para concluir a missão, fale com o NPC Ancião Selantir em 226,619(103).",
           "npc": "Ancião Selantir",
           "coords": [
             {
@@ -2012,7 +2990,7 @@
           "id": "step-24-a-solução-do-momento",
           "order": 24,
           "title_pt_br": "A Solução do Momento",
-          "instruction_pt_br": "Após confirmar com o Asa Negra capturado, ele revelou que decidiu contar tudo ao inimigo porque acreditava que os métodos usados atualmente por sua tribo eram extremos demais e totalmente desumanos.\n\nPara iniciar a missão, fale com o NPC Ancião Selantir em 226,619(103).\n\nPara concluir a missão, fale com o NPC Membro da Asa Negra Capturado em 227,625(89).",
+          "instruction_pt_br": "Após confirmar com o Asa Negra capturado, ele revelou que decidiu contar tudo ao inimigo porque acreditava que os métodos usados atualmente por sua tribo eram extremos demais e totalmente desumanos. Para iniciar a missão, fale com o NPC Ancião Selantir em 226,619(103). Para concluir a missão, fale com o NPC Membro da Asa Negra Capturado em 227,625(89).",
           "npc": "Ancião Selantir",
           "coords": [
             {
@@ -2033,7 +3011,7 @@
           "id": "step-25-ilha-celeste-alt-110",
           "order": 25,
           "title_pt_br": "Ilha Celeste (Alt. 110)",
-          "instruction_pt_br": "A Ilha Celeste é a terra ancestral das tribos da Asa Branca e da Asa Negra. Atualmente, o Ancião da Asa Negra está aprisionado na Prisão de Espinhos localizada ali. Para encontrar uma forma de salvar as crianças transformadas, apenas a cooperação entre os dois anciãos — da Asa Negra e da Asa Branca — poderá tornar isso possível. A área de ativação da missão fica na altitude 110.\n\nPara concluir a missão vá até a coordenada 199,647(109).",
+          "instruction_pt_br": "A Ilha Celeste é a terra ancestral das tribos da Asa Branca e da Asa Negra. Atualmente, o Ancião da Asa Negra está aprisionado na Prisão de Espinhos localizada ali. Para encontrar uma forma de salvar as crianças transformadas, apenas a cooperação entre os dois anciãos — da Asa Negra e da Asa Branca — poderá tornar isso possível. A área de ativação da missão fica na altitude 110. Para concluir a missão vá até a coordenada 199,647(109).",
           "npc": null,
           "coords": [
             {
@@ -2049,7 +3027,7 @@
           "id": "step-26-ascender-à-terra-ancestral",
           "order": 26,
           "title_pt_br": "Ascender à Terra Ancestral",
-          "instruction_pt_br": "Esta terra ancestral parece formada por ilhas arruinadas. Os povos de Asas Negras e Asas Brancas não são nativos deste continente. Desde que aqui chegaram, deveriam ter se apoiado, sobrevivendo e prosperando juntos. No entanto, a destruição da terra ancestral fez ruir uma das estátuas que representava a fé e a fonte de poder das duas raças, e nada voltou a ser como antes. Agora, aqueles que deveriam proteger uns aos outros se tornaram inimigos mortais. E, no interior da prisão guardada... o ancião dos Asas Negras revelou ter asas brancas...\n\nAguarde cerca de 30 segundos e a missão será concluída automaticamente.",
+          "instruction_pt_br": "Esta terra ancestral parece formada por ilhas arruinadas. Os povos de Asas Negras e Asas Brancas não são nativos deste continente. Desde que aqui chegaram, deveriam ter se apoiado, sobrevivendo e prosperando juntos. No entanto, a destruição da terra ancestral fez ruir uma das estátuas que representava a fé e a fonte de poder das duas raças, e nada voltou a ser como antes. Agora, aqueles que deveriam proteger uns aos outros se tornaram inimigos mortais. E, no interior da prisão guardada... o ancião dos Asas Negras revelou ter asas brancas... Aguarde cerca de 30 segundos e a missão será concluída automaticamente.",
           "npc": null,
           "coords": [],
           "dialog_hint": null,
@@ -2059,7 +3037,7 @@
           "id": "step-27-guardiões-celestes",
           "order": 27,
           "title_pt_br": "Guardiões Celestes",
-          "instruction_pt_br": "Derrote os Guardiões do Céu e limpe a área ao redor da Prisão de Espinhos. Se não encontrar os monstros, abandone a missão manualmente e aceite-a novamente para atualizar.\n\nPara iniciar e concluir a missão, fale com o NPC Ancião da Asa Branca Selantir em 199,651(109).\n\nVocê precisa derrotar: Guarda Celestial (×1) invocado no mesmo local. Se não conseguir matar em tempo, recomece a missão.",
+          "instruction_pt_br": "Derrote os Guardiões do Céu e limpe a área ao redor da Prisão de Espinhos. Se não encontrar os monstros, abandone a missão manualmente e aceite-a novamente para atualizar. Para iniciar e concluir a missão, fale com o NPC Ancião da Asa Branca Selantir em 199,651(109). Você precisa derrotar: Guarda Celestial (×1) invocado no mesmo local. Se não conseguir matar em tempo, recomece a missão.",
           "npc": "Ancião da Asa Branca Selantir",
           "coords": [
             {
@@ -2075,7 +3053,7 @@
           "id": "step-28-água-pura",
           "order": 28,
           "title_pt_br": "Água Pura",
-          "instruction_pt_br": "Para romper a barreira, precisamos obter a Água Pura junto à estátua dos ancestrais Asa Branca.\n\nVá até a coordenada 211,658(109) e cave a Água Pura.",
+          "instruction_pt_br": "Para romper a barreira, precisamos obter a Água Pura junto à estátua dos ancestrais Asa Branca. Vá até a coordenada 211,658(109) e cave a Água Pura.",
           "npc": null,
           "coords": [
             {
@@ -2091,7 +3069,7 @@
           "id": "step-29-reportar-ao-ancião",
           "order": 29,
           "title_pt_br": "Reportar ao Ancião",
-          "instruction_pt_br": "A Água Pura foi obtida, reporte-se ao Ancião da Asa Branca.\n\nPara concluir a missão, fale com o NPC Ancião da Asa Branca Selantir em 199,651(109).",
+          "instruction_pt_br": "A Água Pura foi obtida, reporte-se ao Ancião da Asa Branca. Para concluir a missão, fale com o NPC Ancião da Asa Branca Selantir em 199,651(109).",
           "npc": "Ancião da Asa Branca Selantir",
           "coords": [
             {
@@ -2107,7 +3085,7 @@
           "id": "step-30-retomada-da-liberdade",
           "order": 30,
           "title_pt_br": "Retomada da Liberdade",
-          "instruction_pt_br": "Abra a barreira da Prisão de Espinhos e liberte o Ancião Asa Negra.\n\nVá até 199,652(109) e cave no chão a “Arte Secreta de Confinamento”.",
+          "instruction_pt_br": "Abra a barreira da Prisão de Espinhos e liberte o Ancião Asa Negra. Vá até 199,652(109) e cave no chão a “Arte Secreta de Confinamento”.",
           "npc": null,
           "coords": [
             {
@@ -2123,7 +3101,7 @@
           "id": "step-31-origens-do-conflito",
           "order": 31,
           "title_pt_br": "Origens do Conflito",
-          "instruction_pt_br": "O Ancião Asa Negra explicou por que, mesmo tendo asas brancas, tornou-se o líder dos Asa Negra — tudo remonta a acontecimentos de muito tempo atrás. O que está claro agora é que o método do Sacerdote Asa Negra realmente levará as duas tribos a um destino sem retorno. O mais urgente é eliminar a aliança dele com os Espíritos Rancorosos e impedir suas ações insanas.\n\nPara concluir a missão, fale com o NPC Ancião da Asa Negra Seltiran em 199,653(109).",
+          "instruction_pt_br": "O Ancião Asa Negra explicou por que, mesmo tendo asas brancas, tornou-se o líder dos Asa Negra — tudo remonta a acontecimentos de muito tempo atrás. O que está claro agora é que o método do Sacerdote Asa Negra realmente levará as duas tribos a um destino sem retorno. O mais urgente é eliminar a aliança dele com os Espíritos Rancorosos e impedir suas ações insanas. Para concluir a missão, fale com o NPC Ancião da Asa Negra Seltiran em 199,653(109).",
           "npc": "Ancião da Asa Negra Seltiran",
           "coords": [
             {
@@ -2139,7 +3117,7 @@
           "id": "step-32-ir-ao-altar",
           "order": 32,
           "title_pt_br": "Ir ao Altar",
-          "instruction_pt_br": "Ir até o altar e preparar o ritual.\n\nVá até a coordenada 205,658(109) e a missão será concluída automaticamente.",
+          "instruction_pt_br": "Ir até o altar e preparar o ritual. Vá até a coordenada 205,658(109) e a missão será concluída automaticamente.",
           "npc": null,
           "coords": [
             {
@@ -2155,7 +3133,7 @@
           "id": "step-33-ritual-de-transformação",
           "order": 33,
           "title_pt_br": "Ritual de Transformação",
-          "instruction_pt_br": "Os anciãos das duas tribos unem forças para transformar a criança convertida de volta à sua forma original.\n\nEssa missão será concluída automaticamente.",
+          "instruction_pt_br": "Os anciãos das duas tribos unem forças para transformar a criança convertida de volta à sua forma original. Essa missão será concluída automaticamente.",
           "npc": null,
           "coords": [],
           "dialog_hint": null,
@@ -2165,7 +3143,7 @@
           "id": "step-34-retornar-à-antiga-aparência",
           "order": 34,
           "title_pt_br": "Retornar à Antiga Aparência",
-          "instruction_pt_br": "Antes do próximo passo, é necessário que os dois anciãos unam forças para restaurar as crianças transformadas à sua forma original.\n\nPara concluir a missão, fale com o NPC Ancião da Asa Negra Seltiran em 207,657(110).",
+          "instruction_pt_br": "Antes do próximo passo, é necessário que os dois anciãos unam forças para restaurar as crianças transformadas à sua forma original. Para concluir a missão, fale com o NPC Ancião da Asa Negra Seltiran em 207,657(110).",
           "npc": "Ancião da Asa Negra Seltiran",
           "coords": [
             {
@@ -2181,7 +3159,7 @@
           "id": "step-35-o-dever-dos-guardiões",
           "order": 35,
           "title_pt_br": "O Dever dos Guardiões",
-          "instruction_pt_br": "Antes de partir, o Ancião Asa Branca voltou a ordenar aos Guardiões Celestes: que não se tornem marionetes da loucura do Sacerdote Asa Negra.\n\nPara concluir a missão, fale com o NPC Ancião da Asa Branca Selantir em 204,660(110).\n\nAo concluir a missão, será invocado no mesmo local, um Baú Dourado.",
+          "instruction_pt_br": "Antes de partir, o Ancião Asa Branca voltou a ordenar aos Guardiões Celestes: que não se tornem marionetes da loucura do Sacerdote Asa Negra. Para concluir a missão, fale com o NPC Ancião da Asa Branca Selantir em 204,660(110). Ao concluir a missão, será invocado no mesmo local, um Baú Dourado.",
           "npc": "Ancião da Asa Branca Selantir",
           "coords": [
             {
@@ -2197,7 +3175,7 @@
           "id": "step-36-a-conspiração-revelada",
           "order": 36,
           "title_pt_br": "A Conspiração Revelada",
-          "instruction_pt_br": "O Ancião da Asa Negra informa que o Sacerdote da Asa Negra já vinha conspirando para iniciar uma guerra há muito tempo, instigando alguns guerreiros alados mais radicais e inflamando o conflito.\n\nPara iniciar a missão, fale com o NPC Ancião da Asa Branca Selantir em 204,660(110).\n\nPara concluir a missão, fale com o NPC Ancião da Asa Negra Seltiran em 207,657(110).",
+          "instruction_pt_br": "O Ancião da Asa Negra informa que o Sacerdote da Asa Negra já vinha conspirando para iniciar uma guerra há muito tempo, instigando alguns guerreiros alados mais radicais e inflamando o conflito. Para iniciar a missão, fale com o NPC Ancião da Asa Branca Selantir em 204,660(110). Para concluir a missão, fale com o NPC Ancião da Asa Negra Seltiran em 207,657(110).",
           "npc": "Ancião da Asa Branca Selantir",
           "coords": [
             {
@@ -2218,7 +3196,7 @@
           "id": "step-37-quebrando-a-ilusão",
           "order": 37,
           "title_pt_br": "Quebrando a Ilusão",
-          "instruction_pt_br": "O Ancião da Asa Branca afirma que há uma forma de dissipar a ilusão. É necessário usar um machado especialmente tratado para destruir as árvores ilusórias. Assim que você encontrar e abrir a entrada, o exército da Asa Branca poderá avançar sem impedimentos.\n\nPara concluir a missão, fale com o NPC Ancião da Asa Branca Selantir em 204,660(110).",
+          "instruction_pt_br": "O Ancião da Asa Branca afirma que há uma forma de dissipar a ilusão. É necessário usar um machado especialmente tratado para destruir as árvores ilusórias. Assim que você encontrar e abrir a entrada, o exército da Asa Branca poderá avançar sem impedimentos. Para concluir a missão, fale com o NPC Ancião da Asa Branca Selantir em 204,660(110).",
           "npc": "Ancião da Asa Branca Selantir",
           "coords": [
             {
@@ -2234,7 +3212,7 @@
           "id": "step-38-procurar-a-caverna-alt-83",
           "order": 38,
           "title_pt_br": "Procurar a Caverna (Alt. 83)",
-          "instruction_pt_br": "A verdadeira entrada da caverna está encoberta por árvores ilusórias. É necessário utilizar o machado especial concedido pelo Ancião para derrubar essas árvores ilusórias que bloqueiam a passagem e, assim, acessar a entrada real. Caso o item【Machado】desapareça, abandone a missão e adquira-o novamente.\n\nEssa missão será iniciada automaticamente após a conclusão da missão “Quebrando a ilusão”, e quando a missão for iniciada, você receberá no inventário 1 Machado com duração de 3 minutos. Se o Machado sumir, aborte a missão para que ela seja iniciada automaticamente e você receba outro Machado.\n\nEnquanto você tiver o Machado no inventário, vá até a coordenada 198,685(84), clique em uma das á…",
+          "instruction_pt_br": "A verdadeira entrada da caverna está encoberta por árvores ilusórias. É necessário utilizar o machado especial concedido pelo Ancião para derrubar essas árvores ilusórias que bloqueiam a passagem e, assim, acessar a entrada real. Caso o item【Machado】desapareça, abandone a missão e adquira-o novamente. Essa missão será iniciada automaticamente após a conclusão da missão “Quebrando a ilusão”, e quando a missão for iniciada, você receberá no inventário 1 Machado com duração de 3 minutos. Se o Machado sumir, aborte a missão para que ela seja iniciada automaticamente e você receba outro Machado. Enquanto você tiver o Machado no inventário, vá até a coordenada 198,685(84), clique em uma das á…",
           "npc": null,
           "coords": [
             {
@@ -2255,7 +3233,7 @@
           "id": "step-39-refúgio-oculto",
           "order": 39,
           "title_pt_br": "Refúgio Oculto",
-          "instruction_pt_br": "Você encontrou a verdadeira entrada e adentrou o interior da caverna. Diante de seus olhos, há uma formação de teletransporte cuidadosamente preparada. Ao que parece, o Sacerdote da Asa Negra confiava plenamente em sua própria ilusão, a ponto de nem se preocupar em esconder esse portal. Caso saia da área por engano, retorne à caverna nas proximidades de (198,685) e utilize novamente o portal de teletransporte.\n\nVá até 198,685(82) e a missão será concluída automaticamente.",
+          "instruction_pt_br": "Você encontrou a verdadeira entrada e adentrou o interior da caverna. Diante de seus olhos, há uma formação de teletransporte cuidadosamente preparada. Ao que parece, o Sacerdote da Asa Negra confiava plenamente em sua própria ilusão, a ponto de nem se preocupar em esconder esse portal. Caso saia da área por engano, retorne à caverna nas proximidades de (198,685) e utilize novamente o portal de teletransporte. Vá até 198,685(82) e a missão será concluída automaticamente.",
           "npc": null,
           "coords": [
             {
@@ -2276,7 +3254,7 @@
           "id": "step-40-um-novo-espaço",
           "order": 40,
           "title_pt_br": "Um Novo Espaço",
-          "instruction_pt_br": "Através do portal de teletransporte, vá verificar a situação. Caso saia da área por engano, retorne à caverna nas proximidades de (198,685) e utilize novamente o portal de teletransporte.\n\nVá até a coordenada 195,687(82) e entre no portal de teletransporte Após ser teleportado, vá até 173,687(71) e a missão será concluída automaticamente.",
+          "instruction_pt_br": "Através do portal de teletransporte, vá verificar a situação. Caso saia da área por engano, retorne à caverna nas proximidades de (198,685) e utilize novamente o portal de teletransporte. Vá até a coordenada 195,687(82) e entre no portal de teletransporte Após ser teleportado, vá até 173,687(71) e a missão será concluída automaticamente.",
           "npc": null,
           "coords": [
             {
@@ -2302,7 +3280,7 @@
           "id": "step-41-reagindo-ao-ataque",
           "order": 41,
           "title_pt_br": "Reagindo ao Ataque",
-          "instruction_pt_br": "Derrote as aranhas que estão atacando. Caso saia da área por engano, retorne à caverna nas proximidades de (198,685) e utilize novamente o portal de teletransporte.\n\nVocê precisa derrotar: Aranha da Caverna (×4) em 173,687(71).",
+          "instruction_pt_br": "Derrote as aranhas que estão atacando. Caso saia da área por engano, retorne à caverna nas proximidades de (198,685) e utilize novamente o portal de teletransporte. Você precisa derrotar: Aranha da Caverna (×4) em 173,687(71).",
           "npc": null,
           "coords": [
             {
@@ -2323,7 +3301,7 @@
           "id": "step-42-exploração-da-área-i",
           "order": 42,
           "title_pt_br": "Exploração da Área I",
-          "instruction_pt_br": "Explore a caverna localizada na parte sudoeste desta área. Caso saia da área por engano, retorne à caverna nas proximidades de (198,685) e utilize novamente o portal de teletransporte.\n\nSuba novamente pela passagem que você usou para ir até as aranhas na missão anterior, depois vá até a coordenada 161,686(70) e entre pela passagem sudoeste. Em seguida vá até 161,675(67).\n\nVocê precisa derrotar: Aranha da Caverna (×4).",
+          "instruction_pt_br": "Explore a caverna localizada na parte sudoeste desta área. Caso saia da área por engano, retorne à caverna nas proximidades de (198,685) e utilize novamente o portal de teletransporte. Suba novamente pela passagem que você usou para ir até as aranhas na missão anterior, depois vá até a coordenada 161,686(70) e entre pela passagem sudoeste. Em seguida vá até 161,675(67). Você precisa derrotar: Aranha da Caverna (×4).",
           "npc": null,
           "coords": [
             {
@@ -2349,7 +3327,7 @@
           "id": "step-43-exploração-da-área-ii",
           "order": 43,
           "title_pt_br": "Exploração da Área II",
-          "instruction_pt_br": "Explore a área onde fica a caverna na parte noroeste. Caso saia da área por engano, retorne à caverna nas proximidades de (198,685) e utilize novamente o portal de teletransporte.\n\nSuba novamente pela passagem que você usou para ir até as aranhas na missão anterior, depois vá até a coordenada 161,694(70) e entre pela passagem noroeste. Em seguida vá até 155,699(71).\n\nVocê precisa derrotar: Aranha da Caverna (×4).",
+          "instruction_pt_br": "Explore a área onde fica a caverna na parte noroeste. Caso saia da área por engano, retorne à caverna nas proximidades de (198,685) e utilize novamente o portal de teletransporte. Suba novamente pela passagem que você usou para ir até as aranhas na missão anterior, depois vá até a coordenada 161,694(70) e entre pela passagem noroeste. Em seguida vá até 155,699(71). Você precisa derrotar: Aranha da Caverna (×4).",
           "npc": null,
           "coords": [
             {
@@ -2375,7 +3353,7 @@
           "id": "step-44-exploração-da-área-iii",
           "order": 44,
           "title_pt_br": "Exploração da Área III",
-          "instruction_pt_br": "Explore a área onde fica a caverna na parte nordeste. Caso saia da área por engano, retorne à caverna nas proximidades de (198,685) e utilize novamente o portal de teletransporte.\n\nSuba novamente pela passagem que você usou para ir até as aranhas na missão anterior, depois vá até a coordenada 167,693(72) e entre pela passagem nordeste. Em seguida vá até 171,697(73).\n\nVocê precisa derrotar: Aranha da Caverna (×4).",
+          "instruction_pt_br": "Explore a área onde fica a caverna na parte nordeste. Caso saia da área por engano, retorne à caverna nas proximidades de (198,685) e utilize novamente o portal de teletransporte. Suba novamente pela passagem que você usou para ir até as aranhas na missão anterior, depois vá até a coordenada 167,693(72) e entre pela passagem nordeste. Em seguida vá até 171,697(73). Você precisa derrotar: Aranha da Caverna (×4).",
           "npc": null,
           "coords": [
             {
@@ -2401,7 +3379,7 @@
           "id": "step-45-exploração-da-área-iv",
           "order": 45,
           "title_pt_br": "Exploração da Área IV",
-          "instruction_pt_br": "Explore a área onde fica a caverna na parte elevada a oeste. Caso saia da área por engano, retorne à caverna nas proximidades de (198,685) e utilize novamente o portal de teletransporte.\n\nSuba novamente pela passagem que você usou para ir até as aranhas na missão anterior, depois vá até a coordenada 160,691(76) e entre pela passagem oeste. Em seguida vá até 152,689(78).\n\nVocê precisa derrotar: Aranha da Caverna (×4).",
+          "instruction_pt_br": "Explore a área onde fica a caverna na parte elevada a oeste. Caso saia da área por engano, retorne à caverna nas proximidades de (198,685) e utilize novamente o portal de teletransporte. Suba novamente pela passagem que você usou para ir até as aranhas na missão anterior, depois vá até a coordenada 160,691(76) e entre pela passagem oeste. Em seguida vá até 152,689(78). Você precisa derrotar: Aranha da Caverna (×4).",
           "npc": null,
           "coords": [
             {
@@ -2427,7 +3405,7 @@
           "id": "step-46-todos-os-desafios-eliminados",
           "order": 46,
           "title_pt_br": "Todos os Desafios Eliminados",
-          "instruction_pt_br": "Explore toda a área. Todos os obstáculos que impediam o avanço dos soldados da Asa Branca foram removidos. O Sacerdote da Asa Branca também chegou junto com as tropas. Caso saia da área por engano, retorne à caverna nas proximidades de (198,685) e utilize novamente o portal de teletransporte.\n\nVá até a coordenada 167,690(72) e aguarde a conclusão da missão.",
+          "instruction_pt_br": "Explore toda a área. Todos os obstáculos que impediam o avanço dos soldados da Asa Branca foram removidos. O Sacerdote da Asa Branca também chegou junto com as tropas. Caso saia da área por engano, retorne à caverna nas proximidades de (198,685) e utilize novamente o portal de teletransporte. Vá até a coordenada 167,690(72) e aguarde a conclusão da missão.",
           "npc": null,
           "coords": [
             {
@@ -2448,7 +3426,7 @@
           "id": "step-47-procurando-o-culpado",
           "order": 47,
           "title_pt_br": "Procurando o Culpado",
-          "instruction_pt_br": "Você precisa discutir com o Sacerdote da Asa Branca qual será o próximo passo para localizar o Sacerdote da Asa Negra. Caso saia da área por engano, retorne à caverna nas proximidades de (198,685) e utilize novamente o portal de teletransporte.\n\nPara concluir a missão, fale com o NPC Sacerdote Senifa em 165,691(73).",
+          "instruction_pt_br": "Você precisa discutir com o Sacerdote da Asa Branca qual será o próximo passo para localizar o Sacerdote da Asa Negra. Caso saia da área por engano, retorne à caverna nas proximidades de (198,685) e utilize novamente o portal de teletransporte. Para concluir a missão, fale com o NPC Sacerdote Senifa em 165,691(73).",
           "npc": "Sacerdote Senifa",
           "coords": [
             {
@@ -2469,7 +3447,7 @@
           "id": "step-48-rastreando-as-auras",
           "order": 48,
           "title_pt_br": "Rastreando as Auras",
-          "instruction_pt_br": "Segundo o Sacerdote da Asa Branca, capture quatro vestígios de energia e coloque-os sobre a formação para desfazer a última camada de ilusão do Sacerdote da Asa Negra. Caso saia da área por engano, retorne à caverna nas proximidades de (198,685) e utilize novamente o portal de teletransporte.\n\nPara iniciar a missão, fale com o NPC Sacerdote Senifa em 165,691(73).\n\nEm seguida você precisará coletar as 4 auras espalhadas pelo local, de acordo com o que a missão estiver pedindo. Veja o nome da missão e qual é a aura que está sendo solicitada. Elas podem mudar de local e você precisa cavar as 4 antes do tempo acabar ou terá que recomeçar.",
+          "instruction_pt_br": "Segundo o Sacerdote da Asa Branca, capture quatro vestígios de energia e coloque-os sobre a formação para desfazer a última camada de ilusão do Sacerdote da Asa Negra. Caso saia da área por engano, retorne à caverna nas proximidades de (198,685) e utilize novamente o portal de teletransporte. Para iniciar a missão, fale com o NPC Sacerdote Senifa em 165,691(73). Em seguida você precisará coletar as 4 auras espalhadas pelo local, de acordo com o que a missão estiver pedindo. Veja o nome da missão e qual é a aura que está sendo solicitada. Elas podem mudar de local e você precisa cavar as 4 antes do tempo acabar ou terá que recomeçar.",
           "npc": "Sacerdote Senifa",
           "coords": [
             {
@@ -2490,7 +3468,7 @@
           "id": "step-49-aguardar-o-culpado",
           "order": 49,
           "title_pt_br": "Aguardar o Culpado",
-          "instruction_pt_br": "Retorne ao altar e aguarde até que a ilusão do Sacerdote da Asa Negra se dissipe! Se sair da área por engano, retorne à caverna próxima de (198,685) e utilize novamente o portal.\n\nEsta missão será concluída automaticamente.",
+          "instruction_pt_br": "Retorne ao altar e aguarde até que a ilusão do Sacerdote da Asa Negra se dissipe! Se sair da área por engano, retorne à caverna próxima de (198,685) e utilize novamente o portal. Esta missão será concluída automaticamente.",
           "npc": null,
           "coords": [
             {
@@ -2506,7 +3484,7 @@
           "id": "step-50-fim-do-destino",
           "order": 50,
           "title_pt_br": "Fim do Destino",
-          "instruction_pt_br": "O Sacerdote da Asa Negra finalmente se revela. Ele observa em silêncio você e os soldados da Asa Branca que invadem o local. Tomados pela fúria, os soldados não lhe dão chance de falar e lançam seus ataques contra ele. Antes mesmo que o Sacerdote da Asa Branca pudesse impedir, o Sacerdote da Asa Negra cai diante de você. Em seu último instante de vida, ele transmite uma mensagem diretamente à sua mente, dizendo que, se você for até a Ilha Celeste e encontrar o objeto que deixou para trás, compreenderá toda a verdade. Caso saia da área por engano, retorne à caverna nas proximidades de (198,685) e utilize novamente o portal de teletransporte.\n\nEsta missão será concluída automaticamente.",
+          "instruction_pt_br": "O Sacerdote da Asa Negra finalmente se revela. Ele observa em silêncio você e os soldados da Asa Branca que invadem o local. Tomados pela fúria, os soldados não lhe dão chance de falar e lançam seus ataques contra ele. Antes mesmo que o Sacerdote da Asa Branca pudesse impedir, o Sacerdote da Asa Negra cai diante de você. Em seu último instante de vida, ele transmite uma mensagem diretamente à sua mente, dizendo que, se você for até a Ilha Celeste e encontrar o objeto que deixou para trás, compreenderá toda a verdade. Caso saia da área por engano, retorne à caverna nas proximidades de (198,685) e utilize novamente o portal de teletransporte. Esta missão será concluída automaticamente.",
           "npc": null,
           "coords": [
             {
@@ -2522,7 +3500,7 @@
           "id": "step-51-à-beira-do-colapso",
           "order": 51,
           "title_pt_br": "À Beira do Colapso",
-          "instruction_pt_br": "O Sacerdote da Asa Branca afirma que cuidará das consequências, mas uma mensagem urgente do Ancião informa que os ataques anteriores dos espíritos ressentidos deixaram a Torre Celeste gravemente danificada. A energia do firmamento está severamente esgotada e, se a Torre Celeste não for reparada rapidamente, a Ilha Celeste poderá despencar em pouco tempo. Caso saia da área por engano, retorne à caverna nas proximidades de (198,685) e utilize novamente o portal de teletransporte.\n\nPara concluir a missão, fale com o NPC Sacerdote Senifa em 165,691(73).",
+          "instruction_pt_br": "O Sacerdote da Asa Branca afirma que cuidará das consequências, mas uma mensagem urgente do Ancião informa que os ataques anteriores dos espíritos ressentidos deixaram a Torre Celeste gravemente danificada. A energia do firmamento está severamente esgotada e, se a Torre Celeste não for reparada rapidamente, a Ilha Celeste poderá despencar em pouco tempo. Caso saia da área por engano, retorne à caverna nas proximidades de (198,685) e utilize novamente o portal de teletransporte. Para concluir a missão, fale com o NPC Sacerdote Senifa em 165,691(73).",
           "npc": "Sacerdote Senifa",
           "coords": [
             {
@@ -2543,7 +3521,7 @@
           "id": "step-52-chegar-ao-campo-de-batalha",
           "order": 52,
           "title_pt_br": "Chegar ao Campo de Batalha",
-          "instruction_pt_br": "Rápido, siga para a Torre Celestial.\n\nSe você ainda estiver dentro da caverna, pode usar o portal amarelo para sair. Seu objetivo agora é ir até a coordenada 207,654(86).",
+          "instruction_pt_br": "Rápido, siga para a Torre Celestial. Se você ainda estiver dentro da caverna, pode usar o portal amarelo para sair. Seu objetivo agora é ir até a coordenada 207,654(86).",
           "npc": null,
           "coords": [
             {
@@ -2559,7 +3537,7 @@
           "id": "step-53-dividir-e-conquistar-i",
           "order": 53,
           "title_pt_br": "Dividir e Conquistar I",
-          "instruction_pt_br": "A Mansão Po Ju finalmente entrou em ação, mas por ora só consegue defender a Torre Celestial, sem poder para contra-atacar. Agora, espera-se que você derrote os espíritos atormentados nos acampamentos.\n\nPara iniciar a missão, fale com o NPC Jin Qieguo em 207,654(86).\n\nVocê precisa derrotar: Espírito Desalmado (×3) em 188,658(86).\n\nPara concluir a missão, fale com o NPC Jin Qieguo em 207,654(86).",
+          "instruction_pt_br": "A Mansão Po Ju finalmente entrou em ação, mas por ora só consegue defender a Torre Celestial, sem poder para contra-atacar. Agora, espera-se que você derrote os espíritos atormentados nos acampamentos. Para iniciar a missão, fale com o NPC Jin Qieguo em 207,654(86). Você precisa derrotar: Espírito Desalmado (×3) em 188,658(86). Para concluir a missão, fale com o NPC Jin Qieguo em 207,654(86).",
           "npc": "Jin Qieguo",
           "coords": [
             {
@@ -2580,7 +3558,7 @@
           "id": "step-54-segundo-posto",
           "order": 54,
           "title_pt_br": "Segundo Posto",
-          "instruction_pt_br": "Ir até o segundo posto avançado.\n\nVá até a coordenada 195,672(85).",
+          "instruction_pt_br": "Ir até o segundo posto avançado. Vá até a coordenada 195,672(85).",
           "npc": null,
           "coords": [
             {
@@ -2596,7 +3574,7 @@
           "id": "step-55-dividir-e-conquistar-ii",
           "order": 55,
           "title_pt_br": "Dividir e Conquistar II",
-          "instruction_pt_br": "A Mansão Po Ju finalmente entrou em ação, mas por ora só consegue defender a Torre Celestial, sem poder para contra-atacar. Agora, espera-se que você derrote os espíritos atormentados nos acampamentos.\n\nVocê precisa derrotar: Espírito Rancoroso (×3) em 192,677(85).\n\nPara concluir a missão, fale com o NPC Soldado Lu Cizang em 194,675(85).",
+          "instruction_pt_br": "A Mansão Po Ju finalmente entrou em ação, mas por ora só consegue defender a Torre Celestial, sem poder para contra-atacar. Agora, espera-se que você derrote os espíritos atormentados nos acampamentos. Você precisa derrotar: Espírito Rancoroso (×3) em 192,677(85). Para concluir a missão, fale com o NPC Soldado Lu Cizang em 194,675(85).",
           "npc": "Soldado Lu Cizang",
           "coords": [
             {
@@ -2617,7 +3595,7 @@
           "id": "step-56-terceiro-posto",
           "order": 56,
           "title_pt_br": "Terceiro Posto.",
-          "instruction_pt_br": "Ir até o terceiro posto avançado.\n\nVá até a coordenada 204,669(85)",
+          "instruction_pt_br": "Ir até o terceiro posto avançado. Vá até a coordenada 204,669(85)",
           "npc": null,
           "coords": [
             {
@@ -2633,7 +3611,7 @@
           "id": "step-57-dividir-e-conquistar-iii",
           "order": 57,
           "title_pt_br": "Dividir e Conquistar III",
-          "instruction_pt_br": "A Mansão Po Ju finalmente entrou em ação, mas por ora só consegue defender a Torre Celestial, sem poder para contra-atacar. Agora, espera-se que você derrote os espíritos atormentados nos acampamentos.\n\nVocê precisa derrotar: Espírito Rancoroso (×3) em 210,667(85).\n\nPara concluir a missão, fale com o NPC Soldado Lu Zhangke em 206,670(85).",
+          "instruction_pt_br": "A Mansão Po Ju finalmente entrou em ação, mas por ora só consegue defender a Torre Celestial, sem poder para contra-atacar. Agora, espera-se que você derrote os espíritos atormentados nos acampamentos. Você precisa derrotar: Espírito Rancoroso (×3) em 210,667(85). Para concluir a missão, fale com o NPC Soldado Lu Zhangke em 206,670(85).",
           "npc": "Soldado Lu Zhangke",
           "coords": [
             {
@@ -2654,7 +3632,7 @@
           "id": "step-58-método-de-restauração",
           "order": 58,
           "title_pt_br": "Método de Restauração",
-          "instruction_pt_br": "O Ancião de Asa Branca explicou que, agora que as influências externas foram resolvidas, basta reunir o poder dos Clãs Asa Branca e Asa Negra e infundi-lo nos destroços da Torre Celestial para restaurá-la.\n\nPara concluir a missão, fale com o NPC Ancião da Asa Branca Selantir em 207,654(86).",
+          "instruction_pt_br": "O Ancião de Asa Branca explicou que, agora que as influências externas foram resolvidas, basta reunir o poder dos Clãs Asa Branca e Asa Negra e infundi-lo nos destroços da Torre Celestial para restaurá-la. Para concluir a missão, fale com o NPC Ancião da Asa Branca Selantir em 207,654(86).",
           "npc": "Ancião da Asa Branca Selantir",
           "coords": [
             {
@@ -2670,7 +3648,7 @@
           "id": "step-59-infundir-nos-fragmentos",
           "order": 59,
           "title_pt_br": "Infundir nos Fragmentos",
-          "instruction_pt_br": "De acordo com o Ancião e o Sacerdote de Asa Branca, deve-se canalizar poder nos destroços espalhados da Torre Celestial.\n\nCave os destroços em 204,650(87), 195,657(86) e 202,655(86). Em seguida a missão será concluída automaticamente.",
+          "instruction_pt_br": "De acordo com o Ancião e o Sacerdote de Asa Branca, deve-se canalizar poder nos destroços espalhados da Torre Celestial. Cave os destroços em 204,650(87), 195,657(86) e 202,655(86). Em seguida a missão será concluída automaticamente.",
           "npc": null,
           "coords": [
             {
@@ -2696,7 +3674,7 @@
           "id": "step-60-unir-em-um-só",
           "order": 60,
           "title_pt_br": "Unir em Um Só",
-          "instruction_pt_br": "A situação já está estável, e os problemas restantes entre as duas tribos devem ser resolvidos por elas mesmas.\n\nEsta missão será concluída automaticamente.",
+          "instruction_pt_br": "A situação já está estável, e os problemas restantes entre as duas tribos devem ser resolvidos por elas mesmas. Esta missão será concluída automaticamente.",
           "npc": null,
           "coords": [],
           "dialog_hint": null,
@@ -2706,7 +3684,7 @@
           "id": "step-61-o-fim-da-tempestade",
           "order": 61,
           "title_pt_br": "O Fim da Tempestade",
-          "instruction_pt_br": "A situação já está estável, e os problemas restantes entre as duas tribos devem ser resolvidos por elas mesmas.\n\nPara concluir a missão, fale com o NPC Ancião da Asa Branca Selantir em 207,654(86).",
+          "instruction_pt_br": "A situação já está estável, e os problemas restantes entre as duas tribos devem ser resolvidos por elas mesmas. Para concluir a missão, fale com o NPC Ancião da Asa Branca Selantir em 207,654(86).",
           "npc": "Ancião da Asa Branca Selantir",
           "coords": [
             {
@@ -2722,7 +3700,7 @@
           "id": "step-62-a-verdade-i",
           "order": 62,
           "title_pt_br": "A Verdade I",
-          "instruction_pt_br": "Jin Qieguo evitou os anciãos do Clã Asa Branca, e explicou que a razão de não quererem se envolver tem a ver com o motivo pelo qual o Sacerdote de Asa Negra iniciou a guerra. Na verdade, a relação entre os dois clãs não era tão equilibrada quanto você pensava.\n\nPara concluir a missão, fale com o NPC Jin Qieguo em 207,654(86).",
+          "instruction_pt_br": "Jin Qieguo evitou os anciãos do Clã Asa Branca, e explicou que a razão de não quererem se envolver tem a ver com o motivo pelo qual o Sacerdote de Asa Negra iniciou a guerra. Na verdade, a relação entre os dois clãs não era tão equilibrada quanto você pensava. Para concluir a missão, fale com o NPC Jin Qieguo em 207,654(86).",
           "npc": "Jin Qieguo",
           "coords": [
             {
@@ -2738,7 +3716,7 @@
           "id": "step-63-verdade-ii-altura-110",
           "order": 63,
           "title_pt_br": "Verdade (II) (Altura 110)",
-          "instruction_pt_br": "Vá até a Ilha Celeste e procure o objeto deixado pelo Sacerdote da Asa Negra. A área de ativação da missão fica na altitude 110.\n\nVá até a coordenada 202,662(110).",
+          "instruction_pt_br": "Vá até a Ilha Celeste e procure o objeto deixado pelo Sacerdote da Asa Negra. A área de ativação da missão fica na altitude 110. Vá até a coordenada 202,662(110).",
           "npc": null,
           "coords": [
             {
@@ -2754,7 +3732,7 @@
           "id": "step-64-a-verdade-iii",
           "order": 64,
           "title_pt_br": "A Verdade III",
-          "instruction_pt_br": "Procure o que o Sacerdote de Asa Negra deixou.\n\nCave o “Item Deixado pelo Sacerdote” em 202,663(110)",
+          "instruction_pt_br": "Procure o que o Sacerdote de Asa Negra deixou. Cave o “Item Deixado pelo Sacerdote” em 202,663(110)",
           "npc": null,
           "coords": [
             {
@@ -2770,7 +3748,7 @@
           "id": "step-65-a-verdade-iv",
           "order": 65,
           "title_pt_br": "A Verdade IV",
-          "instruction_pt_br": "Examine o conteúdo escrito pelo Sacerdote de Asa Negra.\n\nUse o item Carta Póstuma do Sacerdote que está em seu inventário.",
+          "instruction_pt_br": "Examine o conteúdo escrito pelo Sacerdote de Asa Negra. Use o item Carta Póstuma do Sacerdote que está em seu inventário.",
           "npc": null,
           "coords": [],
           "dialog_hint": null,
@@ -2780,7 +3758,7 @@
           "id": "step-66-a-verdade-v",
           "order": 66,
           "title_pt_br": "A Verdade V",
-          "instruction_pt_br": "O conteúdo deixado pelo Sacerdote de Asa Negra abalou profundamente seu coração, e você deseja obter respostas com Jin Qieguo.\n\nPara concluir a missão, fale com o NPC Jin Qieguo em 207,653(86).\n\nAo concluir a missão, será invocado no mesmo local, um Baú Dourado.\n\n \n\n## Anedota: Continente Oriental – Cap. II · Pensamentos Ilusórios\n\n \n\n## Descubra como forjar o novo Anel G18!\n\nVocê precisa fazer o login para publicar um comentário.\n\nLoja dos Gifts Ltda. CNPJ 32.494.298/0001-20. Avenida Bayer Filho, 1.111, Sala 11 – Centro – Tijucas – SC CEP 88200-000.\n\nE-mail [email protected] / WhatsApp (11) 99298-3039 / WhatsApp (11) 96074-5344 / WhatsApp (47) 99653-6359.",
+          "instruction_pt_br": "O conteúdo deixado pelo Sacerdote de Asa Negra abalou profundamente seu coração, e você deseja obter respostas com Jin Qieguo. Para concluir a missão, fale com o NPC Jin Qieguo em 207,653(86). Ao concluir a missão, será invocado no mesmo local, um Baú Dourado. ## Anedota: Continente Oriental – Cap. II · Pensamentos Ilusórios ## Descubra como forjar o novo Anel G18! Você precisa fazer o login para publicar um comentário. Loja dos Gifts Ltda. CNPJ 32.494.298/0001-20. Avenida Bayer Filho, 1.111, Sala 11 – Centro – Tijucas – SC CEP 88200-000. E-mail [email protected] / WhatsApp (11) 99298-3039 / WhatsApp (11) 96074-5344 / WhatsApp (47) 99653-6359.",
           "npc": "Jin Qieguo",
           "coords": [
             {
@@ -2812,7 +3790,7 @@
       "coverage_status": "partial",
       "review_status": "foreign_reference",
       "origin": "community_observed",
-      "source_url": "https://triviapw.com.br/2026/05/19/canglan-sob-neve-serena-guia-da-jornada/",
+      "source_url": null,
       "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
       "steps": [
         {
@@ -2889,7 +3867,7 @@
       "coverage_status": "partial",
       "review_status": "foreign_reference",
       "origin": "community_observed",
-      "source_url": "https://triviapw.com.br/2026/05/19/montanha-espiritual-guia-da-jornada/",
+      "source_url": null,
       "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
       "steps": [
         {
@@ -2990,7 +3968,7 @@
       "coverage_status": "partial",
       "review_status": "foreign_reference",
       "origin": "community_observed",
-      "source_url": "https://triviapw.com.br/2026/05/19/desembainhar-a-espada-guia-da-jornada/",
+      "source_url": null,
       "notice": "Guias comunitários estruturados. foreign_reference — validar no cliente BR antes de republicar.",
       "steps": [
         {

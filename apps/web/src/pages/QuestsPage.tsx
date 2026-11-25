@@ -1,30 +1,29 @@
 import { useEffect, useState } from "react";
 import { Link, Navigate, useParams } from "react-router-dom";
 import { ZoomableImage } from "../components/ZoomableImage";
+import { CoordChip } from "../components/CoordChip";
+import { QuestMapEmbed } from "../components/QuestMapEmbed";
+import { QuestInstructionBody } from "../lib/questInstruction";
 import {
+  getMap,
   getQuest,
   getQuestCatalog,
   listQuests,
   maps,
   questExcerpt,
   questKindLabel,
+  hasPublicMapPage,
+  questEmbedRedirects,
+  questGuidePath,
   questMapOrder,
 } from "../lib/data";
-import {
-  databaseItemIconSrc,
-  ensureDatabaseLoaded,
-  getDatabaseItem,
-} from "../lib/database";
+import { ensureDatabaseLoaded, getDatabaseItem } from "../lib/database";
+import { ItemIcon } from "../components/ItemIcon";
 import type {
-  QuestCoord,
   QuestGuideFixture,
   QuestRewardRef,
   QuestStepFixture,
 } from "@hiperxp/contracts";
-
-function formatCoord(c: QuestCoord): string {
-  return c.altitude == null ? `${c.x}, ${c.y}` : `${c.x}, ${c.y} (${c.altitude})`;
-}
 
 function formatDate(iso: string | null | undefined): string | null {
   if (!iso) return null;
@@ -60,26 +59,25 @@ function RewardIcon({
   itemId?: number | null;
   metaSrc?: string | null;
 }) {
-  const [failed, setFailed] = useState(false);
-  const src =
-    itemId != null
-      ? databaseItemIconSrc(itemId)
-      : metaSrc ?? null;
-  useEffect(() => {
-    setFailed(false);
-  }, [src]);
+  if (itemId != null) {
+    return (
+      <ItemIcon
+        id={itemId}
+        className="db-icon db-icon--sm"
+        extraSources={metaSrc ? [metaSrc] : undefined}
+      />
+    );
+  }
+  if (!metaSrc) {
+    return (
+      <span className="db-icon db-icon--sm" aria-hidden>
+        <span className="db-icon-fallback">◇</span>
+      </span>
+    );
+  }
   return (
     <span className="db-icon db-icon--sm" aria-hidden>
-      {src && !failed ? (
-        <img
-          src={src}
-          alt=""
-          loading="lazy"
-          onError={() => setFailed(true)}
-        />
-      ) : (
-        <span className="db-icon-fallback">◇</span>
-      )}
+      <img src={metaSrc} alt="" loading="lazy" />
     </span>
   );
 }
@@ -131,12 +129,22 @@ function QuestRewardList({ rewards }: { rewards: QuestRewardRef[] }) {
   );
 }
 
+function catalogMapLabel(mapSlug: string): string {
+  if (mapSlug === "drops-reino-oriental") {
+    return maps["cidade-da-paz"]?.name_pt_br ?? "Cidade da Paz";
+  }
+  if (mapSlug === "drops-tianyu") {
+    return maps.tianyu?.name_pt_br ?? "Tianyu";
+  }
+  return maps[mapSlug]?.name_pt_br ?? mapSlug;
+}
+
 function QuestPostCard({ quest }: { quest: QuestGuideFixture }) {
-  const mapName = maps[quest.map_slug]?.name_pt_br ?? quest.map_slug;
+  const mapName = catalogMapLabel(quest.map_slug);
   const date = formatDate(quest.published_at);
   return (
     <article className="qg-list-item">
-      <Link className="qg-list-link" to={`/missoes/${quest.map_slug}/${quest.slug}`}>
+      <Link className="qg-list-link" to={questGuidePath(quest)}>
         <div className="qg-list-kicker">
           <span className="qg-pill">{questKindLabel(quest.kind)}</span>
           <span className="qg-kicker-sep" aria-hidden>
@@ -169,6 +177,10 @@ export function QuestsIndexPage() {
 
 export function QuestsPage() {
   const { mapSlug = questMapOrder[0] } = useParams();
+  const embedRedirect = questEmbedRedirects[mapSlug];
+  if (embedRedirect) {
+    return <Navigate to={embedRedirect} replace />;
+  }
   const catalog = getQuestCatalog(mapSlug);
   const quests = listQuests(mapSlug);
 
@@ -185,22 +197,18 @@ export function QuestsPage() {
       ? "Jornadas e diárias de exploração"
       : mapSlug === "continente-ocidental"
         ? "Diárias de vigor e escolta"
-        : mapSlug === "mundo-primitivo"
-          ? "Diárias de Vigor (Limite de Céu)"
-          : "Missões globais e diárias da cidade";
+        : "Missões globais e diárias da cidade";
   const pageLead =
     mapSlug === "continente-ocidental"
       ? `Diárias de Vigor, Espíritos Sagrados e escolta em ${mapName}.`
-      : mapSlug === "mundo-primitivo"
-        ? `Diárias de Vigor do Limite de Céu em ${mapName} (Story Mode e farm).`
-        : `Etapas e coordenadas das missões em ${mapName}. Guias comunitários para explorar o continente oriental.`;
+      : `Etapas e coordenadas das missões em ${mapName}. Guias comunitários para explorar o continente oriental.`;
 
   return (
     <main className="page qg-page">
       <header className="qg-page-header">
         <p className="qg-eyebrow">Guias · Perfect World</p>
         <h1>
-          {mapSlug === "continente-ocidental" || mapSlug === "mundo-primitivo"
+          {mapSlug === "continente-ocidental"
             ? `Missões — ${mapName}`
             : `Missões do Reino Oriental — ${mapName}`}
         </h1>
@@ -243,7 +251,11 @@ export function QuestsPage() {
 }
 
 function isPhotoStep(step: QuestStepFixture): boolean {
-  return step.title_pt_br.startsWith("Foto");
+  return /^(Foto|Paisagem|Cenário)\b/.test(step.title_pt_br);
+}
+
+function photoStepLabel(title: string): string {
+  return title.replace(/^(Foto|Paisagem|Cenário)\s*[—-]\s*/, "");
 }
 
 function QuestWikiPost({
@@ -270,13 +282,37 @@ function QuestWikiPost({
   const floatImage =
     guideSteps.find((s) => s.image_url?.includes("route-map")) ??
     guideSteps.find((s) => Boolean(s.image_url));
-  const startNpc = guideSteps.find((s) => s.npc)?.npc ?? null;
-  const startCoord =
-    guideSteps.find((s) => s.npc && s.coords.length > 0)?.coords[0] ??
-    guideSteps.find((s) => s.coords.length > 0)?.coords[0] ??
+  const startNpcStep =
+    guideSteps.find((s) => s.npc && s.coords.length > 0) ??
+    guideSteps.find((s) => s.npc) ??
     null;
+  const startNpc = startNpcStep?.npc ?? null;
+  // Only show a coord next to the NPC when that same step has coords —
+  // never borrow unlock/map coords from another step.
+  const startCoord = startNpcStep?.coords[0] ?? null;
   const cover = quest.cover_image || mapAsset;
-  const hasMapLink = Boolean(maps[quest.map_slug]?.points?.length);
+  const questMap = getMap(quest.map_slug);
+  const hasMapLink =
+    Boolean(questMap?.points?.length) && hasPublicMapPage(quest.map_slug);
+  // Placeholder/synthetic maps (Quedanunca, MP…) look empty — coords only.
+  const showMapEmbed =
+    Boolean(questMap?.points?.length) &&
+    !questMap?.synthetic &&
+    (quest.map_slug.startsWith("drops-") ||
+      questMap?.points.every(
+        (p) =>
+          (p.icon_key || "").startsWith("drop-") ||
+          (p.icon_key || "") === "quest-imagem" ||
+          p.category === "npc" ||
+          p.category === "quest_objective",
+      ));
+  const inlinePhotoGallery =
+    photoSteps.length > 0 &&
+    (quest.map_slug.startsWith("drops-") || showMapEmbed);
+  const embedAnchorStepId =
+    guideSteps.find((s) =>
+      /etapa\s*1|coordenadas das imagens/i.test(s.title_pt_br),
+    )?.id ?? guideSteps[0]?.id;
   const structuredRewards = quest.rewards?.length ? quest.rewards : null;
   const [, setDbTick] = useState(0);
 
@@ -289,6 +325,31 @@ function QuestWikiPost({
       alive = false;
     };
   }, []);
+
+  useEffect(() => {
+    const hash = window.location.hash.replace(/^#/, "");
+    if (!hash) return;
+    const t = window.setTimeout(() => {
+      document.getElementById(hash)?.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }, 80);
+    return () => window.clearTimeout(t);
+  }, [quest.id, photoSteps.length]);
+
+  function jumpTo(id: string) {
+    const href = `#${id}`;
+    window.history.replaceState(
+      null,
+      "",
+      `${window.location.pathname}${window.location.search}${href}`,
+    );
+    document.getElementById(id)?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  }
 
   return (
     <main className="qg-wiki">
@@ -314,7 +375,9 @@ function QuestWikiPost({
           </div>
           <h1>{quest.name_pt_br}</h1>
           {quest.summary_pt_br ? (
-            <p className="qg-wiki-lead">{quest.summary_pt_br}</p>
+            <div className="qg-wiki-lead">
+              <QuestInstructionBody text={quest.summary_pt_br} />
+            </div>
           ) : null}
         </header>
 
@@ -358,7 +421,7 @@ function QuestWikiPost({
                         {startCoord ? (
                           <>
                             <br />
-                            <code>{formatCoord(startCoord)}</code>
+                            <CoordChip coord={startCoord} />
                           </>
                         ) : null}
                       </td>
@@ -367,7 +430,12 @@ function QuestWikiPost({
                   {quest.prerequisite_pt_br ? (
                     <tr>
                       <th>Pré-req.</th>
-                      <td>{quest.prerequisite_pt_br}</td>
+                      <td>
+                        <QuestInstructionBody
+                          text={quest.prerequisite_pt_br}
+                          className="qg-wiki-inline-rich"
+                        />
+                      </td>
                     </tr>
                   ) : null}
                   {structuredRewards ? (
@@ -387,6 +455,43 @@ function QuestWikiPost({
               </table>
             </aside>
 
+            {guideSteps.length > 1 ? (
+              <nav className="qg-wiki-toc" aria-label="Índice do guia">
+                <h2>Índice</h2>
+                <ol className="qg-wiki-toc-list">
+                  {guideSteps.map((s, i) => (
+                    <li key={s.id}>
+                      <a
+                        className="qg-wiki-toc-link"
+                        href={`#${s.id}`}
+                        onClick={(e) => {
+                          e.preventDefault();
+                          jumpTo(s.id);
+                        }}
+                      >
+                        <span className="qg-wiki-toc-num">{i + 1}.</span>
+                        {s.title_pt_br}
+                      </a>
+                    </li>
+                  ))}
+                  {photoSteps.length > 0 ? (
+                    <li>
+                      <a
+                        className="qg-wiki-toc-link"
+                        href="#galeria"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          jumpTo("galeria");
+                        }}
+                      >
+                        Imagens de referência
+                      </a>
+                    </li>
+                  ) : null}
+                </ol>
+              </nav>
+            ) : null}
+
             <section className="qg-wiki-section qg-wiki-section--part1">
               <h2>Objetivos</h2>
               {floatImage?.image_url ? (
@@ -403,34 +508,83 @@ function QuestWikiPost({
               ) : null}
 
               <ol className="qg-wiki-olist">
-                {guideSteps.map((s) => (
-                  <li key={s.id} id={s.id}>
-                    <strong>{s.title_pt_br}</strong>
-                    {" — "}
-                    {s.instruction_pt_br}
-                    {s.coords.length > 0 ? (
-                      <>
-                        {" "}
-                        (
-                        {s.coords.map((c, i) => (
-                          <span key={`${c.x}-${c.y}-${c.altitude ?? "n"}`}>
-                            {i > 0 ? ", " : null}
-                            <code>{formatCoord(c)}</code>
-                          </span>
-                        ))}
-                        {s.npc ? <> · {s.npc}</> : null})
-                      </>
-                    ) : s.npc ? (
-                      <> ({s.npc})</>
+                {guideSteps.map((s, i) => (
+                  <li key={s.id} id={s.id} className="qg-wiki-step">
+                    <strong className="qg-wiki-step-title">
+                      {s.title_pt_br}
+                    </strong>
+                    <QuestInstructionBody
+                      text={s.instruction_pt_br}
+                      fallbackCoords={
+                        s.id === embedAnchorStepId && inlinePhotoGallery
+                          ? []
+                          : s.coords
+                      }
+                      npc={s.npc}
+                    />
+                    {s.id === embedAnchorStepId && inlinePhotoGallery ? (
+                      <div id="galeria" className="qg-wiki-step-gallery">
+                        <p className="qg-wiki-step-gallery-lead">
+                          Compare a imagem da missão com os {photoSteps.length}{" "}
+                          locais abaixo:
+                        </p>
+                        <div className="qg-wiki-gallery">
+                          {photoSteps.map((ps) => {
+                            const name = photoStepLabel(ps.title_pt_br);
+                            const coord = ps.coords[0] ?? null;
+                            return (
+                              <figure
+                                key={ps.id}
+                                id={ps.id}
+                                className="qg-wiki-shot"
+                              >
+                                {ps.image_url ? (
+                                  <ZoomableImage
+                                    src={ps.image_url}
+                                    alt={ps.image_alt || name}
+                                    caption={`Local: ${name}`}
+                                  />
+                                ) : null}
+                                <figcaption>
+                                  <strong>{name}</strong>
+                                  {coord ? <CoordChip coord={coord} /> : null}
+                                  {ps.notes ? <em>{ps.notes}</em> : null}
+                                </figcaption>
+                              </figure>
+                            );
+                          })}
+                        </div>
+                      </div>
+                    ) : null}
+                    {showMapEmbed &&
+                    questMap &&
+                    s.id === embedAnchorStepId ? (
+                      <div
+                        id="mapa"
+                        className="qg-wiki-step-map"
+                        aria-label={`Mapa ${mapName}`}
+                      >
+                        <QuestMapEmbed
+                          map={questMap}
+                          caption="Câmera = local da imagem (Etapa 1) · círculo = ícone do drop do mob (Etapa 3)"
+                        />
+                      </div>
                     ) : null}
                     {s.dialog_hint ? (
                       <div className="qg-wiki-hint">
-                        Diálogo: {s.dialog_hint}
+                        <span className="qg-wiki-hint-label">Diálogo</span>
+                        <QuestInstructionBody
+                          text={s.dialog_hint}
+                          className="qg-wiki-inline-rich"
+                        />
                       </div>
                     ) : null}
                     {s.notes ? (
                       <div className="qg-wiki-hint qg-wiki-hint--note">
-                        {s.notes}
+                        <QuestInstructionBody
+                          text={s.notes}
+                          className="qg-wiki-inline-rich"
+                        />
                       </div>
                     ) : null}
                     {s.image_url && s !== floatImage ? (
@@ -448,34 +602,33 @@ function QuestWikiPost({
               </ol>
             </section>
 
-            {photoSteps.length > 0 ? (
-              <section className="qg-wiki-section qg-wiki-section--clear">
+            {!inlinePhotoGallery && photoSteps.length > 0 ? (
+              <section
+                id="galeria"
+                className="qg-wiki-section qg-wiki-section--clear"
+              >
                 <h2>Galeria de locais</h2>
                 <p>
-                  Compare a imagem do Fragmento de Memória com os locais abaixo.
-                  Use o autofalante da missão fixada para soltar a coordenada no
-                  chat. Há {photoSteps.length} locais possíveis:
+                  Compare a imagem da missão com os locais abaixo. Use o mapa e
+                  a lista de tarefas na tela enquanto procura. Há{" "}
+                  {photoSteps.length} locais possíveis:
                 </p>
                 <div className="qg-wiki-gallery">
                   {photoSteps.map((s) => {
-                    const name = s.title_pt_br.replace(/^Foto — /, "");
-                    const coord = s.coords[0] ? formatCoord(s.coords[0]) : null;
+                    const name = photoStepLabel(s.title_pt_br);
+                    const coord = s.coords[0] ?? null;
                     return (
                       <figure key={s.id} id={s.id} className="qg-wiki-shot">
                         {s.image_url ? (
                           <ZoomableImage
                             src={s.image_url}
                             alt={s.image_alt || name}
-                            caption={
-                              coord
-                                ? `Local: ${name} (${coord})`
-                                : `Local: ${name}`
-                            }
+                            caption={`Local: ${name}`}
                           />
                         ) : null}
                         <figcaption>
                           <strong>Local: {name}</strong>
-                          {coord ? <span>({coord})</span> : null}
+                          {coord ? <CoordChip coord={coord} /> : null}
                           {s.notes ? <em>{s.notes}</em> : null}
                         </figcaption>
                       </figure>
@@ -529,6 +682,10 @@ function QuestWikiPost({
 
 export function QuestPostPage() {
   const { mapSlug = "", questSlug = "" } = useParams();
+  const embedRedirect = questEmbedRedirects[mapSlug];
+  if (embedRedirect) {
+    return <Navigate to={embedRedirect} replace />;
+  }
   const quest = getQuest(mapSlug, questSlug);
   const catalog = getQuestCatalog(mapSlug);
 
@@ -536,8 +693,14 @@ export function QuestPostPage() {
     return <Navigate to={`/missoes/${mapSlug || questMapOrder[0]}`} replace />;
   }
 
-  const mapName = maps[quest.map_slug]?.name_pt_br ?? quest.map_slug;
-  const mapAsset = maps[quest.map_slug]?.asset ?? `/maps/${quest.map_slug}.webp`;
+  const mapName =
+    maps[mapSlug]?.name_pt_br ??
+    maps[quest.map_slug]?.name_pt_br ??
+    quest.map_slug;
+  const mapAsset =
+    maps[quest.map_slug]?.asset ??
+    maps[mapSlug]?.asset ??
+    `/maps/${mapSlug}.webp`;
   const date = formatDate(quest.published_at);
   const siblings = listQuests(mapSlug);
   const idx = siblings.findIndex((q) => q.slug === quest.slug);

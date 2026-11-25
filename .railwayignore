@@ -1,0 +1,12 @@
+# 40k+ PNGs already served via jsDelivr from GitHub — skip upload on `railway up`.
+data/fixtures/sources/client-br-levelup/icons-all/
+data/fixtures/sources/client-br-levelup/icons/
+data/fixtures/sources/client-br-levelup/raw/
+data/fixtures/sources/client-br-levelup/npc-models/
+**/node_modules/
+**/.git/
+**/dist/
+**/.turbo/
+**/__pycache__/
+tmp/
+*.local

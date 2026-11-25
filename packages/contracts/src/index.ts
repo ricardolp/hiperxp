@@ -216,7 +216,7 @@ export type QuestGuideFixture = {
   coverage_status: CoverageStatus;
   review_status: ReviewStatus;
   origin: DataOrigin;
-  source_url: string;
+  source_url: string | null;
   source_file?: string | null;
   content_hash?: string;
   notice: string;

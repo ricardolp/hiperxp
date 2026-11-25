@@ -8,7 +8,7 @@ import {
   CATEGORY_DESCRIPTIONS,
   CATEGORY_LABELS,
 } from "../lib/categories";
-import { getMap, maps } from "../lib/data";
+import { getMap, hasPublicMapPage, maps } from "../lib/data";
 import { ICON_LABELS, iconUrl } from "../lib/icons";
 import {
   ensureDefaultCharacter,
@@ -18,8 +18,13 @@ import {
   setPointCompleted,
 } from "../lib/progress";
 
-/** Abas do seletor — só Reino Oriental por enquanto; demais mapas ficam nas rotas. */
+/** Abas do seletor — Reino Oriental; demais mapas ficam nas rotas. */
 const MAP_TABS = ["cidade-da-paz", "tianyu", "jingxuan"] as const;
+
+const EMBED_ONLY_REDIRECT: Record<string, string> = {
+  "drops-reino-oriental": "/missoes/cidade-da-paz/alma-da-paz-eterna",
+  "drops-tianyu": "/missoes/tianyu/alma-de-tianyu",
+};
 
 const CATEGORY_ICON_KEYS: Record<PointCategory, string> = {
   chest: "chest",
@@ -46,6 +51,7 @@ export function MapPage() {
   const [filtersOpen, setFiltersOpen] = useState(true);
   const [pointsOpen, setPointsOpen] = useState(true);
   const [clearConfirmOpen, setClearConfirmOpen] = useState(false);
+  const [enabledIcons, setEnabledIcons] = useState<Set<string> | null>(null);
 
   const selectedId = searchParams.get("ponto");
 
@@ -65,14 +71,63 @@ export function MapPage() {
     };
   }, [slug]);
 
+  useEffect(() => {
+    setEnabledIcons(null);
+  }, [slug]);
+
+  const legendItems = useMemo(() => {
+    if (!map) return [];
+    const byKey = new Map<
+      string,
+      { key: string; label: string; icon?: string }
+    >();
+    for (const point of map.points) {
+      const key = point.icon_key || "glint";
+      if (byKey.has(key)) continue;
+      byKey.set(key, {
+        key,
+        label: ICON_LABELS[key] ?? point.type_label ?? point.name,
+        icon: point.icon,
+      });
+    }
+    const order = Object.keys(ICON_LABELS);
+    return [...byKey.values()].sort((a, b) => {
+      const ia = order.indexOf(a.key);
+      const ib = order.indexOf(b.key);
+      return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+    });
+  }, [map]);
+
+  const useIconFilters = legendItems.some((item) => item.key.startsWith("drop-"));
+
   const filtered = useMemo(() => {
     if (!map) return [];
     return map.points.filter((point) => {
-      if (!categories.has(point.category)) return false;
+      if (useIconFilters) {
+        if (enabledIcons && !enabledIcons.has(point.icon_key || "glint")) {
+          return false;
+        }
+      } else if (!categories.has(point.category)) {
+        return false;
+      }
       if (onlyOpen && completed.has(point.id)) return false;
       return true;
     });
-  }, [map, categories, onlyOpen, completed]);
+  }, [map, categories, onlyOpen, completed, useIconFilters, enabledIcons]);
+
+  const iconCounts = useMemo(() => {
+    if (!map || !useIconFilters) return [];
+    return legendItems.map((item) => {
+      const total = map.points.filter(
+        (point) => (point.icon_key || "glint") === item.key,
+      ).length;
+      const done = map.points.filter(
+        (point) =>
+          (point.icon_key || "glint") === item.key && completed.has(point.id),
+      ).length;
+      return { ...item, total, done };
+    });
+  }, [map, legendItems, completed, useIconFilters]);
 
   const categoryCounts = useMemo(() => {
     if (!map) return [];
@@ -85,7 +140,12 @@ export function MapPage() {
     }).filter((row) => row.total > 0);
   }, [map, completed]);
 
-  if (!map) {
+  const embedRedirect = EMBED_ONLY_REDIRECT[slug];
+  if (embedRedirect) {
+    return <Navigate to={embedRedirect} replace />;
+  }
+
+  if (!map || !hasPublicMapPage(slug)) {
     return <Navigate to="/mapas/cidade-da-paz" replace />;
   }
 
@@ -139,6 +199,16 @@ export function MapPage() {
     url.searchParams.set("ponto", selected.id);
     await navigator.clipboard.writeText(url.toString());
     setStatus("Link copiado.");
+  }
+
+  function toggleIcon(key: string) {
+    setEnabledIcons((prev) => {
+      const base = prev ?? new Set(legendItems.map((item) => item.key));
+      const next = new Set(base);
+      if (next.has(key)) next.delete(key);
+      else next.add(key);
+      return next;
+    });
   }
 
   function toggleCategory(category: PointCategory) {
@@ -301,10 +371,15 @@ export function MapPage() {
 
           {map.points.length > 0 ? (
             <div className="map-legend" aria-label="Legenda">
-              {Object.entries(ICON_LABELS).map(([key, label]) => (
-                <span key={key} className="map-legend-item">
-                  <img src={iconUrl(key)} alt="" width={22} height={22} />
-                  <span>{label}</span>
+              {legendItems.map((item) => (
+                <span key={item.key} className="map-legend-item">
+                  <img
+                    src={iconUrl(item.key, item.icon)}
+                    alt=""
+                    width={22}
+                    height={22}
+                  />
+                  <span>{item.label}</span>
                 </span>
               ))}
             </div>
@@ -346,34 +421,55 @@ export function MapPage() {
                 </button>
               </div>
 
-              <h3 className="side-heading">Tipos</h3>
+              <h3 className="side-heading">{useIconFilters ? "Mobs" : "Tipos"}</h3>
               <div className="category-filters">
-                {categoryCounts.map(({ category, total, done }) => (
-                  <label
-                    key={category}
-                    className="filter-row"
-                    title={CATEGORY_DESCRIPTIONS[category]}
-                  >
-                    <input
-                      type="checkbox"
-                      checked={categories.has(category)}
-                      onChange={() => toggleCategory(category)}
-                    />
-                    <img
-                      className="filter-icon"
-                      src={iconUrl(CATEGORY_ICON_KEYS[category])}
-                      alt=""
-                      width={18}
-                      height={18}
-                    />
-                    <span className="filter-label">
-                      {CATEGORY_LABELS[category]}
-                    </span>
-                    <span className="meta">
-                      {done}/{total}
-                    </span>
-                  </label>
-                ))}
+                {useIconFilters
+                  ? iconCounts.map(({ key, label, icon, total, done }) => (
+                      <label key={key} className="filter-row" title={label}>
+                        <input
+                          type="checkbox"
+                          checked={!enabledIcons || enabledIcons.has(key)}
+                          onChange={() => toggleIcon(key)}
+                        />
+                        <img
+                          className="filter-icon"
+                          src={iconUrl(key, icon)}
+                          alt=""
+                          width={18}
+                          height={18}
+                        />
+                        <span className="filter-label">{label}</span>
+                        <span className="meta">
+                          {done}/{total}
+                        </span>
+                      </label>
+                    ))
+                  : categoryCounts.map(({ category, total, done }) => (
+                      <label
+                        key={category}
+                        className="filter-row"
+                        title={CATEGORY_DESCRIPTIONS[category]}
+                      >
+                        <input
+                          type="checkbox"
+                          checked={categories.has(category)}
+                          onChange={() => toggleCategory(category)}
+                        />
+                        <img
+                          className="filter-icon"
+                          src={iconUrl(CATEGORY_ICON_KEYS[category])}
+                          alt=""
+                          width={18}
+                          height={18}
+                        />
+                        <span className="filter-label">
+                          {CATEGORY_LABELS[category]}
+                        </span>
+                        <span className="meta">
+                          {done}/{total}
+                        </span>
+                      </label>
+                    ))}
               </div>
             </div>
           </aside>

@@ -1,9 +1,6 @@
-import { useEffect, useId, useState, type ReactNode } from "react";
-import {
-  databaseItemIconSrc,
-  getDatabaseItem,
-  getItemDescription,
-} from "../lib/database";
+import { useId, useState, type ReactNode } from "react";
+import { getDatabaseItem, getItemDescription } from "../lib/database";
+import { ItemIcon } from "./ItemIcon";
 
 type ItemHoverTipProps = {
   itemId: number;
@@ -18,14 +15,9 @@ export function ItemHoverTip({
 }: ItemHoverTipProps) {
   const tipId = useId();
   const [open, setOpen] = useState(false);
-  const [failed, setFailed] = useState(false);
   const item = getDatabaseItem(itemId);
   const description = getItemDescription(itemId);
   const name = item?.name_pt_br ?? `Item #${itemId}`;
-
-  useEffect(() => {
-    setFailed(false);
-  }, [itemId]);
 
   return (
     <span
@@ -39,17 +31,7 @@ export function ItemHoverTip({
       {open ? (
         <span className="item-tip-panel" role="tooltip" id={tipId}>
           <span className="item-tip-head">
-            <span className="item-tip-icon" aria-hidden>
-              {!failed ? (
-                <img
-                  src={databaseItemIconSrc(itemId)}
-                  alt=""
-                  onError={() => setFailed(true)}
-                />
-              ) : (
-                <span>◇</span>
-              )}
-            </span>
+            <ItemIcon id={itemId} className="item-tip-icon" />
             <span className="item-tip-title">{name}</span>
           </span>
           <span className="item-tip-meta">#{itemId}</span>

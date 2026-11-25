@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useState, type CSSProperties } from "react";
 import { Link } from "react-router-dom";
 import type { DatabaseNpcShopPage } from "@hiperxp/contracts";
-import { databaseItemIconSrc, getDatabaseItem } from "../lib/database";
+import { getDatabaseItem } from "../lib/database";
 import { ItemHoverTip } from "./ItemHoverTip";
+import { ItemIcon } from "./ItemIcon";
 
 /** Mesmo chrome/layout do Fabricar (Win_Produce1 clássico). */
 const SHOP = {
@@ -37,23 +38,12 @@ const TEX = {
 } as const;
 
 function ShopIcon({ id, className }: { id: number; className?: string }) {
-  const [failed, setFailed] = useState(false);
-  useEffect(() => {
-    setFailed(false);
-  }, [id]);
   return (
-    <span className={className ?? "forge-icon"} aria-hidden>
-      {!failed ? (
-        <img
-          src={databaseItemIconSrc(id)}
-          alt=""
-          loading="lazy"
-          onError={() => setFailed(true)}
-        />
-      ) : (
-        <span className="forge-icon-fallback">◇</span>
-      )}
-    </span>
+    <ItemIcon
+      id={id}
+      className={className ?? "forge-icon"}
+      fallbackClassName="forge-icon-fallback"
+    />
   );
 }
 

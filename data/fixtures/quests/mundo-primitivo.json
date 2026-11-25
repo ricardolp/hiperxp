@@ -7,12 +7,15 @@
   "synthetic": false,
   "origin": "community_observed",
   "review_status": "foreign_reference",
-  "notice": "PWpedia / Trivia / cliente BR. foreign_reference — validar no BR.",
+  "notice": "PWpedia + cliente BR. foreign_reference — validar no BR.",
   "sources": [
     "https://pwi.fandom.com/wiki/List_of_Vitae_Dailies",
     "https://pwi.fandom.com/wiki/Sacred_Spirits",
     "https://forum.lmspw.com/viewtopic.php?f=2&t=15323",
-    "cliente BR tasks.data"
+    "cliente BR tasks.data",
+    "data/fixtures/sources/client-br-levelup/",
+    "https://vk.com/@-149459137-mirovye-kvesty-vostochnyh-zemel",
+    "data/fixtures/sources/quest-guides/"
   ],
   "quests": [
     {
@@ -36,7 +39,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://pwi.fandom.com/wiki/Stronghold_Assault",
-      "notice": "PWpedia / Trivia / cliente BR. foreign_reference — validar no BR.",
+      "notice": "PWpedia + cliente BR. foreign_reference — validar no BR.",
       "steps": [
         {
           "id": "step-01-pegar",
@@ -121,7 +124,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://pwi.fandom.com/wiki/Heroic_Warsong",
-      "notice": "PWpedia / Trivia / cliente BR. foreign_reference — validar no BR.",
+      "notice": "PWpedia + cliente BR. foreign_reference — validar no BR.",
       "steps": [
         {
           "id": "step-01-story",
@@ -206,7 +209,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://pwi.fandom.com/wiki/Something_in_the_Snow",
-      "notice": "PWpedia / Trivia / cliente BR. foreign_reference — validar no BR.",
+      "notice": "PWpedia + cliente BR. foreign_reference — validar no BR.",
       "steps": [
         {
           "id": "step-01-executor",
@@ -285,7 +288,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://pwi.fandom.com/wiki/This_War_o%27_Mine",
-      "notice": "PWpedia / Trivia / cliente BR. foreign_reference — validar no BR.",
+      "notice": "PWpedia + cliente BR. foreign_reference — validar no BR.",
       "steps": [
         {
           "id": "step-01-feng",
@@ -387,7 +390,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://pwi.fandom.com/wiki/Sacred_Spirits",
-      "notice": "PWpedia / Trivia / cliente BR. foreign_reference — validar no BR.",
+      "notice": "PWpedia + cliente BR. foreign_reference — validar no BR.",
       "steps": [
         {
           "id": "step-01-arcano",

@@ -8,6 +8,7 @@ import {
   mapOrder,
   maps,
   questExcerpt,
+  questGuidePath,
   questKindLabel,
   simulatorChests,
 } from "./data";
@@ -140,7 +141,12 @@ export function searchSite(query: string, limit = 40): SearchHit[] {
   }
 
   for (const quest of listAllQuests()) {
-    const mapName = maps[quest.map_slug]?.name_pt_br ?? quest.map_slug;
+    const mapName =
+      quest.map_slug === "drops-reino-oriental"
+        ? (maps["cidade-da-paz"]?.name_pt_br ?? "Cidade da Paz")
+        : quest.map_slug === "drops-tianyu"
+          ? (maps.tianyu?.name_pt_br ?? "Tianyu")
+          : (maps[quest.map_slug]?.name_pt_br ?? quest.map_slug);
     const titleN = normalizeSearch(
       [quest.name_pt_br, ...(quest.aliases ?? [])].join(" "),
     );
@@ -153,7 +159,7 @@ export function searchSite(query: string, limit = 40): SearchHit[] {
       title: quest.name_pt_br,
       subtitle: `${questKindLabel(quest.kind)} · ${mapName}`,
       excerpt: questExcerpt(quest) || "Guia de missão com etapas e coordenadas.",
-      to: `/missoes/${quest.map_slug}/${quest.slug}`,
+      to: questGuidePath(quest),
       score,
     });
   }

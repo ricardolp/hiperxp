@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 QUESTS = ROOT / "data" / "fixtures" / "quests"
 MAPS = ROOT / "data" / "fixtures" / "maps"
-NOTICE = "PWpedia / Trivia / cliente BR. foreign_reference — validar no BR."
+NOTICE = "PWpedia + cliente BR. foreign_reference — validar no BR."
 
 
 def C(x: int, y: int, z: int | None = None) -> dict:
@@ -498,7 +498,7 @@ def western_extra_quests() -> list[dict]:
             excerpt="Diária de Vigor do Céu Crepúsculo em Quedanunca.",
             summary=(
                 "Diária única do Céu Crepúsculo (cliente 37207). Recompensa inclui "
-                "Espírito Sagrado Crepúsculo. Detalhe de rota ainda parcial no Trivia BR."
+                "Espírito Sagrado Crepúsculo. Rota ainda parcial — validar no cliente BR."
             ),
             prerequisite="Nv 100+, Reborn II, Céu Crepúsculo I–X.",
             rewards=(
@@ -568,11 +568,11 @@ def western_extra_quests() -> list[dict]:
             ),
             prerequisite="Nv 102+, Reborn II, Céu Ápice I–X (histórico: após Operação Fada).",
             rewards=(
-                "Vitae por faixa de tempo (Trivia antigo 2–8k; List of Vitae Dailies "
+                "Vitae por faixa de tempo (List of Vitae Dailies "
                 "atual: 35–90k); Moeda Brilhante; Sangues; Insígnia; Pedra Yin Yang; "
                 "Espírito Sagrado Ápice."
             ),
-            source="https://triviapw.com.br/2022/01/06/guia-da-missao-dragao-topo-das-nuvens-quest-diaria-em-quedanunca/",
+            source=None,
             published="2022-01-06",
             steps=[
                 step(
@@ -680,7 +680,6 @@ def merge_continente() -> None:
     cat["generated_at"] = "2026-11-24"
     for src in [
         "https://pwi.fandom.com/wiki/List_of_Vitae_Dailies",
-        "https://triviapw.com.br/2022/01/06/guia-da-missao-dragao-topo-das-nuvens-quest-diaria-em-quedanunca/",
     ]:
         if src not in cat["sources"]:
             cat["sources"].append(src)

@@ -296,6 +296,11 @@ dbRoutes.get("/npcs/:id", async (c) => {
   return c.json({ npc: rows[0].payload }, 200, cacheHeaders(300));
 });
 
+/** Preferred inventory sheets shown as category filters (same order as the web static catalog). */
+const PREFERRED_ITEM_LISTS = [
+  3, 6, 9, 12, 15, 21, 22, 28, 58, 62, 73, 74, 82, 93, 94,
+] as const;
+
 dbRoutes.get("/categories", async (c) => {
   const { rows: labelsRow } = await getPool().query<{ value: Record<string, unknown> }>(
     `SELECT value FROM meta WHERE key = 'catalog' LIMIT 1`,
@@ -306,16 +311,19 @@ dbRoutes.get("/categories", async (c) => {
     SELECT list_id, count(*)::text AS count
     FROM items
     GROUP BY list_id
-    ORDER BY count(*) DESC, list_id ASC
     `,
   );
+  const counts = new Map(rows.map((r) => [r.list_id, Number(r.count)]));
+  const total = rows.reduce((n, r) => n + Number(r.count), 0);
   const categories = [
-    { list: null as number | null, label: "Todas", count: rows.reduce((n, r) => n + Number(r.count), 0) },
-    ...rows.map((r) => ({
-      list: r.list_id,
-      label: listLabels[String(r.list_id)] ?? `Lista ${r.list_id}`,
-      count: Number(r.count),
-    })),
+    { list: null as number | null, label: "Todas", count: total },
+    ...PREFERRED_ITEM_LISTS.flatMap((listId) => {
+      const count = counts.get(listId) ?? 0;
+      if (!count) return [];
+      const label = listLabels[String(listId)];
+      if (!label) return [];
+      return [{ list: listId as number | null, label, count }];
+    }),
   ];
   return c.json({ categories }, 200, cacheHeaders(300));
 });

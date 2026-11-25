@@ -21,6 +21,8 @@ import continenteOcidentalJson from "@fixtures/maps/continente-ocidental.json";
 import questsMundoPrimitivoJson from "@fixtures/quests/mundo-primitivo.json";
 import mundoPrimitivoJson from "@fixtures/maps/mundo-primitivo.json";
 import mundoNormalJson from "@fixtures/maps/mundo-normal.json";
+import dropsReinoOrientalJson from "@fixtures/maps/drops-reino-oriental.json";
+import dropsTianyuJson from "@fixtures/maps/drops-tianyu.json";
 import itemIconManifest from "./itemIconManifest.json";
 
 export const release = releaseJson as ReleaseFixture;
@@ -28,19 +30,50 @@ export const maps: Record<string, MapFixture> = {
   "cidade-da-paz": cidadeDaPazJson as MapFixture,
   tianyu: tianyuJson as MapFixture,
   jingxuan: jingxuanJson as MapFixture,
+  "drops-reino-oriental": dropsReinoOrientalJson as MapFixture,
+  "drops-tianyu": dropsTianyuJson as MapFixture,
   "continente-ocidental": continenteOcidentalJson as MapFixture,
   "mundo-primitivo": mundoPrimitivoJson as MapFixture,
   "mundo-normal": mundoNormalJson as MapFixture,
 };
-/** Todos os mapas com página /mapas/:slug (Oriental + Quedanunca + Primitivo + Normal). */
+/** Mapas com página pública /mapas/:slug (Reino Oriental). */
 export const mapOrder = [
   "cidade-da-paz",
   "tianyu",
   "jingxuan",
+] as const;
+
+/**
+ * Mapas só para dados de guia / embed — sem página em /mapas.
+ * Quedanunca e Mundo Primitivo ficam de fora até haver arte de mapa real.
+ */
+export const embedOnlyMapSlugs = [
+  "drops-reino-oriental",
+  "drops-tianyu",
   "continente-ocidental",
   "mundo-primitivo",
   "mundo-normal",
 ] as const;
+
+/** URLs /missoes/:slug que devem ir para o guia real (mapa embed ≠ catálogo). */
+export const questEmbedRedirects: Record<string, string> = {
+  "drops-reino-oriental": "/missoes/cidade-da-paz/alma-da-paz-eterna",
+  "drops-tianyu": "/missoes/tianyu/alma-de-tianyu",
+};
+
+/** Caminho canônico do guia (catálogo), mesmo se quest.map_slug for mapa embed. */
+export function questGuidePath(quest: {
+  map_slug: string;
+  slug: string;
+}): string {
+  const embed = questEmbedRedirects[quest.map_slug];
+  if (embed) return embed;
+  return `/missoes/${quest.map_slug}/${quest.slug}`;
+}
+
+export function hasPublicMapPage(slug: string): boolean {
+  return (mapOrder as readonly string[]).includes(slug);
+}
 export const items = itemsJson as ItemFixture[];
 
 export const questCatalogs: Record<string, QuestCatalogFixture> = {
@@ -83,7 +116,6 @@ export const questMapOrder = [
   "cidade-da-paz",
   "tianyu",
   "continente-ocidental",
-  "mundo-primitivo",
 ] as const;
 
 export function listAllQuests(): QuestGuideFixture[] {

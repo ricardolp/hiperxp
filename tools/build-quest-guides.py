@@ -63,13 +63,15 @@ def quest(
     name: str,
     kind: str,
     summary: str,
-    source_url: str,
-    steps: list[dict],
+    source_url: str | None = None,
+    steps: list[dict] | None = None,
     aliases: list[str] | None = None,
     prerequisite: str | None = None,
     rewards: str | None = None,
     published_at: str | None = None,
 ) -> dict:
+    if steps is None:
+        steps = []
     excerpt = summary if len(summary) <= 160 else summary[:157].rstrip() + "…"
     return {
         "id": f"quest-{map_slug}-{slug}",
@@ -93,8 +95,8 @@ def quest(
     }
 
 
-SOURCE_BR = "https://triviapw.com.br"
 VK = "https://vk.com/@-149459137-mirovye-kvesty-vostochnyh-zemel"
+CLIENT_BR = "data/fixtures/sources/client-br-levelup/"
 
 CIDADE_DA_PAZ = [
     quest(
@@ -105,7 +107,8 @@ CIDADE_DA_PAZ = [
         kind="world_quest",
         aliases=["Скрытые течения", "Hidden Currents"],
         summary="Identifique cinco espiões disfarçados na Cidade da Paz Eterna.",
-        source_url=f"{SOURCE_BR}/2025/11/23/aventuras-correntes-ocultas-missao-global-reino-oriental/",
+        source_url=None,
+        published_at="2025-11-23",
         rewards="Consciência da Alma; Selo do Palácio Celestial ×10; Emblema da Fênix Azul ×10",
         steps=[
             step(1, "Investigação Secreta",
@@ -185,7 +188,8 @@ CIDADE_DA_PAZ = [
         kind="world_quest",
         aliases=["Древний колодец Хуайбэй", "Poço de Huaibei", "Huai Bei"],
         summary="Inscrições, selos com senha e dois baús dourados no poço antigo.",
-        source_url=f"{SOURCE_BR}/2025/11/23/mundo-poco-antigo-do-norte-missao-global-reino-oriental/",
+        source_url=None,
+        published_at="2025-11-23",
         steps=[
             step(1, "Fragmentos de inscrição",
                  "Fale com Jingkun e cave os 5 fragmentos na ordem 1→5.",
@@ -218,7 +222,8 @@ CIDADE_DA_PAZ = [
         aliases=["Ураган", "Furacão"],
         summary="Recupere as cinco Pedras da Serenidade e acabe com o furacão no mar.",
         prerequisite="Memórias do Passado",
-        source_url=f"{SOURCE_BR}/2025/11/23/mundo-tempestade-missao-global-reino-oriental/",
+        source_url=None,
+        published_at="2025-11-23",
         steps=[
             step(1, "Fragmentos de metal",
                  "Vice-Comandante (132,423). Fragmentos: navio (108,385), "
@@ -250,7 +255,8 @@ CIDADE_DA_PAZ = [
         kind="world_quest",
         aliases=["Четыре камня стихий", "Quatro Fenômenos"],
         summary="Recupere Tartaruga, Dragão, Tigre e Fênix e devolva aos altares.",
-        source_url=f"{SOURCE_BR}/2025/11/23/pedra-espiritual-dos-4-simbolos-missao-global-reino-oriental/",
+        source_url=None,
+        published_at="2025-11-23",
         steps=[
             step(1, "Tartaruga Negra",
                  "Song Shi (256,455). Reflita em (259,463). Oferendas: cenoura "
@@ -284,7 +290,8 @@ CIDADE_DA_PAZ = [
             "Cinco capítulos: Pagode Qianxun, Caverna do Dragão Adormecido, "
             "Degraus do Coração Puro, Túmulo do Príncipe Chengsong, Montanha do Senhor Morto."
         ),
-        source_url=f"{SOURCE_BR}/2025/11/23/segredo-da-montanha-longquan-missao-global-reino-oriental/",
+        source_url=None,
+        published_at="2025-11-23",
         steps=[
             step(1, "Pagode Qianxun",
                  "Arbusto Floral (263,383) → guarda (251,364) → esfera azul "
@@ -319,7 +326,8 @@ CIDADE_DA_PAZ = [
         kind="world_quest",
         aliases=["Алтарь Пылающего Дракона"],
         summary="Selos elementais, mecanismos, esconde-esconde com Lanxi e gemas do dragão.",
-        source_url=f"{SOURCE_BR}/2025/11/23/altar-do-dragao-flamejante-missao-global-reino-oriental/",
+        source_url=None,
+        published_at="2025-11-23",
         steps=[
             step(1, "Selos elementais",
                  "Ordem: Água (268,421/77) → Fogo (269,417/84) → Madeira (253,419/86) "
@@ -347,7 +355,8 @@ CIDADE_DA_PAZ = [
         kind="world_quest",
         aliases=["Тайна происхождения"],
         summary="Segredo do nascimento do General Haifeng e Yuan Hongshan.",
-        source_url=f"{SOURCE_BR}/2025/11/23/aventuras-misterio-da-origem-missao-global-reino-oriental/",
+        source_url=None,
+        published_at="2025-11-23",
         rewards="Consciência da Alma ×15.152; Selos ×30; Emblemas ×10",
         steps=[
             step(1, "Triunfo",
@@ -373,7 +382,8 @@ CIDADE_DA_PAZ = [
         kind="world_quest",
         aliases=["Желание души книги"],
         summary="Cinco poemas/senhas levam a baús antigos e ao desfecho com Yue Yang.",
-        source_url=f"{SOURCE_BR}/2025/11/23/desejo-da-alma-do-livro-missao-global-reino-oriental/",
+        source_url=None,
+        published_at="2025-11-23",
         rewards="Consciência ×18.939; Selos ×30; Emblemas ×10; conquista",
         steps=[
             step(1, "Biblioteca",
@@ -399,7 +409,8 @@ CIDADE_DA_PAZ = [
         kind="world_quest",
         aliases=["Ткацкая мастерская", "História da Tecelaria"],
         summary="Assombração na loja: talismã, pó, ilusão e os irmãos Chu.",
-        source_url=f"{SOURCE_BR}/2025/11/22/aventuras-loja-de-tecidos-missao-global-reino-oriental/",
+        source_url=None,
+        published_at="2025-11-22",
         rewards="Consciência ×10.740; Selos ×30; Emblemas ×10",
         steps=[
             step(1, "Dono louco",
@@ -429,7 +440,8 @@ CIDADE_DA_PAZ = [
         aliases=["Смерть Борена", "Morte de Boren"],
         summary="Shunying, Lu Xiaoqi e a verdade por trás do 'sequestro' da criança.",
         prerequisite="Desejo da Alma do Livro",
-        source_url=f"{SOURCE_BR}/2025/11/23/aventura-morte-inesperada-missao-global-reino-oriental/",
+        source_url=None,
+        published_at="2025-11-23",
         rewards="Consciência ×18.939; Selos ×30; Emblemas ×10",
         steps=[
             step(1, "A Morte de Boren",
@@ -458,7 +470,8 @@ CIDADE_DA_PAZ = [
         aliases=["Вспоминая прошлое", "Aventuras: Passado"],
         summary="Ran Yi, a boneca de Rongyue e visitas ao longo dos anos.",
         prerequisite="Desejo da Alma do Livro",
-        source_url=f"{SOURCE_BR}/2025/11/23/aventuras-passado-missao-global-reino-oriental/",
+        source_url=None,
+        published_at="2025-11-23",
         steps=[
             step(1, "Encontro e boneca",
                  "Rongyue (169,365). Peças: (166,367), (167,365), (168,364), "
@@ -484,7 +497,8 @@ CIDADE_DA_PAZ = [
         aliases=["Семья злых докторов", "Médicos Cruéis"],
         summary="Cadáver, mapas da base e captura de Chu Yan / Chu Heng.",
         prerequisite="Loja de Tecidos",
-        source_url=f"{SOURCE_BR}/2025/11/22/aventuras-medicos-sombrios-missao-global-reino-oriental/",
+        source_url=None,
+        published_at="2025-11-22",
         rewards="Consciência ×14.064; Selos ×30; Emblemas ×10",
         steps=[
             step(1, "Cadáver",
@@ -515,7 +529,8 @@ CIDADE_DA_PAZ = [
         aliases=["Пропавший сын"],
         summary="Peixinho desaparece; vaga-lumes, escola e roupa nova.",
         prerequisite="Médicos Sombrios",
-        source_url=f"{SOURCE_BR}/2025/11/23/aventuras-em-busca-do-filho-missao-global-reino-oriental/",
+        source_url=None,
+        published_at="2025-11-23",
         steps=[
             step(1, "Sumiço",
                  "Pescador Tio Li (139,352). Pergunte nas barracas "
@@ -540,7 +555,8 @@ CIDADE_DA_PAZ = [
         aliases=["Убийство в скромном доме"],
         summary="Morte da Tia Li: autópsia, Veratrum e carta de despedida.",
         prerequisite="Em Busca do Filho + aguardar ≥1 dia",
-        source_url=f"{SOURCE_BR}/2025/11/23/aventuras-homicidio-missao-global-reino-oriental/",
+        source_url=None,
+        published_at="2025-11-23",
         steps=[
             step(1, "Encontro casual",
                  "Mordomo Sun (176,335) → enfermaria (182,330). Voluntário com "
@@ -563,7 +579,8 @@ CIDADE_DA_PAZ = [
         aliases=["Прятки с судьбой"],
         summary="Ye Fuyao, rompimento de noivado e reconciliação com Jiang Chengyu.",
         prerequisite="Homicídio",
-        source_url=f"{SOURCE_BR}/2025/11/23/aventuras-destino-inesperado-missao-global-reino-oriental/",
+        source_url=None,
+        published_at="2025-11-23",
         steps=[
             step(1, "De volta para casa",
                  "Ye Fuyao (166,297) → Senhor Ye (158,313) → Senhora Jiang (187,333).",
@@ -586,7 +603,8 @@ CIDADE_DA_PAZ = [
         aliases=["Прошлое Бужуана", "Histórias da Tecelaria"],
         summary="Encerramento das missões globais da Cidade da Paz.",
         prerequisite="Homicídio",
-        source_url=f"{SOURCE_BR}/2025/11/23/aventuras-passado-missao-global-reino-oriental-2/",
+        source_url=None,
+        published_at="2025-11-23",
         steps=[
             step(1, "Início",
                  "NPC (141,353) → conclusão automática (147,342) → (148,342).",
@@ -616,7 +634,8 @@ TIANYU = [
         aliases=["枫桥幻戏夜话", "Night Tales"],
         summary="Jornada teatral em Tianyu com Yunque'er e o diretor do teatro.",
         prerequisite="Anedota Continente Oriental – Cap. II · Pensamentos Ilusórios",
-        source_url=f"{SOURCE_BR}/2026/05/19/historias-noturnas-guia-da-jornada/",
+        source_url=None,
+        published_at="2026-05-19",
         steps=md_steps("historias-noturnas.md")
         or [
             step(1, "Conflito",
@@ -633,7 +652,8 @@ TIANYU = [
         aliases=["同源黑白"],
         summary="Disputas entre Alados; mensageiros e cavernas de Asa Branca/Negra.",
         prerequisite="Anedota Continente Oriental – Cap. II · Pensamentos Ilusórios",
-        source_url=f"{SOURCE_BR}/2026/05/19/origem-comum-do-preto-e-branco-guia-da-jornada/",
+        source_url=None,
+        published_at="2026-05-19",
         steps=md_steps("origem-comum.md")
         or [
             step(1, "Risco de conflito",
@@ -650,7 +670,8 @@ TIANYU = [
         aliases=["沧澜晴雪"],
         summary="Pavilhão da Adoração à Espada, formação das estátuas e Espada da Neve Serena.",
         prerequisite="Anedota Continente Oriental – Cap. II · Pensamentos Ilusórios",
-        source_url=f"{SOURCE_BR}/2026/05/19/canglan-sob-neve-serena-guia-da-jornada/",
+        source_url=None,
+        published_at="2026-05-19",
         steps=[
             step(1, "Poema sem assinatura",
                  "Dentro do Pavilhão: cave o poema e a Espada de Ondas. "
@@ -676,7 +697,8 @@ TIANYU = [
         aliases=["灵山神秀", "Ling Shan"],
         summary="Selos das Três Bestas Sagradas: Xuanji, runas e cavernas de Ling Shan.",
         prerequisite="Anedota Continente Oriental – Cap. II · Pensamentos Ilusórios",
-        source_url=f"{SOURCE_BR}/2026/05/19/montanha-espiritual-guia-da-jornada/",
+        source_url=None,
+        published_at="2026-05-19",
         steps=[
             step(1, "Rumores",
                  "Chu Ran → Espírito Guardião. Use a anotação da montanha.",
@@ -700,7 +722,8 @@ TIANYU = [
         aliases=["拔剑茫然"],
         summary="Missão de aventura: loucura na cidade externa, Pavilhão e três duelos com Yi Nanping.",
         prerequisite="Anedota Continente Oriental – Cap. II · Pensamentos Ilusórios",
-        source_url=f"{SOURCE_BR}/2026/05/19/desembainhar-a-espada-guia-da-jornada/",
+        source_url=None,
+        published_at="2026-05-19",
         steps=[
             step(1, "Estranheza à beira da rua",
                  "Sun Chang na cidade externa. Fale com a multidão e contate "
@@ -741,7 +764,7 @@ def write_catalog(map_slug: str, name: str, quests: list[dict]) -> None:
         "review_status": "foreign_reference",
         "notice": NOTICE,
         "sources": [
-            "https://triviapw.com.br/",
+            CLIENT_BR,
             VK,
             "data/fixtures/sources/quest-guides/",
         ],

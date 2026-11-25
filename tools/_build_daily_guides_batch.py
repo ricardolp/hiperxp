@@ -63,8 +63,8 @@ def upsert(catalog_path: Path, quest: dict, *, catalog_name: str | None = None) 
 
 def quest_alma_tianyu() -> dict:
     notice = (
-        "Estrutura das 4 etapas igual à Alma da Paz; pools de coords ainda "
-        "compartilhados/parciais. foreign_reference — Trivia spoiler + patch notes LUG."
+        "Estrutura e textos das 4 etapas confirmados no cliente BR (tasks 52979–52983). "
+        "Pools de coordenadas compartilhados com Alma da Paz Eterna."
     )
     return {
         "id": "quest-tianyu-alma-de-tianyu",
@@ -104,10 +104,7 @@ def quest_alma_tianyu() -> dict:
         "coverage_status": "partial",
         "review_status": "foreign_reference",
         "origin": "community_observed",
-        "source_url": (
-            "https://triviapw.com.br/2026/06/03/"
-            "nova-missao-diaria-coracao-de-tianyu-reino-oriental-segredos-de-tianyu/"
-        ),
+        "source_url": None,
         "notice": notice,
         "steps": [
             step(
@@ -132,8 +129,9 @@ def quest_alma_tianyu() -> dict:
                 ),
                 npc="Sacerdote Divino de Tianyu",
                 notes=(
-                    "IDs cliente 52979–52983. Coordenada exata do NPC ainda não "
-                    "confirmada no Trivia — use o ícone da missão no mapa."
+                    "IDs cliente 52979–52983. NPC #84079 Sacerdote Divino de Tianyu. "
+                    "Mutuamente exclusiva com Alma da Paz Eterna no mesmo dia. "
+                    "Use o ícone da missão no mapa para localizar o NPC."
                 ),
             ),
             step(
@@ -142,10 +140,9 @@ def quest_alma_tianyu() -> dict:
                 "Quatro etapas (mesmo modelo da Alma da Paz)",
                 (
                     "【I】 Alma de Pan Gu · 【II】 Poder Celestial · 【III】 Memória de "
-                    "Pan Gu · 【IV】 Artefato dos Cinco Refinos. Enquanto o Trivia "
-                    "não publicar pools próprios de Tianyu, use as coordenadas do "
-                    "guia Alma da Paz Eterna para variantes de paisagem/foto/NPC/"
-                    "corrida/auxílio/farm."
+                    "Pan Gu · 【IV】 Os Cinco Refinos. As variantes (paisagem, foto, NPC, "
+                    "corrida Yunuo Xiaoxiao, auxílio e farm) seguem o mesmo modelo da "
+                    "Alma da Paz Eterna — use /missoes/cidade-da-paz/alma-da-paz-eterna."
                 ),
                 notes="Ver /missoes/cidade-da-paz/alma-da-paz-eterna",
             ),
@@ -194,14 +191,8 @@ def quest_mie_wuyan() -> dict:
         "coverage_status": "partial",
         "review_status": "foreign_reference",
         "origin": "community_observed",
-        "source_url": (
-            "https://triviapw.com.br/2025/10/15/"
-            "terras-orientais-novo-mapa-da-expansao-do-ceifador-guia-completo/"
-        ),
-        "notice": (
-            "Coords do Trivia/guia Terras Orientais + cliente BR. "
-            "foreign_reference."
-        ),
+        "source_url": None,
+        "notice": "Coords do guia Terras Orientais + cliente BR. foreign_reference.",
         "steps": [
             step(
                 1,
@@ -443,7 +434,7 @@ def quest_chama_vinganca() -> dict:
         "review_status": "foreign_reference",
         "origin": "community_observed",
         "source_url": "https://pwi.fandom.com/wiki/Flame_of_Vengeance",
-        "notice": "PWpedia Flame of Vengeance + Trivia Limite de Céu. foreign_reference.",
+        "notice": "PWpedia Flame of Vengeance + cliente BR (Limite de Céu). foreign_reference.",
         "steps": [
             step(
                 1,

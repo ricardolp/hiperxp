@@ -8,10 +8,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "data" / "fixtures" / "quests" / "cidade-da-paz.json"
-SOURCE = "https://triviapw.com.br/2025/10/31/nova-missao-diaria-alma-da-paz-eterna-1-5/"
+SOURCE = None
 NOTICE = (
-    "Guia estruturado a partir de Trivia PW + cliente BR (tasks 51174–51189). "
-    "foreign_reference — pools aleatórios; validar coords/recompensas no cliente BR."
+    "Guia estruturado a partir do cliente BR (tasks 51174–51189) e observação comunitária. "
+    "Pools aleatórios — validar coords/recompensas no cliente."
 )
 QUEST_ID = "quest-cidade-da-paz-alma-da-paz-eterna"
 QUEST_SLUG = "alma-da-paz-eterna"
@@ -404,12 +404,19 @@ def main() -> None:
     quests.insert(0, quest)
     catalog["quests"] = quests
     catalog["generated_at"] = "2026-11-24"
-    sources = list(catalog.get("sources") or [])
-    if SOURCE not in sources:
-        sources.append(SOURCE)
+    sources = [
+        s
+        for s in (catalog.get("sources") or [])
+        if isinstance(s, str) and "triviapw.com.br" not in s.lower()
+    ]
+    for extra in (
+        "data/fixtures/sources/client-br-levelup/",
+        "cliente BR Alma da Paz 51174–51189",
+        "data/fixtures/sources/quest-guides/",
+    ):
+        if extra not in sources:
+            sources.append(extra)
     catalog["sources"] = sources
-    if "cliente BR Alma da Paz 51174–51189" not in sources:
-        catalog["sources"].append("cliente BR Alma da Paz 51174–51189")
     name = catalog.get("name_pt_br") or ""
     if "Diária" not in name and "diária" not in name:
         catalog["name_pt_br"] = "Cidade da Paz Eterna — Missões Globais e Diárias"

@@ -421,8 +421,33 @@ export function recipePrimaryTarget(
   return best;
 }
 
+/**
+ * Item icons: Vite plugin serves `/database/icons/:id.png` in dev/preview.
+ * Production prefers GitHub raw — jsDelivr 403s a large share of files in this
+ * 40k+ icon tree. jsDelivr remains as secondary. Override with VITE_DATABASE_ICONS_BASE.
+ */
+const GITHUB_ICONS_RAW =
+  "https://raw.githubusercontent.com/ricardolp/hiperxp/master/data/fixtures/sources/client-br-levelup/icons-all";
+const GITHUB_ICONS_CDN =
+  "https://cdn.jsdelivr.net/gh/ricardolp/hiperxp@master/data/fixtures/sources/client-br-levelup/icons-all";
+
+export function databaseItemIconSources(id: number): string[] {
+  const file = `${id}.png`;
+  const custom = import.meta.env.VITE_DATABASE_ICONS_BASE?.trim().replace(
+    /\/$/,
+    "",
+  );
+  if (!import.meta.env.PROD) {
+    return [custom ? `${custom}/${file}` : `/database/icons/${file}`];
+  }
+  const out: string[] = [];
+  if (custom) out.push(`${custom}/${file}`);
+  out.push(`${GITHUB_ICONS_RAW}/${file}`, `${GITHUB_ICONS_CDN}/${file}`);
+  return [...new Set(out)];
+}
+
 export function databaseItemIconSrc(id: number): string {
-  return `/database/icons/${id}.png`;
+  return databaseItemIconSources(id)[0]!;
 }
 
 export type DatabaseSearchHit = {
@@ -509,15 +534,42 @@ export function searchDatabase(
 }
 
 /** Preferred inventory sheets shown as category filters (list id order). */
-const CATEGORY_LISTS = [
+export const CATEGORY_LISTS = [
   3, 6, 9, 12, 15, 21, 22, 28, 58, 62, 73, 74, 82, 93, 94,
 ] as const;
+
+const CATEGORY_LIST_SET = new Set<number>(CATEGORY_LISTS);
 
 export type DatabaseCategory = {
   list: number | null;
   label: string;
   count: number;
 };
+
+/** Keep only preferred labeled sheets (drops raw "Lista N" from the API). */
+export function filterPreferredCategories(
+  rows: DatabaseCategory[],
+): DatabaseCategory[] {
+  const byList = new Map<number, DatabaseCategory>();
+  let all: DatabaseCategory | null = null;
+  for (const row of rows) {
+    if (row.list == null) {
+      all = row;
+      continue;
+    }
+    if (!CATEGORY_LIST_SET.has(row.list)) continue;
+    if (row.label.startsWith("Lista ")) continue;
+    byList.set(row.list, row);
+  }
+  const cats: DatabaseCategory[] = [
+    all ?? { list: null, label: "Todas", count: 0 },
+  ];
+  for (const listId of CATEGORY_LISTS) {
+    const row = byList.get(listId);
+    if (row) cats.push(row);
+  }
+  return cats;
+}
 
 export function listDatabaseCategories(): DatabaseCategory[] {
   const counts = new Map<number, number>();

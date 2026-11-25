@@ -1,0 +1,205 @@
+python -c "
+from PIL import Image, ImageDraw, ImageFilter, ImageEnhance
+from pathlib import Path
+
+fera = Image.open(r'C:\\Users\\ricar\\.cursor\\projects\\d-Projetos-hiperxp\\assets\\drops16-1e9393e4-512c-494f-bf09-e2f45ec1a7ee.webp').convert('RGBA')
+via = Image.open(r'C:\\Users\\ricar\\.cursor\\projects\\d-Projetos-hiperxp\\assets\\image-fd5dab7b-05c7-48fd-89b8-b8685e2081dc.webp').convert('RGBA')
+out = Path(r'd:\\Projetos\\hiperxp\\apps\\web\\public\\icons\\drops\\items')
+preview = Path(r'd:\\Projetos\\hiperxp\\tmp-icon-preview')
+preview.mkdir(exist_ok=True)
+
+# tighter inner crop of the item art (exclude outer UI frame & qty text)
+fera_boxes = {
+  1000016: (808, 92, 860, 140),
+  1000015: (808, 180, 860, 228),
+  1000014: (808, 276, 860, 324),
+  1000013: (808, 364, 860, 412),
+  1000012: (808, 460, 860, 508),
+}
+via_boxes = {
+  1000021: (764, 84, 816, 132),
+  1000020: (764, 174, 816, 222),
+  1000019: (764, 264, 816, 312),
+  1000018: (764, 344, 816, 392),
+  1000017: (764, 434, 816, 482),
+}
+
+SIZE = 72
+
+def make_badge(src: Image.Image, box):
+    crop = src.crop(box).convert('RGBA')
+    # upscale crisply then soft
+    crop = crop.resize((SIZE, SIZE), Image.Resampling.LANCZOS)
+    # cover residual qty digits in bottom-right using nearby bg
+    px = crop.load()
+    # sample bg from top-left region
+    samples = []
+    for y in range(4, 14):
+      for x in range(4, 14):
+        samples.append(px[x, y])
+    # average
+    n=len(samples)
+    bg = tuple(sum(c[i] for c in samples)//n for i in range(4))
+    # paint over bottom-right qty zone
+    for y in range(SIZE-18, SIZE):
+      for x in range(SIZE-28, SIZE):
+        r,g,b,a = px[x,y]
+        # bright-ish text-ish pixels or any in qty corner
+        if r+g+b > 420 or x > SIZE-16:
+          # blend toward local left neighbor bg
+          srcx = max(0, SIZE-34)
+          nr,ng,nb,na = px[srcx, min(y, SIZE-20)]
+          px[x,y] = (nr,ng,nb,255)
+    # circular badge with ring
+    badge = Image.new('RGBA', (SIZE, SIZE), (0,0,0,0))
+    # soft shadow under
+    shadow = Image.new('RGBA', (SIZE, SIZE), (0,0,0,0))
+    sd = ImageDraw.Draw(shadow)
+    sd.ellipse((3, 4, SIZE-1, SIZE), fill=(0,0,0,90))
+    shadow = shadow.filter(ImageFilter.GaussianBlur(1.5))
+    badge = Image.alpha_composite(badge, shadow)
+    # clip icon to circle
+    mask = Image.new('L', (SIZE, SIZE), 0)
+    ImageDraw.Draw(mask).ellipse((2, 2, SIZE-3, SIZE-3), fill=255)
+    clipped = Image.new('RGBA', (SIZE, SIZE), (20,16,18,255))
+    clipped.paste(crop, (0,0))
+    clipped.putalpha(mask)
+    badge = Image.alpha_composite(badge, clipped)
+    # white/gold ring
+    ring = Image.new('RGBA', (SIZE, SIZE), (0,0,0,0))
+    rd = ImageDraw.Draw(ring)
+    rd.ellipse((2, 2, SIZE-3, SIZE-3), outline=(255,255,255,230), width=3)
+    rd.ellipse((4, 4, SIZE-5, SIZE-5), outline=(0,0,0,80), width=1)
+    badge = Image.alpha_composite(badge, ring)
+    return badge
+
+for iid, box in {**fera_boxes, **via_boxes}.items():
+  src = fera if iid in fera_boxes else via
+  badge = make_badge(src, box)
+  badge.save(out / f'{iid}.png')
+  badge.resize((144,144), Image.NEAREST).save(preview / f'{iid}.png')
+  print('ok', iid)
+print('done', out)
+"
+
+
+=====
+
+python -c "
+from PIL import Image, ImageDraw, ImageFilter
+from pathlib import Path
+
+fera = Image.open(r'C:\\Users\\ricar\\.cursor\\projects\\d-Projetos-hiperxp\\assets\\drops16-1e9393e4-512c-494f-bf09-e2f45ec1a7ee.webp').convert('RGB')
+via = Image.open(r'C:\\Users\\ricar\\.cursor\\projects\\d-Projetos-hiperxp\\assets\\image-fd5dab7b-05c7-48fd-89b8-b8685e2081dc.webp').convert('RGB')
+out = Path(r'd:\\Projetos\\hiperxp\\apps\\web\\public\\icons\\drops\\badges')
+out.mkdir(parents=True, exist_ok=True)
+preview = Path(r'd:\\Projetos\\hiperxp\\tmp-icon-preview')
+
+# Full icon slot including frame, then we'll mask circle (qty lives bottom-right of slot)
+fera_boxes = {
+  1000016: (802, 90, 866, 154),
+  1000015: (802, 178, 866, 242),
+  1000014: (802, 274, 866, 338),
+  1000013: (802, 362, 866, 426),
+  1000012: (802, 458, 866, 522),
+}
+via_boxes = {
+  1000021: (758, 82, 822, 146),
+  1000020: (758, 172, 822, 236),
+  1000019: (758, 262, 822, 326),
+  1000018: (758, 342, 822, 406),
+  1000017: (758, 432, 822, 496),
+}
+
+FINAL = 64  # display size in files; map scales via CSS
+
+def scrub_qty(im: Image.Image) -> Image.Image:
+    '''Replace bottom-right quantity digits with nearby background.'''
+    im = im.copy()
+    w, h = im.size
+    px = im.load()
+    # sample median-ish from left of qty zone
+    samples = []
+    for y in range(h*2//3, h-4):
+      for x in range(w//2, w*2//3):
+        samples.append(px[x,y])
+    samples.sort()
+    bg = samples[len(samples)//2]
+    for y in range(h - h//4, h):
+      for x in range(w - w//2, w):
+        r,g,b = px[x,y]
+        # white/light text or high-contrast digits
+        if r > 180 and g > 180 and b > 180:
+          px[x,y] = bg
+        elif r+g+b > 500:
+          px[x,y] = bg
+    # also soft-fill the whole qty corner with slight blur of bg patch
+    patch = im.crop((w//2, h*2//3, w*3//4, h-2)).resize((w//2, h//4), Image.BILINEAR)
+    # only paste where still looks like text remnant: use mask of bright pixels
+    corner = im.crop((w//2, h*3//4, w, h))
+    mask = Image.new('L', corner.size, 0)
+    mp = mask.load()
+    cp = corner.load()
+    for y in range(corner.size[1]):
+      for x in range(corner.size[0]):
+        r,g,b = cp[x,y]
+        if r>170 and g>170 and b>170:
+          mp[x,y] = 255
+    # expand mask a bit
+    mask = mask.filter(ImageFilter.MaxFilter(3))
+    fill = Image.new('RGB', corner.size, bg)
+    corner.paste(fill, (0,0), mask)
+    im.paste(corner, (w//2, h*3//4))
+    return im
+
+def make_badge(src: Image.Image, box):
+    raw = src.crop(box)
+    # native ~64px — keep pixel feel with NEAREST 1:1 then ring at FINAL
+    raw = scrub_qty(raw)
+    # scale to FINAL with LANCZOS for smoother art, but keep sharp after
+    art = raw.resize((FINAL-8, FINAL-8), Image.Resampling.LANCZOS)
+    canvas = Image.new('RGBA', (FINAL, FINAL), (0,0,0,0))
+    # shadow
+    shadow = Image.new('RGBA', (FINAL, FINAL), (0,0,0,0))
+    ImageDraw.Draw(shadow).ellipse((4,5,FINAL-2,FINAL-1), fill=(0,0,0,100))
+    shadow = shadow.filter(ImageFilter.GaussianBlur(1.2))
+    canvas = Image.alpha_composite(canvas, shadow)
+    # circular plate
+    plate = Image.new('RGBA', (FINAL, FINAL), (0,0,0,0))
+    pad = Image.new('RGB', (FINAL, FINAL), (24, 20, 22))
+    pad.paste(art, ((FINAL-(FINAL-8))//2, (FINAL-(FINAL-8))//2))
+    mask = Image.new('L', (FINAL, FINAL), 0)
+    ImageDraw.Draw(mask).ellipse((3,3,FINAL-4,FINAL-4), fill=255)
+    plate.paste(pad.convert('RGBA'), (0,0))
+    plate.putalpha(mask)
+    canvas = Image.alpha_composite(canvas, plate)
+    # ring
+    ring = Image.new('RGBA', (FINAL, FINAL), (0,0,0,0))
+    d = ImageDraw.Draw(ring)
+    d.ellipse((3,3,FINAL-4,FINAL-4), outline=(255,255,255,235), width=2)
+    d.ellipse((5,5,FINAL-6,FINAL-6), outline=(0,0,0,70), width=1)
+    canvas = Image.alpha_composite(canvas, ring)
+    return canvas
+
+for iid, box in {**fera_boxes, **via_boxes}.items():
+  src = fera if iid in fera_boxes else via
+  badge = make_badge(src, box)
+  badge.save(out / f'{iid}.png')
+  badge.resize((128,128), Image.NEAREST).save(preview / f'{iid}.png')
+  print(iid, badge.size)
+
+# entrega badge matching style
+entrega = Image.new('RGBA', (FINAL, FINAL), (0,0,0,0))
+shadow = Image.new('RGBA', (FINAL, FINAL), (0,0,0,0))
+ImageDraw.Draw(shadow).ellipse((4,5,FINAL-2,FINAL-1), fill=(0,0,0,100))
+shadow = shadow.filter(ImageFilter.GaussianBlur(1.2))
+entrega = Image.alpha_composite(entrega, shadow)
+plate = Image.new('RGBA', (FINAL, FINAL), (0,0,0,0))
+ImageDraw.Draw(plate).ellipse((3,3,FINAL-4,FINAL-4), fill=(31,107,74,255))
+entrega = Image.alpha_composite(entrega, plate)
+d = ImageDraw.Draw(entrega)
+d.line([(20,34),(30,44),(46,24)], fill=(255,255,255,255), width=5, joint='curve')
+d.ellipse((3,3,FINAL-4,FINAL-4), outline=(255,255,255,235), width=2)
+entrega.save(out / 'entrega.png')
+print('entrega ok')
+"

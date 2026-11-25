@@ -23,21 +23,71 @@ type Props = {
 
 const iconCache = new Map<string, L.DivIcon>();
 
+/** Separa ícones que compartilham a mesma coordenada, sem alterar o x,y copiável. */
+function markerOffsets(
+  points: MapPointFixture[],
+): Map<string, { du: number; dv: number }> {
+  const groups = new Map<string, MapPointFixture[]>();
+  for (const point of points) {
+    const key = `${point.x}|${point.y}`;
+    const list = groups.get(key);
+    if (list) list.push(point);
+    else groups.set(key, [point]);
+  }
+  const offsets = new Map<string, { du: number; dv: number }>();
+  for (const list of groups.values()) {
+    if (list.length < 2) continue;
+    const radius = 16;
+    list.forEach((point, index) => {
+      const angle = -Math.PI / 2 + (2 * Math.PI * index) / list.length;
+      offsets.set(point.id, {
+        du: Math.cos(angle) * radius,
+        dv: Math.sin(angle) * radius,
+      });
+    });
+  }
+  return offsets;
+}
+
 function markerIcon(point: MapPointFixture, selected: boolean, done: boolean) {
   const src = iconUrl(point.icon_key, point.icon);
   const key = `${src}:${selected ? 1 : 0}:${done ? 1 : 0}`;
   const cached = iconCache.get(key);
   if (cached) return cached;
 
-  const size = selected ? 28 : 22;
-  const opacity = done ? 0.4 : 1;
-  const ring = selected ? "outline:2px solid #fff;outline-offset:1px;" : "";
+  const isDropBadge =
+    Boolean(point.icon?.includes("/icons/drops/badges/")) ||
+    (point.icon_key || "").startsWith("drop-");
+  const isImageMarker =
+    (point.icon_key || "") === "quest-imagem" ||
+    Boolean(point.icon?.includes("/icons/quest/imagem"));
+  const size = isDropBadge || isImageMarker
+    ? selected
+      ? 34
+      : 28
+    : selected
+      ? 28
+      : 22;
+  const opacity = done ? 0.45 : 1;
+  const ring = selected && !isDropBadge && !isImageMarker
+    ? "outline:2px solid #fff;outline-offset:1px;"
+    : "";
+  const shadow =
+    isDropBadge || isImageMarker
+      ? "filter:none;"
+      : "filter:drop-shadow(0 1px 2px rgba(0,0,0,.55));";
+  const selectedGlow = selected && isDropBadge
+    ? "box-shadow:0 0 0 2px #fff,0 2px 8px rgba(0,0,0,.45);border-radius:50%;"
+    : selected && isImageMarker
+      ? "box-shadow:0 0 0 2px #fff,0 2px 8px rgba(0,0,0,.45);border-radius:10px;"
+      : "";
+  const radius = isImageMarker ? "border-radius:10px;" : isDropBadge ? "border-radius:50%;" : "";
 
   const icon = L.divIcon({
-    className: "hiperxp-marker",
+    className: `hiperxp-marker${isDropBadge ? " hiperxp-marker--drop" : ""}${isImageMarker ? " hiperxp-marker--image" : ""}`,
     iconSize: [size, size],
     iconAnchor: [size / 2, size / 2],
-    html: `<img src="${src}" width="${size}" height="${size}" alt="" draggable="false" style="opacity:${opacity};${ring}display:block;filter:drop-shadow(0 1px 2px rgba(0,0,0,.55));" />`,
+    html: `<img src="${src}" width="${size}" height="${size}" alt="" draggable="false" style="opacity:${opacity};${ring}${shadow}${selectedGlow}${radius}display:block;" />`,
   });
   iconCache.set(key, icon);
   return icon;
@@ -83,16 +133,17 @@ function MapLifecycle({ width, height }: { width: number; height: number }) {
 }
 
 function FocusSelected({
-  mapData,
   point,
+  u,
+  v,
 }: {
-  mapData: MapFixture;
   point: MapPointFixture | null;
+  u: number;
+  v: number;
 }) {
   const map = useMap();
   useEffect(() => {
     if (!point) return;
-    const { u, v } = gameToImage(mapData.transform, point.x, point.y);
     const target = L.latLng(v, u);
     const zoom = Math.max(map.getZoom(), 0.5);
     // Espaço extra em cima para a popup condensada.
@@ -101,17 +152,17 @@ function FocusSelected({
     const pointPx = map.project(target, zoom);
     const shifted = L.point(pointPx.x, pointPx.y - Math.min(90, size.y * 0.12));
     map.setView(map.unproject(shifted, zoom), zoom, { animate: true });
-  }, [map, mapData, point]);
+  }, [map, point, u, v]);
   return null;
 }
 
 function AnchoredPopup({
-  mapData,
-  point,
+  u,
+  v,
   children,
 }: {
-  mapData: MapFixture;
-  point: MapPointFixture;
+  u: number;
+  v: number;
   children: ReactNode;
 }) {
   const map = useMap();
@@ -119,7 +170,6 @@ function AnchoredPopup({
 
   useEffect(() => {
     const update = () => {
-      const { u, v } = gameToImage(mapData.transform, point.x, point.y);
       const container = map.latLngToContainerPoint(L.latLng(v, u));
       setPos({ left: container.x, top: container.y, ready: true });
     };
@@ -137,7 +187,7 @@ function AnchoredPopup({
       map.off("zoomend", update);
       map.off("viewreset", update);
     };
-  }, [map, mapData, point]);
+  }, [map, u, v]);
 
   if (!pos.ready) return null;
 
@@ -172,7 +222,14 @@ export function MapView({
   // Folga grande: permite trazer a borda do mapa até o centro da tela.
   const panBounds = useMemo(() => bounds.pad(0.85), [bounds]);
   const selected = points.find((p) => p.id === selectedId) ?? null;
+  const offsets = useMemo(() => markerOffsets(points), [points]);
   const imageUrl = map.asset ?? `/maps/${map.slug}.svg`;
+  const selectedShift = selected ? offsets.get(selected.id) : undefined;
+  const selectedImage = selected
+    ? gameToImage(map.transform, selected.x, selected.y)
+    : null;
+  const selectedU = selectedImage ? selectedImage.u + (selectedShift?.du ?? 0) : 0;
+  const selectedV = selectedImage ? selectedImage.v + (selectedShift?.dv ?? 0) : 0;
 
   return (
     <MapContainer
@@ -197,13 +254,14 @@ export function MapView({
       />
       <ZoomControl position="bottomleft" />
       <MapLifecycle width={map.width} height={map.height} />
-      <FocusSelected mapData={map} point={selected} />
+      <FocusSelected point={selected} u={selectedU} v={selectedV} />
       {points.map((point) => {
         const { u, v } = gameToImage(map.transform, point.x, point.y);
+        const shift = offsets.get(point.id);
         return (
           <Marker
             key={point.id}
-            position={[v, u]}
+            position={[v + (shift?.dv ?? 0), u + (shift?.du ?? 0)]}
             zIndexOffset={point.id === selectedId ? 1000 : 10}
             icon={markerIcon(
               point,
@@ -217,7 +275,7 @@ export function MapView({
         );
       })}
       {selected && popup ? (
-        <AnchoredPopup mapData={map} point={selected}>
+        <AnchoredPopup u={selectedU} v={selectedV}>
           {popup}
         </AnchoredPopup>
       ) : null}

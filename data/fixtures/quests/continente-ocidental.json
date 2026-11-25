@@ -15,7 +15,9 @@
     "https://pwi.fandom.com/wiki/Sacred_Spirits",
     "https://pwi.fandom.com/wiki/Flame_of_Vengeance",
     "https://pwi.fandom.com/wiki/List_of_Vitae_Dailies",
-    "https://triviapw.com.br/2022/01/06/guia-da-missao-dragao-topo-das-nuvens-quest-diaria-em-quedanunca/"
+    "data/fixtures/sources/client-br-levelup/",
+    "https://vk.com/@-149459137-mirovye-kvesty-vostochnyh-zemel",
+    "data/fixtures/sources/quest-guides/"
   ],
   "quests": [
     {
@@ -855,18 +857,6 @@
           "notes": "Mesma região dos mobs de Pontos Arcanos do Céu Soberano.",
           "image_url": null,
           "image_alt": null
-        },
-        {
-          "id": "step-mundoprim",
-          "order": 9,
-          "title_pt_br": "Também no Mundo Primitivo",
-          "instruction_pt_br": "Céus Arcano / Miragem / Astral / Oscilante também têm packs no Mundo Primitivo (Mirrorflower, Snow Ape, Glacial Prison, Waverun). Guia de mapa MP ainda não está no HiperXP — use PWpedia Sacred Spirits para esses pontos.",
-          "npc": null,
-          "coords": [],
-          "dialog_hint": null,
-          "notes": null,
-          "image_url": null,
-          "image_alt": null
         }
       ]
     },
@@ -891,7 +881,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://pwi.fandom.com/wiki/Flame_of_Vengeance",
-      "notice": "PWpedia Flame of Vengeance + Trivia Limite de Céu. foreign_reference.",
+      "notice": "PWpedia Flame of Vengeance + cliente BR (Limite de Céu). foreign_reference.",
       "steps": [
         {
           "id": "step-01-aceitar",
@@ -968,7 +958,7 @@
         "Diária: Dias de Aposentadoria"
       ],
       "excerpt_pt_br": "Diária de Vigor do Céu Crepúsculo em Quedanunca.",
-      "summary_pt_br": "Diária única do Céu Crepúsculo (cliente 37207). Recompensa inclui Espírito Sagrado Crepúsculo. Detalhe de rota ainda parcial no Trivia BR.",
+      "summary_pt_br": "Diária única do Céu Crepúsculo (cliente 37207). Recompensa inclui Espírito Sagrado Crepúsculo. Rota ainda parcial — validar no cliente BR.",
       "prerequisite_pt_br": "Nv 100+, Reborn II, Céu Crepúsculo I–X.",
       "rewards_pt_br": "4.000.000 exp; 20.000 Vitae; Insígnia Escudeiro ×2; Pedra Yin Yang; Sangue Primordial/Bárbaro; Baú Astrolábios; Espírito Sagrado Crepúsculo.",
       "published_at": "2024-11-24",
@@ -976,7 +966,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://pwi.fandom.com/wiki/List_of_Vitae_Dailies",
-      "notice": "PWpedia / Trivia / cliente BR. foreign_reference — validar no BR.",
+      "notice": "PWpedia + cliente BR. foreign_reference — validar no BR.",
       "steps": [
         {
           "id": "step-01",
@@ -1013,7 +1003,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://www.pwdatabase.com/pwi/quest/37710",
-      "notice": "PWpedia / Trivia / cliente BR. foreign_reference — validar no BR.",
+      "notice": "PWpedia + cliente BR. foreign_reference — validar no BR.",
       "steps": [
         {
           "id": "step-01",
@@ -1062,13 +1052,13 @@
       "excerpt_pt_br": "Corrida nas muralhas de Nicada — Vigor conforme o tempo.",
       "summary_pt_br": "Kolorte em Nicada: passe 7 Contas de Jade em ordem em até 20 min. Quanto mais rápido, mais Vitae.",
       "prerequisite_pt_br": "Nv 102+, Reborn II, Céu Ápice I–X (histórico: após Operação Fada).",
-      "rewards_pt_br": "Vitae por faixa de tempo (Trivia antigo 2–8k; List of Vitae Dailies atual: 35–90k); Moeda Brilhante; Sangues; Insígnia; Pedra Yin Yang; Espírito Sagrado Ápice.",
+      "rewards_pt_br": "Vitae por faixa de tempo (List of Vitae Dailies: 35–90k); Moeda Brilhante; Sangues; Insígnia; Pedra Yin Yang; Espírito Sagrado Ápice.",
       "published_at": "2022-01-06",
       "coverage_status": "partial",
       "review_status": "foreign_reference",
       "origin": "community_observed",
-      "source_url": "https://triviapw.com.br/2022/01/06/guia-da-missao-dragao-topo-das-nuvens-quest-diaria-em-quedanunca/",
-      "notice": "PWpedia / Trivia / cliente BR. foreign_reference — validar no BR.",
+      "source_url": null,
+      "notice": "PWpedia + cliente BR. foreign_reference — validar no BR.",
       "steps": [
         {
           "id": "step-01",
@@ -1176,7 +1166,7 @@
       "review_status": "foreign_reference",
       "origin": "community_observed",
       "source_url": "https://pwi.fandom.com/wiki/List_of_Vitae_Dailies",
-      "notice": "PWpedia / Trivia / cliente BR. foreign_reference — validar no BR.",
+      "notice": "PWpedia + cliente BR. foreign_reference — validar no BR.",
       "steps": [
         {
           "id": "step-01",

@@ -2,30 +2,19 @@ import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import type { DatabaseRecipe, DatabaseRecipeItemRef } from "@hiperxp/contracts";
 import {
-  databaseItemIconSrc,
   getDatabaseItem,
   recipePrimaryTarget,
 } from "../lib/database";
 import { compareLocaleNames, localeDisplayRank } from "../lib/search";
+import { ItemIcon } from "./ItemIcon";
 
 function CraftIcon({ id, className }: { id: number; className?: string }) {
-  const [failed, setFailed] = useState(false);
-  useEffect(() => {
-    setFailed(false);
-  }, [id]);
   return (
-    <span className={className ?? "craft-icon"} aria-hidden>
-      {!failed ? (
-        <img
-          src={databaseItemIconSrc(id)}
-          alt=""
-          loading="lazy"
-          onError={() => setFailed(true)}
-        />
-      ) : (
-        <span className="craft-icon-fallback">◇</span>
-      )}
-    </span>
+    <ItemIcon
+      id={id}
+      className={className ?? "craft-icon"}
+      fallbackClassName="craft-icon-fallback"
+    />
   );
 }
 

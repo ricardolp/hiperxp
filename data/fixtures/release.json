@@ -9,6 +9,8 @@
     "cidade-da-paz",
     "tianyu",
     "jingxuan",
+    "drops-reino-oriental",
+    "drops-tianyu",
     "continente-ocidental",
     "mundo-primitivo",
     "mundo-normal"
@@ -21,7 +23,6 @@
   "quest_catalogs": [
     "cidade-da-paz",
     "tianyu",
-    "continente-ocidental",
-    "mundo-primitivo"
+    "continente-ocidental"
   ]
 }

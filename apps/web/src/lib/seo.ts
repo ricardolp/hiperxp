@@ -9,6 +9,7 @@ import {
   mapOrder,
   maps,
   questExcerpt,
+  questGuidePath,
   questKindLabel,
   questMapOrder,
   simulatorChests,
@@ -124,15 +125,23 @@ function homeSeo(): SeoPayload {
   };
 }
 
-const ORIENTAL_MAPS = new Set(["cidade-da-paz", "tianyu", "jingxuan"]);
+const ORIENTAL_MAPS = new Set([
+  "cidade-da-paz",
+  "tianyu",
+  "jingxuan",
+]);
 
 function regionLabel(mapSlug: string): string {
-  return ORIENTAL_MAPS.has(mapSlug) ? "Reino Oriental" : "Perfect World";
+  return ORIENTAL_MAPS.has(mapSlug) || mapSlug.startsWith("drops-")
+    ? "Reino Oriental"
+    : "Perfect World";
 }
 
 function mapSeo(slug: string): SeoPayload | null {
   const map = getMap(slug);
   if (!map) return null;
+  // Embed-only maps don't get a public /mapas page.
+  if (!(mapOrder as readonly string[]).includes(slug)) return null;
   const region = regionLabel(slug);
   const aliases = map.aliases?.slice(0, 3).join(", ");
   const description = clampDescription(
@@ -206,10 +215,14 @@ function questListSeo(mapSlug: string): SeoPayload | null {
 function questPostSeo(mapSlug: string, questSlug: string): SeoPayload | null {
   const quest = getQuest(mapSlug, questSlug);
   if (!quest) return null;
-  const mapName = maps[quest.map_slug]?.name_pt_br ?? quest.map_slug;
+  // Embed maps (drops-*) keep the parent city name in titles/breadcrumbs.
+  const mapName =
+    maps[mapSlug]?.name_pt_br ??
+    maps[quest.map_slug]?.name_pt_br ??
+    quest.map_slug;
   const kind = questKindLabel(quest.kind);
   const excerpt = questExcerpt(quest);
-  const region = regionLabel(quest.map_slug);
+  const region = regionLabel(mapSlug);
   const description = clampDescription(
     excerpt
       ? `${excerpt} Guia ${kind.toLowerCase()} em ${mapName}, ${region} — Perfect World.`
@@ -221,17 +234,17 @@ function questPostSeo(mapSlug: string, questSlug: string): SeoPayload | null {
       `${quest.name_pt_br} — missão ${mapName} (${region})`,
     ),
     description,
-    path: `/missoes/${quest.map_slug}/${quest.slug}`,
+    path: questGuidePath(quest),
     image: quest.cover_image || maps[quest.map_slug]?.asset,
     type: "article",
     jsonLd: [
       breadcrumbJsonLd([
         { name: "Início", path: "/" },
         { name: "Missões", path: "/missoes/cidade-da-paz" },
-        { name: mapName, path: `/missoes/${quest.map_slug}` },
+        { name: mapName, path: `/missoes/${mapSlug}` },
         {
           name: quest.name_pt_br,
-          path: `/missoes/${quest.map_slug}/${quest.slug}`,
+          path: questGuidePath(quest),
         },
       ]),
       questHowToJsonLd(quest, mapName),
@@ -242,9 +255,7 @@ function questPostSeo(mapSlug: string, questSlug: string): SeoPayload | null {
         description,
         datePublished: quest.published_at ?? undefined,
         inLanguage: "pt-BR",
-        mainEntityOfPage: absoluteUrl(
-          `/missoes/${quest.map_slug}/${quest.slug}`,
-        ),
+        mainEntityOfPage: absoluteUrl(questGuidePath(quest)),
         author: { "@type": "Organization", name: SITE_NAME },
         publisher: {
           "@type": "Organization",
@@ -309,8 +320,28 @@ export function resolveSeo(pathname: string): SeoPayload {
 
   const mapMatch = path.match(/^\/mapas\/([^/]+)$/);
   if (mapMatch) {
+    const mapSlug = mapMatch[1];
+    // Embed-only maps redirect to their guide; reuse that SEO while navigating.
+    if (mapSlug === "drops-reino-oriental") {
+      return (
+        questPostSeo("cidade-da-paz", "alma-da-paz-eterna") ?? {
+          title: withBrand("Alma da Paz Eterna"),
+          description: SITE_DEFAULT_DESCRIPTION,
+          path: "/missoes/cidade-da-paz/alma-da-paz-eterna",
+        }
+      );
+    }
+    if (mapSlug === "drops-tianyu") {
+      return (
+        questPostSeo("tianyu", "alma-de-tianyu") ?? {
+          title: withBrand("Alma de Tianyu"),
+          description: SITE_DEFAULT_DESCRIPTION,
+          path: "/missoes/tianyu/alma-de-tianyu",
+        }
+      );
+    }
     return (
-      mapSeo(mapMatch[1]) ?? {
+      mapSeo(mapSlug) ?? {
         title: withBrand("Mapa não encontrado"),
         description: SITE_DEFAULT_DESCRIPTION,
         path,
@@ -452,7 +483,7 @@ export function buildSitemapEntries(now = new Date()): {
     });
     for (const quest of listQuests(mapSlug)) {
       entries.push({
-        loc: absoluteUrl(`/missoes/${quest.map_slug}/${quest.slug}`),
+        loc: absoluteUrl(questGuidePath(quest)),
         lastmod: quest.published_at ?? lastmod,
         changefreq: "monthly",
         priority: "0.8",

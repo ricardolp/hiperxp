@@ -1,0 +1,362 @@
+{
+  "schema_version": 1,
+  "id": "quest-catalog-drops-reino-oriental",
+  "map_slug": "drops-reino-oriental",
+  "name_pt_br": "Drops do Reino Oriental",
+  "generated_at": "2026-11-24",
+  "synthetic": false,
+  "origin": "community_observed",
+  "review_status": "foreign_reference",
+  "notice": "Guia de drops da Parte III da Alma da Paz. Coords do print comunitário + Trivia PW. foreign_reference — validar no cliente BR.",
+  "sources": [
+    "https://triviapw.com.br/2025/10/31/nova-missao-diaria-alma-da-paz-eterna-1-5/",
+    "prints comunitários de drops (Feras Selvagens e Viajantes)"
+  ],
+  "quests": [
+    {
+      "id": "quest-drops-reino-oriental-drops-de-mobs",
+      "slug": "drops-de-mobs",
+      "map_slug": "drops-reino-oriental",
+      "kind": "daily",
+      "order": 1,
+      "name_pt_br": "Drops de Mobs da Alma da Paz",
+      "aliases": [
+        "Mochila Oriental",
+        "Farm Alma da Paz",
+        "Elmo de Lobo Cinzento",
+        "Cordão de Presas",
+        "Xale Clã dos Viajantes"
+      ],
+      "excerpt_pt_br": "Fluxo da Alma da Paz em 4 etapas: imagens de referência, bolinhas/mochila, farm de drops e entrega do nível.",
+      "summary_pt_br": "Guia da Alma da Paz: Etapa 1 com as imagens de referência e marcadores de câmera no mapa, Etapa 2 (bolinhas ou mochila), Etapa 3 (coleta/combate com drops) e Etapa 4 (materiais Nv.1 ou relíquia N−1).",
+      "prerequisite_pt_br": "Alma da Paz Eterna, Parte III em variante de combate. Nv 100+, Reborn II, meridiano completo.",
+      "rewards_pt_br": "Itens de missão da Mochila Oriental (quantidade pedida pelo NPC da etapa).",
+      "rewards": [
+        {
+          "label_pt_br": "Elmo de Lobo Cinzento",
+          "item_id": 1000016,
+          "quantity": 1,
+          "note_pt_br": "Fera Selvagem Guerreiro"
+        },
+        {
+          "label_pt_br": "Peitoral de Padrão Místico",
+          "item_id": 1000015,
+          "quantity": 2,
+          "note_pt_br": "Fera Selvagem Cavaleiro"
+        },
+        {
+          "label_pt_br": "Crina Vermelha",
+          "item_id": 1000014,
+          "quantity": 2,
+          "note_pt_br": "Fera Selvagem Mutante"
+        },
+        {
+          "label_pt_br": "Chifre Afiado",
+          "item_id": 1000013,
+          "quantity": 1,
+          "note_pt_br": "Fera Selvagem Armada"
+        },
+        {
+          "label_pt_br": "Cordão de Presas",
+          "item_id": 1000012,
+          "quantity": 5,
+          "note_pt_br": "Fera Selvagem"
+        },
+        {
+          "label_pt_br": "Cauda de Sangue",
+          "item_id": 1000021,
+          "quantity": 1,
+          "note_pt_br": "Arqueiro Sombrio Viajante"
+        },
+        {
+          "label_pt_br": "Asas Cortadas de Mosca",
+          "item_id": 1000020,
+          "quantity": 2,
+          "note_pt_br": "Arqueiros Viajante"
+        },
+        {
+          "label_pt_br": "Inscrição de Bênção na Pedra",
+          "item_id": 1000019,
+          "quantity": 2,
+          "note_pt_br": "Predador Viajante"
+        },
+        {
+          "label_pt_br": "Máscara Ritualística",
+          "item_id": 1000018,
+          "quantity": 2,
+          "note_pt_br": "Caçador Viajante"
+        },
+        {
+          "label_pt_br": "Xale Clã dos Viajantes",
+          "item_id": 1000017,
+          "quantity": 5,
+          "note_pt_br": "Ceifador Viajante"
+        }
+      ],
+      "cover_image": null,
+      "published_at": "2026-11-24",
+      "coverage_status": "partial",
+      "review_status": "foreign_reference",
+      "origin": "community_observed",
+      "source_url": "https://triviapw.com.br/2025/10/31/nova-missao-diaria-alma-da-paz-eterna-1-5/",
+      "notice": "Coords alinhadas ao print comunitário e ao guia Trivia (teste da expansão). foreign_reference.",
+      "steps": [
+        {
+          "id": "step-01-coordenadas",
+          "order": 1,
+          "title_pt_br": "Etapa 1 — Coordenadas das imagens",
+          "instruction_pt_br": "A primeira etapa usa as coordenadas das imagens de referência (paisagem, cenário ou foto).\n\nCompare a imagem da missão com as fotos abaixo, depois vá até o ponto correspondente.\n\nNo mapa, os locais das imagens usam o indicador de câmera — diferente dos ícones redondos de drop da Etapa 3.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 183,
+              "y": 396,
+              "altitude": 66
+            },
+            {
+              "x": 266,
+              "y": 418,
+              "altitude": 85
+            },
+            {
+              "x": 232,
+              "y": 474,
+              "altitude": 114
+            },
+            {
+              "x": 330,
+              "y": 417,
+              "altitude": 97
+            },
+            {
+              "x": 346,
+              "y": 340,
+              "altitude": 97
+            },
+            {
+              "x": 93,
+              "y": 374,
+              "altitude": 62
+            },
+            {
+              "x": 309,
+              "y": 387,
+              "altitude": 54
+            },
+            {
+              "x": 158,
+              "y": 473,
+              "altitude": 87
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "A missão sorteia uma variante: paisagem/cenário, foto ou falar com NPC. As imagens abaixo cobrem as variantes visuais observadas na Cidade da Paz.",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-02-bolinhas-mochila",
+          "order": 2,
+          "title_pt_br": "Etapa 2 — Bolinhas ou Mochila",
+          "instruction_pt_br": "Vá até o NPC que irá lhe pedir para:\n• Percorrer um caminho de \"Bolinhas com Números\"\n• Carregar uma Mochila e ir até uma localização (o local é mostrado no mapa)",
+          "npc": null,
+          "coords": [],
+          "dialog_hint": null,
+          "notes": "Sem voo na variante da mochila. Acompanhe o marcador no mapa; morrer ou teleportar pode falhar a etapa.",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-03-farm",
+          "order": 3,
+          "title_pt_br": "Etapa 3 — Coleta e combate",
+          "instruction_pt_br": "Nesta fase, você precisará ajudar os moradores locais a coletar recursos ou lutar contra monstros. Use o mapa e a lista de missões para encontrar NPCs.\n\nCoordenadas dos Monstros Aqui Abaixo\nPara saber que monstro dropa o item que você precisa ou localização de plantas, olhe a lista e o mapa desta página (ícone do drop em cada spawn). Abra a Mochila Oriental, selecione o item e use Rastrear se precisar do marcador no cliente.\n\nNPCs de entrega (combate):\n• Guardião do Mar-Sem-Fim — 76,433 — Cordão de Presas ×5, Chifre Afiado ×1, Crina Vermelha ×2\n• Três Pássaros Azuis — 207,488 — Peitoral de Padrão Místico ×2, Elmo de Lobo Cinzento ×1\n• Jovem Andarilho — 300,417(95) — Xale ×5, Máscara Ritualística ×2, Inscrição de Bênção na Pedra ×2, Asas Cortadas de Mosca ×2, Cauda de Sangue ×1\n\nFera Selvagem Guerreiro — Elmo de Lobo Cinzento ×1 (entrega: Três Pássaros Azuis)\n• 151,429\n• 114,439\n• 243,443\n• 195,461\n• 274,464\n• 89,465\n• 157,467\n• 88,493\n• 242,494\n• 291,496\n\nFera Selvagem Cavaleiro — Peitoral de Padrão Místico ×2 (entrega: Três Pássaros Azuis)\n• 151,429\n• 114,439\n• 257,446\n• 241,457\n• 89,465\n• 157,467\n• 271,473\n• 219,491\n• 88,493\n• 182,495\n\nFera Selvagem Mutante — Crina Vermelha ×2 (entrega: Guardião do Mar-Sem-Fim)\n• 255,417\n• 94,440\n• 122,443\n• 249,447\n• 294,453\n• 254,469\n• 127,480\n• 100,486\n• 293,487\n• 256,492\n• 194,493\n• 171,496\n\nFera Selvagem Armada — Chifre Afiado ×1 (entrega: Guardião do Mar-Sem-Fim)\n• 131,301\n• 104,312\n• 110,342\n• 120,358\n• 128,377\n• 94,440\n• 122,443\n• 134,453\n• 127,480\n• 100,486\n• 194,493\n• 171,496\n\nFera Selvagem — Cordão de Presas ×5 (entrega: Guardião do Mar-Sem-Fim)\n• 131,301\n• 104,312\n• 110,342\n• 120,358\n• 128,377\n• 255,417\n• 243,443\n• 257,446\n• 249,447\n• 134,453\n• 294,453\n• 241,457\n• 195,461\n• 274,464\n• 254,469\n• 271,473\n• 293,487\n• 219,491\n• 256,492\n• 242,494\n• 182,495\n• 291,496\n\nArqueiro Sombrio Viajante — Cauda de Sangue ×1 (entrega: Jovem Andarilho)\n• 259,319 — caverna\n• 291,326 — caverna\n• 315,345\n• 259,359\n• 289,366\n• 321,412\n• 283,413\n• 345,447\n• 309,461\n• 337,494\n\nArqueiros Viajante — Asas Cortadas de Mosca ×2 (entrega: Jovem Andarilho)\n• 281,310 — caverna\n• 264,341 — caverna\n• 323,373\n• 281,386\n• 348,390\n• 321,412\n• 283,413\n• 345,447\n• 309,461\n• 337,494\n\nPredador Viajante — Inscrição de Bênção na Pedra ×2 (entrega: Jovem Andarilho)\n• 302,321 — caverna\n• 274,333 — caverna\n• 334,341\n• 289,357(70)\n• 331,367\n• 347,368\n• 292,388\n• 343,406\n• 332,413\n• 312,424\n• 328,435\n• 345,476\n\nCaçador Viajante — Máscara Ritualística ×2 (entrega: Jovem Andarilho)\n• 277,359\n• 261,368\n• 347,368\n• 301,376\n• 336,381\n• 292,388\n• 257,394\n• 272,409\n• 332,413\n• 312,424\n• 328,435\n• 345,476\n\nCeifador Viajante — Xale Clã dos Viajantes ×5 (entrega: Jovem Andarilho)\n• 281,310 — caverna\n• 259,319 — caverna\n• 302,321 — caverna\n• 291,326 — caverna\n• 274,333 — caverna\n• 264,341 — caverna\n• 334,341\n• 315,345\n• 289,357(70)\n• 259,359\n• 277,359\n• 289,366\n• 331,367\n• 261,368\n• 323,373\n• 301,376\n• 336,381\n• 281,386\n• 348,390\n• 257,394\n• 343,406\n• 272,409",
+          "npc": null,
+          "coords": [
+            {
+              "x": 76,
+              "y": 433,
+              "altitude": null
+            },
+            {
+              "x": 207,
+              "y": 488,
+              "altitude": null
+            },
+            {
+              "x": 300,
+              "y": 417,
+              "altitude": 95
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "O Guarda de cada fera e o Arqueiro Guardião da Floresta compartilham o drop do mob principal. O ícone de montanha ao lado da coordenada indica caverna (subterrâneo). Vários tipos podem dividir a mesma coordenada.",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-04-entrega-nivel",
+          "order": 4,
+          "title_pt_br": "Etapa 4 — Entrega do nível",
+          "instruction_pt_br": "Para Missão Nível 1 é necessário entregar materiais.\nPara Missão de Nível 2 a 5 é pedido uma Relíquia aleatória de Nível anterior (exemplo: Missão Nível 3 pede uma relíquia Nível 2 aleatória).\n\nNível 1 — materiais pedidos no Oficial Sagrado (183,403):\n• Cordão de Presas ×3\n• Chifre Afiado ×2\n• Crina Vermelha ×1\n• Peitoral de Padrão Místico ×1\n• Elmo de Lobo Cinzento ×1\n• Xale Clã dos Viajantes ×3\n• Máscara Ritualística ×2\n• Inscrição de Bênção na Pedra ×1\n• Asas Cortadas de Mosca ×1\n• Cauda de Sangue ×1\n• e os recursos de coleta (Lótus Noturna, Concha, Pena de Fênix, Jade da Essência Espiritual, Cogumelinho).\n\nDica: na missão Nv.2–5, exiba a missão e clique no nome da relíquia — a Loja de Relíquias abre para você procurar.",
+          "npc": "Oficial Sagrado",
+          "coords": [
+            {
+              "x": 183,
+              "y": 403,
+              "altitude": 69
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Quantidades do guia Trivia (servidor de testes). Confira o pedido na janela da missão.",
+          "image_url": null,
+          "image_alt": null
+        },
+        {
+          "id": "step-img-palacio-imperial",
+          "order": 5,
+          "title_pt_br": "Paisagem — Palácio Imperial",
+          "instruction_pt_br": "Reconheça o local na imagem e chegue ao ponto de vista de Palácio Imperial.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 183,
+              "y": 396,
+              "altitude": 66
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Etapa 1 · variante Paisagem. Compare com a referência e alinhe o ângulo da vista.",
+          "image_url": "/quests/alma-da-paz-eterna/paisagem-palacio-imperial.webp",
+          "image_alt": "Palácio Imperial — 183,396(66)"
+        },
+        {
+          "id": "step-img-altar-dragao",
+          "order": 6,
+          "title_pt_br": "Cenário — Altar do Dragão Flamejante",
+          "instruction_pt_br": "Reconheça o local na imagem e chegue ao ponto de vista de Altar do Dragão Flamejante.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 266,
+              "y": 418,
+              "altitude": 85
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Etapa 1 · variante Paisagem/Cenário. Plataforma circular cercada de água azul.",
+          "image_url": "/quests/alma-da-paz-eterna/paisagem-altar-dragao-flamejante.webp",
+          "image_alt": "Altar do Dragão Flamejante — 266,418(85)"
+        },
+        {
+          "id": "step-img-terra-sonhos",
+          "order": 7,
+          "title_pt_br": "Paisagem — Terra dos Sonhos do Sul",
+          "instruction_pt_br": "Reconheça o local na imagem e chegue ao ponto de vista de Terra dos Sonhos do Sul.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 232,
+              "y": 474,
+              "altitude": 114
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Etapa 1 · variante Paisagem. Marco: pedestal com feixe de luz e casas-cúpula brancas.",
+          "image_url": "/quests/alma-da-paz-eterna/paisagem-terra-sonhos-sul.webp",
+          "image_alt": "Terra dos Sonhos do Sul — 232,474(114)"
+        },
+        {
+          "id": "step-img-ruinas-nuvens",
+          "order": 8,
+          "title_pt_br": "Paisagem — Ruínas nas Nuvens da Montanha",
+          "instruction_pt_br": "Reconheça o local na imagem e chegue ao ponto de vista de Ruínas nas Nuvens da Montanha.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 330,
+              "y": 417,
+              "altitude": 97
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Etapa 1 · variante Paisagem. Também chamada Ruínas Yunlu em guias antigos.",
+          "image_url": "/quests/alma-da-paz-eterna/paisagem-ruinas-nuvens.webp",
+          "image_alt": "Ruínas nas Nuvens da Montanha — 330,417(97)"
+        },
+        {
+          "id": "step-img-senhor-caido",
+          "order": 9,
+          "title_pt_br": "Foto — Montanha do Senhor Caído",
+          "instruction_pt_br": "Alcance o ponto 346,340(97), encontre o melhor ângulo e tire a foto.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 346,
+              "y": 340,
+              "altitude": 97
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Etapa 1 · variante Locais pitorescos. Marco: platô com tabuleiro de Go e feixe de luz.",
+          "image_url": "/quests/alma-da-paz-eterna/foto-montanha-senhor-caido.webp",
+          "image_alt": "Montanha do Senhor Caído — 346,340(97)"
+        },
+        {
+          "id": "step-img-porto-marinha",
+          "order": 10,
+          "title_pt_br": "Foto — Porto da Marinha",
+          "instruction_pt_br": "Alcance o ponto 93,374(62), encontre o melhor ângulo e tire a foto.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 93,
+              "y": 374,
+              "altitude": 62
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Etapa 1 · variante Locais pitorescos. Marco: cais de madeira com juncos e guindaste.",
+          "image_url": "/quests/alma-da-paz-eterna/foto-porto-marinha.webp",
+          "image_alt": "Porto da Marinha — 93,374(62)"
+        },
+        {
+          "id": "step-img-tumulo-chengsong",
+          "order": 11,
+          "title_pt_br": "Foto — Túmulo do Príncipe Chengsong",
+          "instruction_pt_br": "Alcance o ponto 309,387(54), encontre o melhor ângulo e tire a foto.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 309,
+              "y": 387,
+              "altitude": 54
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Etapa 1 · variante Locais pitorescos. Marco: fachada de pedra com selo circular entre árvores retorcidas.",
+          "image_url": "/quests/alma-da-paz-eterna/foto-tumulo-chengsong.webp",
+          "image_alt": "Túmulo do Príncipe Chengsong — 309,387(54)"
+        },
+        {
+          "id": "step-img-ilha-shooting-star",
+          "order": 12,
+          "title_pt_br": "Foto — Ilha Shooting Star",
+          "instruction_pt_br": "Alcance o ponto 158,473(87), encontre o melhor ângulo e tire a foto.",
+          "npc": null,
+          "coords": [
+            {
+              "x": 158,
+              "y": 473,
+              "altitude": 87
+            }
+          ],
+          "dialog_hint": null,
+          "notes": "Etapa 1 · variante Locais pitorescos. Marco: gruta com poça azul, pilares e runas no chão.",
+          "image_url": "/quests/alma-da-paz-eterna/foto-ilha-shooting-star.webp",
+          "image_alt": "Ilha Shooting Star — 158,473(87)"
+        }
+      ]
+    }
+  ]
+}

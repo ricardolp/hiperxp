@@ -2,11 +2,11 @@ import { useEffect, useMemo, useState, type CSSProperties } from "react";
 import { Link } from "react-router-dom";
 import type { DatabaseRecipe, DatabaseRecipeItemRef } from "@hiperxp/contracts";
 import {
-  databaseItemIconSrc,
   getDatabaseItem,
   recipePrimaryTarget,
 } from "../lib/database";
 import { ItemHoverTip } from "./ItemHoverTip";
+import { ItemIcon } from "./ItemIcon";
 
 /**
  * Chrome clássico BR: surfaces/人鱼传说新界面 (mesmo sample do cliente).
@@ -55,23 +55,12 @@ const TEX = {
 } as const;
 
 function ForgeIcon({ id, className }: { id: number; className?: string }) {
-  const [failed, setFailed] = useState(false);
-  useEffect(() => {
-    setFailed(false);
-  }, [id]);
   return (
-    <span className={className ?? "forge-icon"} aria-hidden>
-      {!failed ? (
-        <img
-          src={databaseItemIconSrc(id)}
-          alt=""
-          loading="lazy"
-          onError={() => setFailed(true)}
-        />
-      ) : (
-        <span className="forge-icon-fallback">◇</span>
-      )}
-    </span>
+    <ItemIcon
+      id={id}
+      className={className ?? "forge-icon"}
+      fallbackClassName="forge-icon-fallback"
+    />
   );
 }
 

@@ -25,7 +25,6 @@ import {
   chestIconSrc,
   compactDescription,
   databaseCounts,
-  databaseItemIconSrc,
   databaseListLabel,
   dropTablesForItem,
   ensureDatabaseDetailsLoaded,
@@ -39,6 +38,7 @@ import {
   getItemQuestLinks,
   getQuestDetail,
   getRecipe,
+  filterPreferredCategories,
   listDatabaseCategories,
   listRecipesForNpc,
   recipePrimaryTarget,
@@ -57,6 +57,7 @@ import {
   type PopularRow,
 } from "../lib/database-api";
 import { compareLocaleNames } from "../lib/search";
+import { ItemIcon } from "../components/ItemIcon";
 
 function npcHref(npcId: number, opts?: { itemId?: number; recipeId?: number }) {
   const params = new URLSearchParams();
@@ -142,21 +143,7 @@ function useRecordView(
 }
 
 function DbIcon({ id, className }: { id: number; className?: string }) {
-  const [failed, setFailed] = useState(false);
-  return (
-    <span className={className ?? "db-icon"} aria-hidden>
-      {!failed ? (
-        <img
-          src={databaseItemIconSrc(id)}
-          alt=""
-          loading="lazy"
-          onError={() => setFailed(true)}
-        />
-      ) : (
-        <span className="db-icon-fallback">◇</span>
-      )}
-    </span>
-  );
+  return <ItemIcon id={id} className={className ?? "db-icon"} />;
 }
 
 function tabFromParam(value: string | null): DatabaseTab {
@@ -319,11 +306,13 @@ export function DatabaseIndexPage() {
       .then((rows) => {
         if (!cancelled) {
           setCategories(
-            rows.map((r) => ({
-              list: r.list,
-              label: r.label,
-              count: r.count,
-            })),
+            filterPreferredCategories(
+              rows.map((r) => ({
+                list: r.list,
+                label: r.label,
+                count: r.count,
+              })),
+            ),
           );
         }
       })

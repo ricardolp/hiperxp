@@ -17,8 +17,8 @@ const SITE_URL = (process.env.VITE_SITE_URL || "https://hiperxp.com").replace(
   "",
 );
 
-const mapOrder = ["cidade-da-paz", "tianyu", "jingxuan"];
-const questMapOrder = ["cidade-da-paz", "tianyu"];
+const mapOrder = ["cidade-da-paz", "tianyu", "jingxuan", "drops-reino-oriental"];
+const questMapOrder = ["cidade-da-paz", "drops-reino-oriental", "tianyu"];
 const dropSlugs = [
   "bau-da-aurora",
   "pergaminho-abissal",
