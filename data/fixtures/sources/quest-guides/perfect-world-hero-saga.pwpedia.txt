@@ -1,0 +1,6192 @@
+Perfect World Hero Saga - Official PWpedia
+
+PWpedia
+
+Note: This wiki is currently under reorganization, overhaul, and updating. Please be patient as we work to resolve issues on the wiki!
+
+READ MORE
+
+PWpedia
+
+Sign In
+
+Don't have an account?
+
+Register
+
+---
+
+Sign In
+
+Advertisement
+
+Perfect World Hero Saga, also known simply as Hero Saga, is a system within the game designed to tell a story, and contains sixteen different Sagas for sixteen heroes belonging to each of the classes. This system activates upon reaching level 80 with cultivation of Aware of Vacuity.
+
+## Activating Sagas
+
+To activate a Saga, players must go to the Quests menu in the bottom right of their game window, and select the fourth option, Perfect World Hero Saga. If this is their first time opening this window, a little poem will display. Otherwise, or if they proceed past the poem, they will see an interface with three heroes in portrait, along with their names above them. To the left and right of the three are one or more arrows allowing players to scroll between races.
+
+## Requirements
+
+Players must have an all-time highest level of 80 and a cultivation level of Aware of Vacuity to interact with the Hero Saga system. Some Sagas will additionally require that the player's active level be level 80, either at the start of the Saga or partway through. It is recommended for the sake of efficiency of experience to wait for level 100 to participate, as the experience rewards scale with level until level 100. All quest rewards listed are the amounts received at level 100, and quest rewards will be lower at lower levels.
+
+## Claiming Saga Rewards
+
+Each Hero Saga will yield a title which gives +100 HP and a pet egg which may be placed in the Codex. To receive these, players must click the glowing chest in the bottom-right of the Saga interface for the specific Hero's Saga for which they have completed (rewards may only be received once).
+
+## Hero Sagas
+
+### Blademaster General Chung
+
+This Saga will follow the exploits of the Blademaster General Chung as he seeks to unify the rest of the Humans. It will follow him through three stages of his journey: youth, unification, and war.
+
+#### Activation: Forgotten Elder
+
+To fully activate this Saga, complete the quest "Forgotten Elder" by speaking to Forgotten Elder (572, 677) in Archosaur.
+
+#### Chapter 1
+
+##### Dispute
+
+Quest Dispatcher: Human Child, Archosaur - Midlands(565 677)
+
+1. Talk to Old General Chung in Etherblade(430, 887)
+2. Talk to Human Child
+3. 4.16.6 Duskblade Saga Rewards
+
+Rewards: 288 000 Experience and 56 000 Spirit
+
+##### Hero
+
+Quest Dispatcher: Old General Chung, Etherblade - Midlands (430, 887)
+
+1. Talk to Old General Chung
+2. Salute - the button to do so will appear on the player's screen
+
+Rewards: 288 000 Experience and 56 000 Spirit
+
+##### Deep Sleep
+
+Quest Dispatcher: Old General Chung, Etherblade - Midlands (430, 887)
+
+1. Wave - the button to do so will appear on the player's screen
+
+Rewards: 144 000 Experience and 28 000 Spirit
+
+##### Memory Crystal
+
+Quest Dispatcher: Old General Chung, Etherblade - Midlands (430, 887)
+
+1. Dig 2021 BLM Main Item00 to obtain Activate Crystal
+
+Rewards: 144 000 Experience and 28 000 Spirit
+
+##### Entering Memory
+
+Quest Dispatcher: Old General Chung's Spirit, Etherblade - Midlands (430, 887)
+
+1. Talk to Old General Chung's Spirit
+2. Meditate - the button to do so will appear on the player's screen
+
+Rewards: 432 000 Experience and 84 000 Spirit
+
+##### Reversal of Time
+
+This quest will appear automatically once players have completed "Entering Memory."
+
+Watch the cutscene - if the cutscene is skipped, the player will have to wait for the quest to run its timer out, at which point they will be transported to (431, 878) while having their screen become grayscale. The player will be transformed into Blademaster General Chung, during which they will not be able to use most items, any class skills, or any genie skills. They will instead be limited to the three skills in the bar in the center of the screen - which is able to be dragged to anywhere they wish. This transformation will last until the completion of "Roast Fish" in Chapter 1. These skills are as follows:
+
+Tiger Maw
+
+- A single focused strike that causes the enemy to suffer greater physical damage.
+- Cooldown: 1 second
+
+Heaven's Flame
+
+- Summon a blazing dragon to blast all enemies within 12 meters of your opponent, dealing base physical damage and increases the damage they take for the next 6 seconds.
+- Cooldown: 5 seconds
+
+Speed of the Moon
+
+- Call upon the moon to greatly increase your movement speed, lasts for 12 seconds.
+- Cooldown: 13 seconds
+
+Rewards: 144 000 Experience and 28 000 Spirit
+
+##### Loyan
+
+Quest Dispatcher: Loyan, Etherblade - Midlands (429, 880)
+
+1. Talk to Loyan
+2. Travel to (437 889) within Etherblade
+3. Talk to Loyan
+4. Talk to Loyan (429 880)
+
+Rewards: 432 000 Experience and 84 000 Spirit
+
+##### Leecin
+
+This quest will appear automatically once players have completed "Loyan."
+
+1. Shrug - the button to do so will appear on the player's screen
+2. Talk to Leecin (440 868)
+3. Travel to (441 870) within Etherblade
+4. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 720 000 Experience and 140 000 Spirit
+
+##### Courage
+
+Quest Dispatcher: Leecin, Etherblade - Midlands (440 868)
+
+1. Kill Lake Monster Ankan which spawns
+2. Travel to (495 885)
+3. Dig Weapon Depot (441 898) to obtain Weapon
+
+Rewards: 576 000 Experience and 112 000 Spirit
+
+##### Roast Fish
+
+Quest Dispatcher: Leecin
+
+1. Talk to Leecin
+2. Dig Campfire (507 878) to obtain Light Campfire
+3. Talk to Leecin
+4. Dig Etherblade Lake Fish (511 877) to obtain 2 Etherblade Lake Fish
+5. Travel to (509 877)
+
+Rewards: 576 000 Experience and 112 000 Spirit
+
+##### Returning to Reality
+
+This quest will appear automatically once players have completed "Roast Fish."
+
+1. The player will be transported to near Old General Chung's Spirit. Talk to Old General Chung's Spirit
+2. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 288 000 Experience and 56 000 Spirit
+
+##### Memory
+
+This quest will appear automatically once players have completed "Returning to Reality." The player will once more be transformed, which will last until the completion of "Disappointment" in Chapter 1.
+
+1. Angry - the button to do so will appear on the player's screen
+2. Travel to (441 870)
+3. Talk to Loyan (429 880) within Etherblade
+4. Travel to (430 877)
+5. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 720 000 Experience and 140 000 Spirit
+
+##### Deep Affection
+
+This quest will appear automatically once players have completed "Memory."
+
+1. Talk to Tian Yao (447 880) within Etherblade
+2. Talk to Leecin
+3. Travel to (441 870)
+4. Talk to Loyan (429 880)
+5. Travel to (430 878)
+6. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 1 008 000 Experience and 196 000 Spirit
+
+##### Challenging Tien Yao
+
+Quest Dispatcher: Tien Yao, Etherblade - Midlands (447 880)
+
+1. Talk to Loyan (429 880) within Etherblade
+2. Talk to Tian Yao (447 880)
+3. Kill Tian Yao which spawns
+
+Rewards: 432 000 Experience and 84 000 Spirit
+
+##### The Argument
+
+Quest Dispatcher: Loyan, Etherblade - Midlands (429, 880)
+
+1. Talk to Leecin
+2. Sad - the button to do so will appear on the player's screen
+3. Travel to (432 857) just south of Etherblade
+
+Rewards: 432 000 Experience and 84 000 Spirit
+
+##### Disappointment
+
+Quest Dispatcher: Leecin
+
+1. Talk to Leecin
+2. Wait 5 seconds
+3. Talk to Leecin
+4. Dig Wine Box under the Tree (469 881) to obtain Leecin's Wine
+5. Talk to Leecin
+6. Travel to (469 880) west of Hidden Heroes Village
+
+Rewards: 864 000 Experience and and 168 000 Spirit
+
+#### Chapter 2
+
+##### Returning to Reality
+
+This quest will appear automatically once players have completed "Disappointment."
+
+1. The player will be transported to near Old General Chung's Spirit. Talk to Old General Chung's Spirit
+2. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 144 000 Experience and 28 000 Spirit
+
+##### Death of Loyan
+
+This quest will appear automatically once players have completed "Returning to Reality." The player will once more be transformed, which will last until the completion of "Hone" in Chapter 2.
+
+1. The player will be transported to near 2021 BLM Main Mine10. Dig it to obtain Loyan's Grave
+2. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 432 000 Experience and 84 000 Spirit
+
+##### Worship Loyan Day 1
+
+This quest will appear automatically once players have completed "Death of Loyan."
+
+1. Wait 10 seconds
+
+Rewards: 288 000 Experience and 56 000 Spirit
+
+##### Worship Loyan Day 2
+
+This quest will appear automatically once players have completed "Worship Loyan Day 1."
+
+1. Wait 10 seconds
+
+Rewards: 288 000 Experience and 56 000 Spirit
+
+##### Worship Loyan Day 3
+
+This quest will appear automatically once players have completed "Worship Loyan Day 2."
+
+1. Wait 10 seconds
+
+Rewards: 288 000 Experience and 56 000 Spirit
+
+##### Hone
+
+This quest will appear automatically once players have completed "Worship Loyan Day 3."
+
+1. Talk to Leecin
+
+Rewards: 144 000 Experience and 28 000 Spirit
+
+##### Returning to Reality
+
+This quest will appear automatically once players have completed "Hone."
+
+1. The player will be transported to near Old General Chung's Spirit. Talk to Old General Chung's Spirit
+2. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 144 000 Experience and 28 000 Spirit
+
+##### Entering Memory
+
+This quest will appear automatically once players have completed "Returning to Reality." The player will once more be transformed, which will last until the completion of "Leaving the Mountain" in Chapter 2.
+
+1. Talk to General Chung's Father (436 881) within Etherblade
+2. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 144 000 Experience and 28 000 Spirit
+
+##### Fate of Valiant Generals
+
+Quest Dispatcher: General Chung's Father, Etherblade - Midlands (436 881)
+
+1. Talk to Gu Hensin
+2. Kill Alpha Beast which spawns
+3. Travel to (557 902)
+4. Talk to Gu Hensin
+5. Wait 10 seconds
+6. Travel to (560 901)
+7. Talk to Gu Hensin
+8. Travel to (555 901)
+9. Talk to Gu Hensin (562 899) north of Walled Stronghold
+10. Talk to Snow Moon (565 879) within Walled Stronghold
+11. Travel to Walled Stronghold (559 885)
+
+Rewards: 1 440 000 Experience and 280 000 Spirit
+
+##### Returning to Etherblade
+
+This quest will appear automatically once players have completed "Fate of Valiant Generals."
+
+1. The player will be transported to near General Chung's Father. Talk to General Chung's Father
+2. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 144 000 Experience and 28 000 Spirit
+
+##### Lio Gianni
+
+Quest Dispatcher: General Chung's Father, Etherblade - Midlands (436 881)
+
+1. Talk to Lio Gianni
+2. Kill the two Merchant's Goons which spawn
+3. Talk to Unprocessed (624 790)
+4. Travel to (624 792)
+5. Talk to Old Man (625 805) nearby
+6. Travel to (625 804)
+7. The player will be transported to eastern Shining Tidewood. Talk to Gu Hensin
+8. The player will be transported to near General Chung's Father. Talk to General Chung's Father
+9. Talk to Lio Gianni (642 775)
+10. The player will be transported to the north of Mount Lantern. Travel to (636 782)
+
+Rewards: 1 584 000 Experience and 308 000 Spirit
+
+##### Common Aspiration
+
+Quest Dispatcher: Lio Gianni
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 144 000 Experience and 28 000 Spirit
+
+##### Returning to Etherblade
+
+This quest will appear automatically once players have completed "Fate of Valiant Generals."
+
+1. The player will be transported to near General Chung's Father. Talk to General Chung's Father
+2. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 144 000 Experience and 28 000 Spirit
+
+##### Thousand Wood Ridge
+
+Quest Dispatcher: General Chung's Father, Etherblade - Midlands (436 881)
+
+1. Talk to Tsen the Heavensent (404 954) nearby
+2. Travel northwest-west to (406 952). Players may aggro Pyral Lavas on the way
+3. Travel west to (429 941)
+4. Travel southwest to (460 936)
+5. A pop-up will appear on-screen. Confirm the prompt
+6. Travel west to (469 945)
+7. Talk to Mo the Recluse (479 948) nearby
+8. Travel to (481 947) southwest of Timberfield
+
+Rewards: 1 152 000 Experience and 224 000 Spirit
+
+##### Tsen the Heavensent
+
+Quest Dispatcher: Tsen the Heavensent, Thousand Wood Ridge - Midlands (404 954)
+
+1. Talk to the Tsen the Heavensent (443 968)
+2. Travel towards Fen the Victorious (443 968) at the top of the nearby mountain. Players will be automatically teleported to goal area the instant they reach height 46 or higher. Players will not be able to use Speed of the Moon during this.
+3. A pop-up will appear on-screen requesting for players to speak to Fen the Victorious again, during which they will once more be unable to use Speed of the Moon. Players may, however, travel most of the way via Speed of the Moon and then confirm the prompt. Confirm the prompt to continue
+4. Travel towards Fen the Victorious (443 968) to the east at the top of the nearby mountain. Players will be automatically teleported to goal area the instant they reach height 46 or higher. Players will not be able to use Speed of the Moon during this.
+
+Rewards: 720 000 Experience and 140 000 Spirit
+
+##### Leaving the Mountain
+
+This quest will appear automatically once players have completed "Fate of Valiant Generals."
+
+1. Talk to Fen the Victorious
+2. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 288 000 Experience and 56 000 Spirit
+
+##### Returning to Reality
+
+This quest will appear automatically once players have completed "Returning to Reality."
+
+1. The player will be transported to near Old General Chung's Spirit. Talk to Old General Chung's Spirit
+2. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 144 000 Experience and 28 000 Spirit
+
+##### Oath of Brotherhood
+
+This quest will appear automatically once players have completed "Returning to Reality." The player will once more be transformed, which will last until the completion of "Oath of Brotherhood" in Chapter 2.
+
+1. The player will be transported to Etherblade Outskirts, west of Hidden Heroes Village. Talk to Fen the Victorious (472 865)
+2. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 288 000 Experience and 56 000 Spirit
+
+#### Chapter 3
+
+##### Returning to Reality
+
+This quest will appear automatically once players have completed "Returning to Reality."
+
+1. The player will be transported to near Old General Chung's Spirit. Talk to Old General Chung's Spirit
+2. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 288 000 Experience and 56 000 Spirit
+
+##### Rescuing Leecin
+
+This quest will appear automatically once players have completed "Returning to Reality." The player will once more be transformed, which will last until the completion of "Flying Designgraph" in Chapter 3.
+
+1. Watch the cutscene - should players skip it, they may wander near Silver Pool until the timer expires for the cutscene.
+2. Talk to Elf Champion (423 566)
+3. Travel to (422 566)
+4. Dig 2021 Main Mine11 to obtain Recue Leecin
+5. Talk to Leecin (413 553)
+6. The player will be transported to within Silver Pool. Travel to (414 552) to the west
+7. The player will be transported to Etherblade Outskirts, west of Hidden Heroes Village. Talk to Lio Gianni (471 865)
+8. Talk to Scout (442 881) within Etherblade
+9. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 1 440 000 Experience and 280 000 Spirit
+
+##### Sorrowful
+
+This quest will appear automatically after the cutscene timer at the end of "Rescuing Leecin."
+
+1. Talk to Leecin's Tomb (434 906)
+2. Sad - the button to do so will appear on the player's screen
+3. The player will be transported to Etherblade Outskirts north of Etherblade (434 907). Dig Leecin's Grave (434 906) to obtain Bring flowers to the tombstone
+4. The player will be transported to within Etherblade (442 890). Talk to Fen the Victorious
+
+Rewards: 1 008 000 Experience and 196 000 Spirit
+
+##### Flying Designgraph
+
+Quest Dispatcher: Fen the Victorious
+
+1. Talk to Fen the Victorious
+2. Dig Flyer Product (450 880) to obtain Flyer Product
+3. The player will be transported back to Etherblade (448 873). Travel to (450 879)
+4. The player will be transported to Veiled Tower (531 961). Dig Collect Flyer Materials 04 to obtain Magnet Powered Energy
+5. The player will be transported to the opposite shore of Originia River (394 899). Dig Collect Flyer Materials 03 to obtain Wind Powered Energy
+6. The player will be transported to the shore of Originia River north of Etherblade (405 929). Dig Collect Flyer Materials 02 to obtain Volcanic Granite
+7. The player will be transported to within the pond south of Etherblade (436 864). Dig Collect Flyer Materials 01 to obtain Earth Vein Fine Iron
+8. Talk to Fen the Victorious
+
+Rewards: 1 152 000 Experience and 224 000 Spirit
+
+##### Returning to Reality
+
+This quest will appear automatically once players have completed "Returning to Reality."
+
+1. The player will be transported to near Old General Chung's Spirit. Talk to Old General Chung's Spirit
+2. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 144 000 Experience and 28 000 Spirit
+
+#### Blademaster Saga Rewards
+
+Upon completion of the final "Returning to Reality," players may visit the Blademaster General Chung portrait within the Perfect World Hero Saga and then click the glowing chest in the bottom-right to receive the following:
+
+- Elapsed Epoch title (+100 HP)
+- Little General Chung Pet Egg (can be placed in the Codex)
+
+### Wizard Tensa
+
+This Saga will follow the exploits of the random kid Heshin as he idolizes Wizard Tensa. This Saga follows his rise and fall: his wonder, his excitement, his disappointment, and his villain arc.
+
+#### Activation: Mulberry Tree of Path
+
+To fully activate this Saga, complete the quest "Mulberry Tree of Path" by speaking to Library Chief Cheng (531 684) in Archosaur.
+
+#### Chapter 1
+
+##### Something in Mind
+
+Quest Dispatcher: Library Chief Cheng, Archosaur - Midlands(531 684)
+
+1. Use Letter Left by Heshin
+
+Rewards: 308 000 Experience and 60 000 Spirit
+
+##### Disappearance of Heshin
+
+Quest Dispatcher: Library Chief Cheng, Archosaur - Midlands (531 684)
+
+1. Talk to Library Chief Cheng
+2. Shrug - the button to do so will appear on the player's screen
+
+Rewards: 308 000 Experience and 60 000 Spirit
+
+##### Ancient Tome
+
+Quest Dispatcher: Library Chief Cheng, Archosaur - Midlands (531 684)
+
+1. Talk to Librarian Yua (157 250) in Spire of Awakening west of Tellus City
+
+Rewards: 308 000 Experience and 60 000 Spirit
+
+##### Jewelscalen's Scale
+
+Quest Dispatcher: Librarian Yua, Spire of Awakening - Midlands (157 250)
+
+1. Talk to Archaeologist Jian (138 672) north of Town of Arrivals, near Twilight Temple
+2. A pop-up will appear on-screen. Confirm the prompt
+3. Wait 5 seconds
+4. Use Ancient Tome
+
+Rewards: 308 000 Experience and 60 000 Spirit
+
+##### Sword Altar
+
+Quest Dispatcher: Archaeologist Jian, north of Town of Arrivals near Twilight Temple - Midlands (138 672)
+
+1. Talk to Elder of Etherblade (433 887) within Etherblade
+2. Talk to Archaeologist Jian (138 672)
+3. Kill Jewelscalen to obtain Jewelscalen's Scale - she flies counterclockwise at height 62 around the two mesas at (184 645) halfway between Town of Arrivals and City of the Lost
+
+Rewards: 308 000 Experience and 60 000 Spirit
+
+##### Talking to the Elder
+
+Quest Dispatcher: Elder of Etherblade, Etherblade - Midlands (433 887)
+
+1. Talk to Heshin (384 562) within Firecrag Grotto
+
+Rewards: 308 000 Experience and 60 000 Spirit
+
+##### Firecrag Grotto
+
+Quest Dispatcher: Heshin - Firecrag Grotto (384 562)
+
+Dig Nether Sulfur (420 542) within Firecrag Grotto to obtain Nether Sulfur
+
+- Players will have to obtain several Nether Sulfur throughout this Saga - if they have a friend or alt hold the instance open, they should have time to complete the Saga without needing to rekill the monsters each time
+
+Rewards: 308 000 Experience and 60 000 Spirit
+
+##### Back to the Past
+
+Quest Dispatcher: Elder of Etherblade, Etherblade - Midlands (433 887)
+
+1. The player will be transported to near Inn of the Eagle
+2. Coin Toss - the button to do so will appear on the player's screen
+3. Travel to (428 890) nearby
+4. Talk to Elder of Etherblade (433 887) within Etherblade
+
+Rewards: 616 000 Experience and 120 000 Spirit
+
+#### Chapter 2
+
+##### Talking to the Guide
+
+Quest Dispatcher: Guide, Inn of the Eagle - Midlands (422 835)
+
+1. Travel to (432 861) to the north
+
+Rewards: 308 000 Experience and 60 000 Spirit
+
+##### Heshin's Whispers (1)
+
+Quest Dispatcher: Heshin
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 308 000 Experience and 60 000 Spirit
+
+##### Meeting Tensa
+
+Quest Dispatcher: Tensa, Etherblade Outskirts south of Etherblade - Midlands (432 862)
+
+1. Talk to Shepherd Boy (433 862)
+2. Talk to Heshin
+
+Rewards: 308 000 Experience and 60 000 Spirit
+
+##### Talking to Tensa
+
+Quest Dispatcher: Tensa, Etherblade Outskirts - Midlands (432 862)
+
+1. Talk to Guide (422 835) at Inn of the Eagle
+2. Talk to Heshin - if he does not appear, hover above the water
+3. Dig (435 866) to obtain Fountain Water
+4. Talk to Tensa
+5. Attack 1 - the button to do so will appear on the player's screen
+
+Rewards: 616 000 Experience and 120 000 Spirit
+
+##### Delivering Medicine
+
+Quest Dispatcher: Guide, Inn of the Eagle - Midlands (422 835)
+
+1. Talk to Apothecary Chien Yue (425 740) in Tradewind Village
+
+Rewards: 308 000 Experience and 60 000 Spirit
+
+##### The Pain of War
+
+Quest Dispatcher: Apothecary Chien Yue, Tradewind Village - Midlands (425 740)
+
+1. Talk to Strange Soldier (439 763)
+2. Talk to Heshin
+3. Watch or skip the cutscene
+4. Travel to Unicorn Village (436 766) on the ground
+
+Rewards: 616 000 Experience and 60 000 Spirit
+
+##### Heshin's Whispers (2)
+
+Quest Dispatcher: Heshin
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 308 000 Experience and 60 000 Spirit
+
+##### Stopping the Rain
+
+Quest Dispatcher: Villager Ergo, Unicorn Village - Midlands (439 763)
+
+1. Talk to Tensa
+2. Wait 5 seconds
+
+Rewards: 308 000 Experience and 60 000 Spirit
+
+##### Firebath Phoenix
+
+Quest Dispatcher: Tensa
+
+1. Talk to Villager Ergo (439 763) within Unicorn Village
+2. Kill 10 Firebath Phoenix
+
+Rewards: 308 000 Experience and 60 000 Spirit
+
+##### After the Rain
+
+Quest Dispatcher: Villager Ergo, Unicorn Village - Midlands (439 763)
+
+1. Talk to Tensa
+2. Think - the button to do so will appear on the player's screen
+
+Rewards: 308 000 Experience and 60 000 Spirit
+
+#### Chapter 3
+
+##### Heshin's Whispers (3)
+
+Quest Dispatcher: Heshin
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 308 000 Experience and 60 000 Spirit
+
+##### Looking for Lorzhan
+
+Quest Dispatcher: Tensa
+
+1. Watch or skip the cutscene
+2. Talk to Lo Zhan (330 824) within Sumor Camp
+
+Rewards: 308 000 Experience and 60 000 Spirit
+
+##### Meeting Guard Latu
+
+Quest Dispatcher: Guard Latu, Sumor Camp - Mainlands (331 824)
+
+1. Kill the 3 Sumor Guards which spawn. They will likely kill the player the first time. Should this happen, simply come back and kill them one at a time - they're passive
+2. Talk to Enhaz (332 824)
+3. Wait 3 seconds
+
+Rewards: 924 000 Experience and 180 000 Spirit
+
+##### Defeating the Guards
+
+Quest Dispatcher: Enhaz, Sumor Camp - Mainlands (332 824)
+
+1. Talk to Tensa (332 824) within Sumor Camp
+2. Talk to Heshin (328 844)
+3. Dig Essential Sutra (323 844) to obtain Essential Sutra
+4. Talk to Heshin (328 844) to the southwest
+5. Travel north to (341 852) on the ground
+6. Travel north to (340 842) on the ground
+
+Rewards: 1 232 000 Experience and 240 000 Spirit
+
+##### Sending the Winged Elves
+
+Quest Dispatcher: Tensa
+
+The player will be transported to Rook's Valley (438 482). Talk to Tensa
+
+Secret Title:
+
+1. Talk to Tensa
+2. Salute (the hotkey to do so will appear on screen)
+3. Talk to Tensa
+4. Travel to Tenzu's Grave (432 485)
+
+1. Travel west to (393 467) on the ground
+2. Rewards: 616 000 Experience, 120 000 Spirit, and [High Reputation] title
+
+Rewards: 308 000 Experience and 60 000 Spirit
+
+##### The Mysterious Wiseman
+
+Quest Dispatcher: Enhaz
+
+1. Talk to Tensa
+2. Talk to Enhaz
+3. Travel east to (410 471) on the ground
+
+Rewards: 616 000 Experience and 120 000 Spirit
+
+##### Heshin's Whispers (4)
+
+Quest Dispatcher: Heshin
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 308 000 Experience and 60 000 Spirit
+
+##### Gathering Herbs
+
+Quest Dispatcher: Tensa
+
+1. Talk to Apothecary Hui (498 964) in Timberfield
+2. Dig Herb (483 961) to obtain Snowfey
+3. Talk to Mysterious Wiseman (497 964) in Timberfield
+
+Rewards: 616 000 Experience and 120 000 Spirit
+
+##### Rejuvenating Pill
+
+Quest Dispatcher: Apothecary Hui, Timberfield - Midlands (498 964)
+
+1. Talk to Mysterious Wiseman (497 964) within Timberfield
+2. Kill Aeon Luminary (188 370) while avoiding the red radius of the Winged Patrol. It is unknown what happens should they be triggered
+3. A pop-up will appear on-screen. Confirm the prompt.
+4. Travel to (196 383) ↑69 southwest of Village of Brutes (which is west of City of the Plume)
+5. Talk to Mysterious Wiseman (497 964)
+
+Rewards: 924 000 Experience and 180 000 Spirit
+
+##### A New Weapon
+
+Quest Dispatcher: Mysterious Wiseman, Timberfield - Midlands (497 964)
+
+1. Talk to Mysterious Wiseman (497 964) in Timberfield
+2. Wait 5 seconds
+3. Dig Dungeon Mine on the shore of the lake below to obtain 5 Turqoise Glaze
+4. The player will be transported to a new map. Kill Bonebiting Wyvern (110 895) ↑15 to obtain 5 Cold Snow
+5. Travel to (300 912) ↑11 south of Avalanche Village
+
+Rewards: 1 232 000 Experience and 240 000 Spirit
+
+##### Heshin's Whispers (5)
+
+Quest Dispatcher: Heshin, Timberfield - Midlands (497 964)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 308 000 Experience and 60 000 Spirit
+
+##### Heshin's Whispers (6)
+
+Quest Dispatcher: Heshin, Timberfield - Midlands (497 964)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 308 000 Experience and 60 000 Spirit
+
+##### Esoterica in Chest
+
+Quest Dispatcher: Mysterious Wiseman, Timberfield - Midlands (497 964)
+
+1. Talk to Mysterious Wiseman (497 964)
+2. Dig Password Mine (498 957) to unlock the chest and obtain Esoterica. The code is 6236
+
+Rewards: 308 000 Experience and 60 000 Spirit
+
+#### Chapter Four
+
+##### Saving the Girl
+
+Quest Dispatcher: Apothecary Hui, Timberfield - Midlands (498 964)
+
+Talk to Saki (405 885) ↑19. The entrance is at (405 884) ↑20
+
+- Barbarians will need to be summoned inside the entrance, as they are too big to fit through the door.
+
+Rewards: 924 000 Experience and 180 000 Spirit
+
+##### Extraordinary Girl
+
+Quest Dispatcher: Saki (players must be above water for her to appear)
+
+1. Talk to Villager Panhai (670 613) within Village of Naught
+2. Travel to (658 598) on the ground southwest of Village of Naught
+
+Rewards: 616 000 Experience and 120 000 Spirit
+
+##### To the Sanctuary
+
+Quest Dispatcher: Tensa
+
+1. Talk to Mysterious Wiseman (623 528) southeast of Hidden Orchid
+
+Rewards: 308 000 Experience and 60 000 Spirit
+
+##### Coming Back
+
+Quest Dispatcher: Mysterious Wiseman, Peach Blossom Grove - Midlands (623 528)
+
+1. Talk to Elder of Etherblade (433 887) within Etherblade
+2. Coin Toss - the button to do so will appear on the player's screen
+3. Travel to (428 890) within Etherblade
+4. Talk to Mysterious Wiseman (623 528) southeast of Hidden Orchid
+5. Dig Nether Sulfur (420 542) within Firecrag Grotto to obtain Nether Sulfur
+
+Rewards: 1 232 000 Experience and 240 000 Spirit
+
+##### Heshin's Whispers (7)
+
+Quest Dispatcher: Heshin, Timberfield - Midlands (497 964)
+
+1. Should players not complete this prior to Coin Toss in "Coming Back," they will be unable to ever do so
+2. This quest automatically completes upon picking it up
+
+Rewards: 308 000 Experience and 60 000 Spirit
+
+##### Letter from Heshin
+
+This quest will appear automatically once players have completed "Coming Back."
+
+1. Wait 30 seconds
+2. Use Wiseman's Letter
+3. Dig Mysterious Letter (623 528) to obtain Wiseman's Letter
+4. Travel to (623 527) on the ground southeast of Hidden Orchid
+5. Use Heshin's Letter
+6. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 1 848 000 Experience and 360 000 Spirit
+
+##### Tell Cheng
+
+This quest will appear automatically once players have completed "Letter from Heshin."
+
+1. Talk to Library Chief Cheng (531 684) within Archosaur
+2. A pop-up will appear on-screen. Confirm the prompt
+
+##### Meeting Heshin Again (1)
+
+Quest Dispatcher: Library Chief Cheng, Archosaur - Midlands (531 684)
+
+1. Talk to Heshin (532 686) within Archosaur
+2. Coin Toss - the button to do so will appear on the player's screen
+3. Travel to (428 890) within Etherblade
+4. Dig Nether Sulfur (420 542) within Firecrag Grotto to obtain Nether Sulfur
+
+##### Regretless Choice
+
+Quest Dispatcher: Heshin, Archosaur - Midlands (532 686)
+
+1. Resurrect or Return to City. A pop-up will appear on-screen. Confirm the prompt
+2. Demon of Heshin will appear and kill the player. Even should they use immunity, they will be unable to damage Demon of Heshin, and it will kill the player once immunity expires.
+
+##### Meeting Heshin Again (2)
+
+Quest Dispatcher: Library Chief Cheng, Archosaur - Midlands (531 684)
+
+Dig Nether Sulfur (420 542) within Firecrag Grotto to obtain 3 Nether Sulfur
+
+- This is the last time players will need to obtain Nether Sulfur
+
+##### Samsara
+
+Quest Dispatcher: Heshin, Archosaur - Midlands (528 686)
+
+1. This quest automatically completes upon picking it up
+2. Talk to Heshin (528 686) within Etherblade
+
+##### Meeting Heshin Again (3)
+
+Quest Dispatcher: Library Chief Cheng, Archosaur - Midlands (531 684)
+
+1. Talk to Librarian Yua (157 250) within Spire of Awakening
+
+##### Memory in the Tome
+
+Quest Dispatcher: Librarian Yua, Spire of Awakening - Midlands (157 250)
+
+1. Wait one minute
+2. Use Heshin's Letter
+
+##### Broken Hearts
+
+This quest will appear automatically once players have completed "Memory in the Tome."
+
+1. Coin Toss - the button to do so will appear on the player's screen
+2. Travel to (428 890) within Etherblade
+3. A pop-up will appear on-screen. Confirm the prompt
+4. Watch the cutscene. If players skip it, they will have to wait for the 1 minute 30 second timer to expire before continuing
+5. A pop-up will appear on-screen. Confirm the prompt twice
+
+#### Wizard Saga Rewards
+
+Upon completion of "Broken Hearts," players may visit the Wizard Tensa portrait within the Perfect World Hero Saga and then click the glowing chest in the bottom-right to receive the following:
+
+- A Memorable Story title (+100 HP)
+- Little Tensa Pet Egg (can be placed in the Codex)
+
+### Technician Atiya
+
+This Saga will have players get to know Technician Atiya: her introduction, her birthday, and her clan and triumphs
+
+#### Activation: Run into a fawn
+
+To fully activate this Saga, complete the quest "Run into a Fawn" by traveling to point (442 795) south of Etherblade.
+
+#### Chapter 1
+
+##### Strange Fawn
+
+This quest will appear automatically once players have completed "Run into a fawn."
+
+1. Talk to Whitetail
+
+Rewards: 240 000 Experience, 48 000 Spirit, and Note Licked by Deer
+
+##### Secret 1
+
+This quest will appear once Note Licked by Deer is used.
+
+1. Dig Mysterious Chest (333 679) within Pierced Heart Lake
+
+Rewards: 480 000 Experience and 96 000 Spirit
+
+##### Secret 2
+
+Quest Dispatcher: Whitetail
+
+1. A pop-up will appear on-screen. Confirm the prompt
+2. Travel west to (547 376)
+3. A pop-up will appear on-screen. Confirm the prompt
+4. Travel to Village of the Dreaming Cloud (551 376)
+5. Use Note with Inky Orchid Scent
+
+Rewards: 1 200 000 Experience and 240 000 Spirit
+
+##### A Promise
+
+Quest Dispatcher: Littlefoot, Village of the Dreaming Cloud - Midlands(549 373)
+
+1. Use Paper Wrapping Nut
+2. Dig Mysterious Chest (553 371)
+3. Talk to Littlefoot
+4. Win a best of five Rock-Paper-Scissors competition with Littlefoot
+
+Rewards: 960 000 Experience and 192 000 Spirit
+
+##### Secret 3
+
+Quest Dispatcher: Whitetail
+
+Talk to Whitetail
+
+- Players may wish to travel towards Hidden Heroes Village before doing this to avoid getting backpacked longer than necessary
+
+Rewards: 720 000 Experience and 144 000 Spirit
+
+##### Beauty by the Lake
+
+This quest will appear automatically once players have completed "Secret 3," at which point players will be backpacked: they will be unable to teleport, fly, or benefit from speed boosts.
+
+1. Talk to Dizzy (491 890)
+2. Travel to the southern shore of Etherblade Lake (492 890)
+
+Rewards: 480 000 Experience and 96 000 Spirit
+
+##### Without A Word
+
+This quest will appear automatically once players have completed "Beauty by the Lake."
+
+1. Talk to Atiya the Grinning (500 904) across the lake
+
+Rewards: 240 000 Experience and 48 000 Spirit
+
+##### Episode
+
+This quest will appear automatically once players have completed "Without A Word."
+
+1. Talk to Atiya the Grinning (500 904)
+
+Rewards: 240 000 Experience and 48 000 Spirit
+
+##### Hellfire
+
+Quest Dispatcher: Atiya the Grinning, Etherblade Lake - Midlands (500 904)
+
+1. Wait 10 seconds
+2. Talk to Atiya the Grinning
+3. Talk to Atiya the Grinning
+
+Rewards: 720 000 Experience and 144 000 Spirit
+
+##### Powerful Cannon
+
+Quest Dispatcher: Atiya the Grinning, Etherblade Lake - Midlands (500 904)
+
+1. Mount the Simple Battery and pop the balloons. Should players not be fast enough, they will need to trash this quest and pick it up again so as to have the battery and balloons respawn
+2. Travel to (503 906)
+3. Talk to Atiya the Grinning
+
+Rewards: 1 200 000 Experience and 240 000 Spirit
+
+##### Parting for the Time Being
+
+This quest will appear automatically once players have completed "Powerful Cannon."
+
+1. Talk to Atiya the Grinning
+
+Rewards: 240 000 Experience and 48 000 Spirit
+
+#### Chapter 2
+
+##### The Elder's Words
+
+This quest will appear automatically once players have completed "Parting for the Time Being."
+
+1. Talk to Elder of Etherblade (433 887) within Etherblade
+
+Rewards: 240 000 Experience and 48 000 Spirit
+
+##### Inquiring an Alcoholic
+
+This quest will appear automatically once players have completed "The Elder's Words."
+
+1. Talk to Drunken Warrior Kyocho (443 891) within Etherblade
+
+Rewards: 240 000 Experience and 48 000 Spirit
+
+##### Hangover Drug
+
+This quest will appear automatically once players have completed "Inquiring an Alcoholic."
+
+1. Talk to Drunken Warrior Kyocho (443 891)
+2. Talk to Apothecary An (444 897) within Etherblade
+
+Rewards: 480 000 Experience and 96 000 Spirit
+
+##### Peach Blossom
+
+Quest Dispatcher: Merchant Wei, Sanctuary - Midlands (645 562) The title you select to pursue is permanent - once you complete this quest, you cannot obtain the other one.
+
+Select "I'll take it myself" to start a quest to gain the cosmetic title "Peach Blossoms for Wine"
+
+1. Dig Peach Blossom Branch (650 562) ↑24 to obtain Peach Blossom Juice
+
+Rewards: 240 000 Experience and 48 000 Spirit
+
+##### Sky River
+
+This quest will appear automatically once players have completed "Peach Blossom."
+
+1. A pop-up will appear on-screen. Confirm the prompt
+2. Travel south to (565 530)
+3. Talk to Hsu Hsiako (586 567)
+4. Look - the button to do so will appear on the player's screen
+5. Travel to Hidden Orchid (585 566)
+
+Rewards: 1 200 000 Experience and 240 000 Spirit
+
+##### Flower Fairy
+
+This quest will appear automatically once players have completed "Sky River."
+
+1. Talk to Flower Fairy
+2. Kill Flower Fairy Clone which spawns
+3. Talk to Flower Fairy
+4. Dance1 - the button to do so will appear on the player's screen
+5. Talk to Flower Fairy (564 528)
+
+Rewards: 1 200 000 Experience and 240 000 Spirit
+
+##### Unexpected Findings
+
+This quest will appear automatically once players have completed "Flower Fairy."
+
+1. Talk to Fon Sen (562 529) nearby
+2. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 480 000 Experience and 96 000 Spirit
+
+##### Burning Stone
+
+This quest will appear automatically once players have completed "Unexpected Findings."
+
+1. Unlock Burning Flintstone (133 754) to obtain Inextinguishable Flintstone. The code is 1423
+2. Talk to Mumbling Mathematician (132 754) nearby
+3. Talk to Leader of Immolation (133 756) within Immolation Camp
+
+Rewards: 720 000 Experience and 144 000 Spirit
+
+##### Appointment
+
+This quest will appear automatically once players have completed "Burning Stone."
+
+1. A pop-up will appear on-screen. Confirm the prompt
+2. Travel to Hunter Cabin (460 839) south of Etherblade
+3. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 240 000 Experience and 48 000 Spirit
+
+##### Hunter Cabin
+
+This quest will appear automatically once players have completed "Appointment."
+
+1. Talk to Atiya the Grinning (460 839)
+
+Rewards: 720 000 Experience and 144 000 Spirit
+
+#### Chapter 3
+
+##### Memory Box
+
+Quest Dispatcher: Fon Sen, Etherblade Outskirts - Midlands (460 839)
+
+1. A pop-up will appear on-screen. Confirm the prompts
+2. The player will be transported to an unnamed instance which due to the nature of the instance will be called Old Pyros Technocracy. Should they ever for any reason be booted from this instance they may talk to Fon Sen (460 839) at Hunter Cabin south of Etherblade
+3. Talk to Fon Sen
+
+Rewards: 480 000 Experience and 96 000 Spirit
+
+##### Distraction
+
+This quest will appear automatically once players have completed "Memory Box."
+
+Use Roadside Pebble
+
+- Depending on where the pebble landed, the player will receive a secondary quest
+
+Rewards: 720 000 Experience and 144 000 Spirit
+
+##### Infiltration
+
+This quest will appear automatically once players have completed the quest after "Distraction."
+
+Kill Wooden Chest (162 882) ↑12
+
+- Barbarians, due to their extra large size, will need to jump up rather than climb up
+
+Rewards: 240 000 Experience and 48 000 Spirit
+
+##### Disguised
+
+This quest will appear automatically once players have completed the quest after "Infiltration."
+
+1. Use Hardly Wearable Outfit
+
+Rewards: 480 000 Experience and 96 000 Spirit
+
+##### Being Caught
+
+This quest will appear automatically once players have completed the quest after "Disguised."
+
+1. A pop-up will appear on-screen. Confirm the prompt
+2. Travel to (161 882)
+3. A pop-up will appear on-screen. Confirm the prompts
+
+Rewards: 720 000 Experience and 144 000 Spirit
+
+##### Muddling Through
+
+This quest will appear automatically once players have completed the quest after "Being Caught."
+
+1. Talk to Rancia (160 882)
+
+Rewards: 240 000 Experience and 48 000 Spirit
+
+##### The Beauty
+
+This quest will appear automatically once players have completed the quest after "Muddling Through."
+
+1. Talk to Baniel (158 879)
+2. Talk to Lorsien (162 880)
+
+Rewards: 480 000 Experience and 96 000 Spirit
+
+##### Promising Youth
+
+This quest will appear automatically once players have completed the quest "The Beauty."
+
+1. Players will be teleported back to Hunter Cabin
+2. Watch the cutscene or skip it. Regardless of which, players will need to wait for the 1 minute 20 timer to pass
+
+##### Unsatisfied
+
+This quest will appear automatically once players have completed the quest "Promising Youth."
+
+1. Talk to Atiya the Grinning (460 839)
+
+Rewards: 240 000 Experience and 48 000 Spirit
+
+##### Old Days
+
+This quest will appear automatically once players have completed the quest "Unsatisfied," at which point players will once more be transported to Old Pyros Technocracy.
+
+1. Talk to Atiya the Grinning (162 878)
+2. Talk to Atiya the Grinning (156 879)
+3. Talk to Atiya the Grinning (162 884)
+
+Rewards: 960 000 Experience and 192 000 Spirit
+
+##### Emergence of Crisis
+
+This quest will appear automatically once players have completed the quest "Old Days."
+
+1. A pop-up will appear on-screen. Confirm the prompts
+
+Rewards: 240 000 Experience and 48 000 Spirit
+
+##### Crisis
+
+This quest will appear automatically once players have completed the quest "Emergence of Crisis."
+
+1. Players will be teleported back to Hunter Cabin
+2. Watch the cutscene or skip it. Regardless of which, players will need to wait for the 1 minute 20 second timer to pass
+
+##### Treasure
+
+This quest will appear automatically once players have completed "Crisis."
+
+1. Talk to Atiya the Grinning (460 839)
+
+Rewards: 240 000 Experience and 48 000 Spirit
+
+##### Drinking in High Glee
+
+Quest Dispatcher: Fon Sen, Etherblade Outskirts - Midlands (460 839)
+
+1. Faint - the button to do so will appear on the player's screen
+2. The player will become Completely drunken for 20 seconds. Talk to Blacksmith Lei (460 839)
+3. Talk to Atiya the Grinning (460 839)
+
+Rewards: 720 000 Experience and 144 000 Spirit
+
+##### Drinking and Reveling
+
+This quest will appear automatically once players have completed the quest "Drinking in High Glee."
+
+1. Watch the cutscene or skip it. Regardless of which, players will need to wait for the 20 second timer to pass
+
+##### The Past and the Present
+
+This quest will appear automatically once players have completed the quest "Drinking and Reveling."
+
+1. Travel to the north of Etherblade, near the waterfall (442 903)
+2. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 480 000 Experience and 96 000 Spirit
+
+##### Deserved Position
+
+Quest Dispatcher: Master Technician Atiya, Etherblade - Midlands (442 903)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 240 000 Experience and 48 000 Spirit
+
+#### Technician Saga Rewards
+
+Upon completion of "Deserved Position," players may visit the Technician Atiya portrait within the Perfect World Hero Saga and then click the glowing chest in the bottom-right to receive the following:
+
+- Cherished Time title (+100 HP)
+- Little Atiya Pet Egg (can be placed in the Codex)
+
+### Wildwalker Syvos
+
+This Saga will follow the life of Wildwalker Syvos on his journey of self-discovery through its three stages: childhood, coming of age, and adulthood.
+
+#### Activation: The Urgent Letter
+
+To fully activate this Saga, complete the quest "The Urgent Letter" by using Emergent Letter (added to inventory automatically on clicking the title of Wildwalker Syvos).
+
+Rewards: 377 358 Experience and 75 471 Spirit
+
+#### Chapter 1
+
+##### The Request
+
+This quest will appear automatically once players have completed "The Urgent Letter."
+
+1. Talk to Elder of the Lost (246 646) within City of the Lost
+
+Rewards: 377 358 Experience and 75 471 Spirit
+
+##### The Doctor
+
+This quest will appear automatically once players have completed "The Request."
+
+1. Talk to Doctor Zivien (238 654) in the cave behind Elder of the Lost's platform - the cave can only be accessed by following the elevated walkway leading behind the Arena Manager (245 639)
+
+Rewards: 377 358 Experience and 75 471 Spirit
+
+##### The Herb
+
+Quest Dispatcher: Doctor Zivien, City of the Lost - Midlands(238 654)
+
+1. Talk to Doctor Zivien
+2. Dig Bychi Incense (245 624) to obtain Bychi Incense
+
+Rewards: 377 358 Experience and 75 471 Spirit
+
+##### The Recipe
+
+Quest Dispatcher: Doctor Zivien, City of the Lost - Midlands (238 654)
+
+1. Wait 5 seconds
+2. Talk to Doctor Zivien
+3. Meditate - the button to do so will appear on the player's screen
+
+Rewards: 1 132 074 Experience and 226 414 Spirit
+
+##### The small village
+
+This quest will appear automatically once players have completed "The Recipe."
+
+1. The player will be transported to Sanctuary while having their screen become greyscale and being transformed into Wildwalker Syvos, during which they will not be able to use most items, any class skills, or any genie skills. No Wildwalker skills will be available until completion of "The Bamboo Forest" in Chapter 2. The transformation will last until completion of "Memory" in Chapter 3. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 377 358 Experience and 75 471 Spirit
+
+##### The Candy Cake
+
+This quest will appear automatically once players have completed "The small village."
+
+1. Dig Candy Pancake (641 564) to obtain Candy Pancake
+
+Rewards: 377 358 Experience and 75 471 Spirit
+
+##### The Shout
+
+This quest will appear automatically once players have completed "The Candy Cake."
+
+1. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 377 358 Experience and 75 471 Spirit
+
+##### The Adoption
+
+This quest will appear automatically once players have completed "The Shout."
+
+1. Talk to Lyo Zosi (643 566) nearby
+
+Rewards: 377 358 Experience and 75 471 Spirit
+
+##### The Best Friend
+
+This quest will appear automatically once players have completed "The Adoption."
+
+1. Talk to Chang Dong (643 562) across the bridge
+
+Rewards: 377 358 Experience and 75 471 Spirit
+
+##### The Teacher
+
+This quest will appear automatically once players have completed "The Best Friend."
+
+1. Talk to Pu Sonpo (635 565) across the bridge
+
+Rewards: 377 358 Experience and 75 471 Spirit
+
+##### The Childhood Sweetheart
+
+This quest will appear automatically once players have completed "The Teacher."
+
+1. Talk to Pu Yilin (637 564) nearby
+
+Rewards: 377 358 Experience and 75 471 Spirit
+
+##### The Search
+
+This quest will appear automatically once players have completed "The Childhood Sweetheart."
+
+1. A pop-up will appear on-screen. Confirm the prompts
+2. Use Lovely Lunchbox
+3. A pop-up will appear on-screen. Confirm the prompt
+4. Dig Lovely Lunchbox in the same location to obtain Lovely Lunchbox
+5. A pop-up will appear on-screen. Confirm the prompt
+6. Dig Hairpin Box (636 565) to obtain Hairpin
+
+Rewards: 2 264 148 Experience and 452 826 Spirit
+
+#### Chapter 2
+
+##### The Bamboo Forest
+
+This quest will appear automatically once players have completed "The Search," at which point the player will be transported to just south of Sanctuary
+
+1. Talk to Pu Yilin (636 572) north of Sanctuary; players will need to cross a bridge inside Sanctuary to get here
+2. A pop-up will appear on-screen. Confirm the prompt
+3. Talk to Wounded Rabbit
+4. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 1 132 074 Experience and 226 413 Spirit
+
+##### Comfort
+
+Quest Dispatcher: Pu Yilin, Peach Blossom Grove - Midlands (636 572)
+
+3 Arriving Wraith Troops (these can neither be seen nor attacked by other squad members, even should they have this same quest - kills by another squad member will not yield credit for the player) will spawn; players must now kill them within 30 seconds and have access to the sample monkey form Wildwalker skills:
+
+Cosmic Union
+
+- Petrification. Immune to all negative effects while using the skill. Cannot be canceled.
+- Slap four times with fury! Deals a large number of damage to enemies within 8 meters.
+
+Mountain Quake
+
+- Petrification. Immune to all negative effects while using the skill. Cannot be canceled.
+- Jump into the air before smashing the ground with your fist, dealing mass damage to the target and other targets within 8 meters.
+
+Hurling Rock
+
+- Petrification. Immune to all negative effects while using the skill. Cannot be canceled.
+- Hold a huge rock high and throw it at your foes, dealing mass physical damage.
+
+Rewards: 754 716 Experience and 150 942
+
+##### The Breakaway
+
+This quest will appear automatically once players have completed "Comfort."
+
+1. A pop-up will appear on-screen. Confirm the prompts
+
+Rewards: 377 358 Experience and 75 471 Spirit
+
+##### Saying Goodbye
+
+This quest will appear automatically once players have completed "The Breakaway."
+
+1. A cutscene will play. Players may watch or skip it, but must wait for the 40 second timer to finish regardless
+
+##### The Old Man
+
+This quest will appear automatically once players have completed "Saying Goodbye," at which point they will be transported to Hidden Orchid (585 565).
+
+1. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 377 358 Experience and 75 471 Spirit
+
+##### The Teacher
+
+Quest Dispatcher: Elder Gwan, Hidden Orchid - Midlands (585 565)
+
+1. Talk to Elder Gwan
+2. Travel to (581 563) nearby
+3. Talk to Elder Gwan
+
+Rewards: 1 509 432 Experience and 301 884 Spirit
+
+##### The Seacoast
+
+This quest will appear automatically once players have completed "The Teacher," at which point they will be transported to Angler's Village (637 831).
+
+1. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 377 358 Experience and 75 471 Spirit
+
+##### Finding Chan Yen
+
+This quest will appear automatically once players have completed "The Teacher."
+
+1. Talk to Chan Yen (645 845) to the north
+
+##### The Iron Horse
+
+Quest Dispatcher: Chan Yen, Angler's Village - Midlands (645 845)
+
+1. Talk to Chan Yen
+2. Travel to (644 847) nearby
+3. Talk to Chan Yen
+4. Travel to Chan Yen's family (642 847) nearby
+5. Talk to Chan Yen
+
+Rewards: 1 886 790 Experience and 377 355 Spirit
+
+##### Working Hard
+
+This quest will appear automatically once players have completed "The Iron Horse."
+
+1. A cutscene will play. Players may watch or skip it, but must wait for the 15 second timer to finish regardless
+
+##### The Den of Rabid Wolves
+
+Quest Dispatcher: Elder Gwan, Silk Ridge - Midlands (372 620)
+
+Kill 15 of a combination of Darkbreed Wolfkin and Blackweb Tarantula (these are solo kills and other squad members' kills of these will not yield quest credit); players now have access to a sample of human form Wildwalker Skills:
+
+Lethal Expanse
+
+- Deals medium damage to enemies within 12 meters.
+
+Falling Punishment
+
+- Jump high before smashing to the ground, dealing base physical damage to enemies within 8 meters.
+
+Conjure Shadows
+
+- Continuously summon a large number of Wildwalker Clones. Every 3 seconds, deals physical damage to the target and other targets within 12 meters until the spell is manually canceled.
+
+Rewards: 377 358 Experience and 75 471 Spirit
+
+#### Chapter 3
+
+##### The Determination
+
+This quest will appear automatically once players have completed "The Den of Rabid Wolves," at which point they will be transported to City of the Lost (247 646).
+
+1. Talk to Elder of the Lost (246 646)
+2. The player will be transported back to outside the entrance of the cave. Talk to Elder Gwan
+
+Rewards: 377 358 Experience and 75 471 Spirit
+
+##### The Old Haunt
+
+This quest will appear automatically once players have completed "The Determination," at which point they will be transported to Sanctuary (651 562).
+
+1. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 377 358 Experience and 75 471 Spirit
+
+##### The Neighbors
+
+This quest will appear automatically once players have completed "The Old Haunt."
+
+1. Talk to Gossip Woman (651 563) nearby
+
+Rewards: 377 358 Experience and 75 471 Spirit
+
+##### The Letter
+
+This quest will appear automatically once players have completed "The Neighbors."
+
+1. Wait 50 seconds
+2. Use Old Letter
+3. Dig Letter (633 565) on the other side of Sanctuary to receive Old Letter
+4. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 1 509 432 Experience and 301 884 Spirit
+
+##### Hero Saga: The Node
+
+This quest will appear automatically once players have completed "The Neighbors."
+
+1. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 377 358 Experience and 75 471 Spirit
+
+##### The Change
+
+This quest will appear automatically once players have completed "Hero Saga: The Node," at which point players will be transported west of Sanctuary (620 569)
+
+1. Talk to Pu Yilin (621 570)
+
+Rewards: 377 358 Experience and 75 471 Spirit
+
+##### Memory
+
+This quest will appear automatically once players have completed "The Change."
+
+1. A cutscene will play. Players may watch or skip it, but must wait for the 40 second timer to finish regardless
+
+##### The Dream
+
+This quest will appear automatically once players have completed "Memory," at which point they will regain full use of their character and be transported back to the cave with Doctor Zivien (239 654)
+
+1. Talk to Doctor Zivien (238 654)
+
+Rewards: 377 358 Experience and 75 471 Spirit
+
+##### The Visit
+
+This quest will appear automatically once players have completed "The Dream."
+
+1. Talk to Syvos (238 654)
+
+Rewards: 377 358 Experience and 75 471 Spirit
+
+##### The Aknowledgement
+
+This quest will appear automatically once players have completed "The Visit."
+
+1. Talk to Elder of the Lost (246 646)
+
+Rewards: 377 358 Experience and 75 471 Spirit
+
+##### The Choice
+
+Quest Dispatcher: Elder of the Lost, City of the Lost - Midlands (246 646)
+
+Players will have to choose whether to:
+
+Tell The Truth
+
+1. Talk to Elder of the Lost (246 646)
+2. Talk to Syvos (238 654) inside the cave
+
+Conceal the Truth
+
+1. Talk to Elder of the Lost (246 646)
+2. Talk to Syvos (238 654) inside the cave
+
+Rewards: 754 716 Experience, 150 942 Spirit, and Letter Not Sent I
+
+#### Wildwalker Saga Rewards
+
+Upon completion of "The Choice," players may visit the Wildwalker Syvos portrait within the Perfect World Hero Saga and then click the glowing chest in the bottom-right to receive the following:
+
+- Spring Peach Blossom title (+100 HP)
+- Little Syvos Pet Egg (can be placed in the Codex)
+
+### Barbarian Viensa
+
+This Saga will explore the character of Barbarian Viensa: his joyful nature, his poetic spirit, his grizzled past, and his present love for his wife.
+
+#### Activation: Sigh of the Memory
+
+To fully activate this Saga, complete the quest "Sigh of the Memory" by using Mindkeeper Stamen (added to inventory automatically on clicking the title of Barbarian Viensa).
+
+Rewards: 300 000 Experience and 60 000 Spirit
+
+#### Chapter 1
+
+##### Sigh of the Memory
+
+After completion, a cutscene will play, which may be skipped. However, players will need to wait for the invisible cutscene timer to end prior to receiving the next quest.
+
+##### Find the Hero
+
+This quest will appear automatically once players have completed "Sigh of the Memory."
+
+1. Talk to Mysterious Person (546 628)
+2. Travel to southern Archosaur (545 627)
+
+Rewards: 600 000 Experience and 120 000 Spirit
+
+##### At the Dock
+
+Quest Dispatcher: Mysterious Person, Archosaur - Midlands (546 628)
+
+1. Talk to Merchant Huang
+2. Unlock General's Remains (427 646) to receive Protection Belt. The code is 40000.
+3. Talk to Merchant Huang (427 646)
+4. Travel to Wellspring Village (426 647)
+
+Rewards: 900 000 Experience and 180 000 Spirit
+
+##### Into the Yard
+
+Quest Dispatcher: Merchant Huang, Wellspring Village - Midlands (427 646)
+
+1. Talk to Viensa (440 650) on the eastern outskirts of Wellspring Village
+
+Rewards: 300 000 Experience and 60 000 Spirit
+
+##### Away from Hometown
+
+Quest Dispatcher: Viensa, Wellspring Village - Midlands (440 650)
+
+1. Talk to Mysterious Man
+2. Talk to Mysterious Man (440 650)
+3. Use Special Seasoning, then add Dandan Noodles
+4. Talk to Viensa
+5. Wait 11 seconds
+
+Rewards: 900 000 Experience and 180 000 Spirit
+
+##### Breaking Music
+
+Quest Dispatcher: Mysterious Man, Wellspring Village - Midlands (440 650)
+
+1. Talk to Viensa (440 650)
+2. Kill Chang San's Pawn which spawns
+
+Rewards: 600 000 Experience and 120 000 Spirit
+
+##### Destined Friends
+
+Quest Dispatcher: Viensa, Wellspring Village - Midlands (440 650)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 300 000 Experience and 60 000 Spirit
+
+#### Chapter 2
+
+##### Sparrowmark Beach
+
+Quest Dispatcher: Viensa
+
+1. Talk to Viensa
+2. Travel to Sparrowmark Beach (398 691)
+
+Rewards: 300 000 Experience and 60 000 Spirit
+
+##### In the Rain
+
+Quest Dispatcher: Viensa
+
+1. Talk to Viensa; players will receive Fresh Fish Feast which has some pretty severe negative effects. Players who use it will receive the cosmetic title Sentimental
+2. Wait 11 seconds
+3. Talk to Viensa (must be above the water)
+4. Kill 5 Zanro (392 699)
+5. Talk to Soldier Ginta (414 690)
+6. Travel to the shore of Phoenix River (412 689)
+
+Rewards: 1 200 000 Experience and 240 000 Spirit
+
+##### Viensa Lust for the Soul
+
+Quest Dispatcher: Viensa
+
+1. Talk to Viensa
+2. Travel to the shore of Phoenix River (412 689)
+
+Rewards: 600 000 Experience and 120 000 Spirit
+
+##### The Return Journey
+
+Quest Dispatcher: Viensa
+
+Gather:
+
+- There's a group of the mix just east at (394 673)
+- 2 Golden Herb
+- 2 Ageratum
+- 2 Nectar
+
+Rewards: 1 500 000 Experience and 300 000 Spirit
+
+##### Abandoned Tombs
+
+Quest Dispatcher: Viensa
+
+1. Salute - the button to do so will appear on the player's screen
+2. Talk to Viensa
+3. Wait 11 seconds
+4. Talk to Viensa
+5. Travel to a set of abandoned tombs (369 672)
+6. Talk to Anxious Mother
+
+Rewards: 1 200 000 Experience and 240 000 Spirit
+
+##### Remains of a Hero
+
+Quest Dispatcher: Viensa
+
+1. Talk to Viensa
+2. Dig Verdant Bamboo (370 673) to obtain Decaying Skeleton
+
+Rewards: 300 000 Experience and 60 000 Spirit
+
+##### Sign With Emotion
+
+Quest Dispatcher: Viensa
+
+Use Decaying Skeleton
+
+- Should players not have Decaying Skeleton, they may talk to Summonbot XXL (334 682) to obtain one
+
+Rewards: 900 000 Experience and 180 000 Spirit
+
+##### Lunar Pass
+
+Quest Dispatcher: Viensa
+
+1. Travel to the bridge that enters to Lunar Pass (320 647)
+
+Rewards: 300 000 Experience and 60 000 Spirit
+
+#### Chapter 3
+
+##### Blocked by the Bridge
+
+Quest Dispatcher: Viensa
+
+1. Travel across the bridge to (312 652)
+
+Rewards: 300 000 Experience and 60 000 Spirit
+
+##### Autumn of River
+
+Quest Dispatcher: Sentry Feng
+
+1. Players will be transported back in time by having their screen become greyscale. Talk to General Viensa (307 662)
+
+Rewards: 300 000 Experience and 60 000 Spirit
+
+##### At Midnight
+
+Quest Dispatcher: General Viensa, Lunar Pass - Midlands (307 662)
+
+1. Talk to Lieutenant Kuray (307 665)
+
+Rewards: 300 000 Experience and 60 000 Spirit
+
+##### Killing Monsters
+
+Quest Dispatcher: Lieutenant Kuray, Lunar Pass - Midlands (307 665)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 300 000 Experience and 60 000 Spirit
+
+##### Stopped by Stones
+
+Quest Dispatcher: Soldier Kandon, Lunar Pass - Midlands (307 665)
+
+1. Talk to Lieutenant Kuray (307 665)
+2. Kill 20 Wraiths (311 660). The archers do not count. These are also solo kill objectives: squad members' kills will not count towards the player's quest credit
+
+Rewards: 300 000 Experience and 60 000 Spirit
+
+##### Relative of the General
+
+Quest Dispatcher: Lieutenant Kuray, Lunar Pass - Midlands (307 665)
+
+1. Talk to General Viensa (307 662)
+
+Rewards: 300 000 Experience and 60 000 Spirit
+
+##### Extraordinary Past
+
+Quest Dispatcher: General Viensa, Lunar Pass - Midlands (307 662)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 300 000 Experience and 60 000 Spirit
+
+##### Autumn of River
+
+This quest will appear automatically once players have completed "Extraordinary Past."
+
+1. A cutscene will play. Players may skip it, but they must wait for the timer to pass prior to picking up the next quest.
+
+##### Dragon's Breath Valley
+
+Quest Dispatcher: Viensa
+
+1. Travel to Dragon's Breath Valley (279 638)
+
+Rewards: 300 000 Experience and 60 000 Spirit
+
+##### Wooden Step
+
+Quest Dispatcher: Viensa
+
+1. Dig Mound: Child (294 634) to receive Grief: Twin Wishes
+2. Dig Mound: Wife (285 630) to receive Grief: United Hearts
+3. Dig Mound: Husband (276 637) to receive Grief: Traveling Youth
+
+Rewards: 900 000 Experience, 180 000 Spirit, Grief: Traveling Youth, Grief: United Hearts, and Grief: Twin Wishes
+
+##### Traveling Youth
+
+This quest will appear upon using Grief: Traveling Youth
+
+1. This quest automatically completes upon receiving it
+
+##### United Hearts
+
+This quest will appear upon using Grief: United Hearts
+
+1. This quest automatically completes upon receiving it
+
+##### Twin Wishes
+
+This quest will appear upon using Grief: Twin Wishes
+
+1. This quest automatically completes upon receiving it
+
+##### Joy of the Wedding
+
+Quest Dispatcher: Viensa
+
+1. Talk to Viensa
+2. Wait 11 seconds
+
+Rewards: 600 000 Experience and 120 000 Spirit
+
+##### Dream about the Past
+
+Quest Dispatcher: Viensa
+
+1. Talk to Viensa
+2. Travel to the south gate of City of the Lost (253 633)
+
+Rewards: 600 000 Experience and 120 000 Spirit
+
+##### Reaching the City
+
+Quest Dispatcher: Guard Shui, City of the Lost - Midlands (253 634)
+
+1. This quest automatically completes upon receiving it
+
+Rewards: 300 000 Experience and 60 000 Spirit
+
+##### Losing Control
+
+Quest Dispatcher: Viensa
+
+1. Talk to Viensa. Players will be transported to Wellspring Village outskirts (439 650)
+2. Travel to the Elder's area (248 645)
+
+Rewards: 600 000 Experience and 120 000 Spirit
+
+##### Dream from Distance
+
+Quest Dispatcher: Mysterious Man Redmoon, Wellspring Village - Midlands (439 649)
+
+1. Talk to Mysterious Man Redmoon
+2. Dig Viensa's Remains (370 673) to obtain Decaying Skeleton
+3. Talk to Mysterious Man Redmoon
+4. Travel to the mines east of Pierced Heart Lake (369 673)
+
+Rewards: 900 000 Experience and 180 000 Spirit
+
+#### Chapter Four
+
+##### Returning Home
+
+Quest Dispatcher: Mysterious Man Redmoon
+
+1. Talk to Viensa
+
+Rewards: 300 000 Experience and 60 000 Spirit
+
+##### Void Stone
+
+Quest Dispatcher: Viensa
+
+Use Decaying Skeleton
+
+- Should players not have Decaying Skeleton, they can talk to Summonbot XXL to obtain one
+
+Rewards: 900 000 Experience and 180 000 Spirit
+
+##### Wife
+
+This quest will appear automatically once players have completed "Void Stone."
+
+1. Talk to Mysterious Man Redmoon (654 369)
+2. Travel to Dreamweaver Port (664 369)
+3. Talk to Viensa
+
+Rewards: 600 000 Experience and 120 000 Spirit
+
+##### Young Woman
+
+Quest Dispatcher: Mysterious Man Redmoon, Dreamweaver Port - Midlands (654 369)
+
+Kill 50 of a combination of, on Nightscream Island:
+
+- Hood of the High Seas
+- Brigand Assassin
+- Pirate Second Class
+- Pirate Minion
+
+Rewards: 600 000 Experience and 120 000 Spirit
+
+##### Soul Transferring
+
+Quest Dispatcher: Mysterious Man Redmoon, Dreamweaver Port - Midlands (654 369)
+
+1. Talk to Mysterious Man Redmoon. Players will be transported to Dribbling Spring (161 523) and their screens will be turned greyscale, indicating that they've been transported to the alleged past
+2. Wait 11 seconds
+3. Talk to Mysterious Man Redmoon - Midlands (654 369)
+
+Rewards: 300 000 Experience and 60 000 Spirit
+
+##### Eternal Love
+
+Quest Dispatcher: Chin Yu, Dribbling Spring - Midlands (160 523)
+
+1. Use Soul Tranferring
+
+Rewards: 300 000 Experience and 60 000 Spirit
+
+#### Barbarian Saga Rewards
+
+Upon completion of "Eternal Love," players may visit the Barbarian Viensa portrait within the Perfect World Hero Saga and then click the glowing chest in the bottom-right to receive the following:
+
+- Feats of a Hero title (+100 HP)
+- Little Viensa Pet Egg (can be placed in the Codex)
+
+### Venomancer Yeona
+
+This Saga will introduce players to the Venomancer Yeona, through three stages: her introduction, her caring for pets - not just hers, and her courage as she braves the underworld.
+
+Note: This Saga is extremely difficult, and is not recommended for underleveled or undergeared characters.
+
+#### Activation: A Request
+
+To fully activate this Saga, complete the quest "A Request" by speaking to Jewelcraftsman Chang (250 652) in City of the Lost.
+
+Rewards: 604 000 Experience and 120 000 Spirit
+
+#### Chapter 1
+
+##### Accept the Request
+
+Quest Dispatcher: Jewelcraftsman Chang, City of the Lost - Midlands(250 652)
+
+1. Talk to Yeona (668 636) north of Village of Naught
+
+Rewards: 604 000 Experience and 120 000 Spirit
+
+##### Resolving the Crisis
+
+Quest Dispatcher: Yeona, Fragrant Hills - Midlands (668 636)
+
+1. Talk to Susanna (668 636)
+
+Rewards: 604 000 Experience and 120 000 Spirit
+
+##### Mowing Grass
+
+Quest Dispatcher: Yeona, Fragrant Hills - Midlands (668 636)
+
+1. Talk to Yeona
+2. Dig Hay (674 629) to obtain 5 Hay
+
+Rewards: 724 000 Experience and 144 000 Spirit
+
+##### Acquaintance with Hercules
+
+Quest Dispatcher: Yeona, Fragrant Hills - Midlands (668 636)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 604 000 Experience and 120 000 Spirit
+
+##### Learning to Tame a Pet
+
+Quest Dispatcher: Yeona, Fragrant Hills - Midlands (668 636)
+
+Tame 5 Huggy Hares
+
+- Should players not get all 5 after following all of this after 20 Tameable Huggy Hares, they should try relogging
+- Should Bramble Guard expire, players can collect it again from Yeona
+- Capture is not guaranteed, and will fail guaranteed if the Tameable Huggy Hare is moved too far from its spawn, even after it resets
+- Tameable Huggy Hares are in the greenery nearby
+- Cage has a 10 second cooldown, and the button to use it will appear on-screen
+- Players will be far too powerful to not one-hit the Tameable Huggy Hares, and as such will need to rely on Bramble Guard
+- Players will need to use Cage in their inventory to tame a Tameable Huggy Hare once it reaches half health (671/1342)
+- Players will receive Bramble Guard for 10 minutes
+
+Rewards: 904 000 Experience and 180 000 Spirit
+
+##### Return to City of the Lost
+
+Quest Dispatcher: Yeona, Fragrant Hills - Midlands (668 636)
+
+1. Talk to Varicose Scorpion Cookie (250 651) within City of the Lost
+2. Talk to Yeona
+
+Rewards: 604 000 Experience and 120 000 Spirit
+
+##### Winds of Truth
+
+Quest Dispatcher: Yeona, City of the Lost - Midlands (250 652)
+
+1. Talk to Jewelcraftsman Chang (250 652)
+
+Rewards: 605 000 Experience and 120 000 Spirit
+
+#### Chapter 2
+
+##### Fearlessness
+
+Quest Dispatcher: Jewelcraftsman Chang, City of the Lost - Midlands (250 652)
+
+1. Talk to Mrs. Zoologist within Archosaur (586 620)
+
+Rewards: 604 000 Experience and 120 000 Spirit
+
+##### Beyond Expectation
+
+Quest Dispatcher: Mrs. Zoologist, Archosaur - Midlands (586 620)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 604 000 Experience and 120 000 Spirit
+
+##### The Long Wait
+
+This quest will appear automatically once players have completed "Beyond Expectation."
+
+1. A pop-up will appear on-screen. Confirm the prompt
+2. Wait 30 seconds
+3. A pop-up will appear on-screen. Confirm the prompt
+4. Wait 20 seconds
+5. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 604 000 Experience and 120 000 Spirit
+
+##### Start to Upgrade
+
+Quest Dispatcher: Mrs. Zoologist, Archosaur - Midlands (586 620)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 604 000 Experience and 120 000 Spirit
+
+##### Start to Evolve
+
+Quest Dispatcher: Mrs. Zoologist, Archosaur - Midlands (586 620)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 604 000 Experience and 120 000 Spirit
+
+##### The Heart of the Direction
+
+Quest Dispatcher: Mrs. Zoologist, Archosaur - Midlands (586 620)
+
+1. Talk to Yeona
+2. Travel to Fragrant Hills (668 637) north of Village of Naught
+
+Rewards: 604 000 Experience and 120 000 Spirit
+
+##### Meeting Hercules Again
+
+Quest Dispatcher: Celestial Giant Hercules, Fragrant Hills - Midlands (668 636)
+
+1. Wave - the button to do so will appear on the player's screen
+
+Rewards: 604 000 Experience and 120 000 Spirit
+
+##### Yeona Dream Traveler
+
+This quest will appear automatically once players have completed "Meeting Hercules Again."
+
+1. Players will be transported to Ancient Wall (275 834)
+2. Watch the cutscene. Players may skip it, but must wait for the 1 minute 30 seconds timer regardless
+
+##### Unforeseen Event
+
+Quest Dispatcher: Varicose Scorpion Cookie, Ancient Wall (275 835)
+
+1. Talk to Mrs. Zoologist (586 620) within Archosaur
+
+Rewards: 604 000 Experience and 120 000 Spirit
+
+##### Genesis Prohibition
+
+Quest Dispatcher: Mrs. Zoologist, Archosaur - Midlands (586 620)
+
+1. Talk to Ghost Spirit (467 548) at the southern shore of The Great Lake
+
+Rewards: 604 000 Experience and 120 000 Spirit
+
+##### The Long Con
+
+Quest Dispatcher: Ghost Spirit, The Great Lake - Midlands (467 548)
+
+1. Travel to Silver Pool (452 568)
+
+Rewards: 604 000 Experience and 120 000 Spirit
+
+##### Encounter with Susanna
+
+Quest Dispatcher: Susanna, Silver Pool - Midlands (452 568)
+
+1. Talk to Dodo (452 569) within Silver Pool
+2. Dig Euphoria Herb (434 559) to obtain 5 Euphoria Herb
+
+Rewards: 724 000 Experience and 144 000 Spirit
+
+#### Chapter 3
+
+This is the point at which it is recommended players stock up on charms, potions, and equip a bless box - as shortly, they will journey into an area where there is no easy access to these.
+
+##### Stereotype
+
+Quest Dispatcher: Naughty, Silver Pool - Midlands (452 569)
+
+1. Talk to Ghost Spirit (467 548)
+
+Rewards: 604 000 Experience and 120 000 Spirit
+
+##### Fate
+
+Quest Dispatcher: Ghost Spirit, The Great Lake - Midlands (467 548)
+
+1. Players will be transported to Valley of the Sacred Beasts, a special instance. Players may not enter this instance unless they have a quest requiring it, which are all within Chapter 3 of Venomancer Saga
+
+Rewards: 604 000 Experience and 120 000 Spirit
+
+##### The Valley of the Sacred Beast
+
+Quest Dispatcher: Yeona
+
+Kill 10 of a combination of Dark: Antelope and Dark: Elysium Fowl
+
+- Dark: Elysium Fowl are in the air and Dark: Antelope are on the ground
+- Players should start each monster with full Chi and triple spark at the start of each fight
+- Both monsters primarily deal physical damage - players are recommended to use Spirit of Assault, Spirit of Defense, and should they have it the Ritual Feast from Barbarian Saga
+- These both do inordinate amounts of damage, however the Dark: Elysium Fowl do not poison players and as such players are recommended to target them
+
+Rewards: 904 000 Experience and 180 000 Spirit
+
+##### The Collar
+
+Quest Dispatcher: Celestial Giant Hercules
+
+1. Talk to Dark: Celestial Giant (528 867)
+2. Talk to Dark: Varicose Scorpion (523 875)
+
+Rewards: 604 000 Experience and 120 000 Spirit
+
+##### The Plan
+
+Quest Dispatcher: Celestial Giant Hercules, Valley of the Sacred Beasts - Valley of the Sacred Beasts (528 867)
+
+1. Dig Magic Collector (519 867) to obtain Container Fragment
+
+Rewards: 724 000 Experience and 144 000 Spirit
+
+##### Demonic Acephalids
+
+Quest Dispatcher: Dark: Celestial Giant
+
+1. Kill Dark: Ghoul (525 864)
+
+Rewards: 904 000 Experience and 180 000 Spirit
+
+##### Way Back
+
+Quest Dispatcher: (525 863)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 604 000 Experience and 120 000 Spirit
+
+##### Farewell
+
+Quest Dispatcher: Dark: Varicose Scorpion
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 604 000 Experience and 120 000 Spirit
+
+Players will be transported back to the Midlands, at Mrs. Zoologist (586 620)
+
+##### The Old Times
+
+Quest Dispatcher: Mrs. Zoologist, Archosaur - Midlands (586 620)
+
+1. Talk to Naughty (669 636)
+2. Talk to Yeona
+3. Travel to Fragrant Hills (669 636) north of Village of Naught, on the ground
+
+Rewards: 604 000 Experience and 120 000 Spirit
+
+##### Yeona The Diary
+
+Quest Dispatcher: Yeona
+
+1. Talk to Yeona
+2. Talk to Yeona
+3. Talk to Yeona
+4. Talk to Yeona
+
+##### Beneath The Ancient Wall
+
+Quest Dispatcher: Celestial Giant Hercules
+
+1. Talk to Yeona
+2. Travel to Ancient Wall (275 836)
+
+Rewards: 604 000 Experience and 120 000 Spirit
+
+##### Accompany
+
+Quest Dispatcher: Celestial Giant Hercules
+
+1. Talk to Mrs. Zoologist (586 620) within Archosaur
+
+Rewards: 604 000 Experience and 120 000 Spirit
+
+##### A new beginning.
+
+Quest Dispatcher: Mrs. Zoologist, Archosaur - Midlands (586 620)
+
+1. Write "Hercules (Yeona)" (without the quotes) in the pop-up window and click the Submit button
+
+Rewards: 604 000 Experience and 120 000 Spirit
+
+##### Yeona Fame
+
+This quest will appear automatically once players have completed the quest "A new beginning.."
+
+1. Watch the cutscene. Players may skip it, but must wait for the 1 minute 20 second timer regardless - this quest is not required for the Venomancer Saga Rewards
+
+#### Venomancer Saga Rewards
+
+Upon completion of "A new beginning.," players may visit the Venomancer Yeona portrait within the Perfect World Hero Saga and then click the glowing chest in the bottom-right to receive the following:
+
+- A Grain in Universe title (+100 HP)
+- Little Yeona Pet Egg (can be placed in the Codex)
+
+### Archer Yi the Mighty Wing
+
+This Saga takes players through the star-crossed lovers story of Archer Yi the Mighty Wing and his lover, Tsuan. Unfortunately, they would drift apart as Tsuan fell in with the Twilight Empire, becoming Twilight Minister Tsu. This Saga will explore their love through four phases: unveiling in the present, the initial love period, the crossed star of fate, and the tragic end.
+
+#### Activation: Legend of Yi - Eldest Matchmaker's Request
+
+To fully activate this Saga, complete the quest "Eldest Matchmaker's Request" by speaking to Eldest Matchmaker (522 655) in western Archosaur.
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+#### Chapter 1
+
+##### Legend of Yi - Eldest Matchmaker's Request
+
+##### Yi - The Triad Tree
+
+Quest Dispatcher: Eldest Matchmaker, Archosaur - Midlands(522 655)
+
+1. Travel to the Karma Tree (652 572) just north of Sanctuary
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - Access the Triad Tree
+
+Quest Dispatcher: Karma Tree, Peach Blossom Grove - Midlands (652 572)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - The Tree Spirit
+
+Quest Dispatcher: Dryad, Peach Blossom Grove - Midlands (652 572)
+
+1. Talk to Dryad
+2. Kill Dryad which spawns - it has strong attacks, and will cause problems for players who have not yet Reawakened
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - Crossing Millenia
+
+Quest Dispatcher: Dryad, Peach Blossom Grove - Midlands (652 572)
+
+1. Players will be transported to Dreaming Stronghold (223 347)
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - A Thousand Years Ago
+
+Quest Dispatcher: Dryad
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - Discovering the Village
+
+This quest will appear automatically once players have completed "Yi - A Thousand Years Ago."
+
+1. Travel north to Southern Stronghold (231 353)
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+#### Chapter 2
+
+##### Yi - In War
+
+Quest Dispatcher: Paolo, Southern Stronghold - Midlands (233 355)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - Sudden Recruitment
+
+Quest Dispatcher: Enlisted Soldiers, Southern Stronghold - Midlands (232 354)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - The Way of a King
+
+Quest Dispatcher: Yi the Mighty Wing, Southern Stronghold - Midlands (233 354)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - Side by Side
+
+Quest Dispatcher: Koscos, Southern Stronghold - Midlands (233 354)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi the Mighty Wing - Choice
+
+Quest Dispatcher: Koscos, Southern Stronghold - Midlands (233 354)
+
+1. Travel to the eastern Vibrant Cliffs (259 404)
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - Heroes Saving Beauty
+
+Quest Dispatcher: Tsuan, Vibrant Cliffs (260 405)
+
+1. Kill Angered Emperor Bone nearby
+
+Rewards: 1 600 000 Experience and 320 000 Spirit
+
+A cutscene will play, which may be skipped without consequence.
+
+##### Yi - Search and Rescue
+
+Quest Dispatcher: Dryad
+
+1. Talk to Yi the Mighty Wing (283 411). The fastest way to him is to jump off the cliff to the east
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - Emergency Measures
+
+Quest Dispatcher: Koscos, Tranquility, Western Shore - Midlands (283 411)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - The Tree of Three Lives
+
+Quest Dispatcher: Tsuan, Tranquility, Western Shore - Midlands (283 411)
+
+1. Travel to the Karma Tree (652 572)
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - Prayer for Blessings
+
+Quest Dispatcher: Karma Tree, Peach Blossom Grove - Midlands (652 572)
+
+1. Travel to (648 566) within Sanctuary
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - Karma
+
+Quest Dispatcher: Dryad
+
+1. Watch the cutscene. Players may skip it without consequence
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - Waiting Alone
+
+Quest Dispatcher: Dryad
+
+1. Talk to Tsuan (651 572)
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - Back to the Present
+
+Quest Dispatcher: Dryad
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - Falling Asleep
+
+Quest Dispatcher: Dryad
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+#### Chapter 3
+
+##### Yi - Half a Story
+
+This quest will appear automatically once players have completed "Yi - Falling Asleep."
+
+1. Talk to Plume City Elder Koscos (328 428) in Plume
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - Turning Point of Fate
+
+Quest Dispatcher: Plume City Elder Koscos, City of the Plume - Midlands (328 428)
+
+1. This quest automatically completes upon picking it up, at which point players will be transported to Vibrant Cliffs (208 417)
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - Losing a Loved One
+
+Quest Dispatcher: Koscos, Vibrant Cliffs - Midlands (207 417)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - Home is Hard to Leave
+
+Quest Dispatcher: Koscos, Vibrant Cliffs - Midlands (207 417)
+
+1. Talk to Tsuan (208 421)
+2. Dig (208 421) to obtain Homeland
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - A Long Goodbye
+
+This quest will appear automatically once players have completed "Yi - Home is Hard to Leave."
+
+1. Talk to Jen (208 417) to the south
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+A cutscene will play, which may be skipped without consequence.
+
+##### Yi - Secretly in Love
+
+Quest Dispatcher: Jen, City of the Plume - Midlands (320 418)
+
+1. Talk to Jen (330 429) ↑28
+2. Travel to (343 409)
+3. Travel to (326 411)
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - Unexpected Discovery
+
+Quest Dispatcher: Yi the Mighty Wing, City of the Plume - Midlands (330 429) ↑28
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - Well Intentioned
+
+Quest Dispatcher: Yi the Mighty Wing, City of the Plume - Midlands (330 429) ↑28
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - Drilling Troops
+
+This quest will appear automatically once players have completed "Yi - Well Intentioned."
+
+1. Watch the cutscene, during which players will be transported back in time to Heaven's Tear (369 815). Players may skip the cutscene, but must wait for the 46 second timer to pass regardless
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+#### Chapter 4
+
+##### Yi - General Jen
+
+Quest Dispatcher: Jen, Heaven's Tear Story Mode - Midlands Special Instance (366 814)
+
+1. Talk to Jen
+2. Travel to (372 815) to the east
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - Military Camp Crisis
+
+Quest Dispatcher: Messenger, Heaven's Tear Story Mode - Midlands Special Instance (373 816)
+
+1. Talk to Nan Zhenjun (376 808)
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - Elves Confederation
+
+Quest Dispatcher: Yi the Mighty Wing, Heaven's Tear Story Mode - Midlands Special Instance (374 810)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - Breaking News
+
+Quest Dispatcher: Jen, Heaven's Tear Story Mode - Midlands Special Instance (375 809)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - Ready to fight
+
+Quest Dispatcher: Messenger, Heaven's Tear Story Mode - Midlands Special Instance (373 810)
+
+1. Players will be transported to the battlefield site (323 814)
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - We march together
+
+Quest Dispatcher: Jen, Heaven's Tear Story Mode - Midlands Special Instance (322 813)
+
+1. Talk to Tsu (318 815)
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - Battle command
+
+Quest Dispatcher: Yi the Mighty Wing, Heaven's Tear Story Mode - Midlands Special Instance (355 805)
+
+1. Talk to Jen (355 805)
+2. Wait 5 seconds
+3. Wait 5 seconds
+4. Wait 5 seconds
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - Reinforcements
+
+Quest Dispatcher: Messenger, Heaven's Tear Story Mode - Midlands Special Instance (355 806)
+
+1. Talk to Mu War Garment (354 805)
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+Players will be transported back to City of the Plume on the Midlands (329 429)
+
+##### Yi - Epilogue
+
+Quest Dispatcher: Plume City Elder Koscos, City of the Plume - Midlands (328 428)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - In Memoriam
+
+Quest Dispatcher: Plume City Elder Koscos, City of the Plume - Midlands (328 428)
+
+1. Meditate - the button to do so will appear on the player's screen
+2. Travel to Yi's statue (339 425)
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Yi - Nostalgia
+
+Quest Dispatcher: Jen
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 3 200 000 Experience and 640 000 Spirit
+
+#### Archer Saga Rewards
+
+Upon completion of "Yi - Nostalgia," players may visit the Archer Yi the Mighty Wing portrait within the Perfect World Hero Saga and then click the glowing chest in the bottom-right to receive the following:
+
+- Strong winds will blow. title (+100 HP)
+- Little Yun Yang Pet Egg (can be placed in the Codex)
+
+### Cleric Yuusa
+
+This Saga will put players in the life of Cleric Yuusa, and they will spend the entirety of said Saga transformed. Due to this nature, it is highly recommended that players not start the Cleric Saga until they have a multi-hour block of time free. This Saga follows her story arc through her Hero's Journey: her Departure (split into Call of Adventure and Refusal of the Call), her Initiation, and her Return.
+
+#### Activation: Syvos Sage Flightless Cleric
+
+To fully activate this Saga, complete the quest "Syvos Sage Flightless Cleric" by speaking to Plume City Elder Koscos (327 427) in Plume.
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+#### Chapter 1
+
+##### Syvos Sage Flightless Cleric
+
+Upon completion of this quest, a cutscene will play at the same time as the player is transformed into Cleric Yuusa, the wingless Cleric. This transformation will last for the full duration of the Cleric Saga, and comes with a speed buff to 15.0 m/s. Players will have access to the following skills:
+
+Plume Shot
+
+- Focus your psychic energy to form a magical arrow to attack your enemy.
+- Cooldown: 1.0 seconds
+- Range: 28 meters
+
+##### Syvos Sage Daydream
+
+Quest Dispatcher: Dax, City of the Plume - Midlands(322 433)
+
+1. Talk to Frontline Soldier (328 444) nearby
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage Search Antidote
+
+Quest Dispatcher: Frontline Soldier, City of the Plume - Midlands (328 444)
+
+1. Travel to (307 435)
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage Heading North
+
+Quest Dispatcher: Boat, City of the Plume - Midlands (307 435)
+
+1. Players will be transported to an island in the middle of The Great Lake (411 588)
+2. Watch the cutscene. Players may skip it, but they must wait for the 25 second timer to pass regardless.
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage Wait for Blossom
+
+Quest Dispatcher: Chiba Passerine, The Great Lake - Midlands (412 589)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage Preparation
+
+This quest will appear automatically once players have completed "Syvos Sage Wait for Blossom."
+
+1. Dig (412 593) to obtain Portal
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage Time is Life
+
+This quest will appear automatically once players have completed "Syvos Sage Preparation."
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage Doctor's Mercy
+
+Quest Dispatcher: Man in black, The Great Lake - Midlands (412 593)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage Smell of Danger
+
+Quest Dispatcher: Man in black, The Great Lake - Midlands (412 593)
+
+1. Travel to (412 589)
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage The Right Time
+
+This quest will appear automatically once players have completed "Syvos Sage Smell of Danger."
+
+1. Dig Chiba Passerine (412 589) to obtain Chiba Passerine
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+#### Chapter 2
+
+##### Syvos Sage Back to Plume City
+
+This quest will appear automatically once players have completed "Syvos Sage The Right Time," at which point players will be transported back to City of the Plume (329 444)
+
+1. Talk to Kale (328 444)
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage A White Lie
+
+Quest Dispatcher: Kale, City of the Plume - Midlands (328 444)
+
+1. Talk to High Priest Twilight (323 434)
+2. Dig Moist Soil (319 443) to obtain Soil
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage Loving Rebuke
+
+Quest Dispatcher: High Priest Twilight, City of the Plume - Midlands (323 434)
+
+1. Travel to (312 428)
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage Reunion
+
+Quest Dispatcher: Cedar, City of the Plume - Midlands (311 429)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage A Report
+
+Quest Dispatcher: Soldier, City of the Plume - Midlands (312 429)
+
+1. Talk to High Priest Twilight (323 434)
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage Back to the City
+
+Quest Dispatcher: Dax, City of the Plume - Midlands (323 434)
+
+1. Travel to (318 442)
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage Withered Flower
+
+Quest Dispatcher: Withered Flower, City of the Plume - Midlands (319 444)
+
+1. Talk to Dax
+2. Dig Moist Soil (319 443) to obtain Soil
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage Practice Flying
+
+Quest Dispatcher: Dax
+
+1. This quest automatically completes upon picking it up, at which point a cutscene will play. This cutscene has no timer.
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+#### Chapter 3
+
+##### Syvos Sage Warfare Situation
+
+Quest Dispatcher: Soldier, City of the Plume - Midlands (319 410)
+
+1. Talk to Soldier
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage Behind Enemy Lines
+
+This quest will appear automatically once players have completed "Syvos Sage The Right Time," at which point players will be transported to Heaven's Tear Story Mode (336 809)
+
+1. Players will be transported to (346 804)
+2. Talk to Dax
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage It's You
+
+Quest Dispatcher: Tizian, Heaven's Tear Story Mode - Midlands Special Instance (345 802)
+
+1. Players will be transported to City of the Plume (329 444)
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage Different City
+
+Quest Dispatcher: Kale, City of the Plume - Midlands (328 444)
+
+Travel to (299 398)
+
+- The fastest way there is to go south over the mountains
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage Regroup
+
+Quest Dispatcher: Plume City Elder Koscos, City of the Plume - Midlands (301 400)
+
+1. Talk to Judson (297 396)
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage Flying Exam
+
+Quest Dispatcher: Judson, Lake of No Worries - Midlands (297 396)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage Physical Exam
+
+Quest Dispatcher: Judson, Lake of No Worries - Midlands (297 396)
+
+- Players will have 5 minutes to complete this quest on pickup
+
+1. Return to Judson - the fastest way there is to travel through Plume and go through the mountains south of Plume
+2. Dig (353 413) on the Highwind Bridge at the north of Lake of the Plume to obtain Flag
+3. Dig (372 385) on the eastern shore of Lake of the Plume to obtain Flag
+4. Dig (358 347) on the southern shore of Lake of the Plume to obtain Flag
+
+Rewards: 1 332 000 Experience and 264 000 Spirit
+
+##### Syvos Sage Sensitivity Exam
+
+Quest Dispatcher: Judson, Lake of No Worries - Midlands (297 396)
+
+- Players will have 10 minutes to complete this quest on pickup
+
+1. Talk to Judson
+2. Collect 10 red orbs in a row without collecting a single blue orb
+3. Travel to (297 386)
+
+Rewards: 1 332 000 Experience and 264 000 Spirit
+
+##### Syvos Sage Combat Exam
+
+Quest Dispatcher: Judson, Lake of No Worries - Midlands (297 396)
+
+- Players will have 3 minutes to complete this quest on pickup
+
+1. Talk to Judson
+2. Kill 5 Wood Dummies (311 387)
+
+Rewards: 1 332 000 Experience and 264 000 Spirit
+
+##### Syvos Sage Pass the Exam
+
+This quest will appear automatically once players have completed "Syvos Sage Combat Exam."
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+#### Chapter 4
+
+##### Syvos Sage Get to the Front
+
+Quest Dispatcher: Dax
+
+1. Talk to Judson (354 770)
+2. Players will be transported to Heaven's Tear Story Mode (359 758)
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage · Argument
+
+Quest Dispatcher: Cedar, Heaven's Tear Story Mode - Midlands Special Instance (354 771)
+
+1. Travel to (381 768) to the east
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage Calm Down
+
+This quest will appear automatically once players have completed "Syvos Sage · Argument."
+
+1. Wait 30 seconds
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage Breakout
+
+Quest Dispatcher: Dax, Heaven's Tear Story Mode - Midlands Special Instance (383 768)
+
+1. A cutscene will play, which may be skipped. Players will be transported to (353 770)
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage · Searching
+
+Quest Dispatcher: Dax, Heaven's Tear Story Mode - Midlands Special Instance (354 770)
+
+1. Travel to (338 809) to the northwest
+2. Travel to (346 804) to the west
+3. Travel to (352 805) to the north
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage End of Life
+
+This quest will appear automatically once players have completed "Syvos Sage · Searching."
+
+1. Talk to Dax (343 819)
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage To Yuusa
+
+Quest Dispatcher: Dax, Heaven's Tear Story Mode - Midlands Special Instance (343 819)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage The Last Present
+
+Quest Dispatcher: Dax, Heaven's Tear Story Mode - Midlands Special Instance (343 819)
+
+1. Talk to Judson (344 819)
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+A cutscene will play, at which point players will be transported to City of the Plume (329 443). This cutscene may be skipped without issue.
+
+##### Syvos Sage · Sea of Flowers
+
+Quest Dispatcher: Kale, City of the Plume - Midlands (328 444)
+
+1. Travel to (318 442) up the hill
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage · Harvest
+
+Quest Dispatcher: Dax, City of the Plume - Midlands (318 444)
+
+1. A cutscene will play, which may be skipped without issue
+2. Dig Chiba Passerine (318 444) to obtain Chiba Passerine
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+##### Syvos Sage · Crystal
+
+Quest Dispatcher: Dax, City of the Plume - Midlands (318 444)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 444 000 Experience and 88 000 Spirit
+
+#### Cleric Saga Rewards
+
+Upon completion of "Syvos Sage · Crystal," players may visit the Cleric Yuusa portrait within the Perfect World Hero Saga and then click the glowing chest in the bottom-right to receive the following:
+
+- Lunar Destined title (+100 HP)
+- Little Yuusa Pet Egg (can be placed in the Codex)
+
+### Edgerunner Tevin
+
+This Saga explores the origin of the Edgerunners through the story of Edgerunner Tevin, a character who no existing weapon felt right for. Thus, a new weapon was born - the sword shield. This explores his story through three stages: his introduction, the crafting and creation of his weapon, and his mastery of the new weapon.
+
+#### Activation: Juvenile Edgerunner
+
+To fully activate this Saga, complete the quest "Juvenile Edgerunner" by speaking to Storyteller Old Goh (585 641) in Archosaur.
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+#### Chapter 1
+
+##### Tevin Legend: · The Story
+
+Quest Dispatcher: Storyteller Old Goh, Archosaur - Midlands(585 641)
+
+1. Players will be transported into Tevin Legend, a special instance, at Camp of the Fallen Phoenix (154 834)
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+##### amiliar and Unfamiliar
+
+This quest will appear automatically once players have completed "Tevin Legend: · The Story."
+
+1. Talk to Tevin (157 832)
+2. A pop-up will appear on-screen. Confirm the prompt
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+##### Tevin Legend: · The Story
+
+Quest Dispatcher: Tevin, Camp of the Fallen Phoenix - Tevin Legend (157 832)
+
+1. Talk to Tevin
+2. Travel to (172 824)
+3. Travel to (163 828)
+4. Talk to Yuusin (157 832)
+5. Dig Yuusin's Kite (157 832) ↑19 to obtain Yuusin's Kite
+
+Rewards: 1 176 000 Experience and 228 000 Spirit
+
+##### Tevin Legend: Fallen Phoenix
+
+Quest Dispatcher: Yuusin, Camp of the Fallen Phoenix - Tevin Legend (173 824)
+
+1. Talk to Tevin (173 824)
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+##### Tevin Legend: Caring Friend
+
+Quest Dispatcher: Dax, Camp of the Fallen Phoenix - Tevin Legend (174 824)
+
+1. Talk to Yuusin (173 825)
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+##### Tevin Legend: Daily training
+
+Quest Dispatcher: Tevin, Camp of the Fallen Phoenix - Tevin Legend (173 824)
+
+1. Talk to Tevin (155 816) ↑29. Players will not be able to fly, and must accomplish this step by jumping on the rocks.
+2. Travel to (157 823)
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+##### Supsicious trace
+
+Quest Dispatcher: Tevin, Ashura Forest - Tevin Legend (155 816)
+
+1. Talk to Injured Peach (162 809)
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+##### Rescue Peach Blossom
+
+Quest Dispatcher: Elephant, Ashura Forest - Tevin Legend (162 809)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+##### Unexpected Harvest
+
+Quest Dispatcher: Tevin
+
+1. Talk to Tevin
+2. Dig An iron block (163 806) to obtain An iron block
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+##### The little tail that sticks
+
+Quest Dispatcher: Yuusin, Ashura Forest - Tevin Legend (163 809)
+
+1. Talk to Wushuang (169 817) inside Camp of the Fallen Phoenix
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+#### Chapter 2
+
+##### Agreement of Wushuang
+
+Quest Dispatcher: Wushuang, Camp of the Fallen Phoenix - Tevin Legend (169 817)
+
+1. Enter Eden. Players must exit Tevin Legend to do so, which they may do at Dax (174 824). When they need to reenter, they may do so at Storyteller Old Goh, which is where they are spit out
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+##### Tevin Legend: Defeat Phlebo
+
+This quest will appear automatically once players have completed "Agreement of Wushuang."
+
+1. Kill Phlebo (382 592). Players may need help to get to and kill this boss
+
+Rewards: 1 568 000 Experience and 304 000 Spirit
+
+##### Tevin Legend: Wish
+
+Quest Dispatcher: Phlebo Revelation Points, Eden - Eden (383 591)
+
+1. Wait 10 seconds
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+##### Tevin Legend · Deep love
+
+This quest will appear automatically once players have completed "Tevin Legend: Wish."
+
+1. Talk to Belligerence Soul Piece (383 590)
+
+##### Tevin Legend · Together Forever
+
+This quest will appear automatically once players have completed "Tevin Legend · Deep love."
+
+1. This quest will automatically complete after re-entering Tevin Legend after obtaining Viscussever Edge
+
+##### Tevin Legend · The Last Favor
+
+Quest Dispatcher: Yuusin
+
+1. Talk to Wushuang (169 817) inside Tevin Legend
+2. Dig Viscussever Edge (383 591) to obtain Viscussever Edge
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+##### Tevin Legend · Keep the Promise
+
+Quest Dispatcher: Wushuang, Camp of the Fallen Phoenix - Tevin Legend (169 817)
+
+1. Wait 10 seconds
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+##### Tevin Legend · Magic Sword
+
+Quest Dispatcher: Wushuang, Camp of the Fallen Phoenix - Tevin Legend (169 817)
+
+1. Kill Tevin who spawns. Other players cannot see, much less target, Tevin
+
+Rewards: 784 000 Experience and 152 000 Spirit
+
+##### Tevin Legend · Dual Axes
+
+Quest Dispatcher: Wushuang, Camp of the Fallen Phoenix - Tevin Legend (169 817)
+
+1. Kill Tevin who spawns. Other players cannot see, much less target, Tevin
+
+Rewards: 784 000 Experience and 152 000 Spirit
+
+##### Tevin Legend · Blade
+
+Quest Dispatcher: Wushuang, Camp of the Fallen Phoenix - Tevin Legend (169 817)
+
+1. Kill Tevin who spawns. This Tevin is harder than the previous one and players may need heals. Other players cannot see, much less target, Tevin
+
+Rewards: 784 000 Experience and 152 000 Spirit
+
+##### Tevin Legend · Sword Shield
+
+Quest Dispatcher: Wushuang, Camp of the Fallen Phoenix - Tevin Legend (169 817)
+
+1. Kill Tevin who spawns. This Tevin is even harder than the previous one and players will probably need heals. Other players cannot see, much less target, Tevin
+
+Rewards: 784 000 Experience and 152 000 Spirit
+
+##### Tevin: Reborn In Fire
+
+Quest Dispatcher: Wushuang, Camp of the Fallen Phoenix - Tevin Legend (169 817)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+##### Tevin Legend · Unexpected Gain
+
+This quest will appear automatically once players have completed "Tevin: Reborn in Fire."
+
+1. Talk to Tevin
+2. Kill Earthal Demon (150 802) to obtain The Skill Scroll. Auto-path does not work very well here
+
+Rewards: 784 000 Experience and 152 000 Spirit
+
+##### Tevin Legend · Skill Scroll
+
+Quest Dispatcher: Tevin
+
+1. Talk to Tsang Lou (123 802)
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+##### Tevin Legend · Lend the Scroll
+
+Quest Dispatcher: Tsang Lou, Ashura Forest - Tevin Legend (123 802)
+
+1. A cutscene will play, which may be skipped without consequence
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+##### Tevin Legend · Super Memory
+
+Quest Dispatcher: Tsang Lou, Ashura Forest - Tevin Legend (123 802)
+
+1. Talk to Dax (174 824) in Camp of the Fallen Phoenix
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+#### Chapter 3
+
+##### Tevin: Accumulate in practice
+
+Quest Dispatcher: Dax, Camp of the Fallen Phoenix - Tevin Legend (174 824)
+
+1. Talk to Shen Fu, the Bloodlusted (158 828)
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+##### Tevin Legend · Collect Clues
+
+Quest Dispatcher: Shen Fu, the Bloodlusted, Camp of the Fallen Phoenix - Tevin Legend (158 828)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 392 000 Experience, 76 000 Spirit, and Tevin: Clue 1
+
+##### Tevin: Clue 1
+
+This quest will appear once Tevin: Clue 1 is used.
+
+1. Talk to Tevin
+2. Dig the Chest that spawns to obtain Ask for Clue
+3. Travel to Ashura Forest (146 768)
+
+Rewards: 392 000 Experience, 76 000 Spirit, and Tevin: Clue 2
+
+##### Tevin: Clue 2
+
+This quest will appear once Tevin: Clue 2 is used.
+
+1. Talk to Yuusin
+2. Dig the Chest that spawns to obtain Ask for Clue
+3. Travel to (126 784) to the west
+
+Rewards: 392 000 Experience, 76 000 Spirit, and Tevin: Clue 3
+
+##### Tevin: Clue 3
+
+This quest will appear once Tevin: Clue 3 is used.
+
+1. Talk to Yuusin
+2. Dig the Chest that spawns to obtain Ask for Clue
+3. Travel to (140 806) to the north
+
+Rewards: 392 000 Experience, 76 000 Spirit, and Tevin: Clue 4
+
+##### Tevin: Clue 4
+
+This quest will appear once Tevin: Clue 4 is used.
+
+1. Talk to Yuusin
+2. Dig the Chest that spawns to obtain Ask for Clue
+3. Travel to (123 823) to the northwest
+
+Rewards: 392 000 Experience, 76 000 Spirit, and Tevin: Clue 5
+
+##### Tevin: Clue 5
+
+This quest will appear once Tevin: Clue 5 is used.
+
+1. Dig the Chest that spawns to obtain Ask for Clue
+2. Travel to Ashura Forest (113 806)
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+##### Tevin Legend · The Truth
+
+Quest Dispatcher: Elephant, Ashura Forest - Tevin Legend (114 807)
+
+1. Talk to Shen Fu, the Bloodlusted (158 828) in Camp of the Fallen Phoenix
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+##### Tevin Legend · Letter of Peach
+
+Quest Dispatcher: Shen Fu, the Bloodlusted, Camp of the Fallen Phoenix - Tevin Legend (158 828)
+
+1. Wait 20 seconds
+2. Use Letter from Peach
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+##### Tevin Legend · Celestial's Call
+
+Quest Dispatcher: Shen Fu, the Bloodlusted, Camp of the Fallen Phoenix - Tevin Legend (158 828)
+
+1. Talk to Celestial Demon (159 837)
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+##### Trials from Celestial
+
+Quest Dispatcher: Celestial Demon, Camp of the Fallen Phoenix - Tevin Legend (159 837)
+
+1. Talk to Tevin
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+##### Tevin: Back to the Camp
+
+This quest will appear automatically once players have completed "Trials from Celestial."
+
+1. Travel to (172 825) to the southeast
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+##### Prepare for Trial
+
+Quest Dispatcher: Dax, Camp of the Fallen Phoenix - Tevin Legend (174 824)
+
+1. A cutscene will play, which players may skip without consequence
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+##### Tevin Legend · Challenge Alone
+
+Quest Dispatcher: Shen Fu, the Bloodlusted, Camp of the Fallen Phoenix - Tevin Legend (173 824)
+
+1. A cutscene will play, which players may skip without consequence
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+##### Tevin Legend · Fame
+
+Quest Dispatcher: Yuusin, Camp of the Fallen Phoenix - Tevin Legend (173 825)
+
+1. Players will be transported back to Archosaur (585 641) in the Midlands
+2. Talk to Winged Elf Teenage (172 825)
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+##### Tevin Legend · Awake
+
+Quest Dispatcher: Storyteller Old Goh, Archosaur - Midlands (585 641)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 392 000 Experience and 76 000 Spirit
+
+#### Edgerunner Saga Rewards
+
+Upon completion of "Tevin Legend · Awake," players may visit the Edgerunner Tevin portrait within the Perfect World Hero Saga and then click the glowing chest in the bottom-right to receive the following:
+
+- Undefeated title (+100 HP)
+- Tevin Pet Egg (can be placed in the Codex)
+
+### Psychic Donfang Meng
+
+This saga will take players through the ascendancy of the fish Donfang Meng to her status of crane.
+
+#### Activation: DongfangMeng - Ballad of Dreams
+
+To fully activate this saga, complete the quest, "DongfangMeng - Ballad of Dreams" by doing the following:
+
+1. Think - the button to do so will appear on the player's screen
+2. Talk to Tideborn Citizen ChaoShen (665 133)
+3. Travel to the City of Raging Tides (665 131)
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+#### Chapter 1
+
+##### DFMeng - White Crane and Fish - 1
+
+Quest Dispatcher: Tideborn Citizen XiJi, City of Raging Tides - Midlands (661 131)
+
+1. Talk to TIdeborn Citizen XiJi
+2. Beat Tideborn Citizen XiJi in rock paper scissors
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### DFMeng - White Crane and Fish - 2
+
+Quest Dispatcher: Tideborn Citizen XiJie, City of Raging Tides - Midlands (659 124)
+
+1. Talk to Tideborn Citizen XiJie
+2. Type 12 keyboard characters in a row in the span of 15 seconds
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### DFMeng - White Crane and Fish - 3
+
+Quest Dispatcher: Tideborn Citizen XiYun, City of Raging Tides - Midlands (672 120)
+
+Play the card guessing game - draw a card from XiYun's hand and hope it's higher than the one he picked from the player's hand
+
+- On first glance, it appears that the cards are in the same order between the two hands; more testing is needed to confirm this
+
+Rewards: 688 000 Experience and 136 000 Spirit
+
+##### DFMeng - White Crane and Fish - 4
+
+Quest Dispatcher: Tideborn Citizen XiZhi, City of Raging Tides - Midlands (674 129)
+
+Solve the sliding block puzzle; the optimal solution is as follows
+
+1. Slide the goal block right by five
+2. Slide the block immediately in front of the goal block up by two
+3. Slide the block immediately above the goal block left by one (goal block is golden)
+4. Slide the block covering the exit down by one (exit is at the far right)
+
+Rewards: 688 000 Experience and 136 000 Spirit
+
+##### DFMeng - White Crane and Fish - 5
+
+Quest Dispatcher: Tideborn Citizen Xibai, City of Raging Tides - Midlands (674 134)
+
+1. This quest automatically completes upon picking it up
+2. Talk to Tideborn Citizen XiZhi
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### DFMeng - White Crane and Fish - 6
+
+Quest Dispatcher: Tideborn Citizen XiRong, City of Raging Tides - Midlands (660 135)
+
+1. Give Snail Nectar to Tideborn Citizen XiRong
+2. Kill Snail to get Snail Nectar within the Shrine of the Tides (620 104)
+
+Rewards: 1 032 000 Experience and 204 000 Spirit
+
+##### DFMeng - White Crane and Fish - 7
+
+Quest Dispatcher: Tideborn Citizen XiZong, City of Raging Tides - Midlands (666 133) ↑25
+
+1. Talk to Tideborn Citizen XiZong
+2. Find and talk to Tideborn Citizen XiZong (668 134)
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### DongfangMeng - White Crane and Fish - 8
+
+This quest will appear automatically once players have completed "DFMeng - White Crane and Fish - 7."
+
+Transcribe, line by line, the full 12-line poem. The full poem is (credit to Meridian PW (Global) for solving - fifth line must be copy/pasted, there's a character in that line which contains a non-standard character, unknown which character):
+
+1. flies with soaring wings.
+2. and each fish,
+3. Each star has a fish,
+4. and forever apart.
+5. but due to their wings and fins,
+6. They were originally one entity,
+7. That is the distance between a white crane and a fish.
+8. Is there the most distant distance in the world?
+9. Yet never sinks into the depths of the sea.
+10. The meteor streaks across the sky,
+11. That's the distance from the stars to the ocean floor.
+12. Is there the most distant distance in the world?
+
+Rewards: 1 376 000 Experience and 272 000 Spirit
+
+##### DFMeng - WhiteCrane MovingMemor
+
+Quest Dispatcher: Tideborn King, Feng Triton, City of Raging Tides - Midlands (663 135) ↑41
+
+1. Talk to White Crane (663 134) ↑41
+2. Think - the button to do so will appear on the player's screen
+3. Go to the Hall of Domination (663 133) ↑41
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+#### Chapter 2
+
+##### Dongfang Meng - Dream Return
+
+This quest will appear automatically once players have completed "DFMeng - WhiteCrane MovingMemor."
+
+1. Get Hundred years Prophecy by digging Hundred years Prophecy (662 135)
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### DFMeng - Heavenly Hall Dispute
+
+Quest Dispatcher: King Triton Dongfang Huan, City of Raging Tides - Midlands (663 134) ↑41
+
+1. Talk to Priest Konchi (662 134) ↑41
+2. Talk to Psychic Coordinator Shay (663 132) ↑41
+3. Talk to Minister Georcy (662 133) ↑41
+4. Talk to Assassin Coordinator Rinkei (664 133) ↑41
+5. Talk to General Chugunov (664 134) ↑41
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### DFMeng - Father Daughter Talk
+
+Quest Dispatcher: Dongfang Huan, City of Raging Tides - Midlands (663 134) ↑41
+
+1. Talk to Donfang Meng (635 124) ↑28
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### Dongfang Meng - Ritual Study
+
+Quest Dispatcher: Dongfang Huan, City of Raging Tides - Midlands (662 137) ↑41
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### Dongfang Meng - Rituals
+
+Quest Dispatcher: Etiquette Department: Wencheng, City of Raging Tides - Midlands (670 118)
+
+1. Talk to Etiquette Department: Wencheng
+2. Dig Inspiration: Vanilla Orchid (659 122) ↑24
+3. Talk to Etiquette Department: XiHe
+
+Rewards: 688 000 Experience and 136 000 Spirit
+
+##### Dongfang Meng - Lile
+
+Quest Dispatcher: Dep. of Rites and Music: Yinyuan, City of Raging Tides - Midlands (662 138)
+
+1. Talk to Dep. of Rites and Music: Yinyuan
+2. Talk to Department of Protocol: Wuqi
+3. Get 5 Jellyfish Membranes by killing Jellyfish (643 106) ↑20
+4. Talk to Department of Protocol: Wuqi
+5. Get 5 Whale Whiskers by killing Whales (600 100) ↑20
+6. Talk to Department of Protocol: Wuqi (659 148)
+
+Rewards: 1 032 000 Experience and 204 000 Spirit
+
+##### Dongfang Meng - Li Ling
+
+Quest Dispatcher: Department of Ceremony: Chige, City of Raging Tides - Midlands (656 138)
+
+1. After turning all four quests to the Department of Ceremony: Chige, talk to Department of Ceremony: Chige
+2. Complete quest "What kind of animal are you?" from Dongfang Huan (663 134) ↑42
+3. Complete quest "What kind of animal are you?" from Master Assassin Vrin (666 123)
+4. Complete quest "What kind of animal are you?" from Master Psychic Feron (664 124)
+5. Complete quest "What kind of animal are you?" from Tailor Nika (662 121)
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### Dongfang Meng - Rituals
+
+Quest Dispatcher: Department of Rituals: Simen, City of Raging Tides - Midlands (674 115)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### Dongfang Meng - Liding
+
+Quest Dispatcher: Department of Protocol: Wuqi, City of Raging Tides - Midlands (659 148)
+
+1. Talk to Priest Konchi (652 152) ↑25
+2. Talk to Department of Rituals: Simen (674 115)
+3. Talk to Department of Ceremony: Chige (656 138)
+4. Talk to Dep. of Rites and Music: Yinyuan (662 138)
+5. Talk to Etiquette Department: Wencheng (670 118)
+
+Rewards: 668 000 Experience and 136 000 Spirit
+
+##### Dongfang Meng - Ministries
+
+Quest Dispatcher: Dongfang Huan, City of Raging Tides - Midlands (663 134) ↑41
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### Dongfang Meng - Mermaid Crane
+
+Quest Dispatcher: Dongfang Meng, White Sand Beach - Midlands (635 124) ↑28
+
+Tip: Players who haven't gotten the Aviator title yet may find this to be the ideal time to obtain the title, while the Crane attempts to kill Donfang Meng by dehydrating her.
+
+1. Talk to Donfang Meng (635 124) ↑28
+2. Fly to City of Raging Tides (633 123) ↑28
+3. Talk to Donfang Meng
+4. Fly to Land of the Burning Heart (131 787)
+5. Talk to Dongfang Meng
+6. Fly to The Frozen Path (265 982)
+7. Talk to Dongfang Meng
+8. Fly to the Deserted Sea (161 440)
+9. Talk to White Crane (who spawns next to the player)
+
+Rewards: 688 000 Experience and 136 000 Spirit
+
+#### Chapter 3
+
+##### DongfangMeng - Awakening Dreams
+
+Quest Dispatcher: Dongfang Huan, White Sand Beach - Midlands (635 123)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### DFMeng - The Ritual is Coming
+
+Quest Dispatcher: Priest Konchi, City of Raging Tides - Midlands (662 137) ↑41
+
+1. Talk to Department of Protocol: Wuqi (658 145) ↑41
+2. Talk to Department of Rituals: Simen (657 146) ↑41
+3. Talk to Department of Ceremony: Chige (656 145) ↑41
+4. Talk to Dep. of Rites and Music: Yinyuan (657 145) ↑41
+5. Talk to Etiquette Department: Wencheng (657 145) ↑41
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### DFMeng - Reverse Spell Return
+
+Quest Dispatcher: Dongfang Meng, City of Raging Tides - Midlands (657 145) ↑41
+
+1. Talk to Etiquette Department: Wencheng
+2. Talk to Dongfang Meng
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### Donfang Meng - Ritual 1
+
+Quest Dispatcher: Dongfang Meng, City of Raging Tides - Midlands (657 145) ↑41
+
+1. Use Vanilla Orchid by right-clicking it in the bag
+2. Get Vanilla Orchid by digging Vanilla Orchid (657 146) ↑41
+3. Talk to Dongfang Meng
+4. Talk to Etiquette Department: Wenchang
+
+Rewards: 688 000 Experience and 136 000 Spirit
+
+##### Donfang Meng - Ritual 2
+
+Quest Dispatcher: Dongfang Meng, City of Raging Tides - Midlands (657 145) ↑41
+
+1. Use Fine Wine and Nectar by right-clicking it in the bag
+2. Get Fine Wine and Nectar by digging Fine Wine and Nectar (657 146) ↑41
+3. Talk to Dongfang Meng
+4. Talk to Etiquette Department: Wenchang
+
+Rewards: 688 000 Experience and 136 000 Spirit
+
+##### Donfang Meng - Ritual 3
+
+Quest Dispatcher: Dongfang Meng, City of Raging Tides - Midlands (657 145) ↑41
+
+1. Talk to Dongfang Meng
+2. Talk to Etiquette Department: Wenchang
+
+Rewards: 688 000 Experience and 136 000 Spirit
+
+##### Donfang Meng - Worship
+
+Quest Dispatcher: Dongfang Meng, City of Raging Tides - Midlands (657 145) ↑41
+
+1. Talk to Dongfang Meng
+2. Talk to Dongfang Meng
+3. Talk to Etiquette Department: Wenchang
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### Donfang Meng - Forbidden Rites
+
+Quest Dispatcher: Priest Konchi, City of Raging Tides - Midlands (662 137) ↑41
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### DFMeng - Living up to Legacy
+
+Quest Dispatcher: Dongfang Meng, City of Raging Tides - Midlands (657 145) ↑41
+
+1. Watch the cutscene
+2. Talk to Young White Crane
+3. Talk to Dongfang Huan (662 136) ↑41
+4. Talk to Young White Crane where Dongfang Meng used to be
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+Players will be teleported back to the present, within the Hall of Domination
+
+#### Chapter Four
+
+##### DongfangMeng - Dream Extinction
+
+Quest Dispatcher: White Crane, City of Raging Tides - Midlands (663 134) ↑41
+
+1. Watch the cutscene
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### DFMeng - Mermaid Cherry Dreams
+
+Quest automatically picks up and completes during the cutscene
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### DFMeng - Cloudy Dreams to Sun
+
+Quest Dispatcher: White Crane, City of Raging Tides - Midlands (663 134) ↑41
+
+1. Land and talk to White Crane
+2. Fly to Sunflower (548 376)
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### Dongfang Meng - Bamboo Village
+
+Quest Dispatcher: White Crane
+
+1. Land and talk to White Crane
+2. Fly to Bamboo Forest (374 350)
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### DFMeng - Starfall Peachland
+
+Quest Dispatcher: White Crane
+
+1. Land and talk to White Crane
+2. Fly to Peach Blossom (648 541)
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### Dongfang Meng - Meteor
+
+Quest Dispatcher: White Crane
+
+1. Watch the cutscene
+
+Rewards: 2 752 000 Experience and 544 000 Spirit
+
+#### Psychic Saga Rewards
+
+Upon completion of "Dongfang Meng - Meteor," players may visit the Psychic Donfang Meng portrait within the Perfect World Hero Saga and then click the glowing chest in the bottom-right to receive the following:
+
+- One soul fulfill 1000-year wish title (+100 HP)
+- Dongfang Meng Pet Egg (can be placed in the Codex)
+
+### Bard Donfang Liqing
+
+This Saga will familiarize players with the origins of the bards. It follows the story of the leader of the first bards, of family Dongfang. Players will be taken through the four phases of Liqing's life: her preparation, her exodus, her divine bond, and her last days, in which she becomes one of the first bards.
+
+#### Activation: DF Liqing - There's Wind in Air
+
+To fully activate this saga, complete the quest "DF Liqing - There's Wind in Air" by using the Gentle Breeze Agreement which appears in the bag.
+
+Rewards: 200 000 Experience and 40 000 Experience
+
+#### Chapter 1
+
+##### DF Liqing - SearchAncientScroll
+
+This quest will appear automatically once players have completed "DF Liqing - There's Wind in Air."
+
+1. Talk to Elder of Raging Tides (657 144)
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+##### DF Liqing - Tide of Exploration
+
+This quest will appear automatically once players have completed "DF Liqing - SearchAncientScroll."
+
+1. Open the chest behind the elder (656 145). The code is 1023, the year that the Tideborn finished the construction of Raging Tides, per the Perfect Chronicle
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### DF Liqing - Read Ancient Scroll
+
+This quest will appear automatically once players have completed "DF Liqing - Tide of Exploration."
+
+1. Use the Tidal Scroll • 1 • Distant Journey in the bag
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+##### DF Liqing - View of Past Years
+
+This quest will appear automatically once players have completed "DF Liqing - Read Ancient Scroll."
+
+1. A pop-up will appear on-screen. Confirm the prompt
+2. Travel north to (658 142)
+3. Escape out from the text screen - while the player is doing this, they will be transported to (663 135) while having their screen become grayscale. The player will be transformed into Dongfang Liqing, during which they will not be able to use most items, any class skills, or any genie skills, and their speed will be boosted to 15.0 m/s. This transformation will last until the completion of "DF Liqing - Long Pass" in Chapter 1. It will also wear off naturally over time, but the greyscale will remain.
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+##### Dongfang Liqing - Su Bu Yan
+
+Quest Dispatcher: Elder, City of Raging Tides - Midlands (658 144)
+
+1. Players will be teleported to Shrine of the Tides (627 102), at which point the quest will complete
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+##### DF Liqing - Know Will of Heaven
+
+This quest will appear automatically once players have completed "Dongfang Liqing - Su Bu Yan."
+
+1. Talk to Eastern Dawn (616 107)
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+##### DF Liqing - Red Sincerity
+
+This quest will appear automatically once players have completed "DF Liqing - Know Will of Heaven."
+
+1. Talk to Elder's family (668 125)
+2. Talk to Luo Luo's friend Jinhe (667 124)
+3. Talk to Promising Youth: Yan Xu (665 125)
+4. Travel north to (668 123)
+
+Rewards: 600 000 Experience and 120 000 Spirit
+
+##### DF Liqing - Building Up a Name
+
+Quest Dispatcher: Tideborn Captain TangJiang, City of Raging Tides - Midlands (666 124)
+
+The transformation is now complete. Players will have access to the following skills:
+
+Spirit Blast:
+
+- During the Initiate stage, imbue your weapon with the Strength of earth from the five elements, dealing earth-type damage to the enemy.
+- Cooldown: 3.0 Seconds
+- Cast: 1.4 Seconds
+- Channeling Time: 0.6 Seconds
+- Range: 28.5 Meters
+
+Aqua Impact:
+
+- Gather and instantly release your surrounding magical power, dealing base water damage to the target and slowing them by 50% for 8 seconds.
+- Cooldown: 2.0 Seconds
+- Cast: 1.0 Seconds
+- Channeling Time: 0.5 Seconds
+- Range: 28.5 Meters
+
+Sandburst Blast:
+
+- Use magical power to create a sandstorm, dealing earth-type damage to the target and all enemies within a 10-meter radius. Upon hitting, it reduces the target's elemental defense by 60% for 10 seconds.
+- Cooldown: 6.0 Seconds
+- Cast: 1.0 Seconds
+- Channeling Time: 1.2 Seconds
+- Range: 28.5 Meters
+
+Rewards: 600 000 Experience and 120 000 Spirit
+
+##### DF Liqing - Gathering Star Fire
+
+A cutscene will play, during which the quest will accept and complete automatically. Players will automatically teleport to Shrine of the Tides (617 107), and lose access to their transformation skills.
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+##### DF Liqing - Gu Qian Duan
+
+Quest Dispatcher: Eastern Dawn, Shrine of the Tides - Midlands (616 107)
+
+1. Talk to Grand General Zhong Xiao's Tomb (681 102)
+2. Travel south (682 101)
+3. Players will teleport to Raging Tides (670 119)
+4. Talk to Tideborn Civilian TangJiang
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### DF Liqing - Long Farewell
+
+This quest automatically acquires and completes while players read the text wall
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+#### Chapter 2
+
+##### DF Liqing - Not Yet Finished
+
+This quest will appear automatically once players have completed "DF Liqing - Know Will of Heaven."
+
+1. Players will teleport to Motley Realm (276 557) ↑24 and once more transform. This transformation will expire upon completion of "DF Liqing - Soul Return the World" in Chapter 2. Players who accidentally leave the Motley Realm may return via the Elder of Raging Tides
+2. Use Tidal Scroll • 2 • Long pass
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+##### Letter from Dongfang Yu I
+
+Quest Dispatcher: Fish delivering messages, Motley Realm - Motley Realm (276 559) ↑24
+
+1. This quest automatically completes upon picking it up
+
+Rewards: Letter from DongfangYu: Longing
+
+##### DF Liqing - Heavy Difficulty
+
+Quest Dispatcher: Guard Shang Que, Motley Realm - Motley Realm (277 558) ↑24
+
+1. This quest automatically completes upon picking it up, presuming that Letter from Dongfang Yu I is complete
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+##### DF Liqing - Picking Qi Leaves
+
+This quest will appear automatically once players have completed "DF Liqing - Heavy Difficulty."
+
+Dig Bright White Clam Leaf to receive Bright White Clam Leaves - they appear as bright glowing orbs on nearby rocks. The following are documented locations:
+
+- (285 506) ↑22
+- (291 507) ↑22
+- (296 510) ↑24
+- (295 512) ↑23
+- (288 519) ↑22
+- (284 518) ↑22
+
+Rewards: 2 000 000 Experience and 400 000 Spirit
+
+##### DF Liqing - Spiritual Medicine
+
+This quest will appear automatically once players have completed "DF Liqing - Picking Qi Leaves."
+
+1. Use the White herbal powder in bag and mix Pure medicinal liquid with it
+2. Wait 5 seconds
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+##### DF Liqing - Fufu Zhongxin
+
+Quest Dispatcher: Team Leader Yue Hua, Motley Realm - Motley Realm (284 523) ↑21
+
+1. This quest automatically completes upon picking it up, and players once more receive their psychic skills
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+##### DF Liqing - Clear Front Barrier
+
+This quest will appear automatically once players have completed "DF Liqing - Fufu Zhongxin."
+
+1. Kill Deepsea Giant (289 541) ↑22
+
+Rewards: 1 000 000 Experience and 200 000 Spirit
+
+##### Dongfang Liqing - Tsa Crisis
+
+This quest will appear automatically once players have completed "DF Liqing - Clear Front Barrier," at which point they will lose their skills
+
+1. Talk to Team Leader Yue Ha (284 523) ↑21
+2. Travel south (281 526)
+3. Travel south (284 530)
+4. Travel south (286 535)
+
+Rewards: 600 000 Experience and 120 000 Spirit
+
+##### DF Liqing - Dividing the Path
+
+This quest will appear automatically once players have completed "Dongfang Liqing - Tsa Crisis."
+
+1. Talk to Team Leader Chen An (284 523) ↑21
+
+Rewards: 600 000 Experience and 120 000 Spirit
+
+##### DF Liqing - Building Defenses
+
+This quest will appear automatically once players have completed "DF Liqing - Dividing the Path."
+
+1. Wait 5 seconds
+2. Obtain Survey information by digging Deployment point (284 527) ↑21
+3. Obtain Survey information by digging Deployment point (282 523) ↑21
+
+Rewards: 600 000 Experience and 120 000 Spirit
+
+##### DF Liqing - Encountering Enemy
+
+This quest will appear automatically once players have completed "DF Liqing - Building Defenses."
+
+1. Travel east (296 533)
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+##### DF Liqing - Introducing the Urn
+
+This quest will appear automatically once players have completed "DF Liqing - Encountering Enemy."
+
+1. Players teleport to (293 518) ↑23
+2. Watch the cutscene - regardless of whether or not players choose to skip, they will still have to wait until the timer expires
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+##### DF Liqing - Wreckage
+
+This quest will appear automatically once players have completed "DF Liqing - Introducing the Urn," at which point they will regain access to their skills
+
+Kill 10 of any of the surrounding monsters
+
+- Damage is capped at 12 000, so use of Sandburst Blast will do more harm than good
+
+Rewards: 1 000 000 Experience and 200 000 Spirit
+
+##### DF Liqing - Objects
+
+Quest Dispatcher: Guard Shang Que, Motley Realm - Motley Realm (289 522) ↑21
+
+1. Talk to Guard Shang Que
+2. Use Relic of Baiyan within the bag
+3. Use Relic of Qiushi within the bag
+4. Use Relic of LuoLuo within the bag
+
+Rewards: 600 000 Experience and 120 000 Spirit
+
+##### DF Liqing - Nice Souls
+
+This quest will appear automatically once players have completed "DF Liqing - Objects."
+
+1. Obtain Hero Spirit of the Warrior by digging Piece of Hero Spirit Silence (277 511) ↑21
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+##### DF Liqing - Soul Return the World
+
+This quest will appear automatically once players have completed "DF Liqing - Nice Souls."
+
+1. Players will teleport to City of Raging Tides (656 145)
+2. Watch the cutscene - even if players skip the cutscene, they will still have to wait on the timer
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+#### Chapter 3
+
+##### DF Liqing - Sea Dragon
+
+This quest will appear automatically once players have completed "DF Liqing - Soul Return the World."
+
+1. Players will teleport to Motley Realm (276 557) ↑24 and once more transform. This transformation will expire upon completion of "DF Liqing - See Dragon" in Chapter 3. Players who accidentally leave the Motley Realm may return via the Elder of Raging Tides
+2. Use Tidal Scroll • 3 Meet dragon
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+##### DF Liqing - Blood lead
+
+Quest Dispatcher: Guard Shang Que, Motley Realm - Motley Realm (316 550) ↑21
+
+1. A cutscene will play. It may be skipped without issue
+2. Head far east (337 550)
+3. Wait 5 seconds
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+##### DF Liqing - Ancestral Witch
+
+Tip: Players will see on their mini map white dots indicating monsters off-map. However, the map does not have walls, and players will fall to the floor of the map. There are no monsters
+
+Quest Dispatcher: Grongon God: Xuanwu, Motley Realm - Motley Realm (341 550) ↑21
+
+1. Players will see a text wall. They may read it, and once they are done reading it may use the ESC key to get out of it
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+##### Letter from Dongfang Yu 2
+
+Quest Dispatcher: Fish delivering messages, Motley Realm - Motley Realm (339 551) ↑21
+
+1. This quest automatically completes upon picking it up
+
+Rewards: Letter from Dongfang Yu: Prayer
+
+##### Dongfang Liqing - Unusual Day
+
+Quest Dispatcher: Logistics: Ran, Motley Realm - Motley Realm (337 551) ↑21
+
+1. Talk to Grongon God: Xuanwu (341 550) ↑21
+2. Talk to Playing children (340 549) ↑21
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### DF Liqing - Affection
+
+Quest Dispatcher: Grongon God: Xuanwu, Motley Realm - Motley Realm (341 550) ↑21
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+##### Dongfang Liqing - contract
+
+This quest will appear automatically once players have completed "DF Liqing - Affection."
+
+1. A box will appear in the center of the screen. Write "Dongfang Liqing" (without the quotes) in the box and click "Submit"
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### Dongfang Liqing - Deal
+
+This quest will appear automatically once players have completed "Dongfang Liqing - contract."
+
+1. A faux cutscene will play, with a 15 second timer attached to it. Due to the fact that it's a faux cutscene, players have full interactability with the UI during this time
+
+Rewards: none
+
+##### DF Liqing - Dragon's Will
+
+Quest Dispatcher: Grongon God: Xuanwu, Motley Realm - Motley Realm (341 550) ↑21
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+##### DF Liqing - Final Return
+
+Quest Dispatcher: Grongon God: Xuanwu, Motley Realm - Motley Realm (341 550) ↑21
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+##### DF Liqing - See Dragon Silence
+
+This quest will appear automatically once players have completed "DF Liqing - Final Return."
+
+1. A cutscene will play, after which players will be spit out to Raging Tides, no longer transformed
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+#### Chapter Four
+
+##### DF Liqing - Heavenly Fate
+
+This quest will appear automatically once players have completed "DF Liqing - See Dragon Silence."
+
+1. Players will teleport to Fountain of Fate (320 563) within the Motley Realm and once more transform, this time into Liqing after she dons her bard outfit. This transformation will expire upon completion of "DF Liqing - Pass on Fire" in Chapter 4
+2. Use Tidal Scroll • 4 Xuanlao Island
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+##### Dongfang Liqing - Dreamscape
+
+This quest will appear automatically once players have completed "DF Liqing - Heavenly Fate."
+
+1. Travel up the stairs (319 575)
+2. Travel northeast (324 569)
+3. Travel east (322 563)
+
+Rewards: 600 000 Experience and 120 000 Spirit
+
+##### DF Liqing - Mystery Dew Island
+
+Quest Dispatcher: Cenxi, Fountain of Fate - Motley Realm (320 577)
+
+1. A box will appear in the center of the screen. Write "Mysterious Dew Island" (without the quotes) in the box and click "Submit"
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### DF Liqing - Jade Song
+
+This quest will appear automatically once players have completed "DF Liqing - Mystery Dew Island."
+
+1. Talk to Xiao Feng (317 568)
+2. Travel south (316 566)
+
+Rewards: 400 000 Experience and 80 000 Spirit
+
+##### DF Liqing - Casting Qin
+
+This quest will appear automatically once players have completed "DF Liqing - Mystery Dew Island."
+
+1. Players will teleport back to the top of the stairs
+2. Obtain Jade by digging Jade (317 568)
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+##### DF Liqing - Qin
+
+Quest Dispatcher: Cenxi, Fountain of Fate - Motley Realm (320 575)
+
+1. Travel west (294 584)
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+##### DF Liqing - Pass on Fire
+
+Quest Dispatcher: Cenxi, Fountain of Fate - Motley Realm (294 584)
+
+1. Players will teleport back to Raging Tides (656 145) and no longer be transformed
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+##### DF Liqing - End Song
+
+This quest will appear automatically once players have completed "DF Liqing - Pass on Fire."
+
+1. Players will teleport to Fountain of Fate (320 563) within the Motley Realm
+2. Use Tidal Scroll • 4 Flying bird
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+##### DF Liqing - Bird Wish
+
+This quest will appear automatically once players have completed "DF Liqing - End Song."
+
+1. Walk northwest (310 570)
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+##### DF Liqing - Long Sleep
+
+Quest Dispatcher: Dongfang Liqing, Fountain of Fate - Motley Realm (311 570)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+##### DF Liqing - Return to the Sea
+
+This quest will appear automatically once players have completed "DF Liqing - Long Sleep."
+
+1. Players teleport back to Raging Tides (656 145)
+2. Watch the cutscene, even if players skip the cutscene, they will still have to wait on the timer
+
+Rewards: 200 000 Experience and 40 000 Spirit
+
+##### Dongfang Liqing - Finale
+
+This quest will appear automatically once players have completed "DF Liqing - Return to the Sea."
+
+1. Talk to Elder of Raging Tides (657 144)
+
+Rewards: 200 000 Experience, 40 000 Spirit, and The paper page in Tidal Scroll
+
+##### DF Liqing - Unnamed Gen.
+
+This quest will appear automatically once players have completed "Dongfang Liqing - Finale."
+
+1. Use The paper page in Tidal Scroll
+
+Rewards: 3 000 000 Experience and 600 000 Spirit
+
+#### Bard Saga Rewards
+
+Upon completion of "DF Liqing - Unnamed Gen.," players may visit the Bard Donfang Liqing portrait within the Perfect World Hero Saga and then click the glowing chest in the bottom-right to receive the following:
+
+- Zither resonates as moon rises title (+100 HP)
+- Little Liqing Pet Egg (can be placed in the Codex)
+
+### Assassin Dongfang Lie
+
+This saga will take players through the life of Assassin Dongfang Lie, the father of Dongfang Meng as well as the current king. It will cover his ascent to kingship: his childhood of woe, the subterfuge of his youth, and the epic war of his rise to status of king.
+
+#### Activation: Dongfang Lie - Surprise Call
+
+To fully activate this saga, complete the quest "DF Liqing - There's Wind in Air."
+
+1. Talk to Elder of Raging Tides (657 144)
+
+Rewards: 344 000 Experience and 68 000 Experience
+
+#### Chapter 1
+
+##### DF Lie - subterranean tides
+
+Quest Dispatcher: Elder of Raging Tides, City of Raging Tides - Midlands (657 144)
+
+1. Travel to Shadowtide Camp (578 120) ↑27, on Shattered Cloud Island
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### DF Lie - reinforcement array
+
+This quest will appear automatically once players have completed "DF Lie - subterranean tides."
+
+1. Obtain Dark Tide Mark: Sky by digging Dark Tide Mark: Sky (575 116) ↑30
+2. Obtain Dark Tide Mark: Fire by digging Dark Tide Mark: Fire (578 111) ↑31
+3. Obtain Dark Tide Mark: Water by digging Dark Tide Mark: Water (569 116) ↑31
+4. Obtain Dark Tide Mark: Wind by digging Dark Tide Mark: Wind (577 121) ↑31
+
+Rewards: 688 000 Experience and 136 000 Spirit
+
+##### Dongfang Lie - Coastal Rattles
+
+This quest will appear automatically once players have completed "DF Lie - reinforcement array."
+
+1. Use the Flare in the bag
+2. Travel south (579 101) ↑27
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### DF Lie - Fighting with might
+
+This quest will appear automatically once players have completed "Dongfang Lie - Coastal Rattles."
+
+1. Talk to General Chugunov (579 102)
+2. Kill 10 Night Demon Vanguards below; despite the alarming location, these are saga-spawned mobs and are drastically easier to deal with than the surrounding mobs
+
+Rewards: 1 376 000 Experience and 272 000 Spirit
+
+##### Dongfang Lie - Strange Devices
+
+Quest Dispatcher: General Chugunov, Shadowtide Camp - Midlands (579 102)
+
+1. Give the Bizarre Device to Elder of Raging Tides (657 144)
+2. Obtain Bizarre Device by digging Bizarre Device (584 94) ↑19
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### DF Lie - Tideborn King
+
+Quest Dispatcher: Elder of Raging Tides, City of Raging Tides - Midlands (657 144)
+
+1. Talk to Tideborn King, Feng Triton (663 135) ↑41
+2. Go north (656 146)
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+#### Chapter 2
+
+##### DF Lie - An aged picture book
+
+Quest Dispatcher: Tideborn King, Feng Triton, City of Raging Tides - Midlands (663 135) ↑41
+
+1. Give Vintage Album to Tideborn King, Feng Triton
+2. Obtain Vintage Album by digging (663 135) ↑41
+
+Rewards: Artfolio • One, 344 000 Experience, and 68 000 Spirit
+
+##### DF Lie - Opening Album
+
+This quest will appear automatically once players have completed "DF Lie - An aged picture book."
+
+1. Players will be transported to Southern Outskirts (687 108) while having their screen become grayscale, indicating that they have been transported to the past. Before them will stand child versions of Dongfang Lie and Dongfang Huan
+2. Use Artfolio • One
+
+##### DF Lie - Winds of SeaPrison
+
+This quest will appear automatically once players have completed "DF Lie - Opening Album."
+
+1. Players will be transported to City of Raging Tides (656 146)
+2. Talk to Dongfang Lie (688 108)
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### DF Lie - Childhood Encounters
+
+Quest Dispatcher: Xi Yue, City of Raging Tides - Midlands (656 146)
+
+1. Talk to Dongfang Huan; players may not see him immediately, should this happen they are recommended to walk outside and start flying
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### Dongfang Lie - Growing up
+
+This quest will appear automatically once players have completed "DF Lie - Opening Album."
+
+1. Watch the cutscene
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### DF Lie - first Quest
+
+Quest Dispatcher: Tideborn King, Feng Triton, City of Raging Tides - Midlands (663 135) ↑41
+
+1. This quest automatically completes upon picking it up
+
+Rewards: Artfolio • Two, 344 000 Experience, and 68 000 Spirit
+
+##### DF Lie - Blunted Lance Stand
+
+This quest is obtained by using Artfolio • Two
+
+1. Talk to Dongfang Huan
+2. Players will be transported to The Blunted Lance Stand (519 160)
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### DF Lie - black and white
+
+Quest Dispatcher: Assistant Officer Rooshin, The Blunted Lance Stand - Midlands (517 160)
+
+1. Talk to Dongfang Huan
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+#### Chapter 3
+
+##### DF Lie - Rise of the Psychic
+
+Quest Dispatcher: Tideborn King, Feng Triton, City of Raging Tides - Midlands (663 135) ↑41
+
+1. This quest automatically completes upon picking it up
+
+Rewards: Artfolio • Three, 344 000 Experience, and 68 000 Spirit
+
+##### DF Lie - Blood Beach
+
+This quest is obtained by using Artfolio • Three
+
+1. Talk to Tideborn Elder (616 107)
+2. Players will be transported to Shrine of the Tides (619 105), and their screens will turn greyscale, indicating passage to the past once more
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### DF Lie - A New Attack
+
+Quest Dispatcher: Master of Cold Star Pavilion, Shrine of the Tides - Midlands (617 106)
+
+1. Talk to Dongfang Huan
+
+Rewards: Secret Map, 344 000 Experience, and 68 000 Spirit
+
+##### DF Lie - Secret Clues
+
+This quest is obtained by using Secret Map
+
+1. Play the treasure map game - the map location is randomized but will point to somewhere near Waterbeast Shore, north of Dragonfang Village on Blazing Dreams Island
+
+Rewards: 688 000 Experience and 136 000 Spirit
+
+##### Dongfang Lie - Cooperation
+
+Quest Dispatcher: Mysterious Girl, Waterbeast Shore - Midlands (646 219)
+
+1. Travel southeast, to Dragonfang Village (658 203)
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### DF Lie - The People of Niore
+
+Quest Dispatcher: Mysterious Girl, Dragonfang Village - Midlands (658 204)
+
+1. Travel to the village center (659 208)
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### Dongfang Lie - Lock Target
+
+Quest Dispatcher: Villager, Dragonfang Village - Midlands (658 209)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### DF Lie - Fleeing
+
+This quest will appear automatically once players have completed "Dongfang Lie - Lock Target."
+
+1. A cutscene will play; regardless of whether or not players skip it, they will have to wait for the timer
+2. Players are transported to Fort Countertide (651 281)
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### DF Lie - We will meet again.
+
+Quest Dispatcher: Mysterious Girl, Fort Countertide - Midlands (651 281)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### DF Lie - at daggers drawn
+
+Quest Dispatcher: Tideborn King, Feng Triton, City of Raging Tides - Midlands (663 135) ↑41
+
+1. This quest automatically completes upon picking it up
+
+Rewards: Artfolio • Four, 344 000 Experience, and 68 000 Spirit
+
+##### Dongfang Lie - The Dispute
+
+This quest is obtained by using Artfolio • Four
+
+1. Talk to Master of Coldstar Pavilion (617 106)
+2. Players will be transported to Shrine of the Tides (617 106), and their screens will turn greyscale, indicating passage to the past once more
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### Dongfang Lie - Confrontation
+
+Quest Dispatcher: Xi Yue, Shrine of the Tides - Midlands (617 106)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### Dongfang Lie - a compromise
+
+Quest Dispatcher: Dongfang Huan
+
+Travel to Caves of Menace (686 214)
+
+- While this can be done without doing so, finding the exit from outside is difficult enough that it's not recommended
+- Players will need to enter the caves in order to do so - this may be done at Guard Boogean (694 221); they will then need to leave via Ocean Maiden
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### DF Lie - Escalating Conflicts
+
+Quest Dispatcher: Xi Yue, Caves of Menace - Midlands (686 215)
+
+1. Talk to Wind Swift (515 120)
+2. Travel west of Rotflesh Trench (516 120)
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+#### Chapter Four
+
+##### Dongfang Lie - Armageddon
+
+Quest Dispatcher: Tideborn King, Feng Triton, City of Raging Tides - Midlands (663 135) ↑41
+
+1. This quest automatically completes upon picking it up
+
+Rewards: Artfolio • Five, 344 000 Experience, and 68 000 Spirit
+
+##### DF Lie - Arrival at the Battlefield
+
+This quest is obtained by using Artfolio • Five
+
+1. Players will be transported to Land of Whispers (689 272)
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### DF Lie - Preparing for Battle
+
+Quest Dispatcher: Wind Swift, Land of Whispers - Midlands (689 272)
+
+1. Talk to Dongfang Huan
+2. Obtain 5 Earth Fire Thunder by digging various glowing points on the ground
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### Dongfang Lie - Mindfulness
+
+This quest will appear automatically once players have completed "DF Lie - Preparing for Battle."
+
+1. Talk to Xi Yue (686 270)
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### Dongfang Lie - Defense
+
+Quest Dispatcher: Xi Yue, Land of Whispers - Midlands (686 270)
+
+1. Talk to Xi Yue
+2. Various Vanguard Night Demons will come from the sea - kill 5 of them
+
+Rewards: 1 376 000 Experience and 272 000 Spirit
+
+##### Dongfang Lie - Join the action
+
+Quest Dispatcher: Xi Yue, Land of Whispers - Midlands (686 270)
+
+1. Travel to Southern Desolace, on the ground (567 135)
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### DF Lie - Secret plan
+
+Quest Dispatcher: Dongfang Lie
+
+Kill 10 total of various mobs in Shadowtide Camp
+
+- These are the very real mobs of the area, and will kill undergeared characters. This is a high level area
+
+Rewards: 1 376 000 Experience and 272 000 Spirit
+
+##### Dongfang Lie - Assassination
+
+Quest Dispatcher: Dongfang Lie, Shadowtide Camp - Midlands (583 135)
+
+1. This quest automatically completes upon picking it up
+2. Talk to Dongfang Huan
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### Dongfang Lie - Sea Lord
+
+This quest will appear automatically once players have completed "DF Lie - Preparing for Battle."
+
+1. A cutscene will play. Even if players skip the cutscene, they will need to wait on the timer
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### Dongfang Lie - Mindfulness (1)
+
+Quest Dispatcher: Tideborn King, Feng Triton, City of Raging Tides - Midlands (663 135) ↑41
+
+1. This quest automatically completes upon picking it up
+
+Rewards: Artfolio • Six, 344 000 Experience, and 68 000 Spirit
+
+##### Dongfang Lie - Wishes (II)
+
+This quest is obtained by using Artfolio • Six
+
+1. Talk to Dongfang Lie (666 125) ↑41
+2. Players will be transported to the back of the palace (667 125) ↑41, and their screens will turn grayscale, once again indicating passage to the past
+
+Rewards: 344 000 Experience and 68 000 Spirit
+
+##### Dongfang Lie - Inheritance
+
+Quest Dispatcher: Tideborn King, Feng Triton, City of Raging Tides - Midlands (663 135) ↑41
+
+1. This quest automatically completes upon picking it up
+
+Rewards: Artfolio • Six, 2 752 000 Experience, and 544 000 Spirit
+
+#### Assassin Saga Rewards
+
+Upon completion of "Dongfang Lie - Inheritance," players may visit the Assassin Donfang Lie portrait within the Perfect World Hero Saga and then click the glowing chest in the bottom-right to receive the following:
+
+- Moon rises above the sea title (+100 HP)
+- Dongfang Lie Pet Egg (can be placed in the Codex)
+
+### Mystic Yuanruo
+
+This saga will take players through the life of one of Mystic Yuanruo's reincarnations: Zhenzhen. It will take them through its four stages: her birth, her growth, her self-discovery, and her end sacrifice.
+
+#### Activation: Yuanruo: Fissure Secret Letter
+
+To fully activate this Saga, complete the quest "Yuanruo: Fissure Secret Letter."
+
+1. Travel to Spire of Awakening (148 245)
+
+Rewards: 348 000 Experience and 68 000 Spirit
+
+#### Chapter 1
+
+##### Yuanruo - Secret Operation
+
+Quest Dispatcher: Void Seer, Spire of Awakening - Midlands (149 246)
+
+1. Travel to Lunastone Altar (114 215)
+
+Rewards: 348 000 Experience and 68 000 Spirit
+
+##### Yuanruo - Provoke Snake - 1
+
+This quest will appear automatically once players have completed "Yuanruo - Secret Operation."
+
+1. Travel south (111 209)
+2. Kill 5 Ironfist Sentinels (114 214) - these have no damage cap
+
+Rewards: 956 000 Experience and 188 000 Spirit
+
+##### Yuanruo: Splendid ImperialTree
+
+Quest Dispatcher: Newborn E.guard
+
+1. A box will appear in the center of the screen. Write "fortunate tree" (without the quotes) in the box and click "Submit"
+
+Rewards: 608 000 Experience and 120 000 Spirit
+
+##### Story of Yuanruo - Friends
+
+Quest Dispatcher: Newborn E.guard, Lunastone Altar - Midlands (112 209)
+
+1. Travel to Solstone Altar (135 276)
+
+Rewards: 348 000 Experience and 68 000 Spirit
+
+##### Yuanruo - Provoke Snake - 2
+
+This quest will appear automatically once players have completed "Yuanruo - Secret Operation."
+
+1. Travel west (130 273)
+2. Kill 5 Ironfist Sentinels (134 274) - these have no damage cap
+
+Rewards: 868 000 Experience and 172 000 Spirit
+
+##### Yuanruo: Fluorishing Leaves
+
+Quest Dispatcher: Newborn Mystic, Solstone Altar - Midlands (130 274)
+
+1. A box will appear in the center of the screen. Write "Ye Zhenzhen" (without the quotes) in the box and click "Submit"
+
+Rewards: 608 000 Experience and 120 000 Spirit
+
+##### Yuanruo - Report Back to Elder
+
+Quest Dispatcher: Newborn Mystic, Solstone Altar - Midlands (130 274)
+
+1. Travel to the Elder of Tellus (392 229)
+
+Rewards: 348 000 Experience and 68 000 Spirit
+
+##### Yuanruo - A Familiar Encounter
+
+Quest Dispatcher: Tellus Elder Star, Tellus City - Midlands (394 230)
+
+1. Talk to Tellus Elder Star
+2. Talk to Elder Yashimo
+3. Talk to Elder Yashimo (397 230) ↑28
+
+Rewards: 348 000 Experience and 68 000 Spirit
+
+##### Yuanruo: Most Familiar Person
+
+Quest Dispatcher: Tellus Elder Star, Tellus City - Midlands (394 230)
+
+1. Talk to Tellus Elder Star
+2. Talk to Seeker Trainer Cyril (382 243)
+3. Talk to Mystic Trainer Boris (376 243)
+
+Rewards: 348 000 Experience and 68 000 Spirit
+
+##### Yuanruo - Cleansing Zither
+
+Quest Dispatcher: Tellus Elder Star, Tellus City - Midlands (394 230)
+
+1. Talk to Tellus Elder Star
+2. Talk to Ye Zhenzhen
+3. Travel to the roof of the elders' building (397 229) ↑32
+
+Rewards: 416 000 Experience and 80 000 Spirit
+
+#### Chapter 2
+
+##### Yuanruo - Path of Cultivation
+
+Quest Dispatcher: Tellus Elder Star, Tellus City - Midlands (394 230)
+
+1. Players teleport to Sealed Basin (156 206)
+
+Rewards: 348 000 Experience and 68 000 Spirit
+
+##### Yuanruo - Fortify Defenses
+
+Quest Dispatcher: Spirit Vanguard, Sealed Basin - Midlands (156 206)
+
+1. Wait 10 seconds
+
+Rewards: 348 000 Experience and 68 000 Spirit
+
+##### Yuanruo - Forward March
+
+Quest Dispatcher: Spirit Vanguard, Sealed Basin - Midlands (156 206)
+
+1. Travel to the entrance of Evernight Ruins (193 218)
+
+Rewards: 348 000 Experience and 68 000 Spirit
+
+##### Yuanruo - Journey Together
+
+Quest Dispatcher: fortunate tree, Evernight Ruins (194 220)
+
+Kill Obsidian Tarantula (206 229)
+
+- Obsidian Tarantula is a roving boss
+
+Rewards: 1 044 000 Experience and 208 000 Spirit
+
+##### Yuanruo - Mistaken Identity?
+
+Quest Dispatcher: Anchoret Alexandria, Land of Eternal Sleep - Midlands (214 228)
+
+1. Travel to Shrine of the Ancestors (233 230)
+2. Travel east (214 227)
+
+Rewards: 348 000 Experience and 68 000 Spirit
+
+##### Yuanruo - Soul Nourishing Herb
+
+Quest Dispatcher: Ancestral Guardian Shawn, Shrine of the Ancestors - Midlands (233 231)
+
+1. Wait 10 seconds
+
+Rewards: 348 000 Experience and 68 000 Spirit
+
+##### Yuanruo - Lingering Effects
+
+Quest Dispatcher: fortunate tree
+
+1. Wait 10 seconds
+
+Rewards: 348 000 Experience and 68 000 Spirit
+
+##### Yuanruo - Memory Aberration
+
+Quest Dispatcher: Ye Zhenzhen
+
+Talk to Untamed Eye Ant Queen (immediately above the head of players who just teleported after killing the Mutated Ants)
+
+- by flying and using auto-path, players can avoid killing the mob in the way - then hold the alt key for the pick-up which follows
+
+Rewards: 1 044 000 Experience and 208 000 Spirit
+
+##### Yuanruo - Demon Eye Ant Queen
+
+Quest Dispatcher: Untamed Eye Ant Queen, Valley of the Ants - Midlands (247 277) ↑23
+
+1. Kill Obsidian Queen Ant (247 277) ↑23
+
+Rewards: 868 000 Experience and 172 000 Spirit
+
+##### Story of Yuanruo - Escape
+
+Quest Dispatcher: Untamed Eye Ant Queen, Valley of the Ants - Midlands (247 277) ↑23
+
+1. Walk to Starry Wilds (252 252)
+
+Rewards: 348 000 Experience and 68 000 Spirit
+
+#### Chapter 3
+
+##### Yuanruo - Twinkle, Twinkle
+
+Quest Dispatcher: Ye Zhenzhen
+
+1. Talk to Wildwood Sage (256 238)
+2. Dig Town Lake Stone
+3. Travel to Treehollow Lake (260 239) ↑26
+
+Rewards: 728 000 Experience and 144 000 Spirit
+
+##### Yuanruo - Grave of Honor
+
+Quest Dispatcher: Wildwood Sage, Treehollow Lake - Midlands (256 238)
+
+1. Use the Teleportion Scroll in the bag
+
+Rewards: 348 000 Experience and 68 000 Spirit
+
+##### Yuanruo - Mysterious Summoning
+
+Quest Dispatcher: fortunate tree
+
+1. Follow Ye Zhenzhen (315 206)
+
+Rewards: 348 000 Experience and 68 000 Spirit
+
+##### Yuanruo - Past Lives Memories
+
+Quest Dispatcher: Zhen Zhen, Crimson Stronghold - Midlands (316 207)
+
+1. Travel to Guardian's Watch (309 234)
+
+Rewards: 348 000 Experience and 68 000 Spirit
+
+##### Yuanruo - Prosperity of Kinship
+
+Quest Dispatcher: Ritualist Sharen, Guardian's Watch - Midlands (311 234)
+
+1. Players are transported to Tellus City (398 230)
+2. Wait 30 seconds, during which a cutscene will play
+
+Rewards: 348 000 Experience and 68 000 Spirit
+
+##### Yuanruo - Seeking Answers
+
+Quest Dispatcher: Ye Zhenzhen
+
+1. Travel to Snowdragon Heights (416 229)
+
+Rewards: 348 000 Experience and 68 000 Spirit
+
+##### Story of Yuanruo - Lonely Soul
+
+Quest Dispatcher: Lone Soul, Snowdragon Heights - Midlands (417 231)
+
+1. Players are transported to Galeroar Town (421 220)
+
+Rewards: 348 000 Experience and 68 000 Spirit
+
+##### Yuanruo - A Fleeting Shadow
+
+Quest Dispatcher: Joyce, Snowdragon Heights - Midlands (422 219)
+
+Kill "ten" each of (in reality five of each):
+
+- Rogue Dryad (421 271)
+- Wandering Dryad (421 271)
+
+Rewards: 868 000 Experience and 172 000 Spirit
+
+##### Story of Yuanruo - Named Ruo
+
+This quest will appear automatically once players have completed "Yuanruo - A Fleeting Shadow."
+
+1. Players are transported to Forgotten Sanctuary (472 267)
+2. Watch the cutscene; even should players skip the cutscene, they will need to wait on the timer
+3. Travel west (413 274), on the ground
+
+Rewards: 348 000 Experience and 68 000 Spirit
+
+##### Yuanruo - Past Live Memories
+
+Quest Dispatcher: Ye Zhenzhen
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 348 000 Experience and 68 000 Spirit
+
+#### Chapter Four
+
+##### Yuanruo - Return to the City
+
+Quest Dispatcher: Guard Captain Clarinda, Forgotten Sanctuary - Midlands (472 270)
+
+1. Travel to Tellus City (364 230)
+2. Players are transported to Gelid Plateau (406 230)
+
+Rewards: 348 000 Experience and 68 000 Spirit
+
+##### Yuanruo - United as One
+
+Quest Dispatcher: Mu Sui Lang, Tellus City - Midlands (365 231)
+
+1. Kill 5 Wraith Attacking the City just past the golden barrier
+
+Rewards: 868 000 Experience and 172 000 Spirit
+
+##### Yuanruo - Sister, Go for It!
+
+Quest Dispatcher: fortunate tree, Tellus City - Midlands (365 231)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 348 000 Experience and 68 000 Spirit
+
+##### Yuanruo - Secret Chamber
+
+Quest Dispatcher: Zhen Zhen, Tellus City - Midlands (365 230)
+
+1. Follow Zhen Zhen (363 215)
+2. Follow Zhen Zhen (380 209)
+3. Follow Zhen Zhen (388 216)
+
+Rewards: 484 000 Experience and 96 000 Spirit
+
+##### Yuanruo - Remaking
+
+This quest will appear automatically once players have completed "Yuanruo - Secret Chamber."
+
+1. A cutscene will play
+
+Rewards: 348 000 Experience and 68 000 Spirit
+
+##### Story of Yuanruo - Return
+
+Quest Dispatcher: Yuanruo, Tellus City - Midlands (361 219) ↑23
+
+1. Fly to the battle (362 229), on the ground
+
+Rewards: 348 000 Experience and 68 000 Spirit
+
+##### Yuanruo - 3fold Clear Thoughts
+
+This quest will appear automatically once players have completed "Story of Yuanruo - Return."
+
+1. Wait 20 seconds
+2. Repeat once more
+3. Repeat via a new sequence
+4. A sequence will appear onscreen - type it before the 25 second timer expires
+
+Rewards: 868 000 Experience and 172 000 Spirit
+
+##### Story of Yuanruo - Peace
+
+Quest Dispatcher: Tellus Elder Star, Tellus City - Midlands (366 230)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 348 000 Experience and 68 000 Spirit
+
+##### Story of Yuanruo - Dissipation
+
+Quest Dispatcher: Qingcheng Crane, Tellus City - Midlands (365 230)
+
+1. Travel to the Celestial Elder (449 451) ↑57
+
+Rewards: 348 000 Experience and 68 000 Spirit
+
+##### Yuanruo - BeginningEnd of Fate
+
+Quest Dispatcher: Celestial Elder (449 452) ↑57
+
+1. Talk to fortunate tree
+2. Players are transported to Tellus City (399 229)
+
+Rewards: 348 000 Experience and 68 000 Spirit
+
+#### Mystic Saga Rewards
+
+Upon completion of "Yuanruo - BeginningEnd of Fate," players may visit the Mystic Yuanruo portrait within the Perfect World Hero Saga and then click the glowing chest in the bottom-right to receive the following:
+
+- I recall blossoms as before title (+100 HP)
+- Little Yuanrao Pet Egg (can be placed in the Codex)
+
+### Seeker Mu Sui Liang
+
+This saga will take players through the life of one of Seeker Mu Sui Liang. It will take them through its four stages: his life leading up to tutelage under Master Radiance, his creation of his weapon, his birth as the first of the Earthguard, and his development of the Seeker techniques.
+
+#### Activation: Mu Sui Lang - Seeker Master
+
+To fully activate this Saga, complete the quest "Mu Sui Lang - Seeker Master."
+
+1. Talk to Seeker Trainer Cyril (382 243)
+
+Rewards: 244 000 Experience and 48 000 Spirit
+
+#### Chapter 1
+
+##### Mu Sui Lang - Memory
+
+Quest Dispatcher: Seeker Trainer Cyril, Tellus City - Midlands (382 243)
+
+Players will be transported to Allies Camp (619 723) while having their screen become grayscale. The player will be transformed into Seeker Mu Sui Lang, during which they will not be able to use most items, any class skills, or any genie skills. They will instead be limited to the three skills in the bar in the center of the screen - which is able to be dragged to anywhere they wish. This transformation will last until the completion of the saga. It can also expire early if players take too long, such as if they're editing a wiki while doing the saga. These skills are as follows:
+
+Staggering Strike
+
+- Unstoppable sword energy that deals physical damage to enemies.
+- Cooldown: 1.0 second
+- Cast Time: 0.8 seconds
+- Channel Time: 0.2 seconds
+- Range: 28 Meters
+
+Speed of the Moon
+
+- Call upon the moon to greatly increase your movement speed, lasts for 12 seconds.
+- Cooldown: 13 seconds
+
+Gemini Slash
+
+- Under the sword's light, the world becomes my shadow. Deals base Physical Attack to all enemies within 12 meters of the target.
+- Cooldown: 1.0 seconds
+- Cast Time: 2.0 seconds
+- Channel Time: 3.3 seconds
+- Range: 25 Meters
+
+Rewards: 244 000 Experience and 48 000 Spirit
+
+##### Mu Sui Lang - Allies Camp
+
+Quest Dispatcher: Guard Lu Zhang, Allies Camp - Midlands (619 722)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 244 000 Experience and 48 000 Spirit
+
+##### Mu Sui Lang - Acquire Herb
+
+Quest Dispatcher: Guard Lu Zhang, Allies Camp - Midlands (619 722)
+
+1. Wait 5 seconds
+2. Get Heavenly Herb by digging Heavenly Herb (215 222)
+3. Players are transported to Land of Eternal Sleep (214 222)
+
+Rewards: 1 280 000 Experience and 256 000 Spirit
+
+##### MSuiLang - Lingyao First Meet
+
+Quest Dispatcher: Radiance
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 244 000 Experience and 48 000 Spirit
+
+##### Mu Sui Lang - Returning to Camp
+
+This quest will appear automatically once players have completed "MSuiLang - Lingyao First Meet."
+
+1. Wait 5 seconds
+2. Players are transported to Allies Camp (618 723)
+
+Rewards: 244 000 Experience and 48 000 Spirit
+
+##### Mu Sui Lang - Treason
+
+Quest Dispatcher: Guard Lu Zhang, Allies Camp - Midlands (619 722)
+
+1. Talk to Radiance
+2. A pop-up will appear on-screen. Confirm the prompt
+3. Kill 3 Mutated Ants nearby
+4. A pop-up will appear on-screen. Confirm the prompt
+5. Play the treasure map game - the target will be nearby
+6. Players are transported to Corrupted Marshes (220 256)
+
+Rewards: 1 524 000 Experience and 304 000 Spirit
+
+##### Mu Sui Lang - Turnaround
+
+Quest Dispatcher: Radiance
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 244 000 Experience and 48 000 Spirit
+
+##### MSLiang - Promise of PeachPlum
+
+This quest will appear automatically once players have completed "Mu Sui Lang - Turnaround."
+
+1. Talk to Radiance (342 245)
+2. Wait 5 seconds
+3. Play the treasure map game - the target location will be near the entrance to Restless Outlands, west of Tellus City
+
+Rewards: 732 000 Experience and 144 000 Spirit
+
+##### MSLiang - A few months
+
+This quest will appear automatically once players have completed "MSLiang - Promise of PeachPlum."
+
+1. A cutscene will play; skipping the cutscene is not known to negatively impact players, aside from missing the cutscene
+
+Rewards: 244 000 Experience and 48 000 Spirit
+
+##### MSLiang - success in
+
+Though listed in the Saga details, this quest has neither pickup nor reward; it is possibly a timer for the cutscene
+
+##### MSLiang - Search of Access.
+
+Quest Dispatcher: Radiance, Decaying Woods - Midlands (342 245)
+
+1. Travel to Loch Nocturne (240 212)
+
+Rewards: 244 000 Experience and 48 000 Spirit
+
+#### Chapter 2
+
+##### Mu Su Liang - The Spirit Deer
+
+Quest Dispatcher: Deer, Starry Wilds - Midlands (239 213)
+
+1. Go back to the shore (241 212)
+2. Obtain Thousand-Year Cold Iron by digging Thousand-Year Cold Iron (250 203) ↑20
+3. Travel to the bottom of the lake (249 203)
+4. Talk to Deer
+5. Kill 3 Redscale Crocodiles (247 208)
+
+Rewards: 852 000 Experience and 168 000 Spirit
+
+##### Mu Su Liang - The meating
+
+Quest Dispatcher: Chao Yao, Starry Wilds - Midlands (239 213)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 244 000 Experience and 48 000 Spirit
+
+##### MSLiang - Sword Forge Journey
+
+Quest Dispatcher: Chao Yao, Starry Wilds - Midlands (239 213)
+
+1. Talk to Chao Yao
+2. Travel to Avalanche Village (325 975)
+3. Talk to Chao Yao
+4. Players will be transported to Avalanche Canyon (371 979)
+5. Talk to Chao Yao
+6. Players will be transported to Broken Plain (395 869)
+7. Talk to Chao Yao
+8. Players will be transported to Unicorn Village (438 763), and now have a deer follower
+
+Rewards: 732 000 Experience and 144 000 Spirit
+
+##### Mu Su Liang - Carbon Matter
+
+Quest Dispatcher: Chao Yao
+
+1. Obtain Carbon Material by digging Carbon Material (292 950)
+
+Rewards: 424 000 Experience and 84 000 Spirit
+
+##### Mu Su Liang - Etherblade City
+
+Quest Dispatcher: Chao Yao
+
+1. Wait 10 seconds
+2. Talk to Blacksmith Pei (442 899)
+3. Talk to Elder of Etherblade (433 887)
+4. Players will be transported to Etherblade City (437 883)
+
+Rewards: 488 000 Experience and 96 000 Spirit
+
+##### MSLiang - Dual Swords Artifact
+
+Quest Dispatcher: Blacksmith Pei, North City - Midlands (442 899)
+
+1. Players will be transported to the Decaying Woods (342 242)
+2. Talk to Chao Yao
+3. Talk to Elder of Etherblade (433 887)
+4. Wait 10 seconds
+
+Rewards: 1 068 000 Experience and 212 000 Spirit
+
+##### Mu Su Liang - Artifact Charm
+
+Quest Dispatcher: Radiance, Decaying Woods - Midlands (342 245)
+
+1. Talk to Chao Yao
+
+Rewards: 244 000 Experience and 48 000 Spirit
+
+##### Mu Sui Lang - danger
+
+Quest Dispatcher: Radiance, Decaying Woods - Midlands (342 245)
+
+1. Talk to Injured Forest Chimei Worker (312 275)
+2. Kill 2 Dark Radiance Order of Morai, which are exposed when killing a Strange Forest Chimei Worker nearby
+3. A pop-up will appear on-screen. Confirm the prompt
+4. Travel to the depths of the farmland (320 269)
+5. A pop-up will appear on-screen. Confirm the prompt
+6. Travel to Savage Fields (317 275)
+
+Rewards: 1 220 000 Experience and 244 000 Spirit
+
+##### Mu Sui Lang - Crusade
+
+Quest Dispatcher: Injured Forest Chimei Worker, Savage Fields - Midlands (311 275)
+
+1. Travel to Restless Remnants (367 275)
+
+Rewards: 244 000 Experience and 48 000 Spirit
+
+##### Mu Su Liang - Artifact Spirit
+
+This quest will appear automatically once players have completed "Mu Sui Lang - Crusade."
+
+1. Players will be transported to Decaying Woods
+2. A cutscene will play
+
+Rewards: None
+
+#### Chapter 3
+
+##### Mu Sui Lang - Rescue
+
+Quest Dispatcher: Radiance, Decaying Woods - Midlands (342 245)
+
+1. Talk to Expedition Survivor (249 269)
+2. Travel to Valley of the Ants (247 267)
+
+Rewards: 244 000 Experience and 48 000 Spirit
+
+##### MSLiang Dark Radiance
+
+This quest will appear automatically once players have completed "Mu Sui Lang - Rescue."
+
+1. A cutscene will play, after which players will be transported to Decaying Woods
+
+Rewards: 244 000 Experience and 48 000 Spirit
+
+##### Mu Su Liang - Martyr Spirit
+
+Quest Dispatcher: Radiance, Decaying Woods - Midlands (342 245)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 244 000 Experience and 48 000 Spirit
+
+##### Mu Su Liang - Regeneration
+
+Quest Dispatcher: Radiance, Decaying Woods - Midlands (342 245)
+
+1. Talk to Radiance
+2. Travel to the riverside (334 208)
+3. Talk to Radiance
+4. Obtain Time Travel Mirror of Selection by digging Mirror of Selection (348 208)
+5. Talk to Radiance
+6. Players will be transported to Decaying Woods (343 208)
+
+Rewards: 1 068 000 Experience and 212 000 Spirit
+
+##### Mu Su Liang - Spirit Nation
+
+Quest Dispatcher: Radiance, Decaying Woods - Midlands (342 245)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 244 000 Experience and 48 000 Spirit
+
+##### Mu Su Liang - Selection
+
+Quest Dispatcher: Radiance, Decaying Woods - Midlands (342 245)
+
+1. Players will be transported to Decaying Woods (344 208)
+2. Talk to Qing Feng (349 255)
+3. Obtain 3 Transcending Martyr Spirits by digging Martyr Spirits nearby (342 260). The same Martyr Spirit may be dug three times
+4. Travel to Restless Outlands (344 257)
+
+Rewards: 424 000 Experience and 84 000 Spirit
+
+##### Mu Su Liang - Qing Feng
+
+Quest Dispatcher: Qing Feng
+
+1. Talk to Radiance (342 245)
+2. Talk to Qing Feng
+3. Wait 10 seconds
+4. Travel to the Mirror of Selection (347 207)
+
+Rewards: 1 068 000 Experience and 212 000 Spirit
+
+##### MSLiang - Worshipping the Master
+
+Quest Dispatcher: Radiance, Decaying Woods - Midlands (342 245)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 244 000 Experience and 48 000 Spirit
+
+##### MSLiang - A Few Years
+
+This quest will appear automatically once players have completed "Mu Sui Lang - Rescue."
+
+1. A cutscreen will play, after which players will be transported to Tellus City (373 230)
+
+Rewards: 244 000 Experience and 48 000 Spirit
+
+##### MSLiang - Cultivation Boost
+
+Quest Dispatcher: Qing Feng
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 244 000 Experience and 48 000 Spirit
+
+#### Chapter Four
+
+##### MSLiang - Ancient Crystal 1
+
+Quest Dispatcher: Qing Feng
+
+1. Flameheart Twin Blades will appear and attack players - kill them
+2. Travel to Ancient Crystal (413 278) - players will need to exit the city to do so, through the front gate
+
+Rewards: 732 000 Experience and 144 000 Spirit
+
+##### Mu Su Liang - probationer
+
+Quest Dispatcher: Flameheart Twin Blades, Primal Remains - Midlands (413 281)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 244 000 Experience and 48 000 Spirit
+
+##### Mu Su Liang - Angels of Blade
+
+Quest Dispatcher: Flameheart Twin Blades, Primal Remains - Midlands (413 281)
+
+1. Players will be transported to Tellus City (373 230)
+2. Obtain follow the sword wish by digging Angels of Blade (413 280)
+
+Rewards: 424 000 Experience and 84 000 Spirit
+
+##### Mu Su Liang - Cultivation
+
+Quest Dispatcher: Qing Feng
+
+Kill the following to get the following:
+
+1. Corrupted Brute (320 201): Lv1 Quid Pro Quo
+2. Feral Smilodon (316 202): Lv1 Sacrificial Slash
+3. Dark Brown Wolf (317 202): Lv1 Blade Affinity
+
+Rewards: 1 068 000 Experience and 212 000 Spirit
+
+##### MSLiang - power of 5 elements
+
+Quest Dispatcher: Qing Feng
+
+Dig the following to get the following (players are recommended to be careful not to fall off of the bridge into the water):
+
+1. Power of Earth (284 276): Power of Earth
+2. Power of Fire (282 276): Power of Fire
+3. Power of Water (281 276): Power of Water
+4. Power of Wood (280 277): Power of Wood
+5. Power of Metal (280 278): Power of Metal Force of Arhat
+
+Rewards: 1 068 000 Experience and 212 000 Spirit
+
+##### Mu Su Liang - Wildwood Sage
+
+Quest Dispatcher: Qing Feng
+
+1. Talk to Wildwood Sage nearby
+2. Players will be transported to Treehollow Lake (256 238)
+3. Talk to Qing Feng
+
+Rewards: 244 000 Experience and 48 000 Spirit
+
+##### Mu Su Liang - Spire of Awakening
+
+Quest Dispatcher: Wildwood Sage
+
+1. Talk to Librarian Yua (158 251)
+2. Players will be transported to Spire of Awakening (155 249)
+
+Rewards: 244 000 Experience and 48 000 Spirit
+
+##### Mu Su Liang - Flyer
+
+Quest Dispatcher: Librarian Yua, Spire of Awakening - Midlands (158 251)
+
+1. Players will be transported to Tellus City
+2. Talk to Librarian Yua
+3. Obtain Nature's Ward by digging Nature's Ward (127 272)
+4. Obtain E.guard Flyer frame by digging E.guard Flyer frame (167 280)
+5. Talk to Librarian Yua
+6. Travel west (152 253)
+
+Rewards: 852 000 Experience and 168 000 Spirit
+
+##### Mu Su Liang - Seeker Mu Su Liang
+
+This quest will appear automatically once players have completed "Mu Sui Lang - Rescue."
+
+1. Watch the cutscene; this quest will complete prior to the cutscene ending
+
+Rewards: 244 000 Experience and 48 000 Spirit
+
+#### Seeker Saga Rewards
+
+Upon completion of "Mu Su Liang - Seeker Mu Su Liang," players may visit the Seeker Mu Sui Liang portrait within the Perfect World Hero Saga and then click the glowing chest in the bottom-right to receive the following:
+
+- Swordbearer of Resilience title (+100 HP)
+- Little Mu Sui Pet Egg (can be placed in the Codex)
+
+### Stormbringer Ye Hansu
+
+#### Activation: Ye Hansu - Last Wish
+
+To fully activate this Saga, use "Missing Ye Hansu" in players' bags, and then talk to Verdict Lord Shosan (775 953) near Isle of the Celestial Warriors.
+
+#### Chapter
+
+##### Ye Hansu - Taishan Liangmu
+
+Quest Dispatcher: Verdict Lord Shosan, Bleakhaven Ruins - Midlands (775 953)
+
+1. Talk to Mo Sechin (753 938)
+
+Rewards: 476 000 Experience and 92 000 Spirit
+
+##### Ye Hansu - Muxi Past
+
+Quest Dispatcher: Mo Sechin, Pools of Fantasy - Midlands (753 938)
+
+Players will be transported to Muxi Town, a separate instance, and transformed into five year-old Ye Hansu. They may leave this area at any point by talking to Muxi Flower Butterflies (502 553), and may return by talking to Muxi Flower Butterflies - Midlands (755 939). Players will be transformed while in Muxi Town, unless they leave and return. They will lose access to all skills, items, and genie skills while transformed, only having the following skill:
+
+Speed of the Moon
+
+- Call upon the moon to greatly increase your movement speed, lasts for 12 seconds.
+- Cooldown: 13 seconds
+
+Rewards: None
+
+##### YeHansu - Darkness SharesYears
+
+This quest will appear automatically once players have completed "Ye Hansu - Muxi Past."
+
+1. Players will now be aged up: they are now (allegedly) seven year-old Ye Hansu. They will retain the same skill (players who were previously untransformed will be transformed again)
+2. Wait 25 seconds
+3. Talk to Luo Bai (529 516)
+4. Travel southeast (528 520)
+5. Travel east (520 532)
+6. Travel south then east (514 530)
+7. Travel south (506 540)
+8. Travel east (506 547)
+9. Travel south (499 545)
+10. Travel south (500 548)
+
+Rewards: 476 000 Experience and 92 000 Spirit
+
+##### Ye Hansu - Mutual Help
+
+Quest Dispatcher: Luo Bai, MuXi Town - Muxi Town (529 516)
+
+Players' skills change:
+
+Sonic Boom
+
+- Swiftly swing the Moon Scythe, dealing metal-type damage to enemies.
+- Cooldown: 1.0 second
+- Cast Time: 0.8 seconds
+- Channel Time: 0.2 seconds
+- Range: 27 meters
+
+Speed of the Moon
+
+- Call upon the moon to greatly increase your movement speed, lasts for 12 seconds.
+- Cooldown: 13 seconds
+
+Rewards: 1 428 000 Experience and 276 000 Spirit
+
+##### YeHansu - Listen to the story 1
+
+Quest Dispatcher: Smuggler WangShi Feng, MuXi Town - Muxi Town (532 530)
+
+1. Wait 25 seconds
+2. Wait 25 seconds
+
+Rewards: 476 000 Experience and 92 000 Spirit
+
+##### YeHansu - Listen to the story 2
+
+Quest Dispatcher: Smuggler WangShi Feng, MuXi Town - Muxi Town (532 530)
+
+1. Wait 25 seconds
+
+Rewards: 476 000 Experience and 92 000 Spirit
+
+##### YeHansu - Listen to the story 3
+
+Quest Dispatcher: Smuggler WangShi Feng, MuXi Town - Muxi Town (532 530)
+
+1. Wait 25 seconds
+
+Rewards: 476 000 Experience and 92 000 Spirit
+
+##### Ye Hansu - Unexpected Surprise
+
+Quest Dispatcher: Aunty 5, MuXi Town - Muxi Town (532 530)
+
+1. Talk to Luo Bai (529 516)
+
+Rewards: 476 000 Experience and 92 000 Spirit
+
+##### Ye Hansu - Honoring His Teacher
+
+Quest Dispatcher: Luo Bai, MuXi Town - Muxi Town (529 516)
+
+Get the following by killing the following (monsters will be in the Midlands; exit by talking to the Muxi Flower Butterflies (502 553) - the reentry will be Muxi Flower Butterflies near where players reenter the Midlands):
+
+Various elemental essences (760 901) (80% drop rate):
+
+- Vigorous Earth Essence: Manifestation of Earth
+- Wildfire Essence: Manifestation of Fire
+- Streaming Essence: Manifestation of Water
+- Phoenix tree Essence: Manifestation of Wood
+- Gilded Gold Essence: Manifestation of Metal
+
+Reward: 476 000 Experience and 92 000 Spirit
+
+##### Ye Hansu - unflagging efforts
+
+This quest will appear automatically once players have completed "Ye Hansu - Honoring His Teacher."
+
+1. Travel north (496 548)
+2. Wait 25 seconds
+
+Rewards: 952 000 Experience and 184 000 Spirit
+
+##### Ye Hansu - Returning to Heart
+
+Quest Dispatcher: Luo Bai, MuXi Town - Muxi Town (496 550)
+
+1. Players will be transported to the temple (530 519), and be transformed into adult Ye Hansu
+2. Wait 25 seconds
+
+Rewards: 476 000 Experience and 92 000 Spirit
+
+##### Ye Hansu - Difficult Mysteries
+
+Quest Dispatcher: MoDi, MuXi Town - Muxi Town (531 519)
+
+Get Family Treasure by unlocking the chest (494 513)
+
+- The password is 2244
+
+Rewards: 476 000 Experience and 92 000 Spirit
+
+##### Ye Hansu - BirdsearchingTeacher
+
+Quest Dispatcher: Luo Bai, MuXi Town - Muxi Town (478 522)
+
+1. Talk to Luo Bai
+2. Wait 30 seconds
+3. Talk to JiangMing
+
+Rewards: 952 000 Experience and 184 000 Spirit
+
+##### YeHansu - Aspiration of Swan
+
+Quest Dispatcher: MoDi, MuXi Town - Muxi Town (531 519)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 952 000 Experience and 184 000 Spirit
+
+##### YeHansu - Blessing of Shangyuan
+
+Quest Dispatcher: Luo Bai, MuXi Town - Muxi Town (529 516)
+
+1. Wait 25 seconds
+2. Wait 25 seconds
+3. Talk to Luo Bai
+4. Obtain Light the River Lamp by digging (527 521)
+5. Wait 25 seconds
+6. Give 1 Candle, 5 fine cotton paper, and 8 Bamboo strips to Luo Bai
+7. Get 1 Candle, 5 fine cotton paper, and 8 Bamboo strips from Grocery Store Owner Uncle Gui (513 535)
+
+Rewards: 476 000 Experience and 92 000 Spirit
+
+##### Ye Hansu - Breaking Cocoon
+
+Quest Dispatcher: Luo Bai, MuXi Town - Muxi Town (529 516)
+
+1. Players will be transported to Pools of Fantasy - Midlands (752 939)
+2. Wait 5 seconds
+3. Talk to Luo Bai
+4. Luo Bai will spawn and start attacking players; kill him
+
+Rewards: 1 428 000 Experience and 276 000 Spirit
+
+##### Ye Hansu - Knowing the Roots
+
+Quest Dispatcher: Mo Sechin, Pools of Fantasy - Midlands (753 938)
+
+1. Wait 25 seconds
+2. Talk to Mo Sechin
+3. Talk to Hermit
+4. Talk to Hermit (730 860)
+5. Talk to Dawnglory Elder (754 851)
+6. Talk to Master Wan (776 958)
+7. Talk to Verdict Lord Shosan (775 953)
+
+Rewards: 1 904 000 Experience and 368 000 Spirit
+
+##### Ye Hansu - Mixed Feelings
+
+Quest Dispatcher: Mo Sechin, Pools of Fantasy - Midlands (753 938)
+
+1. Talk to The 71st Xiu Shang (774 954)
+2. Players will be transported to Bleakhaven Ruins (773 955) while having their screen become grayscale, indicating that they have been transported to the past. They will additionally be transformed into adult Ye Hansu, regaining their two previous skills. This transformation will last until "YeHansu - Poor Source Meaning"
+
+Rewards: None
+
+##### Ye Hansu - Seeing danger
+
+Quest Dispatcher: The 71st Xiu Shang, Bleakhaven Ruins - Midlands (774 954)
+
+1. Wait 25 seconds
+2. Obtain Spirit Tree Sample by digging (726 971)
+3. Travel southwest (727 971)
+4. Travel west (735 976)
+5. Travel to Ruins of the Exiled (744 974)
+
+Rewards: 1 428 000 Experience and 276 000 Spirit
+
+##### YeHansu - Heavenly Resumption
+
+Quest Dispatcher: The 71st Xiu Shang, Bleakhaven Ruins - Midlands (774 954)
+
+1. Talk to Master Wan
+2. Wait 30 seconds
+3. Talk to Master Wan (776 958)
+
+Rewards: 952 000 Experience and 184 000 Spirit
+
+##### YeHansu - Poor Source Meaning
+
+Quest Dispatcher: Master Wan, Bleakhaven Ruins - Midlands (776 958)
+
+1. Players will be transported to Pools of Fantasy (753 939)
+2. Wait 20 seconds
+3. Wait 20 seconds
+4. Give 49 Sage Fish Hearts to Master Wan
+5. Get 49 Sage Fish Hearts by killing Plumpfish Mermaids (100% drop rate) in Lothranis (471 620) ↑17. 49 is the correct number, it is not a joke or outdated
+6. Get 5 Waters of the Demon by digging along the shore of Pool of Abominations in Momaganon (370 576). The same point may be dug multiple times
+
+Rewards: 476 000 Experience and 92 000 Spirit
+
+##### YeHansu - a dream come true
+
+Quest Dispatcher: Mo Sechin, Pools of Fantasy - Midlands (753 938)
+
+1. Players will be transported to Muxi Town (502 551), once more being transformed
+
+Rewards: 1 904 000 Experience and 368 000 Spirit
+
+##### YeHansu - Dead's Duty
+
+Quest Dispatcher: MoDi, MuXi Town - Muxi Town (526 517)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 476 000 Experience and 92 000 Spirit
+
+##### YeHansu - WindWood Sadness
+
+Quest Dispatcher: Zhao Xialou, MuXi Town - Muxi Town (526 517)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 476 000 Experience and 92 000 Spirit
+
+##### YeHansu - Man Looking
+
+This quest will appear automatically once players have completed "YeHansu - WindWood Sadness."
+
+1. Players will be transported back to the Pools of Fantasy (753 939)
+2. Travel to the pier (482 520)
+
+Rewards: 476 000 Experience and 92 000 Spirit
+
+##### YeHansu - Flower of Tomorrow
+
+Quest Dispatcher: Mo Sechin, Pools of Fantasy - Midlands (753 938)
+
+1. Players will be transported to Muxi Town (502 551), without being transformed, indicating that they are no longer navigating the past or memories
+
+Rewards: None
+
+##### YeHansu - Citing Day as a Year
+
+This quest will appear automatically once players have completed "YeHansu - Flower of Tomorrow."
+
+1. Players will be transformed, this time into 5-year-old Ye Hansu
+2. Watch the cutscene
+3. Wait 20 seconds
+4. The player will once more be transformed
+5. Travel to the pier (482 520)
+
+Rewards: 476 000 Experience and 92 000 Spirit
+
+##### YeHansu - Seeking Him in Crowd
+
+This quest will appear automatically once players have completed "YeHansu - Citing Day as a Year."
+
+1. Travel east then south (500 505)
+
+Rewards: None
+
+##### Ye Hansu - This Love Can Wait
+
+This quest will appear automatically once players have completed "YeHansu - Seeking Him in Crowd."
+
+Use a singular Teleacoustic to say in world chat, "Master, I miss you!" (without the quotes)
+
+- Should players either include the quotes or say '"Master, I miss you!" (without the quotes)' they will need to wait on the minute cooldown for the Teleacoustic cost to reset to one
+
+Rewards: 952 000 Experience and 184 000 Spirit
+
+##### A note to those who have been estranged or disowned:
+
+Understand that the end message of the saga is intended for typical people. In the US, according to a recent survey, fewer than 5% of the population has either been estranged or disowned, either by their own initialization or that of their parents. No matter the circumstances of this estrangement or disownment, understand that we are the ones who understand the pain of having been torn asunder from our parents the most. It is important for these individuals to note that we have no obligation to our parents, and that love which is conditional on the parents' part is no love at all. If someone loves you, their love will not depend on who you are, and will be unwavering, and unjudging of who you are. It will not worship a false image of you but will be dedicated to you as a person.
+
+#### Stormbringer Saga Rewards
+
+Upon completion of "quest," players may visit the Stormbringer Ye Hansu portrait within the Perfect World Hero Saga and then click the glowing chest in the bottom-right to receive the following:
+
+- if it's unfeeling it's untouching title (+100 HP)
+- Little Han Su Pet Egg (can be placed in the Codex)
+- Players will be transported to Pools of Fantasy (753 939)
+
+### Duskblade Feng Jie'ao
+
+This Saga will follow the life of Duskblade Feng Jie'ao on his journey of uncovering his past through four stages: as a child, as a youth, as a nameless hero, and finally as a Nightshade.
+
+#### Activation: F.Jie'ao - first Duskblade
+
+To fully activate this Saga, complete the quest "F.Jie'ao - first Duskblade."
+
+1. Talk to Nako Ki in The Shattered Boughs (750 887), north of Dawnglory
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+#### Chapter 1
+
+##### F.Jie'ao - Elder
+
+Quest Dispatcher: Nanko Ki, The Shattered Boughs - Midlands (750 887)
+
+1. Players will be transported to Mount Lantern (627 800), with their screens turning greyscale, indicating passage to the past
+2. Talk to Dawnglory Elder (754 851)
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+##### F.Jie'ao - First Encounter
+
+Quest Dispatcher: Childhood Feng Jie'ao, Mount Lantern - Midlands (628 797)
+
+1. Obtain Cultivation by digging Ripe Wheat (629 797)
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+##### F.Jie'ao - Acquaintance
+
+Quest Dispatcher: Childhood Feng Jie'ao, Mount Lantern - Midlands (628 797)
+
+1. Talk to ZhangBo (644 833)
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+##### F.Jie'ao - Unknown Life
+
+Quest Dispatcher: ZhangBo, Angler's Village - Midlands (644 833)
+
+1. Talk to ZhangBo
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+##### F.Jie'ao - Play
+
+Quest Dispatcher: Childhood Feng Jie'ao
+
+1. Talk to Childhood Feng Jie'ao
+2. Players will be transported to City of the Plume (329 424)
+3. Talk to Childhood Feng Jie'ao
+4. Players will be transported to City of the Lost (251 642)
+5. Talk to Childhood Feng Jie'ao
+6. Players will be transported to Etherblade City (438 882)
+
+Rewards: 720 000 Experience and 144 000 Spirit
+
+##### F.Jie'ao - Flyer
+
+Quest Dispatcher: Childhood Feng Jie'ao
+
+1. Talk to Childhood Feng Jie'ao
+2. Fly south (360 366) ↑60
+3. Talk to Childhood Feng Jie'ao
+4. Fly southeast (349 404) ↑40
+
+Rewards: 1 080 000 Experience and 216 000 Spirit
+
+##### Feng Jie'ao - lotus pond
+
+Quest Dispatcher: Childhood Feng Jie'ao
+
+1. Obtain Goldfish Gun by digging Fishing Area (360 363)
+2. Talk to Childhood Feng Jie'ao
+3. Travel to the ground (360 362)
+
+Rewards: 720 000 Experience and 144 000 Spirit
+
+##### F.Jie'ao - Roast Fish
+
+Quest Dispatcher: Childhood Feng Jie'ao
+
+1. Obtain Roast Fish by digging Campfire (369 359)
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+##### F.Jie'ao Return to Fish. Vill.
+
+Quest Dispatcher: Childhood Feng Jie'ao
+
+1. Players will be transported back to Dawnglory (754 851)
+2. Talk to ZhangBo in Angler's Village; players will not be transported to him
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+#### Chapter 2
+
+##### Feng Jie'ao - Return to Reality
+
+Quest Dispatcher: Dawnglory Elder, Dawnglory - Midlands (754 851)
+
+1. Players will be transported to Angler's Village (646 835), with their screens turning greyscale, indicating passage to the past
+2. Wait two seconds
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+##### Feng Jie'ao - Rebel Teenager
+
+Quest Dispatcher: Childhood Feng Jie'ao, Angler's Village - Midlands (645 835)
+
+1. Talk to ZhangBo (644 833)
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+##### Feng Jie'ao - Consignment
+
+Quest Dispatcher: ZhangBo, Angler's Village - Midlands (644 833)
+
+1. Talk to Childhood Feng Jie'ao (645 835)
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+##### Feng Jie'ao - Investigations
+
+Quest Dispatcher: Childhood Feng Jie'ao, Angler's Village - Midlands (645 835)
+
+1. Talk to Meng Jiuchan (635 835)
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+##### F.Jie'ao - Leave Fishing Village
+
+This quest will appear automatically once players have completed "Feng Jie'ao - Investigations."
+
+1. Talk to Childhood Feng Jie'ao (645 835)
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+##### F.Jie'ao - Saber
+
+Quest Dispatcher: Teenage Feng Jie'ao
+
+1. Obtain Saber by digging Saber (596 763)
+2. Talk to Teenage Feng Jie'ao
+3. Travel to the Sword Grave in Shining Tidewood (595 761)
+
+Rewards: 720 000 Experience and 144 000 Spirit
+
+##### F.Jie'ao - Protect
+
+Quest Dispatcher: Teenage Feng Jie'ao
+
+1. Kill two nearby Tauroc Slaves
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+##### Feng Jie'ao - Initial Move
+
+Quest Dispatcher: Teenage Feng Jie'ao
+
+1. Kill two Brambleback Centipex Kings (589 753)
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+##### Feng Jie'ao - Emerging Truth
+
+Quest Dispatcher: Teenage Feng Jie'ao
+
+1. Travel to Archosaur (545 653)
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+##### F.Jie'ao - Master
+
+Quest Dispatcher: Beast Killer Wulan, Archosaur City - Midlands (545 653)
+
+1. Players will be transported back to Dawnglory (754 851)
+2. Wait two seconds
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+##### Feng Jie'ao - Return to Reality
+
+Quest Dispatcher: Dawnglory Elder, Dawnglory - Midlands (754 851)
+
+1. Players will be transported to Archosaur (544 653)
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+#### Chapter 3
+
+##### Feng Jie'ao - Meditation
+
+Quest Dispatcher: Beast Killer Wulan, Archosaur City - Midlands (545 653)
+
+1. A cutscene will play
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+##### Feng Jie'ao - Finding FengJieao
+
+Quest Dispatcher: Beast Killer Wulan, Archosaur City - Midlands (545 653)
+
+1. Travel to Arrowhead Manor (428 457)
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+##### F.Jie'ao - Mysterious young man
+
+Quest Dispatcher: Arrowhead Manor Host, Arrowhead Manor - Midlands (428 458)
+
+1. Talk to Horseman Wang Li (419 455)
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+##### Feng Jie'ao - Continue
+
+This quest will appear automatically once players have completed "F.Jie'ao - Mysterious young man."
+
+1. Travel to Dreamweaver Port (644 383)
+2. A pop-up will appear on-screen. Confirm the prompt
+3. Obtain Check Traces of Life by digging Traces of Life (422 449)
+4. Travel to the river (422 448)
+
+Rewards: 1 080 000 Experience and 216 000 Spirit
+
+##### Feng Jie'ao - Injured Soldier
+
+Quest Dispatcher: Injured Soldier, Dreamweaver Port - Midlands (644 383)
+
+1. Travel to the street (665 366)
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+##### Feng Jie'ao - Fisherman
+
+Quest Dispatcher: Dreamweaver Port Fisherman, Dreamweaver Port - Midlands (665 367)
+
+1. Travel to the dock (680 370)
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+##### Feng Jie'ao - Mistaken Identity
+
+Quest Dispatcher: One-Legged Li, Dreamweaver Port - Midlands (679 370)
+
+1. Talk to Feng Jie'ao (683 371)
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+##### Feng Jie'ao - Self Mystery
+
+Quest Dispatcher: Feng Jie'ao, Dreamweaver Port - Midlands (683 371)
+
+1. This quest automatically completes upon picking it up
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+##### Feng Jie'ao - final decision
+
+Quest Dispatcher: Feng Jie'ao, Dreamweaver Port - Midlands (683 371)
+
+1. Talk to Beast Killer Wulan (545 653)
+2. Players will be transported to Archosaur City (543 653)
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+#### Chapter Four
+
+##### F.Jie'ao Return to Fish. Vill.
+
+Quest Dispatcher: Feng Jie'ao
+
+1. Talk to Apothecary Tuan (639 830)
+2. Talk to Feng Jie'ao
+3. Travel to Angler's Village (645 834)
+
+Rewards: 720 000 Experience and 144 000 Spirit
+
+##### Feng Jie'ao - Inspiration
+
+Quest Dispatcher: Feng Jie'ao
+
+1. Talk to Captain Jack (724 922)
+2. Travel to Dawnglory Island (725 922)
+
+Rewards: 720 000 Experience and 144 000 Spirit
+
+##### Feng Jie'ao - Mysterious Light
+
+Quest Dispatcher: Feng Jie'ao
+
+1. Α cutscene will play
+2. Obtain Pendant by digging Mystery Groove (777 935)
+3. Talk to Feng Jie'ao
+4. Travel to Altar of Dreams (777 934)
+5. Talk to Feng Jie'ao
+6. Travel east (759 921)
+7. Talk to Feng Jie'ao
+8. Travel east (742 921)
+
+Rewards: 1 800 000 Experience and 360 000 Spirit
+
+##### Feng Jie'ao - Truth Emerges
+
+Quest Dispatcher: Feng Jie'ao
+
+1. Think - the button to do so will appear on the player's screen
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+##### Feng Jie'ao - Plan of Revenge
+
+Quest Dispatcher: Feng Jie'ao
+
+1. Talk to Weno Glu (730 947)
+2. Travel to Temple of Shadows (733 946)
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+##### F.Jie'ao - Ambush
+
+Quest Dispatcher: Feng Jie'ao
+
+1. Travel to Ruins of the Exiled (737 949)
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+##### Feng Jie'ao - Assassination
+
+Quest Dispatcher: Feng Jie'ao
+
+1. Fairy Godmother will spawn and start attacking the player. Kill it
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+##### Feng Jie'ao - Summoning
+
+Quest Dispatcher: Feng Jie'ao
+
+1. Talk to Nanko Ki (750 887)
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+##### Feng Jie'ao - Accept the fate
+
+Quest Dispatcher: Nanko Ki, The Shattered Boughs - Midlands (750 887)
+
+1. Wait 5 seconds
+2. Talk to Feng Jie'ao
+3. Travel west (731 955)
+4. Talk to Feng Jie'ao
+5. Kill 5 Apocalypse Monks to the east (742 948)
+6. Return to Pools of Fantasy (737 947)
+
+Rewards: 720 000 Experience and 144 000 Spirit
+
+##### Feng Jie'ao - Complete mission
+
+Quest Dispatcher: Feng Jie'ao
+
+1. Talk to Nanko Ki (750 887)
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+##### Feng Jie'ao - Return to Reality
+
+This quest will appear automatically once players have completed "Feng Jie'ao - Complete mission."
+
+1. Talk to Dawnglory Elder (754 851)
+2. Players will be transported to Dawnglory (754 851)
+
+Rewards: 360 000 Experience and 72 000 Spirit
+
+#### Duskblade Saga Rewards
+
+Upon completion of "Feng Jie'ao - Return to Reality," players may visit the Duskblade Feng Jie'ao portrait within the Perfect World Hero Saga and then click the glowing chest in the bottom-right to receive the following:
+
+- The Trial of Wine title (+100 HP)
+- Little Feng Jie'ao Pet Egg (can be placed in the Codex)
+
+Advertisement

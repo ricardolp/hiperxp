@@ -39,6 +39,7 @@ Abre `http://localhost:5173`.
 - `/simulador` e `/simulador/bau-da-aurora`
 
 Regenerar guias: `python tools/build-quest-guides.py`
+Saga do Herói: `python tools/build-hero-sagas.py`
 
 Database a partir do cliente:
 
