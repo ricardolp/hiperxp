@@ -508,7 +508,7 @@ function QuestWikiPost({
               ) : null}
 
               <ol className="qg-wiki-olist">
-                {guideSteps.map((s, i) => (
+                {guideSteps.map((s) => (
                   <li key={s.id} id={s.id} className="qg-wiki-step">
                     <strong className="qg-wiki-step-title">
                       {s.title_pt_br}

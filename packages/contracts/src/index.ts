@@ -51,7 +51,7 @@ export type MapFixture = {
   notice: string;
   synthetic: boolean;
   origin?: DataOrigin;
-  source_url?: string;
+  source_url?: string | null;
   points: MapPointFixture[];
 };
 
