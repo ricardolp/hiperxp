@@ -12,7 +12,7 @@
     "postbuild": "node scripts/copy-database-icons.mjs && node scripts/prerender-seo-html.mjs",
     "icons:copy": "node scripts/copy-database-icons.mjs",
     "preview": "vite preview --host 0.0.0.0 --port ${PORT:-4173}",
-    "start": "serve -s dist -l tcp://0.0.0.0:${PORT:-3000}",
+    "start": "node scripts/serve-dist.mjs",
     "typecheck": "tsc -b --pretty false",
     "test": "echo \"web tests pending\"",
     "lint": "oxlint src"
