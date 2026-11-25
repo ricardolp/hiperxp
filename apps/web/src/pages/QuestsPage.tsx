@@ -171,6 +171,56 @@ function QuestPostCard({ quest }: { quest: QuestGuideFixture }) {
   );
 }
 
+function isHeroSagaCard(quest: QuestGuideFixture): boolean {
+  return Boolean(quest.hero_class_pt_br && quest.cover_image);
+}
+
+function HeroSagaCard({ quest }: { quest: QuestGuideFixture }) {
+  const hero = quest.hero_name_pt_br || quest.name_pt_br;
+  const klass = quest.hero_class_pt_br || "";
+  const eyebrow = quest.hero_eyebrow_pt_br || "Herói lendário";
+  return (
+    <article className="saga-card-wrap">
+      <Link
+        className="saga-card"
+        to={questGuidePath(quest)}
+        aria-label={`${klass}: ${hero} — ver o guia completo`}
+      >
+        <div className="saga-card-art">
+          <img
+            src={quest.cover_image!}
+            alt=""
+            width={200}
+            height={200}
+            loading="lazy"
+            decoding="async"
+          />
+          <span className="saga-card-class">
+            {quest.hero_icon ? (
+              <img
+                src={quest.hero_icon}
+                alt=""
+                width={24}
+                height={24}
+                loading="lazy"
+              />
+            ) : null}
+            {klass}
+          </span>
+        </div>
+        <div className="saga-card-body">
+          <p className="saga-card-eyebrow">{eyebrow}</p>
+          <h2 className="saga-card-title">{hero}</h2>
+          <p className="saga-card-blurb">{questExcerpt(quest)}</p>
+          <span className="saga-card-cta">
+            Ver guia · {stepsLabel(quest.steps.length)}
+          </span>
+        </div>
+      </Link>
+    </article>
+  );
+}
+
 export function QuestsIndexPage() {
   return <Navigate to="/missoes/cidade-da-paz" replace />;
 }
@@ -192,34 +242,47 @@ export function QuestsPage() {
   }
 
   const mapName = maps[mapSlug]?.name_pt_br ?? catalog.name_pt_br ?? mapSlug;
-  const seriesLead =
-    mapSlug === "tianyu"
+  const isHeroSaga = mapSlug === "mundo-normal";
+  const seriesLead = isHeroSaga
+    ? "Uma história para cada classe"
+    : mapSlug === "tianyu"
       ? "Jornadas e diárias de exploração"
       : mapSlug === "continente-ocidental"
         ? "Diárias de vigor e escolta"
         : "Missões globais e diárias da cidade";
-  const pageLead =
-    mapSlug === "continente-ocidental"
+  const pageLead = isHeroSaga
+    ? "Missões de história PvE: origem de um herói lendário por classe. Nv. 80 + Mahayana. Título (+100 HP) e mascote no baú do retrato."
+    : mapSlug === "continente-ocidental"
       ? `Diárias de Vigor, Espíritos Sagrados e escolta em ${mapName}.`
       : mapSlug === "cidade-da-paz"
         ? `Guias de quest PW da Cidade da Paz Eterna (Reino Oriental): Alma da Paz Eterna, missões globais e diárias com coordenadas.`
         : `Etapas e coordenadas das missões em ${mapName}. Guias comunitários de quest Perfect World (PW).`;
+  const pageTitle = isHeroSaga
+    ? "Saga do Herói"
+    : mapSlug === "continente-ocidental"
+      ? `Missões — ${mapName}`
+      : `Missões do Reino Oriental — ${mapName}`;
+  const heroQuests = isHeroSaga ? quests.filter(isHeroSagaCard) : [];
+  const listQuestsForMap = isHeroSaga
+    ? quests.filter((q) => !isHeroSagaCard(q))
+    : quests;
 
   return (
     <main className="page qg-page">
       <header className="qg-page-header">
-        <p className="qg-eyebrow">Guias · Perfect World</p>
-        <h1>
-          {mapSlug === "continente-ocidental"
-            ? `Missões — ${mapName}`
-            : `Missões do Reino Oriental — ${mapName}`}
-        </h1>
+        <p className="qg-eyebrow">
+          {isHeroSaga ? "Guia · Sistema PvE" : "Guias · Perfect World"}
+        </p>
+        <h1>{pageTitle}</h1>
         <p className="qg-page-lead">{pageLead}</p>
       </header>
 
       <nav className="qg-tabs" aria-label="Séries de missões">
         {questMapOrder.map((slug) => {
-          const label = maps[slug]?.name_pt_br ?? slug;
+          const label =
+            slug === "mundo-normal"
+              ? "Saga do Herói"
+              : (maps[slug]?.name_pt_br ?? slug);
           const count = listQuests(slug).length;
           const active = slug === mapSlug;
           return (
@@ -238,15 +301,25 @@ export function QuestsPage() {
 
       <section className="qg-series" aria-label={mapName}>
         <div className="qg-series-head">
-          <h2>{mapName}</h2>
+          <h2>{isHeroSaga ? "Os heróis" : mapName}</h2>
           <p>{seriesLead}</p>
         </div>
 
-        <div className="qg-list">
-          {quests.map((quest) => (
-            <QuestPostCard key={quest.id} quest={quest} />
-          ))}
-        </div>
+        {heroQuests.length ? (
+          <div className="saga-card-grid">
+            {heroQuests.map((quest) => (
+              <HeroSagaCard key={quest.id} quest={quest} />
+            ))}
+          </div>
+        ) : null}
+
+        {listQuestsForMap.length ? (
+          <div className="qg-list">
+            {listQuestsForMap.map((quest) => (
+              <QuestPostCard key={quest.id} quest={quest} />
+            ))}
+          </div>
+        ) : null}
       </section>
     </main>
   );
@@ -296,7 +369,7 @@ function QuestWikiPost({
   const questMap = getMap(quest.map_slug);
   const hasMapLink =
     Boolean(questMap?.points?.length) && hasPublicMapPage(quest.map_slug);
-  // Placeholder/synthetic maps (Quedanunca, MP…) look empty — coords only.
+  // Placeholder/synthetic maps (MP…) look empty — coords only.
   const showMapEmbed =
     Boolean(questMap?.points?.length) &&
     !questMap?.synthetic &&

@@ -211,6 +211,14 @@ export type QuestGuideFixture = {
   rewards?: QuestRewardRef[];
   /** Optional hero/cover image for the quest post. */
   cover_image?: string | null;
+  /** Saga do Herói — nome curto do herói no card (ex.: Tianshou). */
+  hero_name_pt_br?: string | null;
+  /** Saga do Herói — classe no pill (ex.: Ceifador). */
+  hero_class_pt_br?: string | null;
+  /** Saga do Herói — faixa/raça no eyebrow (ex.: Herói lendário). */
+  hero_eyebrow_pt_br?: string | null;
+  /** Saga do Herói — ícone da classe (URL pública). */
+  hero_icon?: string | null;
   /** ISO date for blog-style ordering when known (source publish date). */
   published_at?: string | null;
   coverage_status: CoverageStatus;

@@ -30,7 +30,7 @@ Reimportar: `node tools/import-pw-map.mjs` (após atualizar dumps em `data/fixtu
 
 Guias de missão: `python tools/build-quest-guides.py` → `data/fixtures/quests/{cidade-da-paz,tianyu}.json`. Fontes brutas em `data/fixtures/sources/quest-guides/`.
 Saga do Herói (16+ classes): `python tools/build-hero-sagas.py` → `data/fixtures/quests/mundo-normal.json`.
-Prioridade BR: `data/fixtures/sources/quest-guides/br-saga/*.md` (Trivia/Wiki via índice Google). Fallback EN: `perfect-world-hero-saga.pwpedia.txt`.
+Prioridade BR: `data/fixtures/sources/quest-guides/br-saga/*.md`. Fallback EN: `perfect-world-hero-saga.pwpedia.txt`.
 
 ## O que ainda precisa ser comprovado
 

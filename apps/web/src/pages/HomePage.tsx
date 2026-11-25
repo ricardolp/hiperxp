@@ -24,7 +24,7 @@ const MAP_BLURBS: Record<string, string> = {
   jingxuan: "Pontos, coordenadas e checklist no mapa.",
   "continente-ocidental": "Diárias de Vigor, Espíritos Sagrados e escolta.",
   "mundo-primitivo": "Diárias de Limite de Céu e farm de Vitae.",
-  "mundo-normal": "Saga do Herói e continente Perfect World.",
+  "mundo-normal": "Saga do Herói — 17 classes com guias e cards.",
 };
 
 const SECTION_MENUS = [

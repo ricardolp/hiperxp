@@ -3,7 +3,6 @@
 
 Prioridade de fonte:
 1. Guias BR em data/fixtures/sources/quest-guides/br-saga/*.md
-   (Trivia/Wiki PW recuperados do índice Google — páginas ao vivo incompletas)
 2. Fallback PWpedia EN: perfect-world-hero-saga.pwpedia.txt
 """
 
@@ -26,11 +25,10 @@ OUT = ROOT / "data/fixtures/quests/mundo-normal.json"
 QUESTS_DB = ROOT / "data/fixtures/database/quests.json"
 
 NOTICE_BR = (
-    "Guia BR a partir de Trivia PW / Wiki PW (texto recuperado do índice Google — "
-    "páginas ao vivo sem corpo útil ou HTTP 500). foreign_reference — validar no cliente."
+    "Guia comunitário BR estruturado. foreign_reference — validar no cliente."
 )
 NOTICE_EN = (
-    "Fallback PWpedia (EN). Sem guia BR indexado completo ainda. foreign_reference."
+    "Fallback PWpedia (EN). Sem guia BR completo ainda. foreign_reference."
 )
 SOURCE_URL = "https://pwi.fandom.com/wiki/Perfect_World_Hero_Saga"
 META_URL = "https://metapw.com.br/187/guias/saga-do-heroi"
@@ -213,7 +211,22 @@ HEROES: list[dict] = [
         "title_reward": "Andarilho Solitário",
         "pet_reward": "Pequeno Feng Jie'ao",
     },
+    {
+        "en": None,  # não está no dump PWpedia local das 16 classes clássicas
+        "slug": "saga-ceifador-tianshou",
+        "name": "Saga do Herói: Ceifador — Tianshou",
+        "class_pt": "Ceifador",
+        "hero": "Tianshou",
+        "aliases": ["Tianshou", "Chunchu", "Ceifador", "Saga de Tianshou"],
+        "br_md": "ceifador-tianshou.md",
+        "title_reward": "Outono do Mundo",
+        "pet_reward": "Tianshou Pequeno",
+    },
 ]
+
+# Meta PW card art (baixada em apps/web/public/quests/saga-do-heroi/)
+META_CARDS_PATH = BR_DIR / "meta-cards.json"
+ART_BASE = "/quests/saga-do-heroi"
 
 LOC = {
     "Archosaur": "Cidade do Dragão",
@@ -410,12 +423,80 @@ def parse_wiki(text: str) -> dict[str, dict]:
     return result
 
 
+def scrub_trivia(text: str) -> str:
+    """Remove menções públicas a Trivia (não publicar a marca)."""
+    text = re.sub(
+        r"\s*Nota\s*\(Trivia(?:\s*PW)?\)\s*:\s*",
+        "\nNota: ",
+        text,
+        flags=re.I,
+    )
+    text = re.sub(r"\bTrivia(?:\s*PW)?\b\s*[:\-–—]?\s*", "", text, flags=re.I)
+    text = re.sub(r"\s*/\s*Trivia\b", "", text, flags=re.I)
+    text = re.sub(r"\(\s*Trivia[^)]*\)", "", text, flags=re.I)
+    text = re.sub(r"https?://\S*triviapw\.com\.br\S*", "", text, flags=re.I)
+    text = re.sub(r"[ \t]{2,}", " ", text)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip(" \n\t-·")
+
+
 def clean_br_instruction(text: str) -> str:
     text = re.sub(r"<!--.*?-->", "", text, flags=re.S)
+    text = scrub_trivia(text)
     text = re.sub(r"\n{3,}", "\n\n", text).strip()
     if len(text) > 900:
         text = text[:897].rstrip() + "…"
     return text
+
+
+def clean_br_title(title: str) -> str:
+    title = scrub_trivia(title)
+    title = re.sub(r"\s{2,}", " ", title).strip(" -–—")
+    # "Sonho Sobre o Passado ( \"O Pássaro Solitário\")" → keep alt name cleanly
+    title = re.sub(r"\(\s*[\"“]([^\"”]+)[\"”]\s*\)", r"(\1)", title)
+    return title.strip()
+
+
+def load_meta_cards() -> dict[str, dict]:
+    if not META_CARDS_PATH.exists():
+        return {}
+    rows = json.loads(META_CARDS_PATH.read_text(encoding="utf-8"))
+    by_class: dict[str, dict] = {}
+    for row in rows:
+        key = (row.get("class_pt") or "").strip().lower()
+        if key:
+            by_class[key] = row
+    return by_class
+
+
+def attach_hero_card(quest: dict, meta: dict, cards: dict[str, dict]) -> dict:
+    card = cards.get((meta.get("class_pt") or "").strip().lower())
+    hero_name = meta["hero"]
+    eyebrow = "Herói lendário"
+    blurb = quest.get("summary_pt_br") or quest.get("excerpt_pt_br")
+    art = None
+    icon = None
+    if card:
+        hero_name = (card.get("hero") or hero_name).replace("&#039;", "'")
+        eyebrow = card.get("eyebrow") or eyebrow
+        if card.get("blurb"):
+            blurb = card["blurb"]
+        if card.get("art"):
+            art = f"{ART_BASE}/{card['art']}"
+        if card.get("icon"):
+            icon = f"{ART_BASE}/{card['icon']}"
+        rewards = card.get("rewards") or []
+        if rewards and not quest.get("rewards_pt_br"):
+            quest["rewards_pt_br"] = "; ".join(rewards)
+    quest["hero_name_pt_br"] = hero_name
+    quest["hero_class_pt_br"] = meta["class_pt"]
+    quest["hero_eyebrow_pt_br"] = eyebrow
+    quest["cover_image"] = art
+    quest["hero_icon"] = icon
+    if blurb:
+        quest["excerpt_pt_br"] = blurb if len(blurb) <= 160 else blurb[:157].rstrip() + "…"
+        quest["summary_pt_br"] = blurb
+    return quest
 
 
 def build_from_br(meta: dict, order: int) -> dict:
@@ -425,17 +506,21 @@ def build_from_br(meta: dict, order: int) -> dict:
     steps = []
     reward_bits = []
     for s in raw_steps:
-        title = s["title_pt_br"]
+        title = clean_br_title(s["title_pt_br"])
         if title.lower().startswith("recompensa"):
             reward_bits.append(clean_br_instruction(s["instruction_pt_br"]))
             continue
+        instruction = clean_br_instruction(s["instruction_pt_br"])
         steps.append(
             {
                 **s,
-                "instruction_pt_br": clean_br_instruction(s["instruction_pt_br"]),
+                "id": f"step-{len(steps)+1:02d}-{slugify(title)}",
+                "order": len(steps) + 1,
+                "title_pt_br": title,
+                "instruction_pt_br": instruction,
                 "image_url": None,
                 "image_alt": None,
-                "notes": "Fonte BR (Trivia/Wiki via índice Google).",
+                "notes": None,
             }
         )
 
@@ -460,21 +545,21 @@ def build_from_br(meta: dict, order: int) -> dict:
         "Resgate no baú do retrato na interface Saga do Herói."
     )
     if reward_bits:
-        rewards = " ".join(reward_bits)[:400]
+        rewards = scrub_trivia(" ".join(reward_bits))[:400]
 
-    # Prefer Trivia/Wiki URLs from file header
+    # Never publish Trivia/Meta URLs.
     source_url = None
     for line in header.splitlines():
-        if "triviapw.com.br" in line or "wikipw.com.br" in line:
+        low = line.lower()
+        if "triviapw.com.br" in low or "metapw.com.br" in low:
+            continue
+        if "wikipw.com.br" in low:
             m = re.search(r"https?://\S+", line)
             if m:
                 source_url = m.group(0).rstrip(").,]")
                 break
 
-    excerpt = (
-        f"Saga BR da {meta['class_pt']} {meta['hero']}: {len(steps)} etapas "
-        f"(Trivia/Wiki indexados)."
-    )
+    excerpt = f"Saga BR da {meta['class_pt']} {meta['hero']}: {len(steps)} etapas."
     return {
         "id": f"quest-mundo-normal-{meta['slug']}",
         "slug": meta["slug"],
@@ -494,7 +579,7 @@ def build_from_br(meta: dict, order: int) -> dict:
         "coverage_status": "partial",
         "review_status": "foreign_reference",
         "origin": "community_observed",
-        "source_url": source_url or META_URL,
+        "source_url": source_url,
         "notice": NOTICE_BR,
         "steps": steps,
     }
@@ -586,8 +671,8 @@ def build_from_pwpedia(meta: dict, parsed: dict, order: int) -> dict:
 def overview_quest() -> dict:
     lines = []
     for h in HEROES:
-        tag = "BR" if h.get("br_md") and (BR_DIR / h["br_md"]).exists() else "EN"
-        lines.append(f"{h['class_pt']} — {h['hero']} [{tag}]")
+        label = f"{h['class_pt']} — {h['hero']}"
+        lines.append(f"[[guia:mundo-normal/{h['slug']}|{label}]]")
     return {
         "id": "quest-mundo-normal-saga-do-heroi",
         "slug": "saga-do-heroi",
@@ -602,12 +687,11 @@ def overview_quest() -> dict:
             "Saga do Herói I",
             "Saga do Herói II",
         ],
-        "excerpt_pt_br": "Visão geral das Sagas do Herói BR: ativação, requisitos, recompensas e índice por classe.",
+        "excerpt_pt_br": "Visão geral das Sagas do Herói: ativação, requisitos, recompensas e índice por classe.",
         "summary_pt_br": (
             "A Saga do Herói conta a origem de um herói por classe. "
             "Nv. 80 + cultivo Mahayana. Menu Missões → Saga do Herói. "
-            "Ao concluir: título (+100 HP) e mascote ornamental no baú do retrato. "
-            "Guias BR preferem Trivia/Wiki (índice Google); demais classes usam PWpedia EN."
+            "Ao concluir: título (+100 HP) e mascote ornamental no baú do retrato."
         ),
         "prerequisite_pt_br": "Nv. 80+ e cultivo Mahayana.",
         "rewards_pt_br": "Por saga: título (+100 HP) e ovo de mascote (Códice), uma vez.",
@@ -615,7 +699,7 @@ def overview_quest() -> dict:
         "coverage_status": "partial",
         "review_status": "foreign_reference",
         "origin": "community_observed",
-        "source_url": META_URL,
+        "source_url": None,
         "notice": NOTICE_BR,
         "steps": [
             {
@@ -667,14 +751,11 @@ def overview_quest() -> dict:
                 "id": "step-04-indice",
                 "order": 4,
                 "title_pt_br": "Índice das sagas",
-                "instruction_pt_br": (
-                    "[BR] = guia Trivia/Wiki indexado · [EN] = fallback PWpedia.\n\n"
-                    + "\n".join(lines)
-                ),
+                "instruction_pt_br": "\n".join(lines),
                 "npc": None,
                 "coords": [],
                 "dialog_hint": None,
-                "notes": f"Mapa de classes: {META_URL}",
+                "notes": None,
                 "image_url": None,
                 "image_alt": None,
             },
@@ -684,17 +765,19 @@ def overview_quest() -> dict:
 
 def main() -> None:
     parsed = parse_wiki(PWPEDIA.read_text(encoding="utf-8"))
+    cards = load_meta_cards()
     quests = [overview_quest()]
     for i, h in enumerate(HEROES, start=1):
         br_path = BR_DIR / h["br_md"] if h.get("br_md") else None
         if br_path and br_path.exists():
-            quests.append(build_from_br(h, i))
+            q = build_from_br(h, i)
             src = "BR"
-        else:
-            if h["en"] not in parsed:
-                raise SystemExit(f"Missing PWpedia hero: {h['en']}")
-            quests.append(build_from_pwpedia(h, parsed, i))
+        elif h.get("en") and h["en"] in parsed:
+            q = build_from_pwpedia(h, parsed, i)
             src = "EN"
+        else:
+            raise SystemExit(f"No BR md and no PWpedia for {h['slug']}")
+        quests.append(attach_hero_card(q, h, cards))
         print(f"  {i:2d}. [{src}] {h['slug']:40s} {len(quests[-1]['steps']):3d} steps")
 
     catalog = {
@@ -708,18 +791,17 @@ def main() -> None:
         "review_status": "foreign_reference",
         "notice": NOTICE_BR,
         "sources": [
-            META_URL,
             "data/fixtures/sources/quest-guides/br-saga/",
-            "https://triviapw.com.br/ (spoilers Ascensão Selvagem / Melodia Abissal — texto via índice Google)",
-            "https://wikipw.com.br/ (HTTP 500 ao vivo — texto via índice Google)",
+            "https://wikipw.com.br/",
             SOURCE_URL,
             "data/fixtures/sources/quest-guides/perfect-world-hero-saga.pwpedia.txt",
+            "cliente BR tasks.data (validação Ceifador 52481–52548)",
         ],
         "quests": quests,
     }
     OUT.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     total = sum(len(q["steps"]) for q in quests)
-    br_n = sum(1 for q in quests[1:] if "Trivia/Wiki" in (q.get("notice") or ""))
+    br_n = sum(1 for q in quests[1:] if q.get("notice") == NOTICE_BR)
     print(f"Wrote {OUT.relative_to(ROOT)} — {len(quests)} entries, {total} steps ({br_n} BR)")
 
 

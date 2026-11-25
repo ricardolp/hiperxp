@@ -1,0 +1,223 @@
+[
+  {
+    "href": "/187/guias/saga-do-heroi/guerreiro",
+    "class_pt": "Guerreiro",
+    "hero": "General Chung",
+    "eyebrow": "Humanos",
+    "blurb": "Reviva as memórias do velho General Chung, da juventude à guerra que uniu os humanos. Transformado nele, você conhece os amigos e rivais que moldaram a sua lenda.",
+    "rewards": [
+      "Título “Época Passada” +100 HP",
+      "Mini Chung"
+    ],
+    "art": "classe_guerreiro_thumb.png",
+    "icon": "wr.webp"
+  },
+  {
+    "href": "/187/guias/saga-do-heroi/mago",
+    "class_pt": "Mago",
+    "hero": "Tensa",
+    "eyebrow": "Humanos",
+    "blurb": "Contada pelos olhos de Heshin, um garoto que idolatra a maga Tensa. Da admiração à decepção, acompanhe a ascensão e a queda de alguém que acaba virando vilão.",
+    "rewards": [
+      "Título “Uma História Memorável” +100 HP",
+      "Mini Tensa"
+    ],
+    "art": "classe_mago_thumb.png",
+    "icon": "mg.webp"
+  },
+  {
+    "href": "/187/guias/saga-do-heroi/espiritualista",
+    "class_pt": "Espiritualista",
+    "hero": "Dongfang Meng",
+    "eyebrow": "Abissais",
+    "blurb": "Uma fábula sobre transformação: Dongfang Meng começa como um simples peixe e enfrenta o próprio destino até alcançar a forma de grou.",
+    "rewards": [
+      "Título “Grou e Humano Unidos” +100 HP",
+      "Pequena Dongfang Meng"
+    ],
+    "art": "classe_espiritualista_thumb.png",
+    "icon": "esp.webp"
+  },
+  {
+    "href": "/187/guias/saga-do-heroi/mercenario",
+    "class_pt": "Mercenário",
+    "hero": "Dongfang Lie",
+    "eyebrow": "Abissais",
+    "blurb": "O pai de Dongfang Meng e atual rei. Da infância sofrida às intrigas da juventude, até a grande guerra que o levou ao trono.",
+    "rewards": [
+      "Título “Dança da Lua e Maré” +100 HP",
+      "Pequeno Dongfang Lie"
+    ],
+    "art": "classe_mercenario_thumb.png",
+    "icon": "mc.webp"
+  },
+  {
+    "href": "/187/guias/saga-do-heroi/feiticeira",
+    "class_pt": "Feiticeira",
+    "hero": "Yeona",
+    "eyebrow": "Selvagens",
+    "blurb": "Conheça a Feiticeira Yeona e o carinho que ela tem por todos os mascotes, não só os dela, e a coragem de descer ao submundo para protegê-los.",
+    "rewards": [
+      "Título “Um Grão no Universo” +100 HP",
+      "Mini Yeona"
+    ],
+    "art": "classe_feiticeira_thumb.png",
+    "icon": "wf.webp"
+  },
+  {
+    "href": "/187/guias/saga-do-heroi/barbaro",
+    "class_pt": "Bárbaro",
+    "hero": "Viensa",
+    "eyebrow": "Selvagens",
+    "blurb": "Por trás do guerreiro está um bárbaro alegre e poeta. Descubra o passado duro de Viensa e o amor que ele guarda pela esposa.",
+    "rewards": [
+      "Título “Façanhas de Um Herói” +100 HP",
+      "Mini Viensa"
+    ],
+    "art": "classe_barbaro_thumb.png",
+    "icon": "wb.webp"
+  },
+  {
+    "href": "/187/guias/saga-do-heroi/arqueiro",
+    "class_pt": "Arqueiro",
+    "hero": "Yi Yunyang",
+    "eyebrow": "Alados",
+    "blurb": "Um romance trágico em quatro atos. Yi Yunyang e a mulher que ama seguem caminhos opostos quando ela se junta ao Império do Crepúsculo.",
+    "rewards": [
+      "Título “Sopra o Vento da Paz” +100 HP",
+      "Mini Yunyang"
+    ],
+    "art": "classe_arqueiro_thumb.png",
+    "icon": "ea.webp"
+  },
+  {
+    "href": "/187/guias/saga-do-heroi/sacerdote",
+    "class_pt": "Sacerdote",
+    "hero": "Yuusa",
+    "eyebrow": "Alados",
+    "blurb": "Você passa a saga inteira transformado em Yuusa, vivendo a jornada do herói: o chamado, a recusa, a iniciação e o retorno. Tem até provas de voo cronometradas.",
+    "rewards": [
+      "Título “Destinado à Lua” +100 HP",
+      "Mini Yuusa"
+    ],
+    "art": "classe_sacerdote_thumb.png",
+    "icon": "ep.webp"
+  },
+  {
+    "href": "/187/guias/saga-do-heroi/arcano",
+    "class_pt": "Arcano",
+    "hero": "Mu Suiliang",
+    "eyebrow": "Guardiões",
+    "blurb": "Do aprendizado com o seu mestre à forja da própria arma: Mu Suiliang se torna o primeiro dos Guardiões e cria as técnicas dos Arcanos.",
+    "rewards": [
+      "Título “Espada do Renascimento” +100 HP",
+      "Pequeno Mu Suiliang"
+    ],
+    "art": "classe_arcano_thumb.png",
+    "icon": "sk.webp"
+  },
+  {
+    "href": "/187/guias/saga-do-heroi/mistico",
+    "class_pt": "Místico",
+    "hero": "Yuan Ruo",
+    "eyebrow": "Guardiões",
+    "blurb": "A vida de Zhenzhen, uma das reencarnações de Yuan Ruo: nascimento, crescimento, autodescoberta e um sacrifício final.",
+    "rewards": [
+      "Título “Fragrância da Memória” +100 HP",
+      "Pequeno Yuan Ruo"
+    ],
+    "art": "classe_mistico_thumb.png",
+    "icon": "ms.webp"
+  },
+  {
+    "href": "/187/guias/saga-do-heroi/retalhador",
+    "class_pt": "Retalhador",
+    "hero": "Feng Jie&#039;ao",
+    "eyebrow": "Sombras",
+    "blurb": "Feng Jie&#039;ao vai atrás do próprio passado em quatro fases: criança, jovem, herói sem nome e, por fim, o primeiro Retalhador.",
+    "rewards": [
+      "Título “Andarilho Solitário” +100 HP",
+      "Pequeno Feng Jie&#039;ao"
+    ],
+    "art": "classe_retalhador_thumb.png",
+    "icon": "rt.webp"
+  },
+  {
+    "href": "/187/guias/saga-do-heroi/tormentador",
+    "class_pt": "Tormentador",
+    "hero": "Ye Hansu",
+    "eyebrow": "Sombras",
+    "blurb": "A saga mais curta, com um único capítulo, sobre o último desejo de Ye Hansu.",
+    "rewards": [
+      "Título “Rigidez com Ternura” +100 HP",
+      "Pequena Hansu"
+    ],
+    "art": "classe_tormentador_thumb.png",
+    "icon": "tm.webp"
+  },
+  {
+    "href": "/187/guias/saga-do-heroi/atiradora",
+    "class_pt": "Atiradora",
+    "hero": "Atiya",
+    "eyebrow": "Herói lendário",
+    "blurb": "Conheça a Atiradora Atiya de perto: a apresentação, um aniversário especial e as conquistas ao lado do seu clã.",
+    "rewards": [
+      "Título “Tempo Aproveitado” +100 HP",
+      "Mini Atiya"
+    ],
+    "art": "classe_atiradora_thumb.png",
+    "icon": "atr.webp"
+  },
+  {
+    "href": "/187/guias/saga-do-heroi/paladino",
+    "class_pt": "Paladino",
+    "hero": "Tian Yi",
+    "eyebrow": "Herói lendário",
+    "blurb": "A origem dos Paladinos. Nenhuma arma parecia certa para Tian Yi, até ele criar a espada-escudo. Acompanhe a forja e o domínio dessa nova arma.",
+    "rewards": [
+      "Título “Os Verdadeiros Heróis!” +100 HP",
+      "Mini Tian Yi"
+    ],
+    "art": "classe_paladino_thumb.png",
+    "icon": "pal.webp"
+  },
+  {
+    "href": "/187/guias/saga-do-heroi/andarilho",
+    "class_pt": "Andarilho",
+    "hero": "Syvos",
+    "eyebrow": "Herói lendário",
+    "blurb": "A jornada de autodescoberta do Lorde Andarilho Selvagem: infância, juventude e vida adulta. No fim, você decide se conta a verdade a ele.",
+    "rewards": [
+      "Título “Flor de Pessegueiro Primaveril” +100 HP",
+      "Syvos Pequeno"
+    ],
+    "art": "classe_andarilho_thumb.png",
+    "icon": "and.webp"
+  },
+  {
+    "href": "/187/guias/saga-do-heroi/bardo",
+    "class_pt": "Bardo",
+    "hero": "Dongfang Liqing",
+    "eyebrow": "Herói lendário",
+    "blurb": "A origem dos Bardos, pela vida de Liqing, líder dos primeiros bardos da família Dongfang: preparação, êxodo, um vínculo divino e os últimos dias.",
+    "rewards": [
+      "Título “Lua ao Som Magnífico” +100 HP",
+      "Pequena Liqing"
+    ],
+    "art": "classe_bardo_thumb.png",
+    "icon": "ba.webp"
+  },
+  {
+    "href": "/187/guias/saga-do-heroi/ceifador",
+    "class_pt": "Ceifador",
+    "hero": "Tianshou",
+    "eyebrow": "Herói lendário",
+    "blurb": "Um espírito selado num instrumento ganha vida como Chunchu. Rebeliões, perdas e um massacre o transformam no Ceifador, fundador da Seita do Espírito de Sangue.",
+    "rewards": [
+      "Título “Outono do Mundo” +100 HP",
+      "Tianshou Pequeno"
+    ],
+    "art": "classe_ceifador_thumb.png",
+    "icon": "ce.webp"
+  }
+]

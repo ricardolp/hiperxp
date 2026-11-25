@@ -37,6 +37,12 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://hiperxp.com/mapas/continente-ocidental</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://hiperxp.com/missoes/cidade-da-paz</loc>
     <lastmod>2026-11-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -259,25 +265,25 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hiperxp.com/missoes/mundo-normal/saga-espadachim-chung</loc>
+    <loc>https://hiperxp.com/missoes/mundo-normal/saga-guerreiro-chung</loc>
     <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hiperxp.com/missoes/mundo-normal/saga-feiticeira-tensa</loc>
+    <loc>https://hiperxp.com/missoes/mundo-normal/saga-mago-tensa</loc>
     <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hiperxp.com/missoes/mundo-normal/saga-tecnica-atiya</loc>
+    <loc>https://hiperxp.com/missoes/mundo-normal/saga-atiradora-atiya</loc>
     <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hiperxp.com/missoes/mundo-normal/saga-caminhante-syvos</loc>
+    <loc>https://hiperxp.com/missoes/mundo-normal/saga-andarilho-syvos</loc>
     <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -289,31 +295,31 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hiperxp.com/missoes/mundo-normal/saga-toximante-yeona</loc>
+    <loc>https://hiperxp.com/missoes/mundo-normal/saga-feiticeira-yeona</loc>
     <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hiperxp.com/missoes/mundo-normal/saga-arqueira-yi</loc>
+    <loc>https://hiperxp.com/missoes/mundo-normal/saga-arqueiro-yi</loc>
     <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hiperxp.com/missoes/mundo-normal/saga-clerigo-yuusa</loc>
+    <loc>https://hiperxp.com/missoes/mundo-normal/saga-sacerdote-yuusa</loc>
     <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hiperxp.com/missoes/mundo-normal/saga-edgerunner-tevin</loc>
+    <loc>https://hiperxp.com/missoes/mundo-normal/saga-paladino-tian-yi</loc>
     <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hiperxp.com/missoes/mundo-normal/saga-psiquico-dongfang-meng</loc>
+    <loc>https://hiperxp.com/missoes/mundo-normal/saga-espiritualista-dongfang-meng</loc>
     <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -325,7 +331,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hiperxp.com/missoes/mundo-normal/saga-assassino-dongfang-lie</loc>
+    <loc>https://hiperxp.com/missoes/mundo-normal/saga-mercenario-dongfang-lie</loc>
     <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -337,19 +343,25 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hiperxp.com/missoes/mundo-normal/saga-buscador-mu-sui-liang</loc>
+    <loc>https://hiperxp.com/missoes/mundo-normal/saga-arcano-mu-suiliang</loc>
     <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hiperxp.com/missoes/mundo-normal/saga-tempestuoso-ye-hansu</loc>
+    <loc>https://hiperxp.com/missoes/mundo-normal/saga-tormentador-ye-hansu</loc>
     <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hiperxp.com/missoes/mundo-normal/saga-laminado-crepusculo-feng-jieao</loc>
+    <loc>https://hiperxp.com/missoes/mundo-normal/saga-retalhador-feng-jieao</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hiperxp.com/missoes/mundo-normal/saga-ceifador-tianshou</loc>
     <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
